@@ -1,0 +1,13 @@
+{
+    "version": "1.1",
+    "description": "IP反查域名",
+    "homepage": "https://github.com/Lengso/iplookup",
+    "license": "UNKNOWN",
+    "url": "https://github.com/Lengso/iplookup/releases/download/v1.1/ipgo_win_amd64.exe#/iplookup.exe",
+    "hash": "",
+    "bin": "iplookup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Lengso/iplookup/releases/download/v$version/ipgo_win_amd64.exe#/iplookup.exe"
+    }
+}

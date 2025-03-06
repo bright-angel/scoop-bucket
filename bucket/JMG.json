@@ -1,0 +1,28 @@
+{
+    "version": "1.0.7.beta3",
+    "description": "一款支持高度自定义的 Java 内存马生成工具",
+    "homepage": "https://github.com/pen4uin/java-memshell-generator",
+    "license": "Freeware",
+    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/java-memshell-generator.json",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v1.0.7.beta3/jMG-gui-1.0.7.beta3.jar#/jMG-gui.jar",
+    "hash": "1e1d3a03d294cfca1b7c5ae569b66b6b30e20c4bd000b0cc47fac4b998dfa3be",
+    "pre_install": [
+        "Set-Content \"$dir\\jMG-gui.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"jMG-gui.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "jMG-gui.bat",
+    "shortcuts": [
+        [
+            "jMG-gui.bat",
+            "jMG-gui"
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "version": "1.5.1",
+    "description": "将 Dalvik 字节码从 APK、dex、aar、aab 和 zip 文件反编译为 Java 代码 decode 和其他资源AndroidManifest.xmlresources.arsc 包括 deobfuscator",
+    "homepage": "https://github.com/skylot/jadx",
+    "license": "Apache-2.0",
+    "url": "https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-gui-1.5.1-with-jre-win.zip",
+    "hash": "d518347334004ec83f21cc42498c9597c3177dd50769acbe42d8b1dfb32b3d28",
+    "pre_install": "Get-ChildItem \"$dir\" 'jadx-gui-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'jadx-gui.exe'",
+    "bin": "jadx-gui.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/skylot/jadx/releases/download/v$version/jadx-gui-$version-with-jre-win.zip"
+    }
+}

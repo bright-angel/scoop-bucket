@@ -1,0 +1,29 @@
+{
+    "version": "3.0",
+    "description": "DecryptTools-综合解密",
+    "homepage": "https://github.com/wafinfo/DecryptTools",
+    "license": "Freeware",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV3.0/DecryptToolsV3.0.jar#/DecryptTools.jar",
+    "hash": "796bbb8f10564e4d46bae4b543d32bdbc3c01c29f2df0ccd44cd11aa9471cddc",
+    "pre_install": [
+        "Set-Content \"$dir\\DecryptTools.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@cmd /c java.exe -jar \"DecryptTools.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "DecryptTools.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/wafinfo/DecryptTools/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "DecryptToolsV([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV$version/DecryptToolsV$version.jar#/DecryptTools.jar"
+    }
+}

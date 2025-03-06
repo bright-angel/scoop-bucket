@@ -1,0 +1,9 @@
+{
+    "version": "4.2",
+    "description": "全平台Go开源内网渗透扫描器框架.",
+    "homepage": "https://github.com/k8gege/LadonGo",
+    "license": "MIT license",
+    "url": "https://github.com/k8gege/LadonGo/releases/download/v4.2/Ladon64.exe",
+    "hash": "d78a83734d28af3074b064ec2c70cb3f288d6e5ab9cd156b8085eb4be854f7dd",
+    "bin": "Ladon64.exe"
+}

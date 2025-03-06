@@ -1,0 +1,23 @@
+{
+    "version": "2024-01-18T12.54.36",
+    "description": "二维码分析和恢复工具包 ",
+    "homepage": "https://github.com/Merricx/qrazybox",
+    "license": "MIT",
+    "url": "https://github.com/Merricx/qrazybox/archive/refs/heads/master.zip",
+    "hash":"81dd1a02f44eebf888b7ce117d64ade523cc49da5c0698630b73e0a8faa5bc86",
+    "pre_install": "Set-Content \"$dir\\qrazybox.bat\" '@pushd %~dp0\n@start index.html\n@popd' -Encoding Ascii",
+    "post_install": [
+        "Move-Item -Path \"$dir\\qrazybox-master\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\qrazybox-master\" -Force -Recurse"
+    ],
+    "bin": "qrazybox.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/Merricx/qrazybox/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Merricx/qrazybox/archive/refs/heads/master.zip"
+    }
+}
+

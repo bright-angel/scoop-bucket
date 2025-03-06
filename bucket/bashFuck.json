@@ -1,0 +1,31 @@
+{
+    "version": "2024-08-14T21.51.35",
+    "description": "针对Linux终端 bashshell 的无字母命令执行的骚操作",
+    "notes": [
+        "漏洞检测利用",
+        "命令注入"
+    ],
+    "homepage": "https://github.com/ProbiusOfficial/bashFuck",
+    "license": "GPL-3.0",
+    "suggest":  {
+        "python":[
+            "python3.8"
+            ]
+        },
+    "url": "https://github.com/ProbiusOfficial/bashFuck/archive/refs/heads/master.zip",
+    "hash":"339c2fd2904312c14d88c758ef55154391f41986303ed1190f613236217c0b9b",
+    "pre_install": "Set-Content \"$dir\\bashFuck.bat\" '@pushd %~dp0\npython3 bashFuck.py %*\n@popd' -Encoding Ascii",
+    "post_install": [
+        "Move-Item -Path \"$dir\\bashFuck-main\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\bashFuck-main\" -Force -Recurse"
+    ],
+    "bin": "bashFuck.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/ProbiusOfficial/bashFuck/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ProbiusOfficial/bashFuck/archive/refs/heads/master.zip"
+    }
+}

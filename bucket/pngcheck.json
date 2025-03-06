@@ -1,0 +1,10 @@
+{
+    "version": "3.0.3",
+    "description": "pngcheck 验证 PNG、JNG 和 MNG 文件的完整性（通过检查 内部 32 位 CRC，又名校验和，并解压缩图像数据）; 它可以选择转储镜像中几乎所有的 chunk 级信息 以人类可读的形式。",
+    "homepage": "http://www.libpng.org/pub/png/apps/pngcheck.html",
+    "license": "unknown",
+    "url": "https://github.com/20142995/file/releases/download/pngcheck/pngcheck-3.0.3-win32.zip",
+    "hash": "b9256c1288f23d1f0b92efae8779454cfa0acac178dd84a0e1ff9d514b11f0c4",
+    "pre_install": "Rename-Item \"$dir\\pngcheck.win64.exe\" 'pngcheck.exe'",
+    "bin": "pngcheck.exe"
+}

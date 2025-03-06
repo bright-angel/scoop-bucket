@@ -1,0 +1,17 @@
+{
+    "version": "10.19.4",
+    "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+    "homepage": "https://github.com/gchq/CyberChef",
+    "license": "Freeware",
+    "url": "https://github.com/gchq/CyberChef/releases/download/v10.19.4/CyberChef_v10.19.4.zip",
+    "hash": "3788b29ffb54f5784968fcf998286f0f75670be8a92e40eb683743ebaab97510",
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'CyberChef_v*.html' | Select-Object -First 1 | Rename-Item -NewName 'CyberChef.html'",
+        "Set-Content \"$dir\\CyberChef.bat\" '@pushd %~dp0\nstart CyberChef.html\n@popd' -Encoding Ascii"
+    ],
+    "bin": "CyberChef.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/gchq/CyberChef/releases/download/v$version/CyberChef_v$version.zip"
+    }
+}

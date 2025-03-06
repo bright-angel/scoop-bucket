@@ -1,0 +1,14 @@
+{
+    "version": "1.0-Beta",
+    "description": "A PHP backdoor management and generation tool/C2 featuring end to end encrypted payload streaming designed to bypass WAF, IDS, SIEM systems.",
+    "notes": [
+        "webshell管理",
+        "php"
+    ],
+    "homepage": "https://github.com/gellin/bantam",
+    "license": "MIT",
+    "url": "https://github.com/gellin/bantam/archive/refs/heads/master.zip",
+    "hash": "80331f170953d0c3b6b085117ebf46b4b5089c2a6f5c001c08ec851f8608def9",
+    "extract_dir":"Bins",
+    "bin": "bantam.exe"
+}

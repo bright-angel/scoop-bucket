@@ -1,0 +1,29 @@
+{
+    "version": "2.2",
+    "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters.(Scoop bucket by arch3rpro)",
+    "notes": [
+        "代理转发"
+    ],
+    "homepage": "https://github.com/ph4ntonn/Stowaway",
+    "license": "MIT",
+    "url": [
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/windows_x64_admin.exe"
+    ],
+    "hash": [
+        "cc9077776bf533966d5a1b3520902f5ba62831ff2f4f5b63b19fae12d8ee8d12"
+    ],
+    "bin": [
+        [
+            "windows_x64_admin.exe",
+            "stowaway-admin"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ph4ntonn/Stowaway/releases/download/v$version/windows_x64_admin.exe"
+            }
+        }
+    }
+}

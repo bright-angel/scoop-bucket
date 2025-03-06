@@ -1,0 +1,16 @@
+{
+    "description": "Oracle Java Platform, Standard Edition Runtime Environment (JRE)",
+    "homepage": "https://www.java.com/",
+    "version": "8u421",
+    "license": "https://www.oracle.com/technetwork/java/javase/terms/license/javase-license.html",
+    "url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=250130_d8aa705069af427f9b83e66b34f5e380#/dl.tar.gz",
+    "hash": "e8082d390a831b14067a465068fceda45291170e8d155be0991bced9702cbbe7",
+    "extract_dir": "jre1.8.0_421",
+    "pre_install": [
+        "Set-Content \"$dir\\oraclejre8.bat\" '@pushd %~dp0",
+        "@set JAVA_HOME=%~dp0",
+        "@set path=%JAVA_HOME%\\bin;%path%;",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "oraclejre8.bat"
+}

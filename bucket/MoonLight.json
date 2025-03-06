@@ -1,0 +1,14 @@
+{
+    "version": "1.0",
+    "description": "备案查询、空间测绘、漏洞测试、编码及加解密....",
+    "homepage": "https://github.com/MKID1412/MoonLight",
+    "license": "unknown",
+    "url": "https://github.com/MKID1412/MoonLight/releases/download/v1.0/MoonLight.zip",
+    "hash": "bec303a1eb8a78c50e923ab264da440d53e6494f867a5187acdf625b54d57507",
+    "extract_dir":"github.MoonLight",
+    "bin":"MoonLight.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/MKID1412/MoonLight/releases/download/v$version/MoonLight.zip"
+    }
+}

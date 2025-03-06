@@ -1,0 +1,18 @@
+{
+    "version": "1.1.4.1",
+    "description": "Dude Suite Web 渗透测试工具",
+    "homepage": "https://github.com/x364e3ab6/DudeSuite",
+    "license": "Freeware",
+    "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v1.1.4.1/DudeSuite_win_x64.zip",
+    "hash": "",
+    "shortcuts": [
+        [
+            "DudeSuite.exe",
+            "DudeSuite"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v$version/DudeSuite_win_x64.zip"
+    }
+}

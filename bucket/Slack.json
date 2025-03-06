@@ -1,0 +1,21 @@
+{
+    "version": "2.0.5",
+    "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
+    "notes": [
+        "渗透测试,信息收集,空间测绘",
+        "指纹扫描,POC扫描,目录扫描,JsFinder,.git | .svn | .DS_Store 信息泄漏利用,加解密模块,Fscan专区,杀软识别/提权补丁,微信/钉钉key泄露利用,数据处理,数据库自动取样,备忘录,Nacos配置文件解析,时间戳转换"
+    ],
+    "homepage": "https://github.com/qiwentaidi/Slack",
+    "license": "unknow",
+    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack2.0.5/Slack-windows-amd64.exe#/Slack.exe",
+    "hash": "550e4f9c7c6b7c7e412ef0637c86e4e0cd8822eaae29cbb0739b118cd3b7aa12",
+    "bin": "Slack.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/qiwentaidi/Slack/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "Slack([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack$version/Slack-windows-amd64.exe#/Slack.exe"
+    }
+}

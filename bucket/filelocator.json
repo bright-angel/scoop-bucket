@@ -1,0 +1,18 @@
+{
+    "version": "9.0.3389.0",
+    "description": "filelocator pro是一款比Windows自带的搜索工具性价比高且好用的文件搜索软件，可以自动扫描文件夹或驱动器中文件类型，以最快的速度找到你想要查找的东西，搜索速度快，精准度高，方便快速。",
+    "homepage": "https://www.ghxi.com/filelocator.html",
+    "license": "UNKNOWN",
+    "url": "https://github.com/20142995/file/releases/download/filelocator/filelocator_9.0.3389.0_Portable.7z",
+    "hash": "",
+    "extract_dir":"filelocator_9.0.3389.0_Portable",
+    "bin":"FileLocatorPro.exe",
+    "checkver": {
+        "url": "https://github.com/20142995/file/releases/expanded_assets/filelocator",
+        "regex": "download/filelocator/filelocator_([\\d.]+)_Portable.7z"
+    },
+    "autoupdate": {
+        "url": "https://github.com/20142995/file/releases/download/filelocator/filelocator_$version_Portable.7z",
+        "extract_dir":"filelocator_$version_Portable"
+    }
+}

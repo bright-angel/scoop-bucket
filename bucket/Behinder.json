@@ -1,0 +1,34 @@
+{
+    "version": "4.0.7",
+    "description": "“冰蝎”动态二进制加密网站管理客户端",
+    "notes": [
+        "webshell管理",
+        "冰蝎,JsP,php,aspx,asp"
+    ],
+    "homepage": "https://github.com/rebeyond/Behinder",
+    "license": "Freeware",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.0.7/Behinder_v4.07.zip",
+    "hash": "d17c676a9525e99917a694024212bfddeb038d278f9017a0aef43fbdd142070b",
+    "pre_install": [
+        "Set-Content \"$dir\\Behinder.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"Behinder.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "Behinder.bat",
+    "persist": "data.db",
+    "checkver": {
+        "url": "https://api.github.com/repos/rebeyond/Behinder/releases/latest",
+        "jsonpath": "$..browser_download_url",
+        "regex": "/Behinder_v([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v$version/Behinder_v$version.zip"
+    }
+}

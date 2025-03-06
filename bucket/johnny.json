@@ -1,0 +1,12 @@
+{
+    "version": "2.2",
+    "description": "John the Ripper 密码破解程序的 GUI 前端",
+    "homepage": "https://github.com/openwall/johnny",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://github.com/openwall/johnny/blob/master/LICENSE"
+    },
+    "url": "https://github.com/20142995/file/releases/download/Johnny/Johnny.zip",
+    "hash": "382623113265ce655d4e7ac38bf580a59f2de20639e4dbb3883b093a01681c2e",
+    "bin": "johnny.exe"
+}
