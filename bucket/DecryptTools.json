@@ -9,7 +9,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV3.0/DecryptToolsV3.0.jar#/DecryptTools.jar",
+    "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV3.0/DecryptTools.jar#/DecryptTools.jar",
     "hash": "796bbb8f10564e4d46bae4b543d32bdbc3c01c29f2df0ccd44cd11aa9471cddc",
     "pre_install": [
         "Set-Content \"$dir\\DecryptTools.bat\" '@pushd %~dp0",
@@ -24,6 +24,6 @@
         "regex": "DecryptToolsV([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV$version/DecryptToolsV$version.jar#/DecryptTools.jar"
+        "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV$version/DecryptTools.jar#/DecryptTools.jar"
     }
 }

@@ -1,26 +1,21 @@
 {
     "version": "1.0",
     "description": "jboss综合利用工具",
-    "homepage": "https://github.com/20142995/JavaJboss",
-    "notes":"from https://mp.weixin.qq.com/s/O0sMwNHRZKn4G4uJC55YlQ",
-    "license": "Freeware",
+    "homepage": "https://mp.weixin.qq.com/s/O0sMwNHRZKn4G4uJC55YlQ",
+    "license": "UNKNOWN",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/20142995/JavaJboss/releases/download/v1.0/JavaJboss.jar",
-    "hash":"78f3b7945811552a5d4120cf7bc7633bac0e5a179be726861a31c6954626190f",
+    "url": "https://github.com/bright-angel/file/releases/download/JavaJboss/JavaJboss.jar",
+    "hash":"103A292D2972292E9A0B95ACEAAB64552D93154B8A122C80B1AAA3F8214DF251",
     "pre_install": [
         "Set-Content \"$dir\\JavaJboss.bat\" '@pushd %~dp0",
         "@call oraclejre8",
         "@start javaw.exe -jar \"JavaJboss.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "JavaJboss.bat",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/20142995/JavaJboss/releases/download/v$version/JavaJboss.jar"
-    }
+    "bin": "JavaJboss.bat"
 }
