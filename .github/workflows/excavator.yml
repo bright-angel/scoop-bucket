@@ -14,5 +14,4 @@ jobs:
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BUCKET: "bright-angel/scoop-bucket"
           SKIP_UPDATED: 1
