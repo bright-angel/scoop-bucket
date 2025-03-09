@@ -9,7 +9,7 @@
     "bin": "navicat.exe",
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/Navicat_Premium",
-        "regex": "download/Navicat/Navicat_Premium_([\\d.]+)_Green.7z"
+        "regex": "Navicat_Premium_([\\d\\.]+)_Green\\.7z"
     },
     "autoupdate": {
         "url": "https://github.com/bright-angel/file/releases/download/Navicat_Premium/Navicat_Premium_$version_Green.7z",
