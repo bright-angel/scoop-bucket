@@ -1,8 +1,13 @@
 {
     "version": "0.92",
     "description": "基于Memprocfs和Volatility的可视化内存取证工具",
+    "notes":[
+        "内存取证",
+        "Memprocfs",
+        "Volatility"
+    ],
     "homepage": "https://github.com/Tokeii0/LovelyMem",
-    "license": "UNKNOWN",
+    "license": "MIT",
     "suggest": {
         "python":[
             "python3"
