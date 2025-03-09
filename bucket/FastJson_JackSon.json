@@ -9,8 +9,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/20142995/file/releases/download/FastJson_JackSon.zip/FastJson_JackSon.zip",
-    "hash": "9ae393021837b80d9df38fe84f87dafab6e9f69bf8c3a81c02ce4679b2f0aaeb",
+    "url": "https://github.com/bright-angel/file/releases/download/FastJson_JackSon/FastJson_JackSon.jar",
+    "hash": "47EED7CDCF6C1A73A7C978CCFDC3A9BD5992C9A7D33CB06A7E448A8C187BEE17",
     "pre_install": [
         "Set-Content \"$dir\\FastJson_JackSon.bat\" '@pushd %~dp0",
         "@call oraclejre8",
