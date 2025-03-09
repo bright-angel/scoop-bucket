@@ -2,7 +2,11 @@
     "version": "0.4.22",
     "description": "burpsuite passive-scan-client 插件持续维护分支 v2024",
     "homepage": "https://github.com/winezer0/passive-scan-client-plus",
-    "license": "unknown",
-    "url": "https://github.com/20142995/file/releases/download/passive-scan-client-plus/passive-scan-client-0.4.22-jdk8-jar-with-dependencies.jar#/passive-scan-client.jar",
-    "hash": "ed168898a86f469389065e7aff10f5f198588bd6f1bd6536ff0da11307da3606"
+    "license": "UNKNOWN",
+    "url": "https://github.com/winezer0/passive-scan-client-plus/releases/download/v0.4.22/passive-scan-client-0.4.22-jdk8-jar-with-dependencies.jar#/passive-scan-client-plus.jar",
+    "hash": "0CB609E149DB63512506D6B908FCB2CB3CA37057E314B4444FEDA219F9E0BDD1",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/winezer0/passive-scan-client-plus/releases/download/v$version/passive-scan-client-$version-jdk8-jar-with-dependencies.jar#/passive-scan-client-plus.jar"
+    }
 }
