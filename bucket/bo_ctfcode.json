@@ -21,8 +21,7 @@
     "url": "https://github.com/bright-angel/file/releases/download/bo_ctfcode/CTF.V6.6.20250301.rar",
     "hash": "0A3FC60D167E6AF026CECC99AE984D2BCD8623A7A8FF67EB343F57B1011702A3",
     "pre_install": [
-        "Get-ChildItem \"$dir\" '[随波逐流]CTF编码工具*.exe' | Select-Object -First 1 | Rename-Item -NewName 'CTF编码工具.exe'",
-        "Set-Content \"$dir\\CyberChef.bat\" '@pushd %~dp0\nstart CyberChef.html\n@popd' -Encoding Ascii"
+        "Get-ChildItem \"$dir\" '[随波逐流]CTF编码工具*.exe' | Select-Object -First 1 | Rename-Item -NewName 'CTF编码工具.exe'"
     ],
     "bin": "CTF编码工具.exe",
     "shortcuts": [
