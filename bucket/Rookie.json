@@ -9,7 +9,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/20142995/file/releases/download/Rookie.jar/Rookie.jar",
+    "url": "https://github.com/bright-angel/file/releases/download/Rookie/Rookie.jar",
     "hash": "02501619b77d6c914bd9b332fbc59970447aa0ec234064fd88b56ad43043813c",
     "pre_install": [
         "Set-Content \"$dir\\Rookie.bat\" '@pushd %~dp0",
