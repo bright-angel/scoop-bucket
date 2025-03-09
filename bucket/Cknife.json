@@ -12,7 +12,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/20142995/file/releases/download/Cknife.zip/Cknife.zip",
+    "url": "https://github.com/bright-angel/file/releases/download/Cknife/Cknife-1.0.zip",
     "hash": "256C28723B8AA5AD88A773FF164B0691210EAECD0697DD96C9B00C3AD73A3324",
     "pre_install": [
         "Set-Content \"$dir\\Cknife.bat\" '@pushd %~dp0",
