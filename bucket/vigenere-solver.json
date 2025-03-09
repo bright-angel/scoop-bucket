@@ -6,8 +6,8 @@
         "维吉尼亚,vigenere"
     ],
     "homepage": "https://github.com/20142995/vigenere-solver",
-    "license": "unknown",
-    "url": "https://github.com/20142995/vigenere-solver/releases/download/1.0/vigenere-solver.exe",
+    "license": "UNKNOWN",
+    "url": "https://github.com/bright-angel/file/releases/download/vigenere-solver/vigenere-solver.exe",
     "hash": "41718cb048740ea09c1ff51565e3717a7812f995b0ce6a2829acad240614ab65",
     "bin": "vigenere-solver.exe"
 }
