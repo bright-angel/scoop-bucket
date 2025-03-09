@@ -1,13 +1,16 @@
 {
-    "version": "0.4",
+    "version": "0.92",
     "description": "基于Memprocfs和Volatility的可视化内存取证工具",
     "homepage": "https://github.com/Tokeii0/LovelyMem",
-    "license": "Unlicense",
+    "license": "UNKNOWN",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "python3"
+        ]
     },
-    "url": "https://github.com/Tokeii0/LovelyMem/releases/download/v0.4/Lovelymemprocfs.v0.4.7z",
-    "hash": "903db378370d7a2f2b1e688869317d875de5417910cf1aec08bea911043a33e0",
+    "url": "https://github.com/Tokeii0/LovelyMem/archive/refs/tags/v0.92.zip",
+    "hash": "38f85d1fe26104cbba012bf7e8cec4d47b6ebfe0d2c43de9c22d8818773bf959",
+    "extract_dir":"LovelyMem-0.92",
     "pre_install": [
         "Set-Content \"$dir\\LovelyMem.bat\" '@pushd %~dp0",
         "@python3 \"main.py\" %*",
@@ -16,5 +19,14 @@
     "post_install": [
         "pip3 install -r \"$dir\\requirements.txt\""
     ],
-    "bin": "LovelyMem.bat"
+    "bin": "LovelyMem.bat",
+    "persist": [
+        "Tools",
+        "config"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Tokeii0/LovelyMem/archive/refs/tags/v$version.zip",
+        "extract_dir":"LovelyMem-$version"
+    }
 }
