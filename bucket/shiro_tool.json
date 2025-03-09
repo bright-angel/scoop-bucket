@@ -13,7 +13,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/20142995/shiro_tool/releases/download/v1.0/shiro_tool.jar",
+    "url": "https://github.com/bright-angel/file/releases/download/shiro_tool/shiro_tool.jar",
     "hash":"accdc2d43b453ed55d958ab94eb06fdb551172d6530f5bd1f2819efd6e69f634",
     "pre_install": [
         "Set-Content \"$dir\\shiro_tool.bat\" '@pushd %~dp0",
