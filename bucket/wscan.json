@@ -4,9 +4,9 @@
     "notes": [
         "webshell查杀"
     ],
-    "homepage": "https://github.com/20142995/file",
+    "homepage": "http://edr.sangfor.com.cn/backdoor_detection.html",
     "license": "MIT",
-    "url": "https://github.com/20142995/file/releases/download/wscan/wscan.zip",
-    "hash":"328e2acaf99f1ca631d5193254e2761938005e378ff03c8b411fd414d3c99700",
+    "url": "https://github.com/bright-angel/file/releases/download/wscan/wscan-2.0.0.zip",
+    "hash":"7D89A2B43B98ABAFB2BF703BAC01B8F5FDE57DACC8B1EED3D4C513122A76526E",
     "bin": "wscan.exe"
 }
