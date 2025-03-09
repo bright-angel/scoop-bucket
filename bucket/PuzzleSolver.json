@@ -2,9 +2,9 @@
     "version": "1.0.4",
     "description": "一款针对CTF竞赛MISC的工具~",
     "homepage": "https://github.com/Byxs20/PuzzleSolver",
-    "license": "unknown",
-    "url": "https://github.com/20142995/file/releases/download/PuzzleSolver.7z/PuzzleSolver.7z",
-    "hash": "a1408c62e86ad208b014e890b40e77e1e2903f64fb7e29acf2ee1850c9cad718",
+    "license": "UNKNOWN",
+    "url": "https://github.com/bright-angel/file/releases/download/PuzzleSolver/PuzzleSolver-1.0.4.zip#/PuzzleSolver.zip",
+    "hash": "91904617346C9B36BC2A2D52D31A507DE72F3080E4283FBB5CE37A11062DB55C",
     "bin": "PuzzleSolver.exe"
 }
 
