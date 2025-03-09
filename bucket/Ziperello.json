@@ -7,9 +7,9 @@
         "暴力破解,字典破解,基于模版的破解(掩码)",
         "zip"
     ],
-    "homepage": "https://github.com/20142995/file",
-    "license": "unknown",
-    "url": "https://github.com/20142995/file/releases/download/Ziperello.zip/Ziperello.zip",
-    "hash": "e328440c026271601ebf11c56ac29bb766d61e47f9c8794a766aa8fddce94778",
+    "homepage": "https://ziperello.apponic.com/",
+    "license": "UNKNOWN",
+    "url": "https://github.com/bright-angel/file/releases/download/Ziperello/Ziperello-2.1.zip",
+    "hash": "A053FE30B75A8C7BE0F9766941F0576E5BE69D67F0C2118DF5E2838A74FD5B94",
     "bin": "Ziperello.exe"
 }
