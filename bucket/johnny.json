@@ -6,7 +6,7 @@
         "identifier": "GPL-2.0-or-later",
         "url": "https://github.com/openwall/johnny/blob/master/LICENSE"
     },
-    "url": "https://github.com/20142995/file/releases/download/Johnny/Johnny.zip",
-    "hash": "382623113265ce655d4e7ac38bf580a59f2de20639e4dbb3883b093a01681c2e",
+    "url": "https://github.com/bright-angel/file/releases/download/johnny/johnny_2.2.zip",
+    "hash": "32A3B5FAB63C9983CE71F42E90B3987E76505A0326E1B8E69070FAA0A1E00654",
     "bin": "johnny.exe"
 }
