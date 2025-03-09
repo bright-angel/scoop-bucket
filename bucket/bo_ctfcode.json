@@ -32,7 +32,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/20142995/file/releases/expanded_assets/bo_ctfcode",
+        "url": "https://github.com/bright-angel/file/releases/expanded_assets/bo_ctfcode",
         "regex": "download/bo_ctfcode/CTF\\.V([\\d\\.]+)\\.(?<commit>\\d{8})\\.rar"
     },
     "autoupdate": {
