@@ -18,7 +18,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/20142995/file/releases/download/SJ-V1.9.jar/SJ-V1.9.jar#/SJ.jar",
+    "url": "https://github.com/bright-angel/file/releases/download/ExpDemo-JavaFX/SJ-1.9.jar#/SJ.jar",
     "hash": "e59b7a999c3caab2379ea365eb3430468199b5b5ec1638fe41de88efc3fe997b",
     "pre_install": [
         "Set-Content \"$dir\\SJ.bat\" '@pushd %~dp0",
