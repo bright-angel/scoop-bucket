@@ -1,0 +1,28 @@
+{
+    "version": "0.0.1",
+    "description": "无需运行 ✅ Pyarmor 8.0 - 最新的 9.1.1 ✅ 通用 ✅ 静态转换混淆脚本为反汇编和（实验性）源代码。",
+    "notes":[
+        "python逆向",
+        "pyarmor"
+    ],
+    "homepage": "https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot",
+    "license": "GPL-3.0",
+    "suggest": {
+        "python":[
+            "python3"
+        ]
+    },
+    "url": "https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot/releases/download/v0.0.1/pyarmor-1shot-v0.0.1-windows-x86_64.zip",
+    "hash": "7e67395a6a5d07f64e95632d1d87842c73b54b00e721b8af674ecadc85bfa7fc",
+    "extract_dir":"helpers",
+    "pre_install": [
+        "Set-Content \"$dir\\pyarmor-1shot.bat\" '@pushd %~dp0",
+        "@python3 \"shot.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "pyarmor-1shot.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot/releases/download/v$version/pyarmor-1shot-v$version-windows-x86_64.zip"
+    }
+}
