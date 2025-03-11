@@ -1,10 +1,10 @@
 {
-    "version": "2025-03-10T14.44.36",
+    "version": "2025-03-11T10.40.27",
     "description": "PHPGGC 是一个 PHP unserialize（） 有效负载库，以及一个从命令行或以编程方式生成它们的工具。",
     "homepage": "https://github.com/ambionics/phpggc",
     "license": "unknown",
     "url": "https://github.com/ambionics/phpggc/archive/refs/heads/master.zip",
-    "hash": "3844687045d9d0e2719cc779f7dfdd4958afb81c6d1c778df92edfe0cdcaafcf",
+    "hash": "f21a6539748fed67d37fc8b818254c904d8a3860f7336753c7a52de6f84f63c1",
     "pre_install": [
         "Set-Content \"$dir\\phpggc.bat\" '@pushd %~dp0",
         "@wsl -e bash \"phpggc\" %*",
