@@ -1,0 +1,19 @@
+{
+    "version": "bypass_WAF",
+    "description": "利用AI进行XSS自动化绕过的bp插件一个",
+    "notes": [
+        "burpsuite扩展",
+        "功能扩展,WAF绕过"
+    ],
+    "homepage": "https://github.com/wxwhhh/Chypass_pro",
+    "license": "UNKNOWN",
+    "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/bypass_WAF/Chypass_pro_11.jar#/Chypass_pro.jar",
+    "hash": "4a6e81f889d274fbb6110e28b8a1a1c5b5315e184c0f78853c0f047345573187",
+    "checkver": {
+        "url": "https://api.github.com/repos/BeichenDream/Godzilla/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
+    "autoupdate": {
+        "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/$version/Chypass_pro_11.jar#/Chypass_pro.jar"
+    }
+}
