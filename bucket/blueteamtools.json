@@ -13,12 +13,12 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v1.46/BlueTeamToolsV1.46.zip",
+    "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v1.46/BlueTeamToolsV1.46.jar#/BlueTeamTools.jar",
     "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\blueteamtools.bat\" '@pushd %~dp0",
         "@call oraclejre8",
-        "@start javaw.exe -jar \"BlueTeam_ABC_123.jar\" %*",
+        "@start javaw.exe -jar \"BlueTeamTools.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "blueteamtools.bat",
@@ -30,6 +30,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.zip"
+        "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.jar#/BlueTeamTools.jar"
     }
 }
