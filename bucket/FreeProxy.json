@@ -1,9 +1,7 @@
 {
-    "version": "1.0.0",
+    "version": "1.0",
     "description": "一个简单便捷的代理小工具",
-    "notes": [
-        "代理池"
-    ],
+    "notes": "代理池",
     "homepage": "https://github.com/doki-byte/FreeProxy",
     "license": "UNKNOWN",
     "url": "https://github.com/doki-byte/FreeProxy/releases/download/v1.0/FreeProxy_windows.exe#/FreeProxy.exe",
