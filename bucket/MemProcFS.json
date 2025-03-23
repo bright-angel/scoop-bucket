@@ -1,10 +1,10 @@
 {
-    "version": "5.14.7",
+    "version": "5.14.8",
     "description": "MemProcFS",
     "homepage": "https://github.com/ufrisk/MemProcFS",
     "license": "AGPL-3.0",
-    "url": "https://github.com/ufrisk/MemProcFS/releases/download/v5.14/MemProcFS_files_and_binaries_v5.14.7-win_x64-20250316.zip",
-    "hash": "9e35cbed1b99010c6d15cfb912cc10e1a51e1d0cb023f295d9e919c770ad0322",
+    "url": "https://github.com/ufrisk/MemProcFS/releases/download/v5.14/MemProcFS_files_and_binaries_v5.14.8-win_x64-20250323.zip",
+    "hash": "4ca10746b07e5bf80df5b49476b945aa654705ee8f445d804d46ff7204d053fd",
     "bin": "MemProcFS.exe",
     "checkver": {
         "url": "https://api.github.com/repos/ufrisk/MemProcFS/releases/latest",
