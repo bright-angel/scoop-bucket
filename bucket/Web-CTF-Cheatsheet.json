@@ -1,11 +1,11 @@
 {
-    "version": "2025-03-01T08.30.12",
+    "version": "2025-03-23T07.26.04",
     "description": "Web CTF CheatSheet",
     "homepage": "https://github.com/w181496/Web-CTF-Cheatsheet",
     "notes": "CTF-WEB备忘录",
     "license": "unknown",
     "url": "https://github.com/w181496/Web-CTF-Cheatsheet/archive/refs/heads/master.zip",
-    "hash": "c6ca6d2135e157924c0bc1c71683e3ecee7965f906ef09587e5da6f61fdb3a8a",
+    "hash": "1d58eeeffbd425384d6e89f3bf39b1252bfc844b235c0f81e43238736de16a9b",
     "extract_dir": "Web-CTF-Cheatsheet-master",
     "checkver": {
         "url": "https://api.github.com/repos/w181496/Web-CTF-Cheatsheet/commits",
