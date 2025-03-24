@@ -1,10 +1,10 @@
 {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "P1finger - 红队行动下的重点资产指纹识别工具",
     "homepage": "https://github.com/P001water/P1finger",
     "license": "MIT",
-    "url": "https://github.com/P001water/P1finger/releases/download/P1finger_0.0.7/P1finger_windows_amd64.exe#/P1finger.exe",
-    "hash": "7b3a54e4d0e34c0d1719ff73465a12d60489b0d8e58d2ab47018f9636efc8da3",
+    "url": "https://github.com/P001water/P1finger/releases/download/P1finger_0.0.8/P1finger_windows_amd64.exe#/P1finger.exe",
+    "hash": "2c5d4f3731e54881ddb19a29ee30f9119aefde4509eb75ec125eabb06086d17a",
     "bin": [
         [
             "P1finger.exe",
