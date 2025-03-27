@@ -1,10 +1,10 @@
 {
-    "version": "3",
+    "version": "4",
     "description": "若依Vue漏洞检测工具",
     "homepage": "https://github.com/kk12-30/ruoyi-Vue-tools",
     "license": "UNKNOWN",
-    "url": "https://github.com/kk12-30/ruoyi-Vue-tools/releases/download/v3/RuoYiScanv3.exe#/RuoYiScan.exe",
-    "hash": "aa14f88557f4a336646bd40fc24c501a6677c6b1e0d8b8488bf55c814a0e50a0",
+    "url": "https://github.com/kk12-30/ruoyi-Vue-tools/releases/download/v4/RuoYiScanv4.exe#/RuoYiScan.exe",
+    "hash": "6d535939adaa55302657877cc8f10701159a4e085d2eed94dbd69a3bc37f0475",
     "bin": "RuoYiScan.exe",
     "checkver": "github",
     "autoupdate": {
