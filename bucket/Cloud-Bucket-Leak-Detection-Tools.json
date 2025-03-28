@@ -1,15 +1,13 @@
 {
-    "version": "2022-08-25T09.31.28",
+    "version": "2025-03-28T03.26.04",
     "description": "",
     "homepage": "https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools",
     "license": "unknown",
-    "suggest":  {
-        "python":[
-            "python3"
-            ]
-        },
+    "suggest": {
+        "python": "python3"
+    },
     "url": "https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools/archive/refs/heads/master.zip",
-    "hash":"f4f440aa696b6ac113ca0b3918516bdf5f054935c3488c08580659d6d6fc4a3d",
+    "hash": "1038d23415df037e024fff788f8ea933b45d5bcfa055dbee1cd895fcb3091d6b",
     "pre_install": [
         "Set-Content \"$dir\\Cloud-Bucket-Leak-Detection-Tools.bat\" '@pushd %~dp0",
         "@python3 \"main.py\" %*",
