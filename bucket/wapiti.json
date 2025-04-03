@@ -1,16 +1,14 @@
 {
-    "version": "3.2.2",
+    "version": "3.2.3",
     "description": "Web vulnerability scanner written in Python3.(Scoop bucket by arch3rpro)",
-    "notes": [
-        "web漏洞扫描"
-    ],
+    "notes": "web漏洞扫描",
     "homepage": "https://github.com/wapiti-scanner/wapiti",
     "license": "GPL-2.0",
     "suggest": {
         "python": "python3"
     },
-    "url": "https://github.com/wapiti-scanner/wapiti/releases/download/3.2.2/wapiti3-3.2.2.tar.gz",
-    "hash": "216a6fbe7050588192e01471dbd5eabf9aae5645dba9567acc52537446249312",
+    "url": "https://github.com/wapiti-scanner/wapiti/releases/download/3.2.3/wapiti3-3.2.3.tar.gz",
+    "hash": "b24c961fda46abf370279e04d3dbb911d8d825fa0d243a1224fab2000be0d701",
     "extract_dir": "wapiti3-3.1.7",
     "post_install": "pip3 install Wapiti3",
     "checkver": "github",
