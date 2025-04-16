@@ -1,5 +1,5 @@
 {
-    "version": "0.7.5",
+    "version": "0.8.0",
     "description": "专为CTF设计的Jinja2 SSTI全自动绕WAF脚本 | A Jinja2 SSTI cracker for bypassing WAF, designed for CTF",
     "notes": [
         "漏洞检测利用",
@@ -10,8 +10,8 @@
     "suggest": {
         "python": "python3"
     },
-    "url": "https://github.com/Marven11/Fenjing/archive/refs/tags/v0.7.5.zip",
-    "hash": "99b7b0134ab7691abd0cdcddaa85d8c02c17627b862df8fc1b5cc50411bd3dbe",
+    "url": "https://github.com/Marven11/Fenjing/archive/refs/tags/v0.8.0.zip",
+    "hash": "4a066eb23d037712674c428bdcf75311a5f23cba129d924b8384bd0d38218fc5",
     "pre_install": [
         "Set-Content \"$dir\\ssti_Fenjing.bat\" '@pushd %~dp0",
         "@cmd /c Fenjing %*",
