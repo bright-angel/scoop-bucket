@@ -1,0 +1,30 @@
+{
+    "version": "2021-02-10T20.29.20",
+    "description": "提取和重新打包 pyinstaller 生成的 Windows 可执行文件的工具。支持最新版本的 pyinstaller。仅限 Python 3。不支持加密的 PYZ 存档。",
+    "homepage": "https://github.com/pyinstxtractor/pyinstaller-repacker",
+    "license": "unknown",
+    "suggest": {
+        "python": "python3"
+    },
+    "url": "https://github.com/pyinstxtractor/pyinstaller-repacker/archive/refs/heads/master.zip",
+    "hash": "",
+    "pre_install": [
+        "Set-Content \"$dir\\pyinstxtractor-repacker.bat\" '@pushd %~dp0",
+        "@python3 \"pyinstxtractor-repacker.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "post_install": [
+        "Move-Item -Path \"$dir\\pyinstxtractor-repacker-main\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\pyinstxtractor-repacker-main\" -Force -Recurse",
+        "pip3 install lief lxml"
+    ],
+    "bin": "pyinstxtractor-repacker.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/pyinstxtractor/pyinstaller-repacker/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/pyinstxtractor/pyinstaller-repacker/archive/refs/heads/master.zip"
+    }
+}
