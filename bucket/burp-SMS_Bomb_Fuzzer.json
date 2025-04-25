@@ -1,10 +1,10 @@
 {
-    "version": "2.1",
+    "version": "3.0",
     "description": "Burp suite 短信轰炸辅助绕过插件",
     "homepage": "https://github.com/yuziiiiiiiiii/SMS_Bomb_Fuzzer",
     "license": "UNKNOWN",
-    "url": "https://github.com/yuziiiiiiiiii/SMS_Bomb_Fuzzer/releases/download/2.1/SMS_Bomb_Fuzzer-2.1.jar#/SMS_Bomb_Fuzzer.jar",
-    "hash": "bd8f471e128c9004bf0e2e275f7271a354ee0b132acbe6e92d814b92c2e81be5",
+    "url": "https://github.com/yuziiiiiiiiii/SMS_Bomb_Fuzzer/releases/download/3.0/SMS_Bomb_Fuzzer-3.0.jar#/SMS_Bomb_Fuzzer.jar",
+    "hash": "252e0d89fd3068154ef9259188e33e84140b6c618c922ae246f8a218259648be",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/yuziiiiiiiiii/SMS_Bomb_Fuzzer/releases/download/$version/SMS_Bomb_Fuzzer-$version.jar#/SMS_Bomb_Fuzzer.jar"
