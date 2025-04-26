@@ -1,10 +1,10 @@
 {
-    "version": "91.0",
+    "version": "92.0",
     "description": "MKVToolNix 是一组用于创建、更改和检查 Matroska 文件的工具 Linux、其他 Unices 和 Windows。",
     "homepage": "https://mkvtoolnix.download/",
     "license": "unknown",
-    "url": "https://mkvtoolnix.download/windows/releases/91.0/mkvtoolnix-64-bit-91.0.7z",
-    "hash": "57faa984d069c99eb7f97914736ddafa634081cab9003b95ddc4fc16f493108b",
+    "url": "https://mkvtoolnix.download/windows/releases/92.0/mkvtoolnix-64-bit-92.0.7z",
+    "hash": "081acb0aeba9772adffa1045b3e41b63a8fca6289866f34d0c3adbdf147e2d29",
     "extract_dir": "mkvtoolnix",
     "bin": "mkvtoolnix-gui.exe",
     "checkver": {
