@@ -1,10 +1,10 @@
 {
-    "version": "1.7",
+    "version": "1.7.1",
     "description": "EasyTools 一个简单方便使用的渗透测试工具箱",
     "notes": "网址导航、工具导航、信息查询、信息处理、编码解码、随机生成、免杀生成",
     "homepage": "https://github.com/doki-byte/EasyTools",
     "license": "UNKNOWN",
-    "url": "https://github.com/doki-byte/EasyTools/releases/download/v1.7/EasyTools.exe",
+    "url": "https://github.com/doki-byte/EasyTools/releases/download/v1.7.1/EasyTools.exe",
     "hash": "",
     "bin": "EasyTools.exe",
     "checkver": "github",
