@@ -7,16 +7,17 @@
         "USB键盘,USB鼠标"
     ],
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui/archive/refs/heads/master.zip",
     "hash":"ff05e7f51d276db135110bdf423da6aa99bc64efc4bac0ecef7f551c151b32d7",
     "pre_install": [
         "Set-Content \"$dir\\UsbKeyboard_Mouse_Hacker_Gui.bat\" '@pushd %~dp0",
-        "@python3 \"run_GUI.py\" %*",
+        "@call activate python3env",
+        "@python \"run_GUI.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

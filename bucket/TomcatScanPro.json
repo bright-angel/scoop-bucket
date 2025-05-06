@@ -8,13 +8,16 @@
     "homepage": "https://github.com/lizhianyuguangming/TomcatScanPro",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/lizhianyuguangming/TomcatScanPro/archive/refs/heads/master.zip",
     "hash": "109f44ba80c629b12229871672814542944729634e1b058d874027fd1f94d385",
     "pre_install": [
         "Set-Content \"$dir\\TomcatScanPro.bat\" '@pushd %~dp0",
-        "@python3 \"TomcatScanPro.py\" %*",
+        "@call activate python3env",
+        "@python \"TomcatScanPro.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

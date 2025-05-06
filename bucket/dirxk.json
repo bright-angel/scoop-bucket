@@ -4,8 +4,8 @@
     "homepage": "https://github.com/xk11z/dirxk",
     "license": "Freeware",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/xk11z/dirxk/archive/refs/heads/main.zip",

@@ -7,16 +7,17 @@
     ],
     "homepage": "https://github.com/y1shiny1shin/USBFlow_Soer",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/y1shiny1shin/USBFlow_Soer/archive/refs/heads/master.zip",
     "hash":"96c12d9b4d67a6e81ffb3fb4e472f842551a532df63e418ebfe8e4c65d27d043",
     "pre_install": [
         "Set-Content \"$dir\\USBFlow_Soer.bat\" '@pushd %~dp0",
-        "@python3 \"USBFlow_Soer.py\" %*",
+        "@call activate python3env",
+        "@python \"USBFlow_Soer.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

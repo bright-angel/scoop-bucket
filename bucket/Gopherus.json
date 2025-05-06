@@ -3,7 +3,11 @@
     "description": "该工具会生成 gopher 链接，用于利用 SSRF 并在各种服务器中获得 RCE",
     "homepage": "https://github.com/tarunkant/Gopherus",
     "license": "GPL-3.0",
-    "suggest":  {"python":["python3.8"]},
+    "suggest": {
+        "python":[
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/tarunkant/Gopherus/archive/refs/heads/master.zip",
     "hash":"914f710ebf57f9976632e3f03eca6badd929b731d1ddcdd76d4da2719785e41c",
     "pre_install": "Set-Content \"$dir\\gopherus.bat\" '@pushd %~dp0\npython2 gopherus.py %*\n@popd' -Encoding Ascii",

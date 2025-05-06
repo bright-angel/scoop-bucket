@@ -4,8 +4,8 @@
     "homepage": "https://github.com/sameera-madushan/Print-My-Shell",
     "license": "MIT",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/sameera-madushan/Print-My-Shell/archive/refs/heads/master.zip",

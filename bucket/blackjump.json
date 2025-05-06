@@ -7,10 +7,11 @@
     ],
     "homepage": "https://github.com/tarihub/blackjump",
     "license": "MIT",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3.8"
-            ]},
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/tarihub/blackjump/archive/refs/heads/master.zip",
     "hash":"4cc65ce453cf38761aaecfeac38ca32196282cb879b25214a2ae974b4f33293c",
     "pre_install": "Set-Content \"$dir\\blackjump.bat\" '@pushd %~dp0\npython3 blackjump.py %*\n@popd' -Encoding Ascii",

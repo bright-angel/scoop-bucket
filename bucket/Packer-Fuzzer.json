@@ -3,14 +3,15 @@
     "description": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack.",
     "homepage": "https://github.com/rtcatc/Packer-Fuzzer",
     "license": "Freeware",
-    "suggest":  {
-        "PYTHON":[
-            "python3.8"
-            ],
+    "suggest": {
+        "python":[
+            "miniconda3"
+        ],
         "NODE":[
             "nodejs"
-                ]
-        },
+        ]
+    },
+
     "url": "https://github.com/rtcatc/Packer-Fuzzer/archive/refs/heads/master.zip",
     "hash":"747a0a1dbbf7f931c8695a1bb4525fd345b163119d4c07624dff724da4bf6524",
     "pre_install": "Set-Content \"$dir\\Packer-Fuzzer.bat\" '@pushd %~dp0\npython3 PackerFuzzer.py %*\n@popd' -Encoding Ascii",

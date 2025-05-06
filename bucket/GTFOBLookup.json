@@ -4,8 +4,8 @@
     "homepage": "https://github.com/nccgroup/GTFOBLookup",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/nccgroup/GTFOBLookup/archive/refs/tags/v3.zip",

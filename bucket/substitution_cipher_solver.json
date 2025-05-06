@@ -7,16 +7,17 @@
     ],
     "homepage": "https://github.com/alexbers/substitution_cipher_solver",
     "license": "unknow",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/alexbers/substitution_cipher_solver/archive/refs/heads/master.zip",
     "hash":"2d6a37fb7e77bedc7656b514b734e9172de8069783a24316082addda13a4987e",
     "pre_install": [
         "Set-Content \"$dir\\substitution_cipher_solver.bat\" '@pushd %~dp0",
-        "@python3 \"decrypt.py\" %*",
+        "@call activate python3env",
+        "@python \"decrypt.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

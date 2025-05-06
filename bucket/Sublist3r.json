@@ -5,14 +5,15 @@
     "license": "UNKNOWN",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/aboul3la/Sublist3r/archive/refs/tags/1.1.zip",
     "hash": "c239f45e581f70b05b1d3b1c55e966cadc8465712bb001979d377eea28c46579",
     "pre_install": [
         "Set-Content \"$dir\\Sublist3r.bat\" '@pushd %~dp0",
-        "@python3 \"Sublist3r.py\" %*",
+        "@call activate python3env",
+        "@python \"Sublist3r.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

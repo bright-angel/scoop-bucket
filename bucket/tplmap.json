@@ -9,7 +9,7 @@
     "license": "Unkown",
     "suggest": {
         "python":[
-            "python2"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/epinna/tplmap/archive/refs/tags/v0.5.zip",

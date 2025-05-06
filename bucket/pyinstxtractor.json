@@ -4,13 +4,16 @@
     "homepage": "https://github.com/extremecoders-re/pyinstxtractor",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/extremecoders-re/pyinstxtractor/archive/refs/heads/master.zip",
     "hash": "dc4b1cbd224297361e83352cbdbfeccaae9f8374dfcbbc96a152c05d59dfb88e",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor.bat\" '@pushd %~dp0",
-        "@python3 \"pyinstxtractor.py\" %*",
+        "@call activate python3env",
+        "@python \"pyinstxtractor.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

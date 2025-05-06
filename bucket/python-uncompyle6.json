@@ -4,7 +4,9 @@
     "homepage": "https://github.com/rocky/python-uncompyle6",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip",
     "hash": "b5110f2fac397408d444a35d5f3abb5160a4b871d92cfd4da081bdf5781b6f0e",

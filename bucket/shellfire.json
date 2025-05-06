@@ -8,8 +8,8 @@
     "homepage": "https://github.com/unix-ninja/shellfire",
     "license": "BSD-2-Clause",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/unix-ninja/shellfire/archive/refs/tags/v0.13.zip",

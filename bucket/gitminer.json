@@ -4,8 +4,8 @@
     "homepage": "https://github.com/UnkL4b/GitMiner",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/UnkL4b/GitMiner/releases/download/2.0/gitminer_V2.0.tar",

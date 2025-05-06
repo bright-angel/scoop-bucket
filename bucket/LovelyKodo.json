@@ -3,16 +3,17 @@
     "description": "插件化工具框架",
     "homepage": "https://github.com/Tokeii0/LovelyKodo",
     "license": "UNKNOWN",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/Tokeii0/LovelyKodo/archive/refs/heads/master.zip",
     "hash":"921df26e91320ab470034dd69187779e40438f01f0115ef077b125bcce90b6fc",
     "pre_install": [
         "Set-Content \"$dir\\LovelyKodo.bat\" '@pushd %~dp0",
-        "@python3 \"main.py\" %*",
+        "@call activate python3env",
+        "@python \"main.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

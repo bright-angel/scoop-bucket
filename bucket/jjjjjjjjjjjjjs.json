@@ -6,16 +6,17 @@
     ],
     "homepage": "https://github.com/ttstormxx/jjjjjjjjjjjjjs",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/ttstormxx/jjjjjjjjjjjjjs/archive/refs/heads/master.zip",
     "hash":"",
     "pre_install": [
         "Set-Content \"$dir\\jjjjjjjjjjjjjs.bat\" '@pushd %~dp0",
-        "@python3 \"jjjjjjjjjjjjjs.py\" %*",
+        "@call activate python3env",
+        "@python \"jjjjjjjjjjjjjs.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

@@ -4,8 +4,8 @@
     "homepage": "https://github.com/almandin/fuxploider",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/almandin/fuxploider/archive/refs/tags/v1.0.zip",

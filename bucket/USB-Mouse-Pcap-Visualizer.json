@@ -7,16 +7,17 @@
     ],
     "homepage": "https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer/archive/refs/heads/master.zip",
     "hash":"3d8d2e858b13de76f897b3f712daac2335890d497df46802f0f1dd0c7f42b612",
     "pre_install": [
         "Set-Content \"$dir\\USB-Mouse-Pcap-Visualizer.bat\" '@pushd %~dp0",
-        "@python3 \"usb-mouse-pcap-visualizer.py\" %*",
+        "@call activate python3env",
+        "@python \"usb-mouse-pcap-visualizer.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

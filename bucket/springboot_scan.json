@@ -7,16 +7,17 @@
     ],
     "homepage": "https://github.com/Muhansrc/springboot_scan",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/Muhansrc/springboot_scan/archive/refs/heads/master.zip",
     "hash":"e9fde22cd94f2449f8d248326d82d45f4c1a106104a49c14d5207e452cc38803",
     "pre_install": [
         "Set-Content \"$dir\\springboot_scan.bat\" '@pushd %~dp0",
-        "@python3 \"main.py\" %*",
+        "@call activate python3env",
+        "@python \"main.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

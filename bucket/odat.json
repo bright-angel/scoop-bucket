@@ -3,16 +3,17 @@
     "description": "Oracle 数据库攻击工具",
     "homepage": "https://github.com/quentinhardy/odat",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/quentinhardy/odat/archive/refs/heads/master-python3.zip",
     "hash":"c239c0f6dcc2bbb3fdad6117838ddc3ab5d131723aefea940700b35fdaa3d203",
     "pre_install": [
         "Set-Content \"$dir\\odat.bat\" '@pushd %~dp0",
-        "@python3 \"odat.py\" %*",
+        "@call activate python3env",
+        "@python \"odat.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

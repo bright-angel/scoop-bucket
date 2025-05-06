@@ -5,14 +5,17 @@
     "license": "GPL-3.0-or-later",
     "checkver": "github",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/ticarpi/jwt_tool/archive/refs/tags/v2.3.0.zip",
     "hash": "03aa6c5b41e8bcfff2dd983592ddc46b4557894934b234bc682edd2869434f80",
     "extract_dir": "jwt_tool-2.3.0",
     "pre_install": [
         "Set-Content \"$dir\\jwt_tool.bat\" '@pushd %~dp0",
-        "@python3 jwt_tool.py %*",
+        "@call activate python3env",
+        "@python jwt_tool.py %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": "pip3 install -r \"$dir\\requirements.txt\"",

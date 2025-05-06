@@ -8,7 +8,9 @@
     "homepage": "https://github.com/swisskyrepo/SSRFmap",
     "license": "MIT",
     "suggest": {
-        "python": "python3.8"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/swisskyrepo/SSRFmap/archive/refs/heads/master.zip",
     "hash": "d126d9994aaa393c28308adb1d985795715edd04b78b4172560d6ec3d44d66c8",

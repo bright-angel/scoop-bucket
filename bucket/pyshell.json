@@ -4,8 +4,8 @@
     "homepage": "https://github.com/JoelGMSec/PyShell",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/JoelGMSec/PyShell/archive/refs/heads/main.zip",

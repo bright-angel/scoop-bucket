@@ -4,13 +4,16 @@
     "homepage": "https://github.com/pyinstxtractor/pyinstxtractor-ng",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/archive/refs/heads/master.zip",
     "hash": "820c10529dcd624c3639d1d818de16c8ea9193a4639721322bd0f552dd26cbdd",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor-ng.bat\" '@pushd %~dp0",
-        "@python3 \"pyinstxtractor-ng.py\" %*",
+        "@call activate python3env",
+        "@python \"pyinstxtractor-ng.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

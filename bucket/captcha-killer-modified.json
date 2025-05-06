@@ -4,13 +4,16 @@
     "homepage": "https://github.com/f0ng/captcha-killer-modified",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/f0ng/captcha-killer-modified/archive/refs/heads/master.zip",
     "hash": "f7efc966302120234b63befb037185909a4c625ace387a1446efca3de7d19e9f",
     "pre_install": [
         "Set-Content \"$dir\\codereg.bat\" '@pushd %~dp0",
-        "@python3 \"codereg.py\" %*",
+        "@call activate python3env",
+        "@python \"codereg.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

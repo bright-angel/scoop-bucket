@@ -5,9 +5,9 @@
     "license": "unkown",
     "suggest": {
         "python":[
-            "python2"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/JoyChou93/md5-extension-attack/archive/refs/heads/master.zip",
     "hash":"e84e756a11fef7eaf4400f9432a57d91822fbec0371f429b94dbd1837fb77e5e",
     "pre_install": "Set-Content \"$dir\\md5-extension-attack.bat\" '@pushd %~dp0\n@python2 md5pad.py %*\n@popd' -Encoding Ascii",

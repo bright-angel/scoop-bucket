@@ -3,16 +3,17 @@
     "description": "JexBoss：Jboss（和 Java 反序列化漏洞）验证和执行工具",
     "homepage": "https://github.com/joaomatosf/jexboss",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python2"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/joaomatosf/jexboss/archive/refs/heads/master.zip",
     "hash":"ee73acc169abbd1788b29439962e1a737bca202baa5f3ff2f0c32170a63077ba",
     "pre_install": [
         "Set-Content \"$dir\\jexboss.bat\" '@pushd %~dp0",
-        "@python2 \"jexboss.py\" %*",
+        "@call activate python2env",
+        "@python \"jexboss.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

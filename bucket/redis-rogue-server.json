@@ -3,16 +3,17 @@
     "description": "Redis（<=5.0.5） RCE",
     "homepage": "https://github.com/n0b0dyCN/redis-rogue-server",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/n0b0dyCN/redis-rogue-server/archive/refs/heads/master.zip",
     "hash":"246c24356b1f4fc16e1a8151668525dac735b35a29c26088d93ce92a7e7de505",
     "pre_install": [
         "Set-Content \"$dir\\redis-rogue-server.bat\" '@pushd %~dp0",
-        "@python3 \"redis-rogue-server.py\" %*",
+        "@call activate python3env",
+        "@python \"redis-rogue-server.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

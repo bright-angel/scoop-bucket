@@ -9,14 +9,15 @@
     "license": "unknown",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/13exp/SpringBoot-Scan-GUI/archive/refs/tags/v1.2.4.zip",
     "hash": "65f7026aea3fc2a8a45d4311469818d6f9eaf66f640229c244f5f31785da2a2f",
     "pre_install": [
         "Set-Content \"$dir\\SpringBoot-Scan-GUI.bat\" '@pushd %~dp0",
-        "@python3 \"main.py\" %*",
+        "@call activate python3env",
+        "@python \"main.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

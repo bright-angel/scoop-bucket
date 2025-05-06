@@ -9,14 +9,15 @@
     "license": "unknow",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/zhzyker/vulmap/archive/refs/tags/v0.9.zip",
     "hash": "0d88f770e1e39cdcf26635ee3f3f00a352c667c8aadc678ff7070bb19f313c7c",
     "pre_install": [
         "Set-Content \"$dir\\vulmap.bat\" '@pushd %~dp0",
-        "@python3 \"vulmap.py\" %*",
+        "@call activate python3env",
+        "@python \"vulmap.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

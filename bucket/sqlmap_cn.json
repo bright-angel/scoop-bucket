@@ -9,14 +9,15 @@
     "license": "GNU",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/BugFor-Pings/CN_Sqlmap/releases/download/V1.7.1.1/sqlmap_CN.zip",
     "hash": "f3e1c07299e9dbceaa0fffbbcaf2d177e779b53a01e1dbe1321ca8ebeb822e15",
     "pre_install": [
         "Set-Content \"$dir\\sqlmap_cn.bat\" '@pushd %~dp0",
-        "@python3 \"sqlmap.py\" %*",
+        "@call activate python3env",
+        "@python \"sqlmap.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "sqlmap_cn.bat",

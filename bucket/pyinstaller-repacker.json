@@ -4,13 +4,16 @@
     "homepage": "https://github.com/pyinstxtractor/pyinstaller-repacker",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/pyinstxtractor/pyinstaller-repacker/archive/refs/heads/master.zip",
     "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor-repacker.bat\" '@pushd %~dp0",
-        "@python3 \"pyinstxtractor-repacker.py\" %*",
+        "@call activate python3env",
+        "@python \"pyinstxtractor-repacker.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

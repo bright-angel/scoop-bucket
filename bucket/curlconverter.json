@@ -4,7 +4,9 @@
     "homepage": "https://github.com/curlconverter/curlconverter.github.io",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/curlconverter/curlconverter.github.io/archive/refs/heads/gh-pages.zip",
     "hash": "7cf5adbb0f87b5299c0c88cb0d83744cc7e7b0340c681725175f38daf65ba273",

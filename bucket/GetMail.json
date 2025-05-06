@@ -4,13 +4,16 @@
     "homepage": "https://github.com/b0bac/GetMail",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/b0bac/GetMail/archive/refs/heads/master.zip",
     "hash": "e688484e51b5d33e41b43ad2b745ab6c1d0fbbdf893b7b7f830f3d07f7986963",
     "pre_install": [
         "Set-Content \"$dir\\GetMail.bat\" '@pushd %~dp0",
-        "@python3 \"GetMailGUI.py\" %*",
+        "@call activate python3env",
+        "@python \"GetMailGUI.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

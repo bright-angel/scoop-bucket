@@ -5,7 +5,7 @@
     "license": "UNKNOWN",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/EnableSecurity/wafw00f/archive/refs/tags/v2.3.1.zip",

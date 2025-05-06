@@ -3,14 +3,14 @@
     "description": "自动爆破PNG图片宽高并一键修复工具",
     "homepage": "https://github.com/AabyssZG/Deformed-Image-Restorer",
     "license": "GPL-3.0",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3.8"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/AabyssZG/Deformed-Image-Restorer/archive/refs/heads/master.zip",
     "hash":"81893c28f6e06d6870596dd8ff0e9a3710f8d65416f58578ff1e6de42510459a",
-    "pre_install": "Set-Content \"$dir\\Deformed-Image-Restorer.bat\" '@pushd %~dp0\n@python3 Deformed-Image-Restorer.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\Deformed-Image-Restorer.bat\" '@pushd %~dp0\n@call activate python3env\n@python Deformed-Image-Restorer.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\Deformed-Image-Restorer-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\Deformed-Image-Restorer-main\" -Force -Recurse"

@@ -7,16 +7,16 @@
     ],
     "homepage": "https://github.com/w-digital-scanner/w13scan",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/w-digital-scanner/w13scan/archive/refs/heads/master.zip",
     "hash":"fb7cceb6d3ae78448104f8eb1f455923213cd33a52394629971f2a58b40fe7e0",
     "pre_install": [
-        "Set-Content \"$dir\\w13scan.bat\" '@pushd %~dp0\n@python3 \"W13SCAN\\w13scan.py\" %*\n@popd' -Encoding Ascii",
-        "Set-Content \"$dir\\w13scan_7778.bat\" '@pushd %~dp0\n@python3 \"W13SCAN\\w13scan.py -s 127.0.0.1:7778 --html\" %*\n@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\w13scan.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"W13SCAN\\w13scan.py\" %*\n@popd' -Encoding Ascii",
+        "Set-Content \"$dir\\w13scan_7778.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"W13SCAN\\w13scan.py -s 127.0.0.1:7778 --html\" %*\n@popd' -Encoding Ascii"
     ],
     "post_install": [
         "Move-Item -Path \"$dir\\w13scan-master\\*\" -Destination \"$dir\\\"",

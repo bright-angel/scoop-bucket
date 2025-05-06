@@ -7,7 +7,11 @@
     ],
     "homepage": "https://github.com/Schira4396/VcenterKiller",
     "license": "GPL-3.0",
-    "suggest":  {"python":["python3.8"]},
+    "suggest": {
+        "python":[
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/Schira4396/VcenterKiller/archive/refs/heads/master.zip",
     "hash":"386e4fc31dd01b1a978c15034bfa390f0b36b8356e26f7eec4cbf6ce616f49fc",
     "pre_install": "Set-Content \"$dir\\VcenterKiller.bat\" '@pushd %~dp0\ngo run main.go %*\n@popd' -Encoding Ascii",

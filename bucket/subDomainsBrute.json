@@ -6,16 +6,17 @@
     ],
     "homepage": "https://github.com/lijiejie/subDomainsBrute",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/lijiejie/subDomainsBrute/archive/refs/heads/master.zip",
     "hash":"c6b005e9383698307b1dc64f1f95b070e081bbd64bb7da563aa1665ab867e7c7",
     "pre_install": [
         "Set-Content \"$dir\\subDomainsBrute.bat\" '@pushd %~dp0",
-        "@python3 \"subDomainsBrute.py\" %*",
+        "@call activate python3env",
+        "@python \"subDomainsBrute.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

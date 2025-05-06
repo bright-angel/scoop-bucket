@@ -5,7 +5,9 @@
     "homepage": "https://github.com/wapiti-scanner/wapiti",
     "license": "GPL-2.0",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/wapiti-scanner/wapiti/releases/download/3.2.4/wapiti3-3.2.4.tar.gz",
     "hash": "55fff320689a9c900182ffb3f9a4d58d1568343fdd44a3e9875706fee9b11197",

@@ -4,8 +4,8 @@
     "homepage": "https://github.com/shmilylty/OneForAll",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/shmilylty/OneForAll/archive/refs/tags/v0.4.5.zip",

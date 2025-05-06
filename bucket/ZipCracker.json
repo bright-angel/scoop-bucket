@@ -8,13 +8,16 @@
     "homepage": "https://github.com/asaotomo/ZipCracker",
     "license": "GPL-3.0",
     "suggest": {
-        "python": "python3.8"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/asaotomo/ZipCracker/archive/refs/heads/master.zip",
     "hash": "f471caea716a0c85d21c4a0bf84fd7d020cda7c7759871d51618906e5e9a1bfc",
     "pre_install": [
         "Set-Content \"$dir\\ZipCracker.bat\" '@pushd %~dp0",
-        "@python3 ZipCracker.py %*",
+        "@call activate python3env",
+        "@python ZipCracker.py %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

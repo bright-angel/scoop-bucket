@@ -9,7 +9,7 @@
     "license": "unknown",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/dwisiswant0/apkleaks/archive/refs/tags/v2.6.3.zip",
@@ -17,7 +17,8 @@
     "hash": "b41279727ea3df3e9a0d88e26f9dc6d869702842dccf5a8633e74b5fe20aaae6",
     "pre_install": [
         "Set-Content \"$dir\\apkleaks.bat\" '@pushd %~dp0",
-        "@python3 \"apkleaks.py\" %*",
+        "@call activate python3env",
+        "@python \"apkleaks.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

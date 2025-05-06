@@ -9,13 +9,16 @@
     "homepage": "https://github.com/chishaxie/BlindWaterMark",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/chishaxie/BlindWaterMark/archive/refs/heads/master.zip",
     "hash": "85deb55ce3323a1f9ef6f21472afd66fea015efc3ae8344890871d3951fa638f",
     "pre_install": [
         "Set-Content \"$dir\\bwmforpy3.bat\" '@pushd %~dp0",
-        "@python3 \"bwmforpy3.py\" %*",
+        "@call activate python3env",
+        "@python \"bwmforpy3.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

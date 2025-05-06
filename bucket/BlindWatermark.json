@@ -8,16 +8,17 @@
     ],
     "homepage": "https://github.com/fire-keeper/BlindWatermark",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/fire-keeper/BlindWatermark/archive/refs/heads/master.zip",
     "hash":"1953a0dcbfd813b9988a3b3cda80c0a2913dfe6fdaf094640cb3892f1db0980d",
     "pre_install": [
         "Set-Content \"$dir\\BlindWatermark.bat\" '@pushd %~dp0",
-        "@python3 \"bwm.py\" %*",
+        "@call activate python3env",
+        "@python \"bwm.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

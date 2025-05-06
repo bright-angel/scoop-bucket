@@ -7,16 +7,17 @@
     ],
     "homepage": "https://github.com/matiasb/unpy2exe",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/matiasb/unpy2exe/archive/refs/heads/master.zip",
     "hash":"4830c3ead08301c3079f2eb39443e00c5839fde813ada86f2e28fd6930a38fc1",
     "pre_install": [
         "Set-Content \"$dir\\unpy2exe.bat\" '@pushd %~dp0",
-        "@python3 \"unpy2exe.py\" %*",
+        "@call activate python3env",
+        "@python \"unpy2exe.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

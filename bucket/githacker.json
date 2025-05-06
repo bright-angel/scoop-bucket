@@ -4,8 +4,8 @@
     "homepage": "https://github.com/WangYihang/GitHacker",
     "license": "Free",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v1.1.3.zip",

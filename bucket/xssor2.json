@@ -8,8 +8,8 @@
     "homepage": "https://github.com/evilcos/xssor2",
     "license": "BSD-2-Clause",
     "suggest": {
-        "python": [
-            "python2"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip",

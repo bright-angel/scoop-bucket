@@ -8,7 +8,9 @@
     "homepage": "https://github.com/Marven11/Fenjing",
     "license": "unknown",
     "suggest": {
-        "python": "python3"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/Marven11/Fenjing/archive/refs/tags/v0.8.0.zip",
     "hash": "4a066eb23d037712674c428bdcf75311a5f23cba129d924b8384bd0d38218fc5",

@@ -4,8 +4,8 @@
     "homepage": "https://github.com/pwn0sec/PwnXSS",
     "license": "MIT",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/pwn0sec/PwnXSS/archive/refs/heads/master.zip",

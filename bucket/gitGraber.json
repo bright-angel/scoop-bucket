@@ -4,8 +4,8 @@
     "homepage": "https://github.com/hisxo/gitGraber",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "python3"
+        "python":[
+            "miniconda3"
         ]
     },
     "url": "https://github.com/hisxo/gitGraber/archive/refs/heads/master.zip",

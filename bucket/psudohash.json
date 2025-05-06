@@ -3,7 +3,11 @@
     "description": "Generates millions of keyword-based password mutations in seconds.(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/t3l3machus/psudohash",
     "license": "MIT",
-    "suggest": "python3",
+    "suggest": {
+        "python":[
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/t3l3machus/psudohash/archive/refs/heads/main.zip",
     "pre_install": "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0\npython3 \"psudohash.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [

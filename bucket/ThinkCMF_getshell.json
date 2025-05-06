@@ -7,16 +7,17 @@
     ],
     "homepage": "https://github.com/jas502n/ThinkCMF_getshell",
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python2"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/jas502n/ThinkCMF_getshell/archive/refs/heads/master.zip",
     "hash":"e9b06d5b168dd51d78c0ee708296bdb40b2a57bfeac9840d67f77366f8885947",
     "pre_install": [
         "Set-Content \"$dir\\ThinkCMF_getshell.bat\" '@pushd %~dp0",
-        "@python2 \"ThinkCMF_getshell.py\" %*",
+        "@call activate python2env",
+        "@python \"ThinkCMF_getshell.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

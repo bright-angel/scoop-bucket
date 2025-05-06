@@ -5,7 +5,7 @@
     "license": "unknown",
     "suggest": {
         "python":[
-            "python3"
+            "miniconda3"
         ]
     },
     "url": "https://github.com/Raghavd3v/CRLFsuite/archive/refs/tags/v2.5.2.zip",

@@ -8,13 +8,16 @@
     "homepage": "https://github.com/W01fh4cker/VcenterKit",
     "license": "GPL-3.0",
     "suggest": {
-        "python": "python3.9"
+        "python":[
+            "miniconda3"
+        ]
     },
     "url": "https://github.com/W01fh4cker/VcenterKit/archive/refs/heads/master.zip",
     "hash": "435fb551cea1f9f32d6ead49f811ab36f179f8ab83ab175869b2427663511c3a",
     "pre_install": [
         "Set-Content \"$dir\\VcenterKit.bat\" '@pushd %~dp0",
-        "python3 VcenterKit.py %*",
+        "@call activate python3env",
+        "@python VcenterKit.py %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

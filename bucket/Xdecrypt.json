@@ -7,16 +7,17 @@
         "Xshell,Xftp"
     ],
     "license": "unknown",
-    "suggest":  {
+    "suggest": {
         "python":[
-            "python3"
-            ]
-        },
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/dzxs/Xdecrypt/archive/refs/heads/master.zip",
     "hash":"2778586877618200f41d8e87318b2192d9e107d2391c20d832d869d389a0ab10",
     "pre_install": [
         "Set-Content \"$dir\\Xdecrypt.bat\" '@pushd %~dp0",
-        "@python3 \"Xdecrypt.py\" %*",
+        "@call activate python3env",
+        "@python \"Xdecrypt.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

@@ -3,7 +3,11 @@
     "description": "A .DS_Store file disclosure exploit. It parses .DS_Store file and downloads files recursively.",
     "homepage": "https://github.com/lijiejie/ds_store_exp",
     "license": "Freeware",
-    "suggest":  {"python":["python3.8"]},
+    "suggest": {
+        "python":[
+            "miniconda3"
+        ]
+    },
     "url": "https://github.com/lijiejie/ds_store_exp/archive/refs/heads/master.zip",
     "hash":"2f13c2ec1732a84d25ffa8c1b936b08ef822a5392b38444d1ce8a109fafa30c5",
     "pre_install": "Set-Content \"$dir\\ds_store_exp.bat\" '@pushd %~dp0\npython3 ds_store_exp.py %*\n@popd' -Encoding Ascii",
