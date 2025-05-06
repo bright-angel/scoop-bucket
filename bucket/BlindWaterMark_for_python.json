@@ -1,5 +1,5 @@
 {
-    "version": "2024-09-30T07.21.45",
+    "version": "2025-05-06T02.53.16",
     "description": "盲水印 by python",
     "notes": [
         "图片隐写",
@@ -8,13 +8,11 @@
     ],
     "homepage": "https://github.com/chishaxie/BlindWaterMark",
     "license": "unknown",
-    "suggest":  {
-        "python":[
-            "python3"
-            ]
-        },
+    "suggest": {
+        "python": "python3"
+    },
     "url": "https://github.com/chishaxie/BlindWaterMark/archive/refs/heads/master.zip",
-    "hash":"083c91a565fe46fc4dd7f8e0fc0fab3f0b09f5ba6ed848a8f1381a91de0f8f70",
+    "hash": "85deb55ce3323a1f9ef6f21472afd66fea015efc3ae8344890871d3951fa638f",
     "pre_install": [
         "Set-Content \"$dir\\bwmforpy3.bat\" '@pushd %~dp0",
         "@python3 \"bwmforpy3.py\" %*",
