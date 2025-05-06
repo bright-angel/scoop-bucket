@@ -1,10 +1,10 @@
 {
-    "version": "4.1.2",
+    "version": "4.2",
     "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
     "homepage": "https://github.com/gh0stkey/HaE",
     "license": "unknown",
-    "url": "https://github.com/gh0stkey/HaE/releases/download/4.1.2/HaE-4.1.2.jar#/HaE.jar",
-    "hash": "8fc36161a7b3bae8fca226b5f843d05346b2d2a6e022aa1764f667aadccee33a",
+    "url": "https://github.com/gh0stkey/HaE/releases/download/4.2/HaE-4.2.jar#/HaE.jar",
+    "hash": "a7dce87d08528343989b5252c40a71cc4a0727a784405f38edd8c75edb559b5b",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/gh0stkey/HaE/releases/download/$version/HaE-$version.jar#/HaE.jar"
