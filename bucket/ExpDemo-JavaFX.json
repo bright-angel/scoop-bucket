@@ -13,9 +13,8 @@
     "homepage": "https://github.com/yhy0/ExpDemo-JavaFX",
     "license": "unknown",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/bright-angel/file/releases/download/ExpDemo-JavaFX/SJ-1.9.jar#/SJ.jar",

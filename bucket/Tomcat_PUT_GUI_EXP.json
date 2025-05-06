@@ -8,9 +8,8 @@
     "homepage": "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP/releases/download/1.4/Tomcat_PUT_EXP_V1.4.jar#/Tomcat_PUT_EXP.jar",

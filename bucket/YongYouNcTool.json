@@ -8,9 +8,8 @@
     "homepage": "https://github.com/wgpsec/YongYouNcTool",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/wgpsec/YongYouNcTool/releases/download/1.0/YongYouNcTool-1.0.jar#/YongYouNcTool.jar",

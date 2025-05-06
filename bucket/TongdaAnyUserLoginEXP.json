@@ -8,9 +8,8 @@
     "homepage": "https://github.com/superneilcn/GUIEXPTools",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/superneilcn/GUIEXPTools/raw/refs/heads/main/TongdaEXP/TongdaAnyUserLoginEXP/TongdaAnyUserLoginEXP.jar",

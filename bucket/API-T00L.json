@@ -8,9 +8,8 @@
     "homepage": "https://github.com/pykiller/API-T00L",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/pykiller/API-T00L/releases/download/v1.3/API-T00L_v1.3.jar#/API-T00L.jar",

@@ -8,9 +8,8 @@
     "homepage": "https://github.com/0xchang/DockerApiRCE",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/0xchang/DockerApiRCE/releases/download/v0.4/DockerApiRCE.jar",

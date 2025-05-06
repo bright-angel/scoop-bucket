@@ -22,9 +22,8 @@
     "homepage": "https://github.com/White-hua/Apt_t00ls",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/White-hua/Apt_t00ls/releases/download/v0.7/apt.zip",

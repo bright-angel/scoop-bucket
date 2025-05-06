@@ -7,10 +7,9 @@
     ],
     "homepage": "https://github.com/Hutt0n0/ActiveMqRCE",
     "license": "MIT",
-    "suggest":  {
-        "JDK":[
-            "java/oraclejdk",
-            "java/openjdk"
+    "suggest": {
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/Hutt0n0/ActiveMqRCE/archive/refs/heads/master.zip",

@@ -4,9 +4,8 @@
     "homepage": "https://github.com/suizhibo/MemShellGene",
     "license": "unknown",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/suizhibo/MemShellGene/releases/download/v0.1.1-alpha/MemShellGene.jar",

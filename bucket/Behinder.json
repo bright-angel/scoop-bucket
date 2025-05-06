@@ -8,9 +8,8 @@
     "homepage": "https://github.com/rebeyond/Behinder",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.0.7/Behinder_v4.07.zip",

@@ -9,9 +9,8 @@
     "homepage": "https://github.com/Y5neKO/ShiroEXP",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/Y5neKO/ShiroEXP/releases/download/v0.2/ShiroEXP-v0.2.zip",

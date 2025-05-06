@@ -5,9 +5,8 @@
     "license": "Freeware",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/java-memshell-generator.json",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v1.0.7.beta3/jMG-gui-1.0.7.beta3.jar#/jMG-gui.jar",

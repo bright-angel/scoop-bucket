@@ -7,7 +7,9 @@
     "homepage": "https://github.com/pascal-lab/Tai-e",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
+        ]
     },
     "url": "https://github.com/pascal-lab/Tai-e/releases/download/v0.5.1/tai-e-all-0.5.1.jar#/tai-e.jar",
     "pre_install": [

@@ -4,9 +4,8 @@
     "homepage": "https://mp.weixin.qq.com/s/HU1OqZ7YFGjfc4HE3M8tPA",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/bright-angel/file/releases/download/ruoyiVuln/ruoyiVuln.zip",

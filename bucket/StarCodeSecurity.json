@@ -8,9 +8,8 @@
     "homepage": "https://github.com/vsdwef/StarCodeSecurity",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/vsdwef/StarCodeSecurity/releases/download/V1.2/StarCodeSecurity.zip",

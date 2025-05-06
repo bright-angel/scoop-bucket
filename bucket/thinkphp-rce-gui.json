@@ -8,9 +8,8 @@
     "homepage": "https://github.com/guguyu1/thinkphp-rce-gui",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/guguyu1/thinkphp-rce-gui/raw/refs/heads/main/thinkphp%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7.jar#/thinkphp-rce-gui.jar",

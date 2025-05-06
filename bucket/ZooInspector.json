@@ -8,9 +8,8 @@
     "homepage": "https://issues.apache.org",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://issues.apache.org/jira/secure/attachment/12436620/ZooInspector.zip",

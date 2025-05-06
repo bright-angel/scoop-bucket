@@ -8,9 +8,8 @@
     "homepage": "https://github.com/yggo/SmartBIAttackTool",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/bright-angel/file/releases/download/SmartBIAttackTool/SmartBIAttackTool-1.0.jar#/SmartBIAttackTool.jar",

@@ -7,9 +7,8 @@
     "homepage": "https://github.com/CYRUS-STUDIO/ApkToolPlus",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/CYRUS-STUDIO/ApkToolPlus/raw/refs/heads/master/release/ApkToolPlus_1.0.jar#/ApkToolPlus.jar",

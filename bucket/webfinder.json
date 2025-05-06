@@ -8,9 +8,8 @@
     "homepage": "http://www.cnblogs.com/SEC-fsq/p/5610981.html",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/bright-angel/file/releases/download/webfinder/webfinder-3.2.jar#/webfinder.jar",

@@ -5,7 +5,7 @@
     "license": "UNKNOWN",
     "suggest": {
         "JRE": [
-            "self/oraclejre8"
+            "sec/oraclejre8"
         ]
     },
     "url": [

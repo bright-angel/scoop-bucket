@@ -4,9 +4,8 @@
     "homepage": "https://github.com/ot-jerry-welch/owaspcsrftester",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/ot-jerry-welch/owaspcsrftester/raw/master/main/CSRFTester/dist/OWASP-CSRFTester-1.1.jar#/CSRFTester.jar",

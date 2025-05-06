@@ -4,9 +4,8 @@
     "homepage": "https://github.com/DeEpinGh0st/MDUT-Extend-Release",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/DeEpinGh0st/MDUT-Extend-Release/releases/download/v1.2.0/MDUT-Extend-1.2.0.zip",

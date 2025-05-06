@@ -4,9 +4,8 @@
     "homepage": "https://github.com/wafinfo/NCTOOls",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/wafinfo/NCTOOls/archive/refs/heads/master.zip",

@@ -12,9 +12,8 @@
     "homepage": "https://github.com/CllmsyK/YYBaby-Spring_Scan",
     "license": "unknown",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/CllmsyK/YYBaby-Spring_Scan/releases/download/YYBaby_v1.0/YYBaby_v1.0_Spring_Scan.rar",

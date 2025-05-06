@@ -11,9 +11,8 @@
     ],
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/0x7eTeam/0x7eTeamTools/releases/download/1.2/0x7eTeamTools.v1.2.zip",

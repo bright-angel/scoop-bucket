@@ -4,9 +4,8 @@
     "homepage": "https://github.com/wgpsec/fofa_viewer",
     "license": "MIT",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/wgpsec/fofa_viewer/releases/download/1.1.15/FofaViewer_1.1.15_JDK8.zip",

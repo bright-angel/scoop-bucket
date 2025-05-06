@@ -4,9 +4,8 @@
     "homepage": "https://github.com/minhangxiaohui/DecodeSomeJSPWebshell",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/minhangxiaohui/DecodeSomeJSPWebshell/releases/download/v1.2/DecodertoWebshell_1.2.jar#/DecodertoWebshell.jar",

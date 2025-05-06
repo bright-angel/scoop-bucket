@@ -5,8 +5,7 @@
     "license": "UNKNOW",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "sec/oraclejdk"
         ]
     },
     "url": "https://github.com/Ppsoft1991/CodeReviewTools/releases/download/v1.31/CodeReviewTools_v1.31.jar#/CodeReviewTools.jar",

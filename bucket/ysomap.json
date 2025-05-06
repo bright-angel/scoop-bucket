@@ -8,9 +8,8 @@
     "homepage": "https://github.com/wh1t3p1g/ysomap",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/wh1t3p1g/ysomap/releases/download/v0.1.5/ysomap.jar",

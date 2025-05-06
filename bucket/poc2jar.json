@@ -4,9 +4,8 @@
     "homepage": "https://github.com/f0ng/poc2jar",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/f0ng/poc2jar/releases/download/0.68/poc2jar-WINDOWS.zip",

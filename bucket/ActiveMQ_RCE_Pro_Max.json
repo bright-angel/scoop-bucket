@@ -8,9 +8,8 @@
     "homepage": "https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max/releases/download/AMQ/ActiveMQ_RCE_GUI_v1.0.3.jar#/ActiveMQ_RCE_GUI.jar",

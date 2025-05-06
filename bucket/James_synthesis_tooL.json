@@ -5,9 +5,8 @@
     "homepage": "https://github.com/vsdwef/James_synthesis_tooL",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/vsdwef/James_synthesis_tooL/releases/download/V2.2.1/James_synthesis_tool.zip",

@@ -4,9 +4,8 @@
     "homepage": "https://github.com/kong030813/Z-Godzilla_ekp",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/kong030813/Z-Godzilla_ekp/releases/download/V1.1-Godzilla_ekp/Godzilla_ekp1.1.jar#/Godzilla_ekp.jar",

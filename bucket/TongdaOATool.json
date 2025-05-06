@@ -8,9 +8,8 @@
     "homepage": "https://github.com/xiaokp7/TongdaOATool",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/xiaokp7/TongdaOATool/releases/download/v1.6/TongdaTools.jar",

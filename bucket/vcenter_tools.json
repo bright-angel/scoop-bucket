@@ -9,8 +9,7 @@
     "license": "UNKNOWN",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "sec/oraclejdk"
         ]
     },
     "url": "https://github.com/zidanfanshao/vcenter_tools/releases/download/v0.4/vcenter_tools.v0.4.jar#/vcenter_tools.jar",

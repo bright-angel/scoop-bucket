@@ -9,9 +9,8 @@
     "homepage": "https://github.com/safe6Sec/ShiroExp",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/safe6Sec/ShiroExp/releases/download/v1.3.1/ShiroExp-1.3.1-all.jar#/ShiroExp.jar",

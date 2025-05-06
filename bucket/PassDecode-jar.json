@@ -4,9 +4,8 @@
     "homepage": "https://github.com/Rvn0xsy/PassDecode-jar",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/Rvn0xsy/PassDecode-jar/releases/download/v0.1/PassDecode.jar",

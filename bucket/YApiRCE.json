@@ -8,9 +8,8 @@
     "homepage": "https://github.com/Tas9er/YApiRCE",
     "license": "unknown",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/Tas9er/YApiRCE/archive/refs/heads/master.zip",

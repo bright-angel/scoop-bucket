@@ -10,9 +10,8 @@
     "url": "https://github.com/leibnitz27/cfr/releases/download/0.152/cfr-0.152.jar#/cfr.jar",
     "hash": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "pre_install": [

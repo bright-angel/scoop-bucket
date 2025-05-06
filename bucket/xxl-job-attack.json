@@ -8,9 +8,8 @@
     "homepage": "https://github.com/pureqh/xxl-job-attack",
     "license": "UNKNOWN",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/pureqh/xxl-job-attack/releases/download/xxl-job-attack-1.1/xxl-job-attack-1.1.jar#/xxl-job-attack.jar",

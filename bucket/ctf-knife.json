@@ -4,9 +4,8 @@
     "homepage": "https://github.com/qianxiao996/ctf-knife",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/qianxiao996/ctf-knife/releases/download/v1.2/ctf-knife-v1.2.zip",

@@ -8,9 +8,8 @@
     "homepage": "https://github.com/savior-only/Spring_All_Reachable",
     "license": "Freeware",
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+        "JRE": [
+            "sec/oraclejre8"
         ]
     },
     "url": "https://github.com/savior-only/Spring_All_Reachable/releases/download/v2.1/Spring_All_Reachable-2.1.jar#/Spring_All_Reachable.jar",
