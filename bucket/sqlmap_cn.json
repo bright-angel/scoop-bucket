@@ -12,7 +12,7 @@
             "miniconda3"
         ]
     },
-    "url": "https://github.com/BugFor-Pings/CN_Sqlmap/releases/download/V1.7.1.1/sqlmap_CN.zip",
+    "url": "https://github.com/BugFor-Pings/CN_Sqlmap/releases/download/v1.9/CN_sqlmap-1.9.zip",
     "hash": "f3e1c07299e9dbceaa0fffbbcaf2d177e779b53a01e1dbe1321ca8ebeb822e15",
     "pre_install": [
         "Set-Content \"$dir\\sqlmap_cn.bat\" '@pushd %~dp0",
@@ -23,6 +23,6 @@
     "bin": "sqlmap_cn.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/BugFor-Pings/CN_Sqlmap/releases/download/V$version/sqlmap_CN.zip"
+        "url": "https://github.com/BugFor-Pings/CN_Sqlmap/releases/download/v$version/CN_sqlmap-$version.zip"
     }
 }
