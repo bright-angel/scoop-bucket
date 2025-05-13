@@ -11,7 +11,7 @@
     "hash": "97df198edf03123763554f7ce0062fb76bf32897de0b99802acabe6fda910aa4",
     "checkver": {
         "url": "https://api.github.com/repos/KaGty1/SSRF_Detector/releases/latest",
-        "regex": "download/(?<tag>v[\\d\\.]+)/SSRF-Detector-([\\d.]+)-SNAPSHOT-jar-with-dependencies.jar"
+        "regex": "download/(?<tag>SSRFDetector_v[\\d\\.]+)/SSRF-Detector-([\\d.]+)-SNAPSHOT-jar-with-dependencies.jar"
     },
     "autoupdate": {
         "url": "https://github.com/KaGty1/SSRF_Detector/releases/download/$matchTag/SSRF-Detector-$version-SNAPSHOT-jar-with-dependencies.jar#/SSRF_Detector.jar"
