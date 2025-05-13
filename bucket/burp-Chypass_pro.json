@@ -7,13 +7,14 @@
     ],
     "homepage": "https://github.com/wxwhhh/Chypass_pro",
     "license": "UNKNOWN",
-    "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/bypass_WAF/Chypass_pro_11.jar#/Chypass_pro.jar",
-    "hash": "4a6e81f889d274fbb6110e28b8a1a1c5b5315e184c0f78853c0f047345573187",
+    "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/Chypass_pro2.0/Chypass_pro2.0.jar#/Chypass_pro.jar",
+    "hash": "",
     "checkver": {
-        "url": "https://api.github.com/repos/BeichenDream/Godzilla/releases/latest",
-        "jsonpath": "$.tag_name"
+        "url": "https://api.github.com/repos/wxwhhh/Chypass_pro/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "Chypass_pro[\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/$version/Chypass_pro_11.jar#/Chypass_pro.jar"
+        "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/$version/Chypass_pro$version.jar#/Chypass_pro.jar"
     }
 }
