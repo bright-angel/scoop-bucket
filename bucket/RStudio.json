@@ -1,6 +1,9 @@
 {
     "version": "9.4.191460",
     "description": "R-Studio是一款高效的数据恢复软件，支持多种文件系统，包括FAT、NTFS和Ext2/3FS等，能恢复删除的文件、加密文件、数据流等，并提供磁盘镜像功能。",
+    "notes:":[
+        "数据恢复"
+    ],
     "homepage": "https://www.ghxi.com/rstudio.html",
     "license": "UNKNOWN",
     "url": "https://github.com/bright-angel/file/releases/download/RStudio/RStudio_9.4.191460_Portable.7z",
@@ -8,7 +11,7 @@
     "extract_dir":"RStudio_9.4.191460_Portable\\R-Studio",
     "bin":"RStudioPortable.exe",
     "checkver": {
-        "url": "https://github.com/X/file/releases/expanded_assets/RStudio",
+        "url": "https://github.com/bright-angel/file/releases/expanded_assets/RStudio",
         "regex": "download/RStudio/RStudio_([\\d.]+)_Portable.7z"
     },
     "autoupdate": {
