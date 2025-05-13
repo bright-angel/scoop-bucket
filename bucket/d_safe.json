@@ -8,7 +8,7 @@
     "bin": "D_Safe_Manage.exe",
     "checkver": {
         "url": "https://www.d99net.net",
-        "regex": "down/d_safe_([\\d.]+_[\\d.]+).zip"
+        "regex": "down/d_safe_([\\d\\.\\-]+).zip"
     },
     "autoupdate": {
         "url": "https://www.d99net.net/down/d_safe_$version.zip"
