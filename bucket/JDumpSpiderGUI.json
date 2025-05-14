@@ -1,6 +1,10 @@
 {
     "version": "1.0",
     "description": "JDumpSpiderGUI 是一个用于 Java 堆转储文件分析的工具，支持命令行和 JavaFX 图形界面两种模式。该工具主要是在原工具上添加了图形化的界面",
+    "notes":[
+        "漏洞利用",
+        "信息泄露利用，heapdump利用"
+    ],
     "homepage": "https://github.com/DeEpinGh0st/JDumpSpiderGUI",
     "license": "UNKNOWN",
     "suggest": {
