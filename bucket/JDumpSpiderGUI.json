@@ -13,7 +13,7 @@
     "pre_install": [
         "Set-Content \"$dir\\JDumpSpiderGUI.bat\" '@pushd %~dp0",
         "@call oraclejre8",
-        "@start javaw.exe -jar \"JDumpSpiderGUI.jar\" %*",
+        "@start javaw.exe -jar \"JDumpSpiderGUI.jar\" --gui",
         "@popd' -Encoding Ascii"
     ],
     "bin": "JDumpSpiderGUI.bat",
