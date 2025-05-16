@@ -20,7 +20,7 @@
         "Apache,nacos任意用户添加"
     ],
     "homepage": "https://github.com/White-hua/Apt_t00ls",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

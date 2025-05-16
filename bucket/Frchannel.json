@@ -2,7 +2,7 @@
     "version": "3",
     "description": "帆软bi反序列化漏洞利用工具",
     "homepage": "https://github.com/7wkajk/Frchannel",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

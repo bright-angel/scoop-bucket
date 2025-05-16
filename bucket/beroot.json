@@ -6,7 +6,7 @@
         "本地提权,Windows / Linux / Mac"
     ],
     "homepage": "https://github.com/AlessandroZ/BeRoot",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "architecture": {
         "64bit": {
             "url": "https://github.com/AlessandroZ/BeRoot/releases/download/1.0.1/beRoot.zip",

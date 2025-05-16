@@ -5,7 +5,7 @@
         "图片隐写分析"
     ],
     "homepage": "https://github.com/souno-io/Stegsolve",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

@@ -2,7 +2,7 @@
     "version": "0.0.4",
     "description": "MySQL Fake Server (纯Java实现，支持GUI版和命令行版，提供Dockerfile，支持多种常见JDBC利用)",
     "homepage": "https://github.com/4ra1n/mysql-fake-server",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/mysql-fake-server.json",
     "suggest": {
         "JRE": [

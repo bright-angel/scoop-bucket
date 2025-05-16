@@ -5,7 +5,7 @@
         "webshell管理"
     ],
     "homepage": "https://github.com/shack2/skyscorpion",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

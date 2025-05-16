@@ -2,7 +2,7 @@
     "version": "1.2.0",
     "description": "MDUT-Extend(扩展版本)",
     "homepage": "https://github.com/DeEpinGh0st/MDUT-Extend-Release",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

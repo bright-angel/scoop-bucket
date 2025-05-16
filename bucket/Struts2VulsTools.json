@@ -6,7 +6,7 @@
         "Apache Struts,S2-057 CVE-2018-11776,S2-048 CVE-2017-9791,S2-046 CVE-2017-5638,S2-045 CVE-2017-5638,S2-037 CVE-2016-4438,S2-032 CVE-2016-3081,S2-020 CVE-2014-0094,S2-019 CVE-2013-4316,S2-016 CVE-2013-2251,S2-013 CVE-2013-1966,S2-009 CVE-2011-3923,S2-005 CVE-2010-1870"
     ],
     "homepage": "https://github.com/shack2/Struts2VulsTools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "url": "https://github.com/shack2/Struts2VulsTools/releases/download/2.3.20190927/Struts2.2019.V2.3.zip",
     "hash": "23217ac681689b3c4a02013b884d70c09e3e0ad18920f4dca7658ecfdbd91640",
     "bin":"Struts2漏洞检查工具2019版 V2.3.exe",

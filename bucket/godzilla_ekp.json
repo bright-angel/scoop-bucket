@@ -2,7 +2,7 @@
     "version": "1.1",
     "description": "哥斯拉webshell管理工具二次开发规避流量检测设备",
     "homepage": "https://github.com/kong030813/Z-Godzilla_ekp",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

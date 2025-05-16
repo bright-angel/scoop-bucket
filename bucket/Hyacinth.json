@@ -2,7 +2,7 @@
     "version": "2.0",
     "description": "Struts2、Fastjson、Weblogic（xml）、Shiro、Log4j、Jboss、SpringCloud、等漏洞检测利用",
     "homepage": "https://github.com/pureqh/Hyacinth",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

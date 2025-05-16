@@ -6,7 +6,7 @@
         "Thinkphp 5.0.23 RCE,CNVD-2018-24942,thinkphp6多语言RCE,thinkphp 3.2.x文件包含,thinkphp 日志泄露"
     ],
     "homepage": "https://github.com/XiLitter/Tp_Attack_GUI",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

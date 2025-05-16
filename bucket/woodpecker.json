@@ -6,7 +6,7 @@
         "Jackson deserializationJava RMI反序列化漏洞Jenkins 反序列化log4j jndi injectSpringboot接口探测Tomcat AJP LFITomcat put write fileTomcat weark passwordWeblogic console weak password"
     ],
     "homepage": "https://github.com/woodpecker-framework/woodpecker-framework-release",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

@@ -2,7 +2,7 @@
     "version": "1.4",
     "description": "(Scoop bucket by arch3rpro) I-Wanna-Get-All - OA漏洞利用工具，目前集成385漏洞，包括nday、1day",
     "homepage": "https://github.com/R4gd0ll/I-Wanna-Get-All",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

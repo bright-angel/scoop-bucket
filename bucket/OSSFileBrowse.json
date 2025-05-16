@@ -2,7 +2,7 @@
     "version": "1.1",
     "description": "存储桶遍历漏洞利用工具",
     "homepage": "https://github.com/jdr2021/OSSFileBrowse",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

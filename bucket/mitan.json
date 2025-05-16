@@ -2,7 +2,7 @@
     "version": "1.2.3",
     "description": "密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能",
     "homepage": "https://github.com/kkbo8005/mitan",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/mitan.json",
     "suggest": {
         "JRE": "sec/oraclejre8"

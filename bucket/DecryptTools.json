@@ -2,7 +2,7 @@
     "version": "3.1",
     "description": "DecryptTools-综合解密",
     "homepage": "https://github.com/wafinfo/DecryptTools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

@@ -6,7 +6,7 @@
         "内存马反编译分析、代码格式化、网空资产测绘、溯源辅助、解密Webshell流量、解密Shiro/CAS/Log4j2、IP/端口连接分析、编码/解码"
     ],
     "homepage": "https://github.com/abc123info/BlueTeamTools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": "sec/oraclejre8"
     },

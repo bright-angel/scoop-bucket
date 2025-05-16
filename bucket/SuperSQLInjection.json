@@ -6,7 +6,7 @@
         "SQL"
     ],
     "homepage": "https://github.com/shack2/SuperSQLInjectionV1",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "architecture": {
         "64bit": {
             "url": "https://github.com/shack2/SuperSQLInjectionV1/releases/download/1.0.2020.12.14/SQL.SSQLInjection.V1.0.20201214.zip",

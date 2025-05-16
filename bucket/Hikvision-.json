@@ -2,7 +2,7 @@
     "version": "hikvsiondvz",
     "description": "Hikvision综合漏洞利用工具",
     "homepage": "https://github.com/MInggongK/Hikvision-",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "url": "https://github.com/MInggongK/Hikvision-/releases/download/hikvsiondvz/hikvision.zip",
     "hash": "3501e01acbee39bc3f2d62a124e2051c448551660b7dd7ab8416aa333cda9d79",
     "extract_dir":"net8.0-windows",

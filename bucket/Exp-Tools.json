@@ -29,7 +29,7 @@
         "浪潮GSP反序列化-1 ,浪潮GSP反序列化-2 ,浪潮GSP UploadListFile文件上传"
     ],
     "homepage": "https://github.com/cseroad/Exp-Tools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

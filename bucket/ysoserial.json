@@ -6,7 +6,7 @@
         "生成利用不安全的 Java 对象反序列化的有效负载"
     ],
     "homepage": "https://github.com/frohoff/ysoserial",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

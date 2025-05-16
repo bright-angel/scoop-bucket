@@ -2,7 +2,7 @@
     "version": "1.0",
     "description": "Hikvision ivms-8700 数据库账号解密",
     "homepage": "https://github.com/baogod404/HikvisionDecode",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

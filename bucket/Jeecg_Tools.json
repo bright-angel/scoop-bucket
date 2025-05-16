@@ -2,7 +2,7 @@
     "version": "1.0",
     "description": "本工具为jeecg框架漏洞利用工具非jeecg-boot！",
     "homepage": "https://github.com/K-7H7l/Jeecg_Tools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

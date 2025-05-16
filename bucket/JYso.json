@@ -2,7 +2,7 @@
     "version": "1.3.5",
     "description": "It can be either a JNDIExploit or a ysoserial",
     "homepage": "https://github.com/qi4L/JYso",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": "sec/oraclejre8"
     },

@@ -2,7 +2,7 @@
     "version": "jeecgdg",
     "description": "jeecg综合漏洞利用工具",
     "homepage": "https://github.com/MInggongK/jeecg-",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

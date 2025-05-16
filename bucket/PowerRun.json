@@ -2,7 +2,7 @@
     "version": "1.7",
     "description": "PowerRun (Run with highest privileges) 可以使用TrustedInstaller/System的权限来启动一些程序 (Scoop bucket by arch3rpro)",
     "homepage": "https://www.sordum.org/downloads/?power-run",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "url": "https://www.sordum.org/files/download/power-run/PowerRun.zip",
     "hash": "4a2e85ac414172d0f3a718de32f19f95cb648e6a395e5d78d6c298b076d2f860",
     "extract_dir": "PowerRun",

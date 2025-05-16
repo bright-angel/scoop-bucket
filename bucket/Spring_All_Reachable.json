@@ -6,7 +6,7 @@
         "Spring Cloud Gateway 命令执行,Spring Cloud Function SpEL 远程代码执行漏洞"
     ],
     "homepage": "https://github.com/savior-only/Spring_All_Reachable",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

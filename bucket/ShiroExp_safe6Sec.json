@@ -7,7 +7,7 @@
 
     ],
     "homepage": "https://github.com/safe6Sec/ShiroExp",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

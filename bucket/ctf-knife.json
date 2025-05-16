@@ -2,7 +2,7 @@
     "version": "1.2",
     "description": "编码解码工具",
     "homepage": "https://github.com/qianxiao996/ctf-knife",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

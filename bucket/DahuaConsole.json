@@ -2,7 +2,7 @@
     "version": "2022-07-23T17.42.41",
     "description": "Dahua Console, access internal debug console and/or other researched functions in Dahua devices. Feel free to contribute in this project.(CVE-2021-33044、CVE-2021-33045)",
     "homepage": "https://github.com/mcw0/DahuaConsole",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {"python":["python3.8"]},
     "url": "https://github.com/mcw0/DahuaConsole/archive/refs/heads/master.zip",
     "hash":"e45562ba1e63f6a2849cd370204a7bcc556697a0782588f011d5f07cfa23cf7c",

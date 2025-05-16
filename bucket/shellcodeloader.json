@@ -5,7 +5,7 @@
         "后门,免杀"
     ],
     "homepage": "https://github.com/knownsec/shellcodeloader",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "architecture": {
         "64bit": {
             "url": "https://github.com/knownsec/shellcodeloader/releases/download/v1.1/shellcodeLoader.7z",

@@ -5,7 +5,7 @@
         "安卓,Android,逆向,apk 反编译，回编译，签名"
     ],
     "homepage": "https://github.com/CYRUS-STUDIO/ApkToolPlus",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

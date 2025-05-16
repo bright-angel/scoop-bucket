@@ -2,7 +2,7 @@
     "version": "2023-11-27T06.09.58",
     "description": "一款针对用友NC综合漏洞利用工具",
     "homepage": "https://github.com/wafinfo/NCTOOls",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

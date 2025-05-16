@@ -2,7 +2,7 @@
     "version": "4.0.7",
     "description": "China's first CTFTools framework.中国国内首个CTF工具框架,旨在帮助CTFer快速攻克难关",
     "homepage": "https://github.com/0Chencc/CTFCrackTools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

@@ -2,7 +2,7 @@
     "version": "2021-08-05T09.31.30",
     "description": "一些Java编写的小工具。",
     "homepage": "https://github.com/fupinglee/JavaTools",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest":  {
         "JDK":[
             "java/oraclejdk",

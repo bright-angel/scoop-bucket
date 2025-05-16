@@ -6,7 +6,7 @@
         "ThinKPHP 5.0 RCE、ThinkPHP 5.0.10 RCE、ThinkPHP 5.0.2215.1.29 RCE、ThinkPHP 5.0.23 RCE、ThinkPHP 5.0.24-5.1.30 RCE、ThinkPHP 5.x数据库信息泄露、ThinkPHP 5.x日志泄露、ThinkPHP 3.x RCE"
     ],
     "homepage": "https://github.com/Lotus6/ThinkphpGUI",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

@@ -2,7 +2,7 @@
     "version": "2020-08-17T16.38.26",
     "description": "Rip web accessible (distributed) version control systems: SVN/GIT/HG...",
     "homepage": "https://github.com/kost/dvcs-ripper",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest":  {
         "PERL":[
             "perl"

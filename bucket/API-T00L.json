@@ -6,7 +6,7 @@
         "信息泄露,企业微信、飞书、钉钉"
     ],
     "homepage": "https://github.com/pykiller/API-T00L",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

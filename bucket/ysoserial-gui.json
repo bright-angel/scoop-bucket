@@ -7,7 +7,7 @@
         "Gadget 结果 探测 Class 文件上传 加载类名 内存马"
     ],
     "homepage": "https://github.com/Lotus6/ysoserial",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

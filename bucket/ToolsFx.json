@@ -6,7 +6,7 @@
         "编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf"
     ],
     "homepage": "https://github.com/Leon406/ToolsFx",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

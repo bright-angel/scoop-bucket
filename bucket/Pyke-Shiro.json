@@ -2,7 +2,7 @@
     "version": "0.3",
     "description": "复杂请求下的Shiro反序列化利用工具",
     "homepage": "https://github.com/sma11new/Pyke-Shiro",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

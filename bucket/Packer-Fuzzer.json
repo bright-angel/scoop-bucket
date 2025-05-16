@@ -2,7 +2,7 @@
     "version": "2024-05-24T11.06.24",
     "description": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack.",
     "homepage": "https://github.com/rtcatc/Packer-Fuzzer",
-    "license": "Freeware",
+    "license": "UNKNOWN",
     "suggest": {
         "python":[
             "miniconda3"
