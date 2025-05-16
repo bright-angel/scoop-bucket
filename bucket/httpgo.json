@@ -11,7 +11,12 @@
         "https://github.com/login546/httpgo/releases/download/latest/httpgo_win64.exe#/httpgo.exe",
         "https://github.com/login546/httpgo/releases/download/latest/fingers.json"
     ],
-    "bin": "httpgo.exe",
+    "pre_install": [
+        "Set-Content \"$dir\\httpgo.bat\" '@pushd %~dp0",
+        "@cmd /c httpgo.exe %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "httpgo.bat",
     "checkver": {
         "url": "https://api.github.com/repos/login546/httpgo/releases/latest",
         "jsonpath": "$.tag_name",
