@@ -14,11 +14,11 @@
     },
     "url": "https://github.com/epinna/tplmap/archive/refs/tags/v0.5.zip",
     "hash": "5d61c8e8109415d2b409234fee532337d161b367f5c8700ae8496856f68ff477",
-    "pre_install": "Set-Content \"$dir\\tplmap.bat\" '@pushd %~dp0\n@python2 \"tplmap.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\tplmap.bat\" '@pushd %~dp0\n@python \"tplmap.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\tplmap-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\tplmap-$version\" -Force -Recurse",
-        "pip2 install -r \"$dir\\requirements.txt\""
+        "& cmd /c \"call activate python2env && pip install -r $dir\\requirements.txt\""
     ],
     "bin": "tplmap.bat",
     "checkver": "github",

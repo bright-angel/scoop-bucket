@@ -9,7 +9,7 @@
         ]
     },
     "url": "https://github.com/sameera-madushan/Print-My-Shell/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\PrintMyShell.bat\" '@pushd %~dp0\npython3 \"shell.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\PrintMyShell.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"shell.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\Print-My-Shell-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\Print-My-Shell-master\" -Force -Recurse"

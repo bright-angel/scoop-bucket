@@ -19,7 +19,7 @@
     "post_install": [
         "Move-Item -Path \"$dir\\jexboss-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\jexboss-master\" -Force -Recurse",
-        "pip2 install -r \"$dir\\requires.txt\""
+        "& cmd /c \"call activate python2env && pip install -r $dir\\requires.txt\""
     ],
     "bin": "jexboss.bat",
     "checkver": {

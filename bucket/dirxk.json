@@ -11,8 +11,8 @@
     "url": "https://github.com/xk11z/dirxk/archive/refs/heads/main.zip",
     "hash": "f75afb1e7debbc659758b291625a3cd1cdb8577b6c00f53230b7484b31b0d5ae",
     "extract_dir": "dirxk-main",
-    "pre_install": "Set-Content \"$dir\\dirxk.bat\" '@pushd %~dp0\npython3 \"dirxk.py\" %*\n@popd' -Encoding Ascii",
-    "post_install": "pip3 install -r \"$dir\\requirements.txt\"",
+    "pre_install": "Set-Content \"$dir\\dirxk.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"dirxk.py\" %*\n@popd' -Encoding Ascii",
+    "post_install": "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
     "bin": "dirxk.bat",
     "checkver": {
         "url": "https://api.github.com/repos/xk11z/dirxk/commits",

@@ -6,7 +6,7 @@
     "suggest": {"python":["python3.8"]},
     "url": "https://github.com/mcw0/DahuaConsole/archive/refs/heads/master.zip",
     "hash":"e45562ba1e63f6a2849cd370204a7bcc556697a0782588f011d5f07cfa23cf7c",
-    "pre_install": "Set-Content \"$dir\\CVE-2021-36260.bat\" '@pushd %~dp0\npython3 Console.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\CVE-2021-36260.bat\" '@pushd %~dp0\n@call activate python3env\n@python Console.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\DahuaConsole-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\DahuaConsole-master\" -Force -Recurse",

@@ -10,11 +10,11 @@
     },
     "url": "https://github.com/tarunkant/Gopherus/archive/refs/heads/master.zip",
     "hash":"914f710ebf57f9976632e3f03eca6badd929b731d1ddcdd76d4da2719785e41c",
-    "pre_install": "Set-Content \"$dir\\gopherus.bat\" '@pushd %~dp0\npython2 gopherus.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\gopherus.bat\" '@pushd %~dp0\npython gopherus.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\Gopherus-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\Gopherus-master\" -Force -Recurse",
-        "pip2 install requests argparse"
+        "& cmd /c \"call activate python2env && pip install requests argparse\""
     ],
     "bin": "gopherus.bat",
     "checkver": {

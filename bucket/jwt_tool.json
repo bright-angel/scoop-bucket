@@ -18,7 +18,7 @@
         "@python jwt_tool.py %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": "pip3 install -r \"$dir\\requirements.txt\"",
+    "post_install": "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
     "bin": "jwt_tool.bat",
     "autoupdate": {
         "url": "https://github.com/ticarpi/jwt_tool/archive/refs/tags/v$version.zip",

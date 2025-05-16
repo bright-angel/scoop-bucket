@@ -14,11 +14,11 @@
     },
     "url": "https://github.com/tarihub/blackjump/archive/refs/heads/master.zip",
     "hash":"4cc65ce453cf38761aaecfeac38ca32196282cb879b25214a2ae974b4f33293c",
-    "pre_install": "Set-Content \"$dir\\blackjump.bat\" '@pushd %~dp0\npython3 blackjump.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\blackjump.bat\" '@pushd %~dp0\n@call activate python3env\n@python blackjump.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\blackjump-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\blackjump-main\" -Force -Recurse",
-        "pip3 install -r \"$dir\\requirements.txt\""
+        "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
     ],
     "bin": "blackjump.bat",
     "checkver": {

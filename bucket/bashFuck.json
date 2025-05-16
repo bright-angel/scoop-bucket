@@ -14,7 +14,7 @@
     },
     "url": "https://github.com/ProbiusOfficial/bashFuck/archive/refs/heads/master.zip",
     "hash":"339c2fd2904312c14d88c758ef55154391f41986303ed1190f613236217c0b9b",
-    "pre_install": "Set-Content \"$dir\\bashFuck.bat\" '@pushd %~dp0\npython3 bashFuck.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\bashFuck.bat\" '@pushd %~dp0\n@call activate python3env\n@python bashFuck.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\bashFuck-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\bashFuck-main\" -Force -Recurse"

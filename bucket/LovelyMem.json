@@ -20,7 +20,9 @@
         "@python \"main.py\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": "cmd /c call activate python3env && pip3 install -r \"$dir\\requirements.txt\"",
+    "post_install": [
+        "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
+    ],
     "bin": "LovelyMem.bat",
     "persist": [
         "Tools",

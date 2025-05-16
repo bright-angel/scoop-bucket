@@ -9,7 +9,7 @@
         ]
     },
     "url": "https://github.com/t3l3machus/psudohash/archive/refs/heads/main.zip",
-    "pre_install": "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0\npython3 \"psudohash.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"psudohash.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\psudohash-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\psudohash-main\" -Force -Recurse"

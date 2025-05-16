@@ -18,13 +18,13 @@
     "pre_install": [
         "Set-Content \"$dir\\blind-watermark_for_linyacool.bat\" '@pushd %~dp0",
         "@call activate python2env",
-        "@python2 decode.py %*",
+        "@python decode.py %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
         "Move-Item -Path \"$dir\\blind-watermark-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\blind-watermark-master\" -Force -Recurse",
-        "pip2 install numpy"
+        "& cmd /c \"call activate python2env && pip install numpy\""
     ],
     "bin": "blind-watermark_for_linyacool.bat",
     "checkver": {

@@ -14,7 +14,7 @@
 
     "url": "https://github.com/rtcatc/Packer-Fuzzer/archive/refs/heads/master.zip",
     "hash":"747a0a1dbbf7f931c8695a1bb4525fd345b163119d4c07624dff724da4bf6524",
-    "pre_install": "Set-Content \"$dir\\Packer-Fuzzer.bat\" '@pushd %~dp0\npython3 PackerFuzzer.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\Packer-Fuzzer.bat\" '@pushd %~dp0\n@call activate python3env\n@python PackerFuzzer.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\Packer-Fuzzer-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\Packer-Fuzzer-master\" -Force -Recurse",

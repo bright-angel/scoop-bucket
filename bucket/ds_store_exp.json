@@ -10,7 +10,7 @@
     },
     "url": "https://github.com/lijiejie/ds_store_exp/archive/refs/heads/master.zip",
     "hash":"2f13c2ec1732a84d25ffa8c1b936b08ef822a5392b38444d1ce8a109fafa30c5",
-    "pre_install": "Set-Content \"$dir\\ds_store_exp.bat\" '@pushd %~dp0\npython3 ds_store_exp.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\ds_store_exp.bat\" '@pushd %~dp0\n@call activate python3env\n@python ds_store_exp.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\ds_store_exp-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\ds_store_exp-master\" -Force -Recurse",

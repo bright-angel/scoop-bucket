@@ -17,7 +17,7 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "pip3 install -r \"$dir\\requirements.txt\""
+        "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
     ],
     "extract_dir":"AppInfoScanner-master",
     "bin": "AppInfoScanner.bat",

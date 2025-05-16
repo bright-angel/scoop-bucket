@@ -9,7 +9,7 @@
         ]
     },
     "url": "https://github.com/H4ckForJob/dirmap/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\dirmap.bat\" '@pushd %~dp0\npython3 \"dirmap.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\dirmap.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"dirmap.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\dirmap-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\dirmap-master\" -Force -Recurse",
