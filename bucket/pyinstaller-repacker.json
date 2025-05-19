@@ -17,8 +17,8 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\pyinstxtractor-repacker-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\pyinstxtractor-repacker-main\" -Force -Recurse",
+        "Move-Item -Path \"$dir\\pyinstaller-repacker-main\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\pyinstaller-repacker-main\" -Force -Recurse",
         "& cmd /c \"call activate python3env && pip install lief lxml\""
     ],
     "bin": "pyinstxtractor-repacker.bat",
