@@ -9,9 +9,10 @@
         ]
     },
     "url": "https://github.com/libaibaia/cloudSec/releases/download/v1.2.2/cloudSec-1.2.2-SNAPSHOT.jar#/cloudSec.jar",
-    "hash": "68acecfe2169324fbe9cd6c4ed14a49e1390344a541ca755820e5e34b233ba35",
+    "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\cloudSec.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@cmd /c java.exe -jar \"cloudSec.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
