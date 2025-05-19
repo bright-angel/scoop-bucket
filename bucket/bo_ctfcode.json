@@ -35,6 +35,6 @@
         "regex": "download/bo_ctfcode/CTF\\.V([\\d\\.]+)\\.(?<commit>\\d{8})\\.rar"
     },
     "autoupdate": {
-        "url": "https://github.com/bright-angel/file/releases/download/bo_ctfcode/CTF.V$$version.$matchCommit.rar"
+        "url": "https://github.com/bright-angel/file/releases/download/bo_ctfcode/CTF.V$version.$matchCommit.rar"
     }
 }
