@@ -4,11 +4,14 @@
     "notes": "windows 日志分析",
     "homepage": "https://github.com/BoyChai/FuckEventvwr",
     "license": "unknown",
-    "url": "https://github.com/BoyChai/FuckEventvwr/releases/download/v0.2.1/FuckEventvwr-v0.2.1-windows-amd64.zip",
+    "url": "https://github.com/BoyChai/FuckEventvwr/releases/download/v0.2.1/FuckEventvwr-eb70008-windows-amd64.zip",
     "hash": "",
     "bin": "FuckEventvwr.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/BoyChai/FuckEventvwr/releases/latest",
+        "regex": "download/(v[\\d\\.]+)/FuckEventvwr-(?<tag>\\d{8}).zip"
+    },
     "autoupdate": {
-        "url": "https://github.com/BoyChai/FuckEventvwr/releases/download/v$version/FuckEventvwr-v$version-windows-amd64.zip"
+        "url": "https://github.com/BoyChai/FuckEventvwr/releases/download/v$version/FuckEventvwr-$matchTag-windows-amd64.zip"
     }
 }
