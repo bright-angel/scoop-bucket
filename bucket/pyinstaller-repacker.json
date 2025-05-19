@@ -11,7 +11,7 @@
     "url": "https://github.com/pyinstxtractor/pyinstaller-repacker/archive/refs/heads/master.zip",
     "hash": "",
     "pre_install": [
-        "Set-Content \"$dir\\pyinstxtractor-repacker.bat\" '@pushd %~dp0",
+        "Set-Content \"$dir\\pyinstaller-repacker.bat\" '@pushd %~dp0",
         "@call activate python3env",
         "@python \"pyinstxtractor-repacker.py\" %*",
         "@popd' -Encoding Ascii"
@@ -21,7 +21,7 @@
         "Remove-Item \"$dir\\pyinstaller-repacker-main\" -Force -Recurse",
         "& cmd /c \"call activate python3env && pip install lief lxml\""
     ],
-    "bin": "pyinstxtractor-repacker.bat",
+    "bin": "pyinstaller-repacker.bat",
     "checkver": {
         "url": "https://api.github.com/repos/pyinstxtractor/pyinstaller-repacker/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
