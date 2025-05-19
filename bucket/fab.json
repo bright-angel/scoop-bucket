@@ -4,7 +4,7 @@
     "homepage": "https://www.sordum.org/downloads/?firewall-app-blocker",
     "license": "UNKNOWN",
     "url": "https://www.sordum.org/files/download/firewall-app-blocker/fab.zip",
-    "hash": "740f0d1c07603c4b815d0796e487b7eff0d909a4aa640001f43d08106f691a5e",
+    "hash": "",
     "extract_dir": "fab",
     "architecture": {
         "32bit": {
