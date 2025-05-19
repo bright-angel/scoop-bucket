@@ -4,7 +4,7 @@
     "homepage": "https://www.disktool.cn",
     "license": "unknown",
     "url": "https://www.disktool.cn/go/download/PAGreen.zip",
-    "hash": "168450d7c6f709fc3c146d75e96575bc384af449a382e0ee9c01ac50c14fff02",
+    "hash": "",
     "extract_dir": "PA_Green",
     "checkver": {
         "url": "https://www.disktool.cn/download.html",
