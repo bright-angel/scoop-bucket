@@ -12,8 +12,8 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v0.0.14/SpringBootVul_GUI.zip",
-    "hash": "79d645b89461ff6926e8dfcfeabbaa16c2015b80858609331fd008ff05fb25d6",
+    "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v0.0.14/SpringBootVul-GUI.zip",
+    "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\SpringBootVul-GUI.bat\" '@pushd %~dp0",
         "@call oraclejre8",
@@ -23,6 +23,6 @@
     "bin": "SpringBootVul-GUI.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v$version/SpringBootVul_GUI.zip"
+        "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v$version/SpringBootVul-GUI.zip"
     }
 }
