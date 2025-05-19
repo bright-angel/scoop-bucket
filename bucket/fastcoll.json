@@ -5,6 +5,6 @@
     "license": "https://www.win.tue.nl/hashclash/",
     "url": "https://github.com/bright-angel/file/releases/download/fastcoll/fastcoll_v1.0.0.5.exe#/fastcoll.exe",
     "hash":"",
-    "bin": "fastcoll.exe",
+    "bin": "fastcoll.exe"
 
 }
