@@ -24,7 +24,7 @@
     "post_install": [
         "Move-Item -Path \"$dir\\blind_watermark-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\blind_watermark-master\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install blind-watermark -U"
+        "& cmd /c \"call activate python3env && pip install blind-watermark -U\""
     ],
     "bin": "blind-watermark.bat",
     "checkver": {
