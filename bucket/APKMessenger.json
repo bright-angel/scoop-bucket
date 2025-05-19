@@ -18,5 +18,6 @@
     "license": "UNKNOWN",
     "url": "https://github.com/bright-angel/file/releases/download/APKMessenger/APK.Messenger4.3.7z",
     "hash": "",
+    "extract_dir": "APK Messenger",
     "bin": "APK Messenger.exe"
 }
