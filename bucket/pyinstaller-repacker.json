@@ -13,7 +13,7 @@
     "pre_install": [
         "Set-Content \"$dir\\pyinstaller-repacker.bat\" '@pushd %~dp0",
         "@call activate python3env",
-        "@python \"pyinstxtractor-repacker.py\" %*",
+        "@python \"pyinst-repacker.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
