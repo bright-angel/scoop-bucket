@@ -4,11 +4,11 @@
     "notes": "网址导航、工具导航、信息查询、信息处理、编码解码、随机生成、免杀生成",
     "homepage": "https://github.com/doki-byte/EasyTools",
     "license": "UNKNOWN",
-    "url": "https://github.com/doki-byte/EasyTools/releases/download/v1.7.3/EasyTools.exe",
+    "url": "https://github.com/doki-byte/EasyTools/releases/download/v1.7.3/EasyTools_With_HeidiSQL.zip",
     "hash": "",
     "bin": "EasyTools.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/doki-byte/EasyTools/releases/download/v$version/EasyTools.exe"
+        "url": "https://github.com/doki-byte/EasyTools/releases/download/v$version/EasyTools_With_HeidiSQL.zip"
     }
 }
