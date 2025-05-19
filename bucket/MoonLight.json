@@ -4,7 +4,7 @@
     "homepage": "https://github.com/MKID1412/MoonLight",
     "license": "unknown",
     "url": "https://github.com/MKID1412/MoonLight/releases/download/v1.0/MoonLight.zip",
-    "hash": "bec303a1eb8a78c50e923ab264da440d53e6494f867a5187acdf625b54d57507",
+    "hash": "",
     "extract_dir":"github.MoonLight",
     "bin":"MoonLight.exe",
     "checkver": "github",
