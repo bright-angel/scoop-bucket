@@ -13,7 +13,7 @@
         ]
     },
     "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0\n@python manage.py runserver 0.0.0.0:8000 %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0\n@call activate python2env\n@python manage.py runserver 0.0.0.0:8000 %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\xssor2-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\xssor2-master\" -Force -Recurse",

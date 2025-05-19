@@ -9,7 +9,7 @@
         ]
     },
     "url": "https://github.com/codingo/NoSQLMap/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\nosqlmap.bat\" '@pushd %~dp0\n@python nosqlmap.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\nosqlmap.bat\" '@pushd %~dp0\n@call activate python2env\n@python nosqlmap.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\nosqlmap-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\nosqlmap-master\" -Force -Recurse",
