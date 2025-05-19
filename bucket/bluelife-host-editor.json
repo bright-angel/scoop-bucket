@@ -29,7 +29,7 @@
         }
     },
     "url": "https://www.sordum.org/files/download/host-editor/HostsEditor.zip",
-    "hash": "e554bcd221c886418591fb3335431247993dea2cfac10f223f5f6ebddc9c1ae4",
+    "hash": "",
     "extract_dir": "HostsEditor_v1.6",
     "persist": "hEdit.ini",
     "checkver": {
