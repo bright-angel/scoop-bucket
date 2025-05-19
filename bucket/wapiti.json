@@ -12,7 +12,7 @@
     "url": "https://github.com/wapiti-scanner/wapiti/releases/download/3.2.4/wapiti3-3.2.4.tar.gz",
     "hash": "55fff320689a9c900182ffb3f9a4d58d1568343fdd44a3e9875706fee9b11197",
     "extract_dir": "wapiti3-3.1.7",
-    "post_install": "pip3 install Wapiti3",
+    "post_install": "& cmd /c \"call activate python3env && pip install Wapiti3\"",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wapiti-scanner/wapiti/releases/download/$version/wapiti3-$version.tar.gz"

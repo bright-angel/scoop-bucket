@@ -14,7 +14,7 @@
         "Move-Item -Path \"$dir\\pyshell-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\pyshell-main\" -Force -Recurse",
         "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
-        "pip3 install pyreadline3"
+        "& cmd /c \"call activate python3env && pip install pyreadline3\""
     ],
     "bin": "pyshell.bat"
 }

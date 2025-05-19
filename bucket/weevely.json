@@ -17,7 +17,7 @@
         "Move-Item -Path \"$dir\\weevely3-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\weevely3-master\" -Force -Recurse",
         "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
-        "pip3 install pyreadline3"
+        "& cmd /c \"call activate python3env && pip install pyreadline3\""
     ],
     "bin": "weevely.bat"
 }

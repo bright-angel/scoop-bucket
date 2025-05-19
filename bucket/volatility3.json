@@ -16,7 +16,7 @@
         "@python vol.py %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": "pip3 install -r (Join-Path $dir \"requirements.txt\")",
+    "post_install": "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
     "bin": "vol3.bat",
     "checkver": "github",
     "autoupdate": {
