@@ -1,5 +1,5 @@
 {
-    "version": "0.94",
+    "version": "0.95",
     "description": "基于Memprocfs和Volatility的可视化内存取证工具",
     "notes": [
         "内存取证",
@@ -11,18 +11,16 @@
     "suggest": {
         "python": "miniconda3"
     },
-    "url": "https://github.com/Tokeii0/LovelyMem/archive/refs/tags/v0.94.zip",
-    "hash": "6c1d667c1be1856ef6ab7a64d0b8f00a896d3b58efb6e7b4c64b0326336f2bab",
-    "extract_dir": "LovelyMem-0.94",
+    "url": "https://github.com/Tokeii0/LovelyMem/archive/refs/tags/v0.95.zip",
+    "hash": "bd80714bf7f5bc007572122fb5ff5cc09bf24297a7249301395b56460d273e93",
+    "extract_dir": "LovelyMem-0.95",
     "pre_install": [
         "Set-Content \"$dir\\LovelyMem.bat\" '@pushd %~dp0",
         "@call activate python3env",
         "@python \"main.py\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": [
-        "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
-    ],
+    "post_install": "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
     "bin": "LovelyMem.bat",
     "persist": [
         "Tools",
