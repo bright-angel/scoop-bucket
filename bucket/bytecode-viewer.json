@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Bytecode-Viewer.bat",
+    "shortcuts": [
+        [
+            "Bytecode-Viewer.bat",
+            "Bytecode-Viewer"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v$version/Bytecode-Viewer-$version.jar#/Bytecode-Viewer.jar"

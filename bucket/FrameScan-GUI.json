@@ -7,6 +7,12 @@
     "hash": "385334005a9c1cb1dfc218c153119b26129d303190eb98c82daad3c0908f4881",
     "pre_install": "Set-Content \"$dir\\FrameScan-GUI.bat\" '@pushd %~dp0\n@start FrameScan-GUI.exe %*\n@popd' -Encoding Ascii",
     "bin":"FrameScan-GUI.bat",
+    "shortcuts": [
+        [
+            "FrameScan-GUI.bat",
+            "FrameScan-GUI"
+        ]
+    ],
     "persist": [
         "Conf"
     ],

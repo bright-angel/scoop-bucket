@@ -18,6 +18,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "ctf-knife.bat",
+    "shortcuts": [
+        [
+            "ctf-knife.bat",
+            "ctf-knife"
+        ]
+    ],
     "persist": "Conf",
     "checkver": "github",
     "autoupdate": {

@@ -9,5 +9,11 @@
     "url": "https://github.com/foryujian/yjdirscan/releases/download/yjdirscan/yjdirscanv1.1.gui.zip",
     "hash": "6f1dd9f1e061e33c48aac5871a0504f05ee31abc2574243a8a4b24b8fed9cfe0",
     "extract_dir": "yjdirscanv1.1(gui)",
-    "bin": "御剑目录扫描专业版v1.1.exe"
+    "bin": "御剑目录扫描专业版v1.1.exe",
+    "shortcuts": [
+        [
+            "御剑目录扫描专业版v1.1.exe",
+            "御剑目录扫描专业版"
+        ]
+    ],
 }

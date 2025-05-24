@@ -6,5 +6,11 @@
     "url": "https://github.com/kunwu2023/kunwu/releases/download/0.1.0/WebShell._0.1.1_windows_amd64_gui.zip",
     "hash": "7a5aa8ce662797155c6360da331c1a8e0b9f0d237785da24435667aba86ff2fd",
     "extract_dir":"win-unpacked",
-    "bin":"昆吾WebShell检测.exe"
+    "bin":"昆吾WebShell检测.exe",
+    "shortcuts": [
+        [
+            "昆吾WebShell检测.exe",
+            "kunwu"
+        ]
+    ]
 }

@@ -18,6 +18,12 @@
     ],
     "extract_dir":"",
     "bin": "MemShellGene.bat",
+    "shortcuts": [
+        [
+            "MemShellGene.bat",
+            "MemShellGene"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/suizhibo/MemShellGene/releases/latest",
         "jsonpath": "$.tag_name",

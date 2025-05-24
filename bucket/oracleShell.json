@@ -21,6 +21,12 @@
         "Remove-Item \"$dir\\oracleShell-master\" -Force -Recurse"
     ],
     "bin": "oracleShell.bat",
+    "shortcuts": [
+        [
+            "oracleShell.bat",
+            "oracleShell"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/jas502n/oracleShell/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

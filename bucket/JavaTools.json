@@ -39,6 +39,24 @@
         "ShiroExploit.bat",
         "DirScan.bat"
     ],
+    "shortcuts": [
+        [
+            "JBossExploit.bat",
+            "JavaTools\\JBossExploit"
+        ],
+        [
+            "MySQLMonitor.bat",
+            "JavaTools\\MySQLMonitor"
+        ],
+        [
+            "ShiroExploit.bat",
+            "JavaTools\\ShiroExploit"
+        ],
+        [
+            "DirScan.bat",
+            "JavaTools\\DirScan"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/fupinglee/JavaTools/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "PostHikvision.bat",
+    "shortcuts": [
+        [
+            "PostHikvision.bat",
+            "PostHikvision"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Conan924/PostHikvision/releases/download/V$version/PostHikvision.jar"

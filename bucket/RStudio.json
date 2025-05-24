@@ -10,6 +10,12 @@
     "hash": "a063309b7c1b09b6525e46998b0ee6c1761340dc64003539297530518a4e34d0",
     "extract_dir":"RStudio_9.4.191460_Portable\\R-Studio",
     "bin":"RStudioPortable.exe",
+    "shortcuts": [
+        [
+            "RStudioPortable.exe",
+            "RStudio"
+        ]
+    ],
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/RStudio",
         "regex": "download/RStudio/RStudio_([\\d.]+)_Portable.7z"

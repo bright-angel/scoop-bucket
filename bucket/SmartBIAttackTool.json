@@ -20,5 +20,11 @@
         "@start javaw.exe -jar \"SmartBIAttackTool.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "SmartBIAttackTool.bat"
+    "bin": "SmartBIAttackTool.bat",
+    "shortcuts": [
+        [
+            "SmartBIAttackTool.bat",
+            "SmartBIAttackTool"
+        ]
+    ]
 }

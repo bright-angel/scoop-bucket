@@ -18,6 +18,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "MDUT.bat",
+    "shortcuts": [
+        [
+            "MDUT.bat",
+            "MDUT"
+        ]
+    ],
     "persist": [
         "data.db",
         "config.yaml"

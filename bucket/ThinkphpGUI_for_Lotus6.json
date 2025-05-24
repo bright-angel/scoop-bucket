@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "ThinkphpGUI_for_Lotus6.bat",
+    "shortcuts": [
+        [
+            "ThinkphpGUI_for_Lotus6.bat",
+            "ThinkphpGUI_for_Lotus6"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Lotus6/ThinkphpGUI/releases/download/$version/ThinkphpGUI-$version-SNAPSHOT.jar#/ThinkphpGUI.jar"

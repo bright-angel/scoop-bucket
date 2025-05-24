@@ -6,5 +6,11 @@
     "url": "https://github.com/Cherrison/CrackMinApp/archive/refs/heads/master.zip",
     "hash": "42e55222701772fef5715db99477c0880bc5cdb3d2e0c5954f3bb73c422dbd0b",
     "extract_dir":"CrackMinApp-master",
-    "bin":"CrackMinApp.exe"
+    "bin":"CrackMinApp.exe",
+    "shortcuts": [
+        [
+            "CrackMinApp.exe",
+            "CrackMinApp"
+        ]
+    ]
 }

@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "xxl-job-exp.bat",
+    "shortcuts": [
+        [
+            "xxl-job-exp.bat",
+            "xxl-job-exp"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Anthony558238/xxl-job-exp/releases/download/v$version/xxl-job-exp-$version-SNAPSHOT.jar#/xxl-job-exp.jar"

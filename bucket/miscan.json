@@ -7,6 +7,12 @@
     "hash": "13892ae74c51bbec6ac83c37d4368eee9f99a83b3992feb99803c3972f75d446",
     "extract_dir":"miscan_win",
     "bin": "miscan.exe",
+    "shortcuts": [
+        [
+            "miscan.exe",
+            "Miscan"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/mifine666/miscan/releases/download/v$version/miscan_win.zip"

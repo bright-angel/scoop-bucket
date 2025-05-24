@@ -20,5 +20,11 @@
         "@start javaw.exe -jar \"ActiveMQ_RCE_GUI.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "ActiveMQ_RCE_GUI.bat"
+    "bin": "ActiveMQ_RCE_GUI.bat",
+    "shortcuts": [
+        [
+            "ActiveMQ_RCE_GUI.bat",
+            "ActiveMQ_RCE_Pro_Max"
+        ]
+    ]
 }

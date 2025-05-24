@@ -20,5 +20,11 @@
         "@start javaw.exe -jar \"shiro_tool.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "shiro_tool.bat"
+    "bin": "shiro_tool.bat",
+    "shortcuts": [
+        [
+            "shiro_tool.bat",
+            "shiro_tool"
+        ]
+    ]
 }

@@ -7,6 +7,12 @@
     "hash": "585440fdc334d8244e872d3391ae77ab6d3428f551892bc787729c357c177cf5",
     "extract_dir":"FileAnalysis",
     "bin": "FileAnalysis.exe",
+    "shortcuts": [
+        [
+            "FileAnalysis.exe",
+            "FileAnalysis"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Pascal-Lin/FileAnalysis/releases/download/$version/FileAnalysis_v$version.zip",

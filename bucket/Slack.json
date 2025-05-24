@@ -10,6 +10,12 @@
     "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack2.1.1/Slack-windows-amd64.exe#/Slack.exe",
     "hash": "96e12a60dc08da8759d896c5cf7b1f59edb2cd827b9a2370a31ab03bd3574b26",
     "bin": "Slack.exe",
+    "shortcuts": [
+        [
+            "Slack.exe",
+            "Slack"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/qiwentaidi/Slack/releases/latest",
         "jsonpath": "$.tag_name",

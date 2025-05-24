@@ -26,5 +26,11 @@
     "autoupdate": {
         "url": "https://yaklang.oss-cn-beijing.aliyuncs.com/yak/$version/yak_windows_amd64.exe#/yak.exe"
     },
-    "bin": "yak.exe"
+    "bin": "yak.exe",
+    "shortcuts": [
+        [
+            "yak.exe",
+            "yak"
+        ]
+    ],
 }

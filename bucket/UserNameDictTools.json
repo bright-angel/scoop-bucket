@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "UserNameDictTools.bat",
+    "shortcuts": [
+        [
+            "UserNameDictTools.bat",
+            "UserNameDictTools"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/abc123info/UserNameDictTools/releases/latest",
         "jsonpath": "$.tag_name",

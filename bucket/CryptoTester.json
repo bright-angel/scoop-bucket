@@ -6,6 +6,12 @@
     "url": "https://github.com/Demonslay335/CryptoTester/releases/download/v1.7.2.0/CryptoTester.zip",
     "hash": "3440ff6d2bb4f160709221fb3df8dae0c4a0f9c61414e4ea15c776b153431cca",
     "bin": "CryptoTester.exe",
+    "shortcuts": [
+        [
+            "CryptoTester.exe",
+            "CryptoTester"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Demonslay335/CryptoTester/releases/download/v$version/CryptoTester.zip"

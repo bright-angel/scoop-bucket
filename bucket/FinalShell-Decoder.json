@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "FinalShell-Decoder.bat",
+    "shortcuts": [
+        [
+            "FinalShell-Decoder.bat",
+            "FinalShell-Decoder"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/passer-W/FinalShell-Decoder/releases/download/V1.0/FinalShell-Decoder.jar"

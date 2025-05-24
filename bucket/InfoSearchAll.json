@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "InfoSearchAll.bat",
+    "shortcuts": [
+        [
+            "InfoSearchAll.bat",
+            "InfoSearchAll"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/ExpLangcn/InfoSearchAll/releases/download/V$version/InfoSearchAll_JDK8.zip"

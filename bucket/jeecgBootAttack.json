@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "jeecgBootAttack.bat",
+    "shortcuts": [
+        [
+            "jeecgBootAttack.bat",
+            "jeecgBootAttack"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/7wkajk/jeecgBootAttack/releases/download/v$version/jeecgBootAttack-$version-jar-with-dependencies.jar#/jeecgBootAttack.jar"

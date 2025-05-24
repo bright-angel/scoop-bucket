@@ -7,6 +7,12 @@
     "hash":"9E20F3C5A7704B98186EBFC9CE81BEBCA888275C4AB66A59BA11A45BE59DDB99",
     "extract_dir":"Navicat Premium_17.1.12_Green",
     "bin": "navicat.exe",
+    "shortcuts": [
+        [
+            "navicat.exe",
+            "Navicat Premium"
+        ]
+    ],
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/Navicat_Premium",
         "regex": "Navicat_Premium_([\\d\\.]+)_Green\\.7z"

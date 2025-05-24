@@ -7,6 +7,12 @@
     "url": "https://github.com/doki-byte/EasyTools/releases/download/v1.7.3/EasyTools_With_HeidiSQL.zip",
     "hash": "",
     "bin": "EasyTools.exe",
+    "shortcuts": [
+        [
+            "EasyTools.exe",
+            "EasyTools"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/doki-byte/EasyTools/releases/download/v$version/EasyTools_With_HeidiSQL.zip"

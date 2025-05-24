@@ -21,6 +21,12 @@
     ],
     "extract_dir":"forBy-main",
     "bin": "forBy.bat",
+    "shortcuts": [
+        [
+            "forBy.bat",
+            "forBy"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Scorcsoft/forBy/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

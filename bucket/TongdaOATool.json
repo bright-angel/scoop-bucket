@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "TongdaOATool.bat",
+    "shortcuts": [
+        [
+            "TongdaOATool.bat",
+            "TongdaOATool"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xiaokp7/TongdaOATool/releases/download/v$version/TongdaTools.jar"

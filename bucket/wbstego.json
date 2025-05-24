@@ -9,5 +9,11 @@
     "license": "unknow",
     "url": "https://www.bailer.at/wbstego/wbs43open-win32.zip",
     "hash": "5b74b0da05ed2bc54bd554ef644b65183d9fbcbef99f7de9c4ca900d74745234",
-    "bin": "wbStego4.3open.exe"
+    "bin": "wbStego4.3open.exe",
+    "shortcuts": [
+        [
+            "wbStego4.3open.exe",
+            "wbStego"
+        ]
+    ],
 }

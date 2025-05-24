@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "ThinkphpGUI_for_AgonySec.bat",
+    "shortcuts": [
+        [
+            "ThinkphpGUI_for_AgonySec.bat",
+            "ThinkphpGUI_for_AgonySec"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/AgonySec/ThinkPHPGUI/releases/latest",
         "jsonpath": "$.tag_name",

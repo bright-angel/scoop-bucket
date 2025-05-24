@@ -5,5 +5,11 @@
     "license": "UNKNOWN",
     "url": "https://github.com/bright-angel/file/releases/download/QR_Research/QR_Research-1.0.zip",
     "hash": "7ed0cba8ad623016ad687799ec54b30cd257a90b0653ed144ce3f35f6cfb8d8c",
-    "bin": "CQR.exe"
+    "bin": "CQR.exe",
+    "shortcuts": [
+        [
+            "CQR.exe",
+            "QR_Research"
+        ]
+    ]
 }

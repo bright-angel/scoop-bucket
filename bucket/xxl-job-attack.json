@@ -20,6 +20,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "xxl-job-attack.bat",
+    "shortcuts": [
+        [
+            "xxl-job-attack.bat",
+            "xxl-job-attack"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/pureqh/xxl-job-attack/releases/latest",
         "jsonpath": "$.tag_name",

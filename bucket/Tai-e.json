@@ -19,6 +19,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "tai-e.bat",
+    "shortcuts": [
+        [
+            "tai-e.bat",
+            "Tai-e"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/pascal-lab/Tai-e/releases/download/v$version/tai-e-all-$version.jar#/tai-e.jar"

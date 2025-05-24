@@ -10,6 +10,12 @@
     "hash": "449e43809d544fd5fe48ae8bf03ef3cfa7baa1b627dad39635b1feaa54965eb6",
     "extract_dir": "BE-BerylEnigma",
     "bin":"BE-BerylEnigma.exe",
+    "shortcuts": [
+        [
+            "BE-BerylEnigma.exe",
+            "BerylEnigma"
+        ]
+    ],
     "checkver":"github",
     "autoupdate": {
         "url": "https://github.com/ffffffff0x/BerylEnigma/releases/download/$version/BE-BerylEnigma-win.zip"

@@ -22,6 +22,12 @@
         "& cmd /c \"call activate python3env && pip install opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 pyside6 numpy\""
     ],
     "bin": "LoveLy-QRCode-Scanner.bat",
+    "shortcuts": [
+        [
+            "LoveLy-QRCode-Scanner.bat",
+            "LoveLy-QRCode-Scanner"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Tokeii0/LoveLy-QRCode-Scanner/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

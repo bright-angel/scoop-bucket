@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "poc2jar.bat",
+    "shortcuts": [
+        [
+            "poc2jar.bat",
+            "poc2jar"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/f0ng/poc2jar/releases/download/$version/poc2jar-WINDOWS.zip"

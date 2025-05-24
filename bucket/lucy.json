@@ -6,6 +6,12 @@
     "url": "https://github.com/bright-angel/file/releases/download/Lucy/Lucy.v1.8.6.rar",
     "hash": "B062D825D3568AC52C5462F11544D2953F0301720CAC4BB84F2AD1CD66342A88",
     "bin":"Lucy_x64.exe",
+    "shortcuts": [
+        [
+            "Lucy_x64.exe",
+            "Lucy"
+        ]
+    ],
     "persist": [
         "db",
         "icons"

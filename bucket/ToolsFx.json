@@ -16,6 +16,12 @@
     "hash": "fe5c062e037ee762079d356a6a4fc78ef2246b6ba954052238defc11b77b31f1",
     "extract_dir": "ToolsFx-1.18.0-jdk8-all-platform",
     "bin": "ToolsFx.vbs",
+    "shortcuts": [
+        [
+            "ToolsFx.vbs",
+            "ToolsFx"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-jdk8-all-platform.zip",

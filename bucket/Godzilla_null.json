@@ -18,5 +18,11 @@
         "if (!(Test-Path \"$persist_dir\\data.db\")) { New-Item \"$dir\\data.db\" | Out-Null }"
     ],
     "bin": "Godzilla_null.bat",
+    "shortcuts": [
+        [
+            "Godzilla_null.bat",
+            "Godzilla_null"
+        ]
+    ],
     "persist": "data.db"
 }

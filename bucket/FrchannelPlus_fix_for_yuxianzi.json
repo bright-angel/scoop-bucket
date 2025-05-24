@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "FrchannelPlus_fix_for_yuxianzi.bat",
+    "shortcuts": [
+        [
+            "FrchannelPlus_fix_for_yuxianzi.bat",
+            "FrchannelPlus_fix_for_yuxianzi"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/yuxianzi/FrchannelPlus/releases/download/$version/FrChannel.jar"

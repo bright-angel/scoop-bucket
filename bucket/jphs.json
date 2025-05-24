@@ -10,5 +10,15 @@
         "jphide.exe",
         "jpseek.exe"
 
+    ],
+    "shortcuts": [
+        [
+            "Jphswin.exe",
+            "JPHid"
+        ],
+        [
+            "jpseek.exe",
+            "Seek"
+        ]
     ]
 }

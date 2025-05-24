@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Tomcat_PUT_EXP.bat",
+    "shortcuts": [
+        [
+            "Tomcat_PUT_EXP.bat",
+            "Tomcat_PUT_EXP"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP/releases/download/$version/Tomcat_PUT_EXP_V$version.jar#/Tomcat_PUT_EXP.jar"

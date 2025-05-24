@@ -21,5 +21,11 @@
         "@start javaw.exe -jar \"zookeeper-dev-ZooInspector.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "ZooInspector.bat"
+    "bin": "ZooInspector.bat",
+    "shortcuts": [
+        [
+            "ZooInspector.bat",
+            "ZooInspector"
+        ]
+    ]
 }

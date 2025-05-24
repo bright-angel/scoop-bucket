@@ -21,6 +21,15 @@
         "Remove-Item \"$dir\\railgun\" -Force -Recurse",
         "Remove-Item \"$dir\\Railgun.zip1\" -Force"
     ],
+    "bin": [
+        "railgun.exe"
+    ],
+    "shortcuts": [
+        [
+            "railgun.exe",
+            "Railgun"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/lz520520/railgun/releases/latest",
         "jsonpath": "$.tag_name",

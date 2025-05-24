@@ -23,6 +23,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "shiro_attack.bat",
+    "shortcuts": [
+        [
+            "shiro_attack.bat",
+            "shiro_attack"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/SummerSec/ShiroAttack2/releases/download/$version/shiro_attack-$version-SNAPSHOT-all.zip"

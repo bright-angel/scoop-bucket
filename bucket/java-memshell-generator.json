@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "java-memshell-generator.bat",
+    "shortcuts": [
+        [
+            "java-memshell-generator.bat",
+            "Java Memshell Generator"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/pen4uin/java-memshell-generator/releases/latest",
         "jsonpath": "$.tag_name",

@@ -18,6 +18,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "CTFCrackTools.bat",
+    "shortcuts": [
+        [
+            "CTFCrackTools.bat",
+            "CTFCrackTools"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/0Chencc/CTFCrackTools/releases/download/$version/CTFCrackTools.7z"

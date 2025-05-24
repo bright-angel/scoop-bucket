@@ -22,6 +22,12 @@
     ],
     "post_install": "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\"",
     "bin": "LovelyMem.bat",
+    "shortcuts": [
+        [
+            "LovelyMem.bat",
+            "LovelyMem"
+        ]
+    ],
     "persist": [
         "Tools",
         "config"

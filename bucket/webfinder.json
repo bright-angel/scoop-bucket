@@ -20,5 +20,11 @@
         "@start javaw.exe -jar \"webfinder.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "webfinder.bat"
+    "bin": "webfinder.bat",
+    "shortcuts": [
+        [
+            "webfinder.bat",
+            "webfinder"
+        ]
+    ]
 }

@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "shiro-decrypt.bat",
+    "shortcuts": [
+        [
+            "shiro-decrypt.bat",
+            "ShiroDecrypter"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Ormicron/ShiroDecrypter/releases/download/$version/shiro-decrypt.jar"

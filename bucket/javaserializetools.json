@@ -5,5 +5,12 @@
     "license": "UNKNOW",
     "url": "https://github.com/shack2/javaserializetools/releases/download/1.0.20190828/Java.V1.7.zip",
     "hash": "b226d970b858a1a7c0e3e881fb07f1de6ee7a7ba2374e740a4e72ca0a2922ff7",
-    "bin": "Java反序列化漏洞利用工具V1.7.jar"
+    "bin": "Java反序列化漏洞利用工具V1.7.jar",
+    "shortcuts": [
+        [
+            "Java反序列化漏洞利用工具V1.7.jar",
+            "Java反序列化漏洞利用工具V1.7"
+        ]
+    ]
+
 }

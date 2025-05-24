@@ -7,6 +7,12 @@
     "hash": "9D41015EDEB3974C5808112509C35A8FB0823BE102FC4635C452073A33FDCD68",
     "extract_dir":"Beyond_Compare_5.0.6.30713_64bit_Green\\BCompare",
     "bin":"BCompare.exe",
+    "shortcuts": [
+        [
+            "BCompare.exe",
+            "Beyond Compare"
+        ]
+    ],
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/Beyond_Compare",
         "regex": "download/Beyond_Compare/Beyond_Compare_([\\d.]+)_64bit_Green.7z"

@@ -15,6 +15,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "SRK-Toolbox.bat",
+    "shortcuts": [
+        [
+            "SRK-Toolbox.bat",
+            "SRK-Toolbox"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Raka-loah/SRK-Toolbox/releases/download/v$version/SRK_Toolbox_v$version.zip"

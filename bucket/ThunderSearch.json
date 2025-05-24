@@ -6,6 +6,12 @@
     "url": "https://github.com/xzajyjs/ThunderSearch/releases/download/v2.5.1/ThunderSearch_win.zip",
     "hash": "ac4dd8010252b197485eaba1f9109fadd9788396906145f5c23238902cf18545",
     "bin": "ThunderSearch.exe",
+    "shortcuts": [
+        [
+            "ThunderSearch.exe",
+            "ThunderSearch"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xzajyjs/ThunderSearch/releases/download/v$version/ThunderSearch_win.zip"

@@ -26,6 +26,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "YYBaby-Spring_Scan.bat",
+    "shortcuts": [
+        [
+            "YYBaby-Spring_Scan.bat",
+            "YYBaby-Spring_Scan"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/CllmsyK/YYBaby-Spring_Scan/releases/latest",
         "jsonpath": "$.tag_name",

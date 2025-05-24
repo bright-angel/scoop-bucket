@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Behinder_for_t00ls.bat",
+    "shortcuts": [
+        [
+            "Behinder_for_t00ls.bat",
+            "Behinder_for_t00ls"
+        ]
+    ],
     "persist": "data.db"
 }
 

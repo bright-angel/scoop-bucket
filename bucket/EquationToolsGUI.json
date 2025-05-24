@@ -25,6 +25,12 @@
     ],
     "hash": "b8e30e5fb195d0d7d1e9e3e1b2322aa5471647412c30c23c7bcf9d07cdd3f9cc",
     "bin": "EquationToolsGUI.bat",
+    "shortcuts": [
+        [
+            "EquationToolsGUI.bat",
+            "EquationToolsGUI"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/abc123info/EquationToolsGUI/releases/download/V$verison/EquationToolsGUI_V$version.zip#/EquationToolsGUI.zip1"

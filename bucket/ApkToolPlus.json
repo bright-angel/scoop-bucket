@@ -19,5 +19,11 @@
         "@start javaw.exe -jar \"ApkToolPlus.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "ApkToolPlus.bat"
+    "bin": "ApkToolPlus.bat",
+    "shortcuts": [
+        [
+            "ApkToolPlus.bat",
+            "ApkToolPlus"
+        ]
+    ]
 }

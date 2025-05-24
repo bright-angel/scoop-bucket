@@ -16,11 +16,14 @@
         "@python \"ruoyi_scan-gui.py\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\ruoyi_vulnscan-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\ruoyi_vulnscan-main\" -Force -Recurse"
-    ],
     "bin": "ruoyi_vulnscan.bat",
+    "extract_dir":"ruoyi_vulnscan-main",
+    "shortcuts": [
+        [
+            "ruoyi_vulnscan.bat",
+            "ruoyi_vulnscan"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/steveopen1/ruoyi_vulnscan/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

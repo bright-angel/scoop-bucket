@@ -6,6 +6,12 @@
     "url": "https://github.com/dark-kingA/cloudTools/releases/download/untagged-d2ec35891eaca4f757b5/cloud-0.1.2-win-x64.exe#/cloudTools.exe",
     "hash": "35ff2fd5201a321bd85904017354b719669cd85736e88106ab6f9e585dd47e83",
     "bin": "cloudTools.exe",
+    "shortcuts": [
+        [
+            "cloudTools.exe",
+            "云资产管理工具"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/dark-kingA/cloudTools/releases/latest",
         "regex": "download/(?<tag>[\\w-]+)/cloud-([\\d.]+)-win-x64.exe"

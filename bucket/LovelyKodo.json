@@ -21,6 +21,12 @@
     ],
     "extract_dir":"LovelyKodo-main",
     "bin": "LovelyKodo.bat",
+    "shortcuts": [
+        [
+            "LovelyKodo.bat",
+            "LovelyKodo"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Tokeii0/LovelyKodo/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

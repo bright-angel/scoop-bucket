@@ -22,6 +22,12 @@
         "Remove-Item \"$dir\\NCTOOls-main\" -Force -Recurse"
     ],
     "bin": "NCTOOls.bat",
+    "shortcuts": [
+        [
+            "NCTOOls.bat",
+            "NCTOOls"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/wafinfo/NCTOOls/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

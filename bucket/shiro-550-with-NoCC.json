@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Shiro-550-with-NoCC.bat",
+    "shortcuts": [
+        [
+            "Shiro-550-with-NoCC.bat",
+            "Shiro-550-with-NoCC"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/dr0op/shiro-550-with-NoCC/releases/download/V$version/Shiro-550-with-NoCC.jar"

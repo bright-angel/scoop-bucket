@@ -18,6 +18,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "FlashSearch.bat",
+    "shortcuts": [
+        [
+            "FlashSearch.bat",
+            "闪电搜索"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/testzboy/FlashSearch/releases/download/$version/flashsearch$version.zip",

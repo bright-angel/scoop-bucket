@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "DockerAPITool.bat",
+    "shortcuts": [
+        [
+            "DockerAPITool.bat",
+            "DockerAPITool"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Janhsu/DockerAPITool/releases/download/v$version/DockerAPITool_v$version.jar#/DockerAPITool.jar"

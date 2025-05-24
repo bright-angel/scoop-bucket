@@ -26,6 +26,12 @@
         "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
     ],
     "bin": "SpringBoot-Scan-GUI.bat",
+    "shortcuts": [
+        [
+            "SpringBoot-Scan-GUI.bat",
+            "SpringBoot-Scan-GUI"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/13exp/SpringBoot-Scan-GUI/archive/refs/tags/v$version.zip"

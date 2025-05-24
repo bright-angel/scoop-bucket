@@ -8,5 +8,11 @@
     "extract_dir": "main",
     "bin": [
         "main.exe"
+    ],
+    "shortcuts": [
+        [
+            "main.exe",
+            "CTF-NetA"
+        ]
     ]
 }

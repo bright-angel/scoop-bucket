@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "SpringBootVul-GUI.bat",
+    "shortcuts": [
+        [
+            "SpringBootVul-GUI.bat",
+            "SpringBootVul-GUI"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v$version/SpringBootVul-GUI.zip"

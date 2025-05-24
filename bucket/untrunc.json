@@ -10,5 +10,12 @@
     "url": "https://github.com/anthwlock/untrunc/releases/download/latest/untrunc_x64.zip",
     "hash": "8941d0eb988e5958a7e6129b6763d7bd4a816acf5077074210afa240a8eb42e4",
     "extract_dir":"untrunc_x64",
-    "bin":"untrunc-gui.exe"
+    "bin":"untrunc-gui.exe",
+    "shortcuts": [
+        [
+            "untrunc-gui.exe",
+            "untrunc"
+        ]
+    ]
+
 }

@@ -11,6 +11,12 @@
     },
     "extract_dir": "releases",
     "bin": "dirdar.exe",
+    "shortcuts": [
+        [
+            "dirdar.exe",
+            "DirDar"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/M4DM0e/DirDar/releases/latest",
         "jsonpath": "$.tag_name",

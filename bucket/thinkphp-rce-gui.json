@@ -20,5 +20,11 @@
         "@start javaw.exe -jar \"thinkphp-rce-gui.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "thinkphp-rce-gui.bat"
+    "bin": "thinkphp-rce-gui.bat",
+    "shortcuts": [
+        [
+            "thinkphp-rce-gui.bat",
+            "thinkphp-rce-gui"
+        ]
+    ],
 }

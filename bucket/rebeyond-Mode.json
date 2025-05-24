@@ -26,6 +26,12 @@
         "@start javaw.exe -jar \"Behinder.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "rebeyond-Mode.bat"
+    "bin": "rebeyond-Mode.bat",
+    "shortcuts": [
+        [
+            "rebeyond-Mode.bat",
+            "rebeyond-Mode"
+        ]
+    ],
 }
 

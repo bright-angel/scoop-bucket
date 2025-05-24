@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "hyacinth.bat",
+    "shortcuts": [
+        [
+            "hyacinth.bat",
+            "Hyacinth"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/pureqh/Hyacinth/releases/latest",
         "jsonpath": "$.tag_name",

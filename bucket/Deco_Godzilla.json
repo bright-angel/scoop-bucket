@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Deco_Godzilla.bat",
+    "shortcuts": [
+        [
+            "Deco_Godzilla.bat",
+            "解密哥斯拉"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/nocultrue/Deco_Godzilla/releases/download/v$version/Decode_Tools_v$version-$version-SNAPSHOT.jar#/Decode_Tools.jar"

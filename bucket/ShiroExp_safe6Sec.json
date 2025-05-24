@@ -22,6 +22,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "ShiroExp_safe6Sec.bat",
+    "shortcuts": [
+        [
+            "ShiroExp_safe6Sec.bat",
+            "ShiroExp_safe6Sec"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/safe6Sec/ShiroExp/releases/download/v$version/ShiroExp-$version-all.jar#/ShiroExp.jar"

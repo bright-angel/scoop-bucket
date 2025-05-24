@@ -11,5 +11,11 @@
     "hash": "cd06744ab3bd7c3ea85cbd918701c1a00e6414248c49450dc774c93d1f224198",
     "bin": [
         "WebLogic_CNVD_C_2019_48814.exe"
+    ],
+    "shortcuts": [
+        [
+            "WebLogic_CNVD_C_2019_48814.exe",
+            "WebLogic_CNVD_C2019_48814"
+        ]
     ]
 }

@@ -12,6 +12,12 @@
     "hash": "da80d17bd363bc60d3e7216a3c43329617cbd620ac55e55e2751bd3177d09ea1",
     "extract_dir": "DirBuster-1.0-RC1",
     "bin": "DirBuster.bat",
+    "shortcuts": [
+        [
+            "DirBuster.bat",
+            "DirBuster"
+        ]
+    ],
     "pre_install": [
         "$content = Get-Content -Path $(Join-Path $dir 'DirBuster-1.0-RC1.bat')",
         "$content = 'cd /d %~dp0' + [Environment]::NewLine + 'call oraclejre8'+ [Environment]::NewLine +  $content",

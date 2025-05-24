@@ -8,5 +8,12 @@
     },
     "url": "https://github.com/bright-angel/file/releases/download/johnny/johnny_2.2.zip",
     "hash": "32A3B5FAB63C9983CE71F42E90B3987E76505A0326E1B8E69070FAA0A1E00654",
-    "bin": "johnny.exe"
+    "bin": "johnny.exe",
+    "shortcuts": [
+        [
+            "johnny.exe",
+            "Johnny"
+        ]
+    ]
+
 }

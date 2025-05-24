@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "vcenter_tools.bat",
+    "shortcuts": [
+        [
+            "vcenter_tools.bat",
+            "vcenter_tools"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zidanfanshao/vcenter_tools/releases/download/v$version/vcenter_tools.v$version.jar#/vcenter_tools.jar"

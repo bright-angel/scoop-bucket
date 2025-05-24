@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "FrChannel.bat",
+    "shortcuts": [
+        [
+            "FrChannel.bat",
+            "FrChannel"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/7wkajk/Frchannel/releases/latest",
         "regex": "download/(?<tag>[\\d\\.]+)/FrChannel-v([\\d.]+)\\.jar"

@@ -8,5 +8,11 @@
     "license": "unkown",
     "url": "https://github.com/shack2/SWebScan/releases/download/5.0.2018.08.21/SWebScan.V5.0.20180821.rar",
     "hash": "6d92b9a0a546a3f500ab78ee80172aacfbf65dfa537b187cc02bc8970ab3ea11",
-    "bin":"SWebScan.exe"
+    "bin":"SWebScan.exe",
+    "shortcuts": [
+        [
+            "SWebScan.exe",
+            "SWebScan"
+        ]
+    ]
 }

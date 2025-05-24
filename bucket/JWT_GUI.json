@@ -9,5 +9,11 @@
         "Invoke-WebRequest -URI \"https://github.com/Aiyflowers/JWT_GUI/releases/download/replace_brute_error/password.txt\" -OutFile \"$dir\\password.txt\"",
         "Invoke-WebRequest -URI \"https://github.com/Aiyflowers/JWT_GUI/releases/download/replace_brute_error/zimu.txt\" -OutFile \"$dir\\zimu.txt\""
     ],
-    "bin": "jwt_GUI.exe"
+    "bin": "jwt_GUI.exe",
+    "shortcuts": [
+        [
+            "jwt_GUI.exe",
+            "JWT_GUI"
+        ]
+    ]
 }

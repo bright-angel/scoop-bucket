@@ -17,5 +17,11 @@
         "@start javaw.exe -jar \"Ruoyi-All.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "Ruoyi-All.bat"
+    "bin": "Ruoyi-All.bat",
+    "shortcuts": [
+        [
+            "Ruoyi-All.bat",
+            "Ruoyi-All"
+        ]
+    ],
 }

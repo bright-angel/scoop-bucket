@@ -11,5 +11,11 @@
     "license": "UNKNOWN",
     "url": "https://github.com/bright-angel/file/releases/download/Ziperello/Ziperello-2.1.zip",
     "hash": "A053FE30B75A8C7BE0F9766941F0576E5BE69D67F0C2118DF5E2838A74FD5B94",
-    "bin": "Ziperello.exe"
+    "bin": "Ziperello.exe",
+    "shortcuts": [
+        [
+            "Ziperello.exe",
+            "Ziperello"
+        ]
+    ]
 }

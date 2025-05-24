@@ -6,6 +6,12 @@
     "url": "https://github.com/zhangqi-ulua/ConvertTools/releases/download/1.0.0/1.0.0.release.zip",
     "hash": "de7449e6ccdc3ec4d810651affce015570df71253d56302532bd1fe864bc260f",
     "bin": "ConvertTools.exe",
+    "shortcuts": [
+        [
+            "ConvertTools.exe",
+            "ConvertTools"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zhangqi-ulua/ConvertTools/releases/download/$version/$version.release.zip"

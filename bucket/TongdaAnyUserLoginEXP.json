@@ -20,5 +20,11 @@
         "@start javaw.exe -jar \"TongdaAnyUserLoginEXP.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "TongdaAnyUserLoginEXP.bat"
+    "bin": "TongdaAnyUserLoginEXP.bat",
+    "shortcuts": [
+        [
+            "TongdaAnyUserLoginEXP.bat",
+            "TongdaAnyUserLoginEXP"
+        ]
+    ]
 }

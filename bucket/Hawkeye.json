@@ -7,6 +7,12 @@
     "hash": "9c9e7ef8a3df393dd5c9c38a1855f934b82bc2ba86c9fba23043d29e3d9e1bee",
     "extract_dir":"bin",
     "bin": "HawkEye.exe",
+    "shortcuts": [
+        [
+            "HawkEye.exe",
+            "Hawkeye"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/mir1ce/Hawkeye/releases/download/v$version/Hawkeye.zip"

@@ -10,6 +10,12 @@
     "url": "https://github.com/Fheidt12/Windows_Log/releases/download/WinLog_Check_V3.4.1/WinLogCheckV3.4.1.exe#/WinLogCheck.exe",
     "hash": "b5a67d6c70c1e412c7fb99ed80af92509f92554388c6f8c1e758551117773617",
     "bin":"WinLogCheck.exe",
+    "shortcuts": [
+        [
+            "WinLogCheck.exe",
+            "Windows_Log"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Fheidt12/Windows_Log/releases/latest",
         "jsonpath": "$.tag_name",

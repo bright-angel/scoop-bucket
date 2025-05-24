@@ -11,6 +11,12 @@
     "extract_dir": "API-Explorer_v2.1.0",
     "persist": "ApiInfo2.0.db",
     "bin":"API-Explorer.exe",
+    "shortcuts": [
+        [
+            "API-Explorer.exe",
+            "API-Explorer"
+        ]
+    ],
     "checkver":"github",
     "autoupdate": {
         "url": "https://github.com/mrknow001/API-Explorer/releases/download/v$version/API-Explorer_v$version.zip"

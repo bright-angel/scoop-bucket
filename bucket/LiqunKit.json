@@ -18,5 +18,11 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "LiqunKit.bat",
+    "shortcuts": [
+        [
+            "LiqunKit.bat",
+            "LiqunKit"
+        ]
+    ],
     "persist": "Plugins"
 }

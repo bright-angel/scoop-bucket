@@ -12,5 +12,11 @@
             "hash": "007ceef217e66d37351bf18f6df4157ebdb9b83a14615d1857f1d8b4edb9a1f7"
         }
     },
-    "bin": "7kbscan-WebPathBrute.exe"
+    "bin": "7kbscan-WebPathBrute.exe",
+    "shortcuts": [
+        [
+            "7kbscan-WebPathBrute.exe",
+            "7kbscan-WebPathBrute"
+        ]
+    ]
 }

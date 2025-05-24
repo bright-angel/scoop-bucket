@@ -7,6 +7,12 @@
     "hash": "",
     "extract_dir":"github.MoonLight",
     "bin":"MoonLight.exe",
+    "shortcuts": [
+        [
+            "MoonLight.exe",
+            "MoonLight"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MKID1412/MoonLight/releases/download/v$version/MoonLight.zip"

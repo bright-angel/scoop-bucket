@@ -9,6 +9,12 @@
     "url": "https://github.com/BKLockly/Proxyz/releases/download/v1.0.0/proxyz.exe",
     "hash": "0db9587bc4df73cc5bc2c131236f4556497e3c1303a7fd6f3a5b85ec4414bc34",
     "bin": "proxyz.exe",
+    "shortcuts": [
+        [
+            "proxyz.exe",
+            "Proxyz"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/BKLockly/Proxyz/releases/download/v$version/proxyz.exe"

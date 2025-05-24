@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "TomcatPass.bat",
+    "shortcuts": [
+        [
+            "TomcatPass.bat",
+            "TomcatPass"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/tpt11fb/AttackTomcat/releases/download/V$version/TomcatPass.zip"

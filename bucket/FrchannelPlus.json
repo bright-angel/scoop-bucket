@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "FrChannelPlus.bat",
+    "shortcuts": [
+        [
+            "FrChannelPlus.bat",
+            "FrchannelPlus"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/BambiZombie/FrchannelPlus/releases/latest",
         "jsonpath": "$.tag_name",

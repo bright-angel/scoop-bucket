@@ -23,6 +23,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "BlueTeamTool.bat",
+    "shortcuts": [
+        [
+            "BlueTeamTool.bat",
+            "BlueTeamTool"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/achiove/BlueTeamTool/releases/download/v$version/BlueTeamTool-$version-SNAPSHOT.jar#/BlueTeamTool.jar"

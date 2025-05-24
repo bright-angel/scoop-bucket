@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "DecodertoWebshell.bat",
+    "shortcuts": [
+        [
+            "DecodertoWebshell.bat",
+            "DecodertoWebshell"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/minhangxiaohui/DecodeSomeJSPWebshell/releases/download/v$version/DecodertoWebshell_$version.jar#/DecodertoWebshell.jar"

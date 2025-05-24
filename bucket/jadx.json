@@ -7,6 +7,12 @@
     "hash": "d518347334004ec83f21cc42498c9597c3177dd50769acbe42d8b1dfb32b3d28",
     "pre_install": "Get-ChildItem \"$dir\" 'jadx-gui-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'jadx-gui.exe'",
     "bin": "jadx-gui.exe",
+    "shortcuts": [
+        [
+            "jadx-gui.exe",
+            "jadx"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/skylot/jadx/releases/download/v$version/jadx-gui-$version-with-jre-win.zip"

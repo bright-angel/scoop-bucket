@@ -22,6 +22,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "ysoserial-gui.bat",
+    "shortcuts": [
+        [
+            "ysoserial-gui.bat",
+            "ysoserial-gui"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Lotus6/ysoserial/releases/download/v$version/ysoserial-gui-$version-jar-with-dependencies.jar#/ysoserial-gui.jar"

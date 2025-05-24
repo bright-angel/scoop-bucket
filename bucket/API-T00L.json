@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "API-T00L.bat",
+    "shortcuts": [
+        [
+            "API-T00L.bat",
+            "API-T00L"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/pykiller/API-T00L/releases/download/v$version/API-T00L_v$version.jar#/API-T00L.jar"

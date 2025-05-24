@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "JDumpSpiderGUI.bat",
+    "shortcuts": [
+        [
+            "JDumpSpiderGUI.bat",
+            "JDumpSpiderGUI"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/DeEpinGh0st/JDumpSpiderGUI/releases/download/v$version/JDumpSpiderGUI-$version-SNAPSHOT-full.jar#/JDumpSpiderGUI.jar"

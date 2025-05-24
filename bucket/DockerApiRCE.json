@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "DockerApiRCE.bat",
+    "shortcuts": [
+        [
+            "DockerApiRCE.bat",
+            "DockerApiRCE"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/0xchang/DockerApiRCE/releases/download/v$version/DockerApiRCE.jar"

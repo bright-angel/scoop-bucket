@@ -23,6 +23,12 @@
     ],
     "extract_dir":"TomcatVuln-1.0-SNAPSHOT",
     "bin": "TomcatVuln.bat",
+    "shortcuts": [
+        [
+            "TomcatVuln.bat",
+            "TomcatVuln"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/errors11/TomcatVuln/releases/download/v$version/TomcatVuln-1.0-SNAPSHOT.zip",

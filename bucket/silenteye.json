@@ -9,6 +9,12 @@
     "url": "https://github.com/TajangSec/silenteye/releases/download/0.4.1/silenteye.exe",
     "hash": "9e390811b09549328064e7e8e3692e907846b58d9c3a3c05764802e02b977ca2",
     "bin": "silenteye.exe",
+    "shortcuts": [
+        [
+            "silenteye.exe",
+            "SilentEye"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/TajangSec/silenteye/releases/download/$version/silenteye.exe"

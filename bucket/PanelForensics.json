@@ -7,6 +7,12 @@
     "hash": "0501be56d292afbf72a6684b228d240129e4edcf5922adb11768b8dc7accaa14",
     "extract_dir":"PanelForensics",
     "bin": "PanelForensics.exe",
+    "shortcuts": [
+        [
+            "PanelForensics.exe",
+            "PanelForensics"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/WXjzcccc/PanelForensics/releases/download/v$version/PanelForensics.Windows.zip"

@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "IWannaGetAll.bat",
+    "shortcuts": [
+        [
+            "IWannaGetAll.bat",
+            "I-Wanna-Get-All"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/R4gd0ll/I-Wanna-Get-All/releases/latest",
         "jsonpath": "$.tag_name",

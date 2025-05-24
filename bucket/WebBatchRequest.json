@@ -20,6 +20,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "WebBatchRequest.bat",
+    "shortcuts": [
+        [
+            "WebBatchRequest.bat",
+            "WebBatchRequest"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/ScriptKid-Beta/WebBatchRequest/releases/download/v$version/WebBatchRequest.jar"

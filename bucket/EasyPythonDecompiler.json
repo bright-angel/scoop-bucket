@@ -9,5 +9,11 @@
     "license": "UNKNOWN",
     "url": "https://sourceforge.net/projects/easypythondecompiler/files/bin/Easy%20Python%20Decompiler%20v1.3.2.7z/download#/EasyPythonDecompiler.7z",
     "hash": "9f30ab0415c9757ee417b2ec75405caad0bcf4331a9649713a94c26bd6fddeca",
-    "bin": "EasyPythonDecompiler.exe"
+    "bin": "EasyPythonDecompiler.exe",
+    "shortcuts": [
+        [
+            "EasyPythonDecompiler.exe",
+            "Easy Python Decompiler"
+        ]
+    ]
 }

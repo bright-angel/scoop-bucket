@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "StarCodeSecurity.bat",
+    "shortcuts": [
+        [
+            "StarCodeSecurity.bat",
+            "StarCodeSecurity"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/vsdwef/StarCodeSecurity/releases/download/V$version/StarCodeSecurity.zip"

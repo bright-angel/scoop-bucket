@@ -18,6 +18,12 @@
         "if (!(Test-Path \"$persist_dir\\data.db\")) { New-Item \"$dir\\data.db\" | Out-Null }"
     ],
     "bin": "godzilla_ekp.bat",
+    "shortcuts": [
+        [
+            "godzilla_ekp.bat",
+            "Godzilla_ekp"
+        ]
+    ],
     "persist": "data.db",
     "checkver": {
         "url": "https://api.github.com/repos/kong030813/Z-Godzilla_ekp/releases/latest",

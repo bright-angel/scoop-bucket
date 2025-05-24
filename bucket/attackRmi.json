@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "attackRmi.bat",
+    "shortcuts": [
+        [
+            "attackRmi.bat",
+            "attackRmi"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/A-D-Team/attackRmi/releases/download/v$version/attackRmi.jar"

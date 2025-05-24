@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "sunlogin-exp-gui.bat",
+    "shortcuts": [
+        [
+            "sunlogin-exp-gui.bat",
+            "sunlogin-exp-gui"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/theLSA/sunlogin-exp-gui/releases/download/v$version/sunlogin-exp-gui-v$version.jar#/sunlogin-exp-gui.jar"

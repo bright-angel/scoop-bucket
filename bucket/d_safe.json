@@ -6,6 +6,12 @@
     "url": "https://www.d99net.net/down/d_safe_2.1.8.3.zip",
     "hash": "fe60da523bf9d8698b2615bdda9403daf45479e1c9a41f346c01ec473d10e7b3",
     "bin": "D_Safe_Manage.exe",
+    "shortcuts": [
+        [
+            "D_Safe_Manage.exe",
+            "D盾_防火墙"
+        ]
+    ],
     "checkver": {
         "url": "https://www.d99net.net",
         "regex": "down/d_safe_([\\d\\.\\-]+).zip"

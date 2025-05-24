@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "TP_Attack_GUI.bat",
+    "shortcuts": [
+        [
+            "TP_Attack_GUI.bat",
+            "Tp_Attack_GUI"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/XiLitter/Tp_Attack_GUI/releases/download/v$version/TP_Attack_GUI.jar"

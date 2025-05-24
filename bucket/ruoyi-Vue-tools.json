@@ -6,6 +6,12 @@
     "url": "https://github.com/kk12-30/ruoyi-Vue-tools/releases/download/v6/RuoYiScanv6.exe#/RuoYiScan.exe",
     "hash": "b9f80a3d7a3a1222bd4960ef7da61630e6cfd47fa5838f2aaddc899e69141599",
     "bin": "RuoYiScan.exe",
+    "shortcuts": [
+        [
+            "RuoYiScan.exe",
+            "RuoYiScan"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/kk12-30/ruoyi-Vue-tools/releases/download/v$version/RuoYiScanv$version.exe#/RuoYiScan.exe"

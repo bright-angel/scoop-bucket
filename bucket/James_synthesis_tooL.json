@@ -18,6 +18,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "James_synthesis_tool.bat",
+    "shortcuts": [
+        [
+            "James_synthesis_tool.bat",
+            "James_synthesis_tool"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/vsdwef/James_synthesis_tooL/releases/download/V$version/James_synthesis_tool.zip"

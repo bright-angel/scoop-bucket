@@ -5,5 +5,11 @@
     "license": "UNKNOWN",
     "url": "https://github.com/bright-angel/file/releases/download/Rolan/Rolan-1.3.8.exe#/Rolan.exe",
     "hash": "e619115037721634e981525a0142c888e885794092ff3f55050df1bb6228bd23",
-    "bin": "Rolan.exe"
+    "bin": "Rolan.exe",
+    "shortcuts": [
+        [
+            "Rolan.exe",
+            "Rolan"
+        ]
+    ],
 }

@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "DecryptTools.bat",
+    "shortcuts": [
+        [
+            "DecryptTools.bat",
+            "DecryptTools"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/wafinfo/DecryptTools/releases/latest",
         "jsonpath": "$.tag_name",

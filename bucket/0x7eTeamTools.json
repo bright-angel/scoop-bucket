@@ -27,6 +27,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "0x7eTeamTools.bat",
+    "shortcuts": [
+        [
+            "0x7eTeamTools.bat",
+            "0x7eTeamTools"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/0x7eTeam/0x7eTeamTools/releases/download/$version/0x7eTeamTools.v$version.zip"

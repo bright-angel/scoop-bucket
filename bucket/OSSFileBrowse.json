@@ -18,6 +18,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "OSSFileBrowse.bat",
+    "shortcuts": [
+        [
+            "OSSFileBrowse.bat",
+            "OSSFileBrowse"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jdr2021/OSSFileBrowse/releases/download/v$version/OSSFileBrowse-$version.zip"

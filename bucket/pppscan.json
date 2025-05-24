@@ -7,6 +7,12 @@
     "hash": "38a643fa9665d396e710b491d47d59c754d0c2e62279c8183d9e06301de1aecc",
     "extract_dir":"",
     "bin":"pppscan.exe",
+    "shortcuts": [
+        [
+            "pppscan.exe",
+            "pppscan"
+        ]
+    ],
     "persist": [
         "pppscan.db",
         "config.yaml"

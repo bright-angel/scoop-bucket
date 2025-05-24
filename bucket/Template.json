@@ -26,6 +26,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "RequestTemplate.bat",
+    "shortcuts": [
+        [
+            "RequestTemplate.bat",
+            "RequestTemplate"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": [

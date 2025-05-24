@@ -20,6 +20,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "dubbo-exp.bat",
+    "shortcuts": [
+        [
+            "dubbo-exp.bat",
+            "dubbo-exp"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/threedr3am/dubbo-exp/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

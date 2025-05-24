@@ -14,6 +14,16 @@
         "windowslog-local.exe",
         "windowslog.exe"
     ],
+    "shortcuts": [
+        [
+            "windowslog-local.exe",
+            "windodws-logs-analysis"
+        ],
+        [
+            "windowslog.exe",
+            "windodws-logs-analysis"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/dogadmin/windodws-logs-analysis/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

@@ -7,6 +7,12 @@
     "hash": "081acb0aeba9772adffa1045b3e41b63a8fca6289866f34d0c3adbdf147e2d29",
     "extract_dir": "mkvtoolnix",
     "bin": "mkvtoolnix-gui.exe",
+    "shortcuts": [
+        [
+            "mkvtoolnix-gui.exe",
+            "MKVToolNix"
+        ]
+    ],
     "checkver": {
         "url": "https://mkvtoolnix.download/doc/NEWS.md",
         "regex": "# Version ([\\d.]+) "

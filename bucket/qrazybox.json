@@ -11,6 +11,12 @@
         "Remove-Item \"$dir\\qrazybox-master\" -Force -Recurse"
     ],
     "bin": "qrazybox.bat",
+    "shortcuts": [
+        [
+            "qrazybox.bat",
+            "qrazybox"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Merricx/qrazybox/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

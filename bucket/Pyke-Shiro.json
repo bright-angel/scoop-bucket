@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Pyke-Shiro.bat",
+    "shortcuts": [
+        [
+            "Pyke-Shiro.bat",
+            "Pyke-Shiro"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/sma11new/Pyke-Shiro/releases/download/$version/Pyke-Shiro_$version.jar#/Pyke-Shiro.jar"

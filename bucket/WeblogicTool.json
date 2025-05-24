@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "WeblogicTool.bat",
+    "shortcuts": [
+        [
+            "WeblogicTool.bat",
+            "WeblogicTool"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/KimJun1010/WeblogicTool/releases/download/v$version/WeblogicTool_$version.jar#/WeblogicTool.jar"

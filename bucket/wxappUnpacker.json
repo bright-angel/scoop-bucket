@@ -24,6 +24,12 @@
         "wxappUnpacker.bat",
         "解密工具\\UnpackMiniApp.exe"
     ],
+    "shortcuts": [
+        [
+            "wxappUnpacker.bat",
+            "wxappUnpacker"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/threecha/wxappUnpacker/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

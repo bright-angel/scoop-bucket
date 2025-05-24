@@ -26,6 +26,12 @@
         "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
     ],
     "bin": "UsbKeyboard_Mouse_Hacker_Gui.bat",
+    "shortcuts": [
+        [
+            "UsbKeyboard_Mouse_Hacker_Gui.bat",
+            "UsbKeyboard_Mouse_Hacker_Gui"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

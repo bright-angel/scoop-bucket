@@ -7,6 +7,12 @@
     "hash": "7804de65a106176e893b118d75feaa5502f0f963be4c91c8785c42033f6dc730",
     "extract_dir":"OpenPuff_release",
     "bin": "OpenPuff.exe",
+    "shortcuts": [
+        [
+            "OpenPuff.exe",
+            "OpenPuff"
+        ]
+    ],
     "checkver": {
         "url": "https://embeddedsw.net/OpenPuff_download.html",
         "regex": "<b>v([\\d.]+)"

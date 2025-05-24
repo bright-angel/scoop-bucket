@@ -17,6 +17,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "PotatoTool.bat",
+    "shortcuts": [
+        [
+            "PotatoTool.bat",
+            "PotatoTool"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/HotBoy-java/PotatoTool/releases/latest",
         "jsonpath": "$.tag_name",

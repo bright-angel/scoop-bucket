@@ -19,5 +19,11 @@
         "@start javaw.exe -jar \"Cknife.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "Cknife.bat"
+    "bin": "Cknife.bat",
+    "shortcuts": [
+        [
+            "Cknife.bat",
+            "Cknife"
+        ]
+    ]
 }

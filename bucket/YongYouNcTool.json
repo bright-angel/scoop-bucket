@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "YongYouNcTool.bat",
+    "shortcuts": [
+        [
+            "YongYouNcTool.bat",
+            "YongYouNcTool"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wgpsec/YongYouNcTool/releases/download/$version/YongYouNcTool-$version.jar#/YongYouNcTool.jar"

@@ -44,6 +44,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Exp-Tools.bat",
+    "shortcuts": [
+        [
+            "Exp-Tools.bat",
+            "Exp-Tools"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/cseroad/Exp-Tools/releases/download/v$version/Exp-Tools-$version-encrypted.jar#/Exp-Tools.jar"

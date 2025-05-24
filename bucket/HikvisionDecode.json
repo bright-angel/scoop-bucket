@@ -16,5 +16,11 @@
         "@start javaw.exe -jar \"HikvisionDecode.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "HikvisionDecode.bat"
+    "bin": "HikvisionDecode.bat",
+    "shortcuts": [
+        [
+            "HikvisionDecode.bat",
+            "HikvisionDecode"
+        ]
+    ]
 }

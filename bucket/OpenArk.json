@@ -6,6 +6,12 @@
     "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.3.8/OpenArk64.exe#/OpenArk.exe",
     "hash": "9cde2e29b8837fc5dcefd57a2473bdc229f0f33244bc8569510467c1304dd6e3",
     "bin": "OpenArk.exe",
+    "shortcuts": [
+        [
+            "OpenArk.exe",
+            "OpenArk"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/BlackINT3/OpenArk/releases/download/v$version/OpenArk64.exe#/OpenArk.exe"

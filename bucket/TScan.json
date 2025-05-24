@@ -21,6 +21,12 @@
     ],
     "extract_dir":"TScan-master",
     "bin": "TScan.bat",
+    "shortcuts": [
+        [
+            "TScan.bat",
+            "TScan"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/dyboy2017/TScan/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

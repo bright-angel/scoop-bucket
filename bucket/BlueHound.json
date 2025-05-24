@@ -11,6 +11,12 @@
     "hash": "299fad14350e8105d7e71fce0c8d56ee651b4eb8186b1dbe7847fd6e43b24148",
     "extract_dir":"Release",
     "bin":"BlueHound.exe",
+    "shortcuts": [
+        [
+            "BlueHound.exe",
+            "BlueHound"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/10000Tigers/BlueHound/releases/latest",
         "jsonpath": "$.tag_name",

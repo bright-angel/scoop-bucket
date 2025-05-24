@@ -10,6 +10,12 @@
     "url": "https://github.com/BBD-YZZ/week-passwd/releases/download/v2.0.0/JUBILANT-WOLF-V2.0.0.exe#/week-passwd.exe",
     "hash": "",
     "bin": "week-passwd.exe",
+    "shortcuts": [
+        [
+            "week-passwd.exe",
+            "week-passwd"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/BBD-YZZ/week-passwd/releases/download/v$version/JUBILANT-WOLF-V$version.exe#/week-passwd.exe"
