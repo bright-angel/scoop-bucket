@@ -12,7 +12,7 @@
     "checkver": {
         "url": "https://api.github.com/repos/wxwhhh/Chypass_pro/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "Chypass_pro[\\d\\.]+)"
+        "regex": "Chypass_pro([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/wxwhhh/Chypass_pro/releases/download/$version/Chypass_pro$version.jar#/Chypass_pro.jar"
