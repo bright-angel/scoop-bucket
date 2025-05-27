@@ -1,12 +1,10 @@
 {
-    "version": "2024-12-17T01.52.29",
+    "version": "2025-05-27T03.17.39",
     "description": "",
     "homepage": "https://github.com/outlaws-bai/GalaxyHttpHooker",
     "license": "unknown",
     "suggest": {
-        "python":[
-            "miniconda3"
-        ]
+        "python": "miniconda3"
     },
     "url": "https://github.com/outlaws-bai/GalaxyHttpHooker/archive/refs/heads/master.zip",
     "hash": "",
