@@ -1,0 +1,15 @@
+{
+    "version": "5.4.3.1328",
+    "description": "数据恢复 / 分区管理 / 备份还原工具，支持多种文件系统和磁盘类型",
+    "homepage": "https://www.diskgenius.cn/",
+    "license": "UNKNOWN",
+    "url": "https://github.com/bright-angel/file/releases/download/DiskGenius/DiskGenius.7z",
+    "hash": "",
+    "bin": "DiskGenius.exe",
+    "shortcuts": [
+        [
+            "DiskGenius.exe",
+            "DiskGenius"
+        ]
+    ],
+}
