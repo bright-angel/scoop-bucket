@@ -5,6 +5,10 @@
     "license": "UNKNOWN",
     "url": "https://github.com/bright-angel/file/releases/download/CTF-NetA/CTF-NetA-V2.9.3.7z",
     "hash": "",
+    "pre_install": [
+        "ensure \"$persist_dir\" | Out-Null",
+        "Copy-Item \"$persist_dir\\license\" \"$dir\\license\" -ErrorAction 'SilentlyContinue'"
+    ],
     "bin":"CTF-NetA.exe",
     "shortcuts": [
         [
@@ -12,6 +16,7 @@
             "CTF-NetA-Pro"
         ]
     ],
+    "pre_uninstall": "Copy-Item \"$dir\\license\" \"$persist_dir\\license\" -ErrorAction 'SilentlyContinue'",
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/CTF-NetA",
         "regex": "download/CTF-NetA/CTF-NetA_([\\d.]+).7z"
