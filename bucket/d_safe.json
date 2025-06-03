@@ -1,10 +1,10 @@
 {
-    "version": "2.1.8.2",
+    "version": "2.1.8.4",
     "description": "D盾_防火墙,一句话免疫,主动后门拦截,SESSION保护,防WEB嗅探,防CC,防篡改,注入防御,防XSS,防提权,上传防御,未知0day防御,异 形脚本防御等等。 防止黑客入侵和提权,让服务器更安全。",
     "homepage": "https://www.d99net.net",
     "license": "unknown",
-    "url": "https://www.d99net.net/down/d_safe_2.1.8.2.zip",
-    "hash": "29a17f5628753a4c4775bef128ee30187b846e226fd1725b8f99b34447823200",
+    "url": "https://www.d99net.net/down/d_safe_2.1.8.4.zip",
+    "hash": "5ad561b398831539a1516ed7be5e53d5dc9d5cb06fee66d3c31d46647987d917",
     "bin": "D_Safe_Manage.exe",
     "shortcuts": [
         [
