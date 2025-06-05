@@ -10,7 +10,7 @@
     "suggest": {
         "JRE": "sec/oraclejre8"
     },
-    "url": "https://github.com/pureqh/xxl-job-attack/releases/download/xxl-job-attack-1.2/xxl-job-attack-1.2.jar#/xxl-job-attack.jar",
+    "url": "https://github.com/pureqh/xxl-job-attack/blob/main/out/artifacts/xxl_job_attack_jar/xxl-job-attack.jar",
     "pre_install": [
         "Set-Content \"$dir\\xxl-job-attack.bat\" '@pushd %~dp0",
         "@call oraclejre8",
@@ -30,6 +30,6 @@
         "regex": "xxl-job-attack-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/pureqh/xxl-job-attack/releases/download/xxl-job-attack-$version/xxl-job-attack-$version.jar#/xxl-job-attack.jar"
+        "url": "https://github.com/pureqh/xxl-job-attack/blob/main/out/artifacts/xxl_job_attack_jar/xxl-job-attack.jar"
     }
 }
