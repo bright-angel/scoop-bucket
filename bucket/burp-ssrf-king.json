@@ -1,6 +1,10 @@
 {
     "version": "1.12",
     "description": "用于 burp 的 SSRF 插件在所有请求中自动进行 SSRF 检测",
+    "notes": [
+        "burpsuite扩展",
+        "SSRF 检测"
+    ],
     "homepage": "https://github.com/ethicalhackingplayground/ssrf-king",
     "license": "unknown",
     "url": "https://github.com/ethicalhackingplayground/ssrf-king/releases/download/v1.12/ssrf-king.jar",

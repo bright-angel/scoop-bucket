@@ -1,6 +1,10 @@
 {
     "version": "0.3.1",
     "description": "Burp被动扫描流量转发插件",
+    "notes": [
+        "burpsuite扩展",
+        "被动扫描,流量转发"
+    ],
     "homepage": "https://github.com/c0ny1/passive-scan-client",
     "license": "unknown",
     "url": "https://github.com/c0ny1/passive-scan-client/releases/download/0.3.1/passive-scan-client-0.3.1.jar#/passive-scan-client.jar",

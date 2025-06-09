@@ -1,6 +1,10 @@
 {
     "version": "2024-03-22T18.00.58",
     "description": "Burp 扩展，用于被动扫描 JS 文件的端点链接。",
+    "notes": [
+        "burpsuite扩展",
+        "JS文件端点链接扫描"
+    ],
     "homepage": "https://github.com/InitRoot/BurpJSLinkFinder",
     "license": "unknown",
     "url": "https://github.com/InitRoot/BurpJSLinkFinder/archive/refs/heads/masterv2.zip",

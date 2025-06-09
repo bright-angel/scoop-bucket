@@ -1,6 +1,10 @@
 {
     "version": "3.0.0.0",
     "description": "支持 ASP.NET ViewStateDecoder",
+    "notes": [
+        "burpsuite扩展",
+        "ASP.NET ViewState解码"
+    ],
     "homepage": "https://github.com/raise-isayan/ViewStateDecoder",
     "license": "UNKNOWN",
     "suggest": {

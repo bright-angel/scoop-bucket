@@ -1,6 +1,10 @@
 {
     "version": "3.0",
     "description": "Burp suite 短信轰炸辅助绕过插件",
+    "notes": [
+        "burpsuite扩展",
+        "短信轰炸,辅助绕过"
+    ],
     "homepage": "https://github.com/yuziiiiiiiiii/SMS_Bomb_Fuzzer",
     "license": "UNKNOWN",
     "url": "https://github.com/yuziiiiiiiiii/SMS_Bomb_Fuzzer/releases/download/3.0/SMS_Bomb_Fuzzer-3.0.jar#/SMS_Bomb_Fuzzer.jar",

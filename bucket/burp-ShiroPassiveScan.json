@@ -1,6 +1,10 @@
 {
     "version": "2.0.0",
     "description": "一款基于BurpSuite的被动式shiro检测插件",
+    "notes": [
+        "burpsuite扩展",
+        "被动式shiro检测,漏洞检测"
+    ],
     "homepage": "https://github.com/pmiaowu/BurpShiroPassiveScan",
     "license": "unknown",
     "url": "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-2.0.0/BurpShiroPassiveScan-2.0.0-jdk14.zip",

@@ -1,6 +1,10 @@
 {
     "version": "1.4.6",
     "description": "一个集成的BurpSuite漏洞探测插件",
+    "notes": [
+        "burpsuite扩展",
+        "漏洞探测,集成插件"
+    ],
     "homepage": "https://github.com/Tsojan/TsojanScan",
     "license": "unknown",
     "url": "https://github.com/Tsojan/TsojanScan/releases/download/v1.4.6/TsojanScan-1.4.6-jar-with-dependencies.jar#/TsojanScan.jar",

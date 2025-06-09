@@ -1,6 +1,10 @@
 {
     "version": "0.1",
     "description": "一款快速修改HTTP数据包头的Burp Suite插件",
+    "notes": [
+        "burpsuite扩展",
+        "HTTP数据包头修改"
+    ],
     "homepage": "https://github.com/c0ny1/HTTPHeadModifer",
     "license": "unknown",
     "url": "https://github.com/c0ny1/HTTPHeadModifer/releases/download/v0.1/HTTPHeadModifer.v0.1.jar#/HTTPHeadModifer.jar",

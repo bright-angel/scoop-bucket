@@ -1,6 +1,10 @@
 {
     "version": "1.4",
     "description": "使用java编写的CRLF-Injection-burp被动扫描插件",
+    "notes": [
+        "burpsuite扩展",
+        "CRLF注入被动扫描"
+    ],
     "homepage": "https://github.com/A0WaQ4/BurpCRLFScan",
     "license": "unknown",
     "url": "https://github.com/A0WaQ4/BurpCRLFScan/releases/download/1.4/BurpCRLFScan-1.4.zip",

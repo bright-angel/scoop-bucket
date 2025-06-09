@@ -1,6 +1,10 @@
 {
     "version": "0.1.9.1",
     "description": "BurpCrypto is a collection of burpsuite encryption plug-ins, support AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件",
+    "notes": [
+        "burpsuite扩展",
+        "支持AES/RSA/DES/ExecJs等多种加密算法"
+    ],
     "homepage": "https://github.com/whwlsfb/BurpCrypto",
     "license": "unknown",
     "url": "https://github.com/whwlsfb/BurpCrypto/releases/download/0.1.9.1/BurpCrypto-0.1.9.1-full.jar#/BurpCrypto.jar",

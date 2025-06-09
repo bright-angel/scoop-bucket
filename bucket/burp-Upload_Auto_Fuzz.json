@@ -1,6 +1,10 @@
 {
     "version": "2025-04-10T06.26.52",
     "description": "本Burp Suite插件专为文件上传漏洞检测设计，提供自动化Fuzz测试，共300+条payload。",
+    "notes": [
+        "burpsuite扩展",
+        "文件上传漏洞检测,自动化Fuzz测试"
+    ],
     "homepage": "https://github.com/T3nk0/Upload_Auto_Fuzz",
     "license": "UNKNOWN",
     "url": "https://github.com/T3nk0/Upload_Auto_Fuzz/archive/refs/heads/master.zip",

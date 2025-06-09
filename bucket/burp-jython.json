@@ -1,6 +1,10 @@
 {
     "version": "2.7.4",
     "description": "Python for the Java Platform",
+    "notes": [
+        "Jython is an implementation of the Python language written in Java",
+        "It is designed to run on any Java platform and to integrate with Java code"
+    ],
     "homepage": "https://github.com/jython/jython",
     "license": "unknown",
     "url": "https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4/jython-standalone-2.7.4.jar#/jython-standalone.jar",

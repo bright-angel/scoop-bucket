@@ -1,6 +1,10 @@
 {
     "version": "2.0.7",
     "description": "OneScan 是一款用于递归目录扫描的 BurpSuite 插件",
+    "notes": [
+        "burpsuite扩展",
+        "递归目录扫描,漏洞检测"
+    ],
     "homepage": "https://github.com/vaycore/OneScan",
     "license": "unknown",
     "url": "https://github.com/vaycore/OneScan/releases/download/v2.0.7/OneScan-v2.0.7.jar#/OneScan.jar",

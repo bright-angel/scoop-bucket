@@ -1,6 +1,10 @@
 {
     "version": "1.0",
     "description": "蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、一键利用",
+    "notes": [
+        "burpsuite扩展",
+        "NPS漏洞利用,一键利用"
+    ],
     "homepage": "https://github.com/weishen250/npscrack",
     "license": "unknown",
     "url": "https://github.com/weishen250/npscrack/releases/download/npscrack-1.0/NPSauto-1.0.jar#/NPSauto.jar",

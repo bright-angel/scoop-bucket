@@ -1,6 +1,10 @@
 {
     "version": "0.1.1",
     "description": "检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scanning plugin responsible for detecting host header attack",
+    "notes": [
+        "burpsuite扩展",
+        "被动扫描,host头攻击检测"
+    ],
     "homepage": "https://github.com/weujieytt/HostHeaderAttack",
     "license": "unknown",
     "url": "https://github.com/weujieytt/HostHeaderAttack/releases/download/0.1.1/HostHeaderAttack-main.jar#/HostHeaderAttack.jar",

@@ -1,6 +1,10 @@
 {
     "version": "2.0",
     "description": "HackBar plugin for Burpsuite",
+    "notes": [
+        "burpsuite扩展",
+        "功能扩展,辅助绕过"
+    ],
     "homepage": "https://github.com/d3vilbug/HackBar",
     "license": "unknown",
     "url": "https://github.com/d3vilbug/HackBar/releases/download/2.0/HackBar.jar",
