@@ -1,10 +1,10 @@
 {
-    "version": "2024-10-31T22.38.04",
+    "version": "2025-06-11T19.48.15",
     "description": "Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)",
     "homepage": "https://github.com/0dayCTF/reverse-shell-generator",
     "license": "unknown",
     "url": "https://github.com/0dayCTF/reverse-shell-generator/archive/refs/heads/master.zip",
-    "hash": "e7601862941fe2bd03817e4b2bc045841b86719c400cce08a06645c087acaa63",
+    "hash": "efd971931752465c7c02e6a452f559e919a6cbf3c5a369c89d32f784b9b265d3",
     "extract_dir": "reverse-shell-generator-main",
     "checkver": {
         "url": "https://api.github.com/repos/0dayCTF/reverse-shell-generator/commits",
