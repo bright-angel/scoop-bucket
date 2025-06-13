@@ -2,9 +2,9 @@
     "description": "The leading toolkit for web security testing.(Scoop bucket by arch3rpro)",
     "homepage": "https://portswigger.net/",
     "license": "Proprietary",
-    "version": "2025.4.5",
-    "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2025.4.5&type=Jar",
-    "hash": "cf73c2067732753c17e9448664aec0ec09496ce099f6908b5d5de673596eab64",
+    "version": "2025.5.3",
+    "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2025.5.3&type=Jar",
+    "hash": "86a88edf0a3f030e9b5c7e64657b588ff821642de62cae82e86ab7c075cb3252",
     "post_install": [
         "Invoke-WebRequest -URI \"https://github.com/bright-angel/file/releases/download/burpsuite_crack/burpsuite_crack.zip\" -OutFile \"$dir\\main.zip\"",
         "7z x \"$dir\\main.zip\" -o\"$dir\\\"",
