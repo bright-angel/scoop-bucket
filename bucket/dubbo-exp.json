@@ -1,16 +1,14 @@
 {
-    "version": "2024-01-08T12.47.16",
+    "version": "2025-06-15T03.42.18",
     "description": "dubbo快速利用exp，基本上老版本覆盖100%。",
     "homepage": "https://github.com/threedr3am/dubbo-exp",
     "license": "unknown",
     "suggest": {
-        "JRE": [
-            "sec/oraclejre8"
-        ]
+        "JRE": "sec/oraclejre8"
     },
     "url": "https://github.com/threedr3am/dubbo-exp/archive/refs/heads/master.zip",
-    "hash":"0e8159ce7de7a89a60ff115450685d7852f009f9eafe96d2deaf7fcbdb1059ee",
-    "extract_dir":"dubbo-exp-master",
+    "hash": "6c3bb4bfd633605669d8eb03a874ad00a015730ad87827c93d8f60272506fb3c",
+    "extract_dir": "dubbo-exp-master",
     "pre_install": [
         "Move-Item -Path \"$dir\\bin\\*\" -Destination \"$dir\\\"",
         "Get-ChildItem \"$dir\" 'dubbo-exp-*-SNAPSHOT-jar-with-dependencies.jar' | Select-Object -First 1 | Rename-Item -NewName 'dubbo-exp.jar'",
