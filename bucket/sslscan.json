@@ -1,5 +1,5 @@
 {
-    "version": "2.1.6",
+    "version": "2.2.0",
     "description": "sslscan 测试启用了 SSL/TLS 的服务以发现支持的密码套件",
     "notes": [
         "漏洞检测",
@@ -7,8 +7,8 @@
     ],
     "homepage": "https://github.com/rbsec/sslscan",
     "license": "unknown",
-    "url": "https://github.com/rbsec/sslscan/releases/download/2.1.6/sslscan-2.1.6.zip",
-    "hash": "743ecb309e4e7e4ac483f00c4092ecbe3f4d26c83d87ce8d34f9c4721f32d72a",
+    "url": "https://github.com/rbsec/sslscan/releases/download/2.2.0/sslscan-2.2.0.zip",
+    "hash": "2003ef7c235a3cbaa1f6737a701cab53ab17e89fd0c70855b657e83ed4b3b86c",
     "bin": "sslscan.exe",
     "checkver": "github",
     "autoupdate": {
