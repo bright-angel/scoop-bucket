@@ -19,7 +19,7 @@
     "pre_uninstall": "Copy-Item \"$dir\\license\" \"$persist_dir\\license\" -ErrorAction 'SilentlyContinue'",
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/CTF-NetA",
-        "regex": "download/CTF-NetA/CTF-NetA_([\\d.]+).7z"
+        "regex": "download/CTF-NetA/CTF-NetA_V([\\d.]+).7z"
     },
     "autoupdate": {
         "url": "https://github.com/bright-angel/file/releases/download/CTF-NetA/CTF-NetA-V$version.7z"
