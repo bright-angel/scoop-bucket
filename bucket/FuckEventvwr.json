@@ -9,7 +9,7 @@
     "bin": "FuckEventvwr.exe",
     "checkver": {
         "url": "https://api.github.com/repos/BoyChai/FuckEventvwr/releases/latest",
-        "regex": "download/(v[\\d\\.]+)/FuckEventvwr-(?<tag>\\d{8}).zip"
+        "regex": "download/(v[\\d\\.]+)/FuckEventvwr-(?<tag>\\w+)-windows-amd64.zip"
     },
     "autoupdate": {
         "url": "https://github.com/BoyChai/FuckEventvwr/releases/download/v$version/FuckEventvwr-$matchTag-windows-amd64.zip"

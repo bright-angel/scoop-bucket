@@ -1,5 +1,5 @@
 {
-    "version": "2.16",
+    "version": "latest",
     "description": "年轻人的第一款应急响应工具 ；）",
     "notes": [
         "应急响应",
@@ -16,8 +16,11 @@
             "QDoctor"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/QAX-Anti-Virus/QDoctor/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
     "autoupdate": {
-        "url": "https://github.com/QAX-Anti-Virus/QDoctor/releases/download/latest/QDoctor.exe"
+        "url": "https://github.com/QAX-Anti-Virus/QDoctor/releases/download/$version/QDoctor.exe"
     }
 }

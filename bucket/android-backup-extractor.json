@@ -22,6 +22,6 @@
         "regex": "download/(?<tag>[\\w.]+)/abe-(?<commit>\\w+).jar"
     },
     "autoupdate": {
-        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-$matchCommit.jar#/abe.jar"
+        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/$matchTag/abe-$matchCommit.jar#/abe.jar"
     }
 }

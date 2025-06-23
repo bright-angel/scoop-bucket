@@ -11,12 +11,8 @@
             "P1finger"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/P001water/P1finger/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "P1finger_([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger_windows_amd64.exe#/P1finger.exe"
+        "url": "https://github.com/P001water/P1finger/releases/download/v$version/P1finger_windows_amd64.exe#/P1finger.exe"
     }
 }
