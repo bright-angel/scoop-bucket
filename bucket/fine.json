@@ -5,6 +5,7 @@
     "license": "UNKNOWN",
     "url": "https://github.com/fasnow/fine/releases/download/2.4.3/Fine_windows_amd64.exe#/Fine.exe",
     "bin": "Fine.exe",
+    "persist": "data",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/fasnow/fine/releases/download/$version/Fine_windows_amd64.exe#/Fine.exe"
