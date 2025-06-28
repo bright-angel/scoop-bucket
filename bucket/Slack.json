@@ -1,5 +1,5 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
     "notes": [
         "渗透测试,信息收集,空间测绘",
@@ -7,8 +7,8 @@
     ],
     "homepage": "https://github.com/qiwentaidi/Slack",
     "license": "unknow",
-    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack2.2.0/Slack-windows-amd64.exe#/Slack.exe",
-    "hash": "8fa64edf4b235cc5a91374ead027aa126b68cebb8ab4b22ca408138f0bb78222",
+    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack2.2.1/Slack-windows-amd64.exe#/Slack.exe",
+    "hash": "aa71923f143672e72939d15c0c099234ddd1ffed0b9899bd35edfc4c5e0d9105",
     "bin": "Slack.exe",
     "shortcuts": [
         [
