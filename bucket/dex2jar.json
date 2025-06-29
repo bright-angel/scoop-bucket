@@ -1,0 +1,14 @@
+{
+    "version": "2.4",
+    "description": "用于处理 android .dex 和 java .class 文件的工具",
+    "homepage": "https://github.com/pxb1988/dex2jar",
+    "license": "UNKNOWN",
+    "url": "https://github.com/pxb1988/dex2jar/releases/download/v2.4/dex-tools-v2.4.zip",
+    "hash": "",
+    "extract_dir":"dex-tools-v2.4",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pxb1988/dex2jar/releases/download/v2.4/dex-tools-v2.4.zip",
+        "extract_dir":"dex-tools-v$version"
+    }
+}
