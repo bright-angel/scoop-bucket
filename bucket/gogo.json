@@ -1,15 +1,15 @@
 {
-    "version": "2.13.8",
+    "version": "2.14.0",
     "description": "面向红队的, 高度可控可拓展的自动化引擎",
     "homepage": "https://github.com/chainreactors/gogo",
     "license": "UNKNOWN",
     "url": [
-        "https://github.com/chainreactors/gogo/releases/download/v2.13.8/gogo_windows_amd64.exe#/gogo.exe",
-        "https://github.com/chainreactors/gogo/releases/download/v2.13.8/gogo_linux_amd64#/gogo"
+        "https://github.com/chainreactors/gogo/releases/download/v2.14.0/gogo_windows_amd64.exe#/gogo.exe",
+        "https://github.com/chainreactors/gogo/releases/download/v2.14.0/gogo_linux_amd64#/gogo"
     ],
     "hash": [
-        "f100ee7c82a3424fa37dea8372ebb281c7388298b16a9369169e2194b09658a2",
-        "c09096dfd6fb5eed216cf5b6abc2b5c3f085d356e8aac480bec6cba9a4c9efdd"
+        "e74098b17d5d95e0014cf9c7f41f2a4e4be8baefc2b0eb42d39ae05a95b08ea5",
+        "92dd8357b1fada5571ac0ab53fe2489d2cc6905b279397ee159470dfa177f28d"
     ],
     "bin": "gogo.exe",
     "checkver": "github",
