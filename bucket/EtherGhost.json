@@ -1,9 +1,9 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "description": "新一代Webshell管理器，兼容蚁剑与冰蝎的PHP webshell",
     "homepage": "https://github.com/Marven11/EtherGhost",
     "license": "unknown",
-    "url": "https://github.com/Marven11/EtherGhost/releases/download/v0.2.0/ether_ghost_v0.2.0.exe#/ether_ghost.exe",
+    "url": "https://github.com/Marven11/EtherGhost/releases/download/v0.2.2/ether_ghost_v0.2.2.exe#/ether_ghost.exe",
     "hash": "",
     "bin": "ether_ghost.exe",
     "checkver": "github",
