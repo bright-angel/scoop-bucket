@@ -9,7 +9,6 @@
     "url": "https://github.com/safe6Sec/command/archive/refs/heads/master.zip",
     "hash":"",
     "extract_dir":"command-master",
-    "bin": "command.bat",
     "checkver": {
         "url": "https://api.github.com/repos/safe6Sec/command/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
