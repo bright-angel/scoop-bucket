@@ -10,7 +10,7 @@
     "suggest": {
         "JRE": "sec/oraclejre8"
     },
-    "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v3.26/BlueTeamToolsV3.26.zip",
+    "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v3.26/BlueTeam_ABC_123.jar#/BlueTeamTools.jar",
     "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\blueteamtools.bat\" '@pushd %~dp0",
@@ -27,6 +27,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.zip"
+        "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeam_ABC_123.jar#/BlueTeamTools.jar"
     }
 }
