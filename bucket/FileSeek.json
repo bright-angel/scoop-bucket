@@ -1,0 +1,18 @@
+{
+    "version": "6.7",
+    "description": "FileSeek是一个简单，易于使用的文件搜索工具，它包括对用户先进的功能。通过搜索使用简单的文本查询您的文件，或用于完全控制正则表达式。你甚至可以同步电脑之间的搜索设置。",
+    "homepage": "https://www.ghxi.com/fileseek.html",
+    "license": "UNKNOWN",
+    "url": "https://github.com/bright-angel/file/releases/download/FileSeek/FileSeek_6.7_Portable.7z",
+    "hash": "",
+    "extract_dir":"FileSeek_6.7_Portable",
+    "bin":" FileSeek.exe",
+    "checkver": {
+        "url": "https://github.com/bright-angel/file/releases/expanded_assets/FileSeek",
+        "regex": "download/FileSeek/FileSeek_([\\d.]+)_Portable.7z"
+    },
+    "autoupdate": {
+        "url": "https://github.com/bright-angel/file/releases/download/FileSeek/FileSeek_$version_Portable.7z",
+        "extract_dir":"FileSeek_$version_Portable"
+    }
+}
