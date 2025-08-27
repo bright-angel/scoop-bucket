@@ -1,20 +1,15 @@
 {
     "version": "2.11.0",
-    "description": "(Scoop bucket by arch3rpro)🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
+    "description": "Dalfox 是一款功能强大的开源工具，专注于自动化，非常适合快速扫描 XSS 缺陷和分析参数。其先进的测试引擎和利基功能旨在简化检测和验证漏洞的过程。",
     "homepage": "https://github.com/hahwul/dalfox",
     "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/hahwul/dalfox/releases/download/v2.11.0/dalfox_2.11.0_windows_amd64.tar.gz",
-            "hash": "0f4545331f7058f708e5928d6e1a494dceb05e310d891ecc9b476dba55e1c686"
-        }
-    },
+    "url": "https://github.com/hahwul/dalfox/releases/download/v2.11.0/dalfox-windows-amd64.zip",
     "bin": "dalfox.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hahwul/dalfox/releases/download/v$version/dalfox_$version_windows_amd64.tar.gz"
+                "url": "https://github.com/hahwul/dalfox/releases/download/v$version/dalfox-windows-amd64.zip"
             }
         }
     }

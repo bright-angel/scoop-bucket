@@ -5,12 +5,10 @@
     "license": "UNKNOWN",
     "architecture": {
         "32bit": {
-            "url": "https://www.ed-x.cc/versions/edx-x86.zip",
-            "hash": "e5526f8147efcf70381ef14c7bcf2d78d737fa6fdf58d2906d04df2371de0eaf"
+            "url": "https://www.ed-x.cc/versions/edx-x86.zip"
         },
         "64bit": {
-            "url": "https://www.ed-x.cc/versions/edx.zip",
-            "hash": "f20e99146c1da4c5b5c1f02fa31e4ad10dcdd8dea6dbeb58cb079539e4ae5499"
+            "url": "https://www.ed-x.cc/versions/edx.zip"
         }
     },
     "shortcuts": [

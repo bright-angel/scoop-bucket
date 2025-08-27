@@ -11,7 +11,7 @@
     ],
     "homepage": "https://github.com/abc123info/EquationToolsGUI",
     "license": "UNKNOWN",
-    "url": "https://github.com/abc123info/EquationToolsGUI/releases/download/V0.42/EquationToolsGUI_V0.42.zip#/EquationToolsGUI.zip1",
+    "url": "https://github.com/abc123info/EquationToolsGUI/releases/download/v0.51/EquationToolsGUI_V0.51.zip#/EquationToolsGUI.zip1",
     "pre_install": [
         "7z x \"$dir\\EquationToolsGUI.zip1\" -p123456 -o\"$dir\" -y",
         "Move-Item -Path \"$dir\\方程式工具包图形界面版V$version\\*\" -Destination \"$dir\" -Force",
@@ -33,6 +33,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/abc123info/EquationToolsGUI/releases/download/V$verison/EquationToolsGUI_V$version.zip#/EquationToolsGUI.zip1"
+        "url": "https://github.com/abc123info/EquationToolsGUI/releases/download/v$verison/EquationToolsGUI_V$version.zip#/EquationToolsGUI.zip1"
     }
 }
