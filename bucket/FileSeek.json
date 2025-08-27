@@ -6,7 +6,7 @@
     "url": "https://github.com/bright-angel/file/releases/download/FileSeek/FileSeek_6.7_Portable.7z",
     "hash": "",
     "extract_dir":"FileSeek_6.7_Portable",
-    "bin":" FileSeek.exe",
+    "bin":"FileSeek.exe",
     "checkver": {
         "url": "https://github.com/bright-angel/file/releases/expanded_assets/FileSeek",
         "regex": "download/FileSeek/FileSeek_([\\d.]+)_Portable.7z"
