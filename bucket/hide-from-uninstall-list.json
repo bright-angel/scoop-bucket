@@ -26,7 +26,6 @@
         }
     },
     "url": "https://www.sordum.org/files/download/hide-from-uninstall-list/HideUL.zip",
-    "hash": "90afcd994b2212a4bf39ad0c027921a48abe0ab037a133a490ab97b83898ffda",
     "extract_dir": "HideUL",
     "persist": "HideUL.ini",
     "checkver": {
