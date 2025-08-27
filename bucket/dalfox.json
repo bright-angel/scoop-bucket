@@ -1,5 +1,5 @@
 {
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "Dalfox 是一款功能强大的开源工具，专注于自动化，非常适合快速扫描 XSS 缺陷和分析参数。其先进的测试引擎和利基功能旨在简化检测和验证漏洞的过程。",
     "homepage": "https://github.com/hahwul/dalfox",
     "license": "MIT",
