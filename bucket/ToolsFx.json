@@ -7,24 +7,18 @@
     ],
     "homepage": "https://github.com/Leon406/ToolsFx",
     "license": "UNKNOWN",
-    "suggest": {
-        "JRE": [
-            "sec/oraclejre8"
-        ]
-    },
-    "url": "https://github.com/Leon406/ToolsFx/releases/download/v1.18.0/ToolsFx-1.18.0-jdk8-all-platform.zip",
-    "hash": "fe5c062e037ee762079d356a6a4fc78ef2246b6ba954052238defc11b77b31f1",
-    "extract_dir": "ToolsFx-1.18.0-jdk8-all-platform",
-    "bin": "ToolsFx.vbs",
+    "url": "https://github.com/Leon406/ToolsFx/releases/download/v1.18.0/ToolsFx-1.18.0-withjre-win-x64.zip",
+    "extract_dir": "ToolsFx-1.18.0-withjre-win-x64",
+    "bin": "ToolsFx.exe",
     "shortcuts": [
         [
-            "ToolsFx.vbs",
+            "ToolsFx.exe",
             "ToolsFx"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-jdk8-all-platform.zip",
-        "extract_dir": "ToolsFx-$version-jdk8-all-platform"
+        "url": "https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-withjre-win-x64.zip",
+        "extract_dir": "ToolsFx-$version-withjre-win-x64"
     }
 }
