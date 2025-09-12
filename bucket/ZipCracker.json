@@ -1,5 +1,5 @@
 {
-    "version": "2025-08-21T09.21.34",
+    "version": "2025-09-12T08.33.18",
     "description": "ZipCracker是一款由Hx0战队开发的高性能多并发破解工具，专为破解密码保护的Zip文件而设计。它采用CRC32碰撞和字典攻击方式猜测Zip文件的明文或密码，并能成功提取其中的内容。这款工具具备识别\"伪加密\"Zip文件的能力，并能自动进行修复。因此，它非常适合在CTF比赛中使用。（ZipCracker by Hx0 team is a tool for cracking passwords on Zip files, great for CTF competitions.）",
     "notes": [
         "口令破解,伪加密,CRC32碰撞",
@@ -11,7 +11,7 @@
         "python": "miniconda3"
     },
     "url": "https://github.com/asaotomo/ZipCracker/archive/refs/heads/master.zip",
-    "hash": "776e48c49773d88e2cc9f77f1480e3b2da665492adfc83620cafcec9633c6028",
+    "hash": "760543e0c39c81005240069c9affc7c22d85fb0b547a211f3b65b3ae8e116009",
     "pre_install": [
         "Set-Content \"$dir\\ZipCracker.bat\" '@pushd %~dp0",
         "@call activate python3env",
