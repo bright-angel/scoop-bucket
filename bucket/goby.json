@@ -4,7 +4,7 @@
     "notes": "漏洞扫描,漏洞检测利用,资产测绘,端口扫描",
     "homepage": "https://gobysec.net/",
     "license": "https://gobysec.net/faq",
-    "url": "https://goby-storage-public.oss-cn-beijing.aliyuncs.com/2.9.19/goby-win-x64-2.9.19-Community.zip",
+    "url": "https://github.com/bright-angel/file/releases/download/goby/goby-win-x64-2.9.19-Community.zip",
     "hash": "",
     "extract_dir": "goby-win-x64-2.9.19",
     "bin": [
@@ -19,17 +19,10 @@
             "Goby"
         ]
     ],
-    "checkver": {
-        "url": "https://gobysec.net/api/versions",
-        "jsonpath": "$.data[0].title"
-    },
     "persist": [
         "data",
         "config",
         "extensions"
-    ],
-    "autoupdate": {
-        "url": "https://goby-storage-public.oss-cn-beijing.aliyuncs.com/$version/goby-win-x64-$version-Community.zip",
-        "extract_dir": "goby-win-x64-$version"
-    }
+    ]
+
 }
