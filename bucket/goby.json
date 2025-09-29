@@ -5,7 +5,6 @@
     "homepage": "https://gobysec.net/",
     "license": "https://gobysec.net/faq",
     "url": "https://github.com/bright-angel/file/releases/download/goby/goby-win-x64-2.9.19-Community.zip",
-    "hash": "",
     "extract_dir": "goby-win-x64-2.9.19",
     "bin": [
         [
