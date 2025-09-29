@@ -5,7 +5,6 @@
     "license": "Freeware",
     "notes": "This is the standard version of 'Event Log Explorer'. To get your free non-commercial license key, see https://eventlogxp.com/submit-ok.html",
     "url": "https://eventlogxp.com/download/elex_setup.exe",
-    "hash": "8dc2c9d4a620bf421dac9c9bce2ab690798005edbf5d7ccb202717a14f8cc894",
     "innosetup": true,
     "bin": [
         "elex.exe",
