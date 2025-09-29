@@ -1,0 +1,15 @@
+{
+    "version": "3.23.1",
+    "description": "夸克网盘去升级（无浏览器）",
+    "homepage": "https://www.52pojie.cn/thread-2053218-1-1.html",
+    "license": "UNKNOWN",
+    "url": "https://github.com/bright-angel/file/releases/download/quark-cloud-drive/quark-cloud-drive-3.23.1.7z",
+    "hash": "",
+    "bin": "QuarkCloudDrive.exe",
+    "shortcuts": [
+        [
+            "QuarkCloudDrive.exe",
+            "QuarkCloudDrive"
+        ]
+    ]
+}
