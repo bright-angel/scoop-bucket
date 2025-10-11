@@ -1,5 +1,5 @@
 {
-    "version": "2.6",
+    "version": "2.7",
     "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
     "notes": [
         "漏洞检测利用,漏洞扫描",
@@ -8,12 +8,10 @@
     "homepage": "https://github.com/AabyssZG/SpringBoot-Scan",
     "license": "unknown",
     "suggest": {
-        "python":[
-            "miniconda3"
-        ]
+        "python": "miniconda3"
     },
-    "url": "https://github.com/AabyssZG/SpringBoot-Scan/archive/refs/tags/2.6.zip",
-    "hash": "cf32e189dc2a7bbc07e532dc10e6f8e36c2f9458f7a0b76dc337ff0b7812fde2",
+    "url": "https://github.com/AabyssZG/SpringBoot-Scan/archive/refs/tags/2.7.zip",
+    "hash": "09beec415bd2da8e9cf324d08658a2853fdf0100a52497384f4890428389ec35",
     "pre_install": [
         "Set-Content \"$dir\\SpringBoot-Scan.bat\" '@pushd %~dp0",
         "@call activate python3env",
