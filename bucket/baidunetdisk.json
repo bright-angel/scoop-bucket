@@ -1,9 +1,9 @@
 {
-    "version": "7.44.5.2",
+    "version": "7.61.5.120",
     "homepage": "https://pan.baidu.com/download",
     "license": "Freeware",
     "description": "百度网盘 PC 版",
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.44.5.2.exe#dl.7z",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.61.5.120.exe#dl.7z",
     "bin": "BaiduNetdisk.exe",
     "shortcuts": [
         [
