@@ -7,7 +7,7 @@
     ],
     "homepage": "https://github.com/darkfiv/PromptInjectionScanner",
     "license": "unknown",
-    "url": "https://github.com/darkfiv/PromptInjectionScanner/releases/download/V1.0.2/prompt-injection-scanner-1.0.2.jar",
+    "url": "https://github.com/darkfiv/PromptInjectionScanner/releases/download/V1.0.2/prompt-injection-scanner-1.0.2.jar#/prompt-injection-scanner.jar",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/darkfiv/PromptInjectionScanner/releases/download/V$version/prompt-injection-scanner-$version.jar"
