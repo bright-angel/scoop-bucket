@@ -21,6 +21,12 @@
         "@popd' -Encoding Ascii"
     ],
     "bin": "Turacos.bat",
+    "shortcuts": [
+        [
+            "Turacos.bat",
+            "Turacos"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/alanni-tom/Turacos/releases/download/$version/Turacos-$version.zip"
