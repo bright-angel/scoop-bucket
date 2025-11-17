@@ -8,7 +8,11 @@
             "go"
             ]
         },
-    "url": "https://github.com/zhaodie/sacnner/archive/refs/heads/main.zip",
+    "url": [
+        "https://github.com/zhaodie/sacnner/archive/refs/heads/main.zip",
+        "https://github.com/zhaodie/sacnner/releases/download/sacnnerv1.0/linux.zip"
+    ],
+
     "pre_install": [
         "Set-Content \"$dir\\sacnner.bat\" '@pushd %~dp0",
         "@go run \"main.go\" %*",
@@ -22,6 +26,9 @@
         "replace": "$1$2.$3.$4"
     },
     "autoupdate": {
-        "url": "https://github.com/zhaodie/sacnner/archive/refs/heads/main.zip"
+        "url": [
+            "https://github.com/zhaodie/sacnner/archive/refs/heads/main.zip",
+            "https://github.com/zhaodie/sacnner/releases/download/sacnnerv1.0/linux.zip"
+        ]
     }
 }
