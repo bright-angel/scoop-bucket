@@ -19,6 +19,7 @@
         "@start java -javaagent:StarCodeSecurity.jar  -Dfile.encoding=utf-8 -jar StarCodeSecurity.jar",
         "@popd' -Encoding Ascii"
     ],
+    "extract_dir": "StarCodeSecurity",
     "bin": "StarCodeSecurity.bat",
     "shortcuts": [
         [
