@@ -12,7 +12,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/vsdwef/StarCodeSecurity/releases/download/V1.2/StarCodeSecurity.zip",
+    "url": "https://github.com/vsdwef/StarCodeSecurity/releases/download/V1.2/StarCodeSecurity.rar",
     "hash": "8f4d4bacad32b390ed17204d35424ba603ac9f790f3cb3c4735c49aa656a4ab1",
     "pre_install": [
         "Set-Content \"$dir\\StarCodeSecurity.bat\" '@pushd %~dp0",
@@ -29,6 +29,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vsdwef/StarCodeSecurity/releases/download/V$version/StarCodeSecurity.zip"
+        "url": "https://github.com/vsdwef/StarCodeSecurity/releases/download/V$version/StarCodeSecurity.rar"
     }
 }
