@@ -1,10 +1,9 @@
 {
     "version": "1.5.2",
     "description": "OpenArk是一款Windows平台上的开源Ark工具. Ark是Anti-Rootkit（对抗恶意程序）的简写, OpenArk目标成为逆向工程师、编程人员的工具，同时也能为那些希望清理恶意软件的用户服务。以后也将会支持更多功能和命令。",
-    "homepage": "https://github.com/BlackINT3/OpenArk",
+    "homepage": "http://openark.blackint3.com:88/zh/",
     "license": "LGPL-2.1",
-    "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.5.2/OpenArk64.exe#/OpenArk.exe",
-    "hash": "",
+    "url": "http://file.blackint3.com:88/openark/OpenArk64.exe#/OpenArk.exe",
     "bin": "OpenArk.exe",
     "shortcuts": [
         [
@@ -12,8 +11,11 @@
             "OpenArk"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "http://openark.blackint3.com:88/zh/release/",
+        "regex": "OpenArk v([\\d.]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/BlackINT3/OpenArk/releases/download/v$version/OpenArk64.exe#/OpenArk.exe"
+        "url": "http://file.blackint3.com:88/openark/OpenArk64.exe#/OpenArk.exe"
     }
 }
