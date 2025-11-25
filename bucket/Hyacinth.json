@@ -25,10 +25,9 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/pureqh/Hyacinth/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "hyacinth-v([\\d.]+)"
+        "regex": "download/(?<tag>hyacinth-v[\\d\\.]+)/hyacinth-v([\\d.]+).jar"
     },
     "autoupdate": {
-        "url": "https://github.com/pureqh/Hyacinth/releases/download/hyacinth-v$version/hyacinth-v$version.jar#/hyacinth.jar"
+        "url": "https://github.com/pureqh/Hyacinth/releases/download/$matchTag/hyacinth-v$version.jar#/hyacinth.jar"
     }
 }
