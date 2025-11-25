@@ -17,6 +17,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/EnableSecurity/wafw00f/archive/refs/tags/$version.zip"
+        "url": "https://github.com/EnableSecurity/wafw00f/archive/refs/tags/v$version.zip"
     }
 }
