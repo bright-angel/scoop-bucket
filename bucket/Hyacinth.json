@@ -1,15 +1,13 @@
 {
-    "version": "2.0",
+    "version": "2.1",
     "description": "Struts2、Fastjson、Weblogic（xml）、Shiro、Log4j、Jboss、SpringCloud、等漏洞检测利用",
     "homepage": "https://github.com/pureqh/Hyacinth",
     "license": "UNKNOWN",
     "suggest": {
-        "JRE": [
-            "sec/oraclejre8"
-        ]
+        "JRE": "sec/oraclejre8"
     },
-    "url": "https://github.com/pureqh/Hyacinth/releases/download/hyacinth-v2.0/hyacinth-v2.0.jar#/hyacinth.jar",
-    "hash": "14ca41ada2428b60b8ae033f7d35c6e3c3074f75c422b67374301605e4dfb19d",
+    "url": "https://github.com/pureqh/Hyacinth/releases/download/hyacinth-v2.0.1/hyacinth-v2.1.jar#/hyacinth.jar",
+    "hash": "06031ffaff30b861e9ad22f707b2c4f9fb9bb6e40d359f9bb499fda21270d876",
     "pre_install": [
         "Set-Content \"$dir\\hyacinth.bat\" '@pushd %~dp0",
         "@call oraclejre8",
