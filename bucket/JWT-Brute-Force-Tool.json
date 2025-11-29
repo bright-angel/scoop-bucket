@@ -5,8 +5,14 @@
     "license": "Apache License 2.0",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fightnvrgp/JWT-Brute-Force-Tool/releases/download/v$version/jwt-brute-force-tool-windows-amd64.exe#/jwt-brute-force-tool.exe"
+        "url": [
+            "https://github.com/fightnvrgp/JWT-Brute-Force-Tool/releases/download/v$version/jwt-brute-force-tool-windows-amd64.exe#/jwt-brute-force-tool.exe",
+            "https://github.com/fightnvrgp/JWT-Brute-Force-Tool/archive/refs/heads/main.zip"
+        ]
     },
-    "url": "https://github.com/fightnvrgp/JWT-Brute-Force-Tool/releases/download/v1.0.0/jwt-brute-force-tool-windows-amd64.exe#/jwt-brute-force-tool.exe",
+    "url": [
+        "https://github.com/fightnvrgp/JWT-Brute-Force-Tool/releases/download/v1.0.0/jwt-brute-force-tool-windows-amd64.exe#/jwt-brute-force-tool.exe",
+        "https://github.com/fightnvrgp/JWT-Brute-Force-Tool/archive/refs/heads/main.zip"
+    ],
     "bin": "jwt-brute-force-tool.exe"
 }
