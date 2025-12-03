@@ -1,12 +1,12 @@
 {
-    "version": "7.8.1",
+    "version": "7.8.2",
     "description": "ProGuard, Java optimizer and obfuscator(Scoop bucket by arch3rpro)",
     "notes": "Java 优化器和混淆器",
     "homepage": "https://github.com/Guardsquare/proguard",
     "license": "Apache-2.0",
-    "url": "https://github.com/Guardsquare/proguard/releases/download/v7.8.1/proguard-7.8.1.zip",
+    "url": "https://github.com/Guardsquare/proguard/releases/download/v7.8.2/proguard-7.8.2.zip",
     "hash": "",
-    "extract_dir": "proguard-7.8.1",
+    "extract_dir": "proguard-7.8.2",
     "bin": [
         "bin\\proguardgui.bat",
         "bin\\proguard.bat"
