@@ -34,7 +34,7 @@
             "}",
             "",
             "# 使用静默安装参数",
-            "$installPath = \"$dir\\COM\"",
+            "$installPath = \"$dir\"",
             "New-Item -ItemType Directory -Force -Path \"$installPath\" | Out-Null",
             "Start-Process -FilePath \"$installer.FullName\" -ArgumentList \"/DIR=`\"$installPath`\" /SILENT /NORESTART /SUPPRESSMSGBOXES\" -Wait -NoNewWindow",
             "",
