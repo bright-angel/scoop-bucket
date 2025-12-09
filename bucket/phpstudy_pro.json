@@ -110,7 +110,7 @@
     "shortcuts": [
         [
             "COM\\phpstudy_pro.exe",
-            "phpStudy"
+            "phpstudy_pro"
         ]
     ],
     "persist": [
