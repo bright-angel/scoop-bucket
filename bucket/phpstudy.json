@@ -1,14 +1,110 @@
 {
-  "version": "8.1",
-  "description": "PhpStudy国内12年老牌公益软件，集安全，高效，功能与一体，已获得全球用户认可安装，运维也高效。支持一键LAMP,LNMP,集群,监控,网站,FTP,数据库,JAVA等100多项服务器管理功能。",
-  "homepage": "https://www.xp.cn/",
-  "license": "Unlicense",
-  "architecture": {
-    "64bit": {
-      "url": "https://public.xp.cn/upgrades/phpStudy_64.zip"
+    "version": "8.1.1.3",
+    "description": "PHPStudy - PHP集成环境工具",
+    "homepage": "https://www.xp.cn/",
+    "license": "Freeware",
+    "url": "https://public.xp.cn/upgrades/phpStudy_64.zip",
+    "pre_install": [
+        "# 创建临时目录并解压",
+        "New-Item -ItemType Directory -Force -Path \"$dir\\_tmp\" | Out-Null",
+        "Expand-Archive -Path \"$dir\\phpStudy_64.zip\" -DestinationPath \"$dir\\_tmp\" -Force",
+        "",
+        "# 创建持久化目录的符号链接",
+        "if (Test-Path \"$persist_dir\\Extensions\") {",
+        "    New-Item -ItemType Junction -Path \"$dir\\Extensions\" -Target \"$persist_dir\\Extensions\" -Force | Out-Null",
+        "} else {",
+        "    New-Item -ItemType Directory -Force -Path \"$persist_dir\\Extensions\" | Out-Null",
+        "    New-Item -ItemType Junction -Path \"$dir\\Extensions\" -Target \"$persist_dir\\Extensions\" -Force | Out-Null",
+        "}",
+        "",
+        "if (Test-Path \"$persist_dir\\WWW\") {",
+        "    New-Item -ItemType Junction -Path \"$dir\\WWW\" -Target \"$persist_dir\\WWW\" -Force | Out-Null",
+        "} else {",
+        "    New-Item -ItemType Directory -Force -Path \"$persist_dir\\WWW\" | Out-Null",
+        "    New-Item -ItemType Junction -Path \"$dir\\WWW\" -Target \"$persist_dir\\WWW\" -Force | Out-Null",
+        "}"
+    ],
+    "installer": {
+        "script": [
+            "# 运行安装程序",
+            "$installer = Get-ChildItem -Path \"$dir\\_tmp\" -Filter 'phpstudy_x64_*.exe' -Recurse | Select-Object -First 1",
+            "if (-not $installer) {",
+            "    Write-Error '安装程序未找到'",
+            "    exit 1",
+            "}",
+            "",
+            "# 使用静默安装参数",
+            "$installPath = \"$dir\\COM\"",
+            "New-Item -ItemType Directory -Force -Path \"$installPath\" | Out-Null",
+            "Start-Process -FilePath \"$installer.FullName\" -ArgumentList \"/DIR=`\"$installPath`\" /SILENT /NORESTART /SUPPRESSMSGBOXES\" -Wait -NoNewWindow",
+            "",
+            "# 验证安装是否成功",
+            "if (-not (Test-Path \"$dir\\COM\\phpstudy_pro.exe\")) {",
+            "    Write-Error '安装失败：phpstudy_pro.exe 未找到'",
+            "    exit 1",
+            "}",
+            "",
+            "# 清理临时文件",
+            "Remove-Item -Path \"$dir\\_tmp\" -Recurse -Force -ErrorAction SilentlyContinue",
+            "Remove-Item -Path \"$dir\\phpStudy_64.zip\" -Force -ErrorAction SilentlyContinue"
+        ]
     },
-    "32bit": {
-      "url": "https://public.xp.cn/upgrades/phpStudy_32.zip"
-    }
-  }
+    "post_install": [
+        "# 创建快捷方式并确保目录结构正确",
+        "Write-Host 'PHPStudy 安装完成！' -ForegroundColor Green",
+        "Write-Host '可执行文件位置: $dir\\COM\\phpstudy_pro.exe' -ForegroundColor Yellow",
+        "Write-Host '网站目录: $persist_dir\\WWW' -ForegroundColor Yellow",
+        "Write-Host '扩展目录: $persist_dir\\Extensions' -ForegroundColor Yellow",
+        "",
+        "# 创建启动脚本（可选）",
+        "$startScript = @'",
+        "#!/usr/bin/env pwsh",
+        "# PHPStudy启动脚本",
+        "# 注意：PHPStudy可能需要管理员权限运行",
+        "if (Test-Path \"`$PSScriptRoot\\COM\\phpstudy_pro.exe\") {",
+        "    Start-Process -FilePath \"`$PSScriptRoot\\COM\\phpstudy_pro.exe\" -Verb RunAs",
+        "} else {",
+        "    Write-Error \"phpstudy_pro.exe 未找到\"",
+        "}",
+        "'@",
+        "Set-Content -Path \"$dir\\start-phpstudy.ps1\" -Value $startScript -Encoding UTF8"
+    ],
+    "uninstaller": {
+        "script": [
+            "# 运行卸载程序",
+            "$uninstaller = \"$dir\\unins000.exe\"",
+            "if (Test-Path $uninstaller) {",
+            "    Write-Host '正在卸载 PHPStudy...' -ForegroundColor Yellow",
+            "    Start-Process -FilePath $uninstaller -ArgumentList \"/SILENT /NORESTART\" -Wait -NoNewWindow",
+            "    Start-Sleep -Seconds 2",
+            "} else {",
+            "    Write-Warning '未找到卸载程序，将直接删除文件'",
+            "}",
+            "",
+            "# 删除持久化目录的符号链接（但不删除持久化数据）",
+            "Remove-Item -Path \"$dir\\Extensions\" -Force -ErrorAction SilentlyContinue",
+            "Remove-Item -Path \"$dir\\WWW\" -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "persist": [
+        "Extensions",
+        "WWW"
+    ],
+    "shortcuts": [
+        [
+            "COM\\phpstudy_pro.exe",
+            "PHPStudy"
+        ],
+        [
+            "start-phpstudy.ps1",
+            "PHPStudy (以管理员运行)"
+        ]
+    ],
+    "notes": [
+        "PHPStudy 安装目录: $dir\\COM",
+        "网站文件请放在: $persist_dir\\WWW 目录中",
+        "扩展请放在: $persist_dir\\Extensions 目录中",
+        "首次运行可能需要管理员权限",
+        "如果遇到安装问题，请尝试手动运行: $dir\\unins000.exe 卸载后重新安装"
+    ]
 }
