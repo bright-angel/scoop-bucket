@@ -101,7 +101,7 @@
         ]
     ],
     "notes": [
-        "PHPStudy 安装目录: $dir\\COM",
+        "PHPStudy 安装目录: $dir",
         "网站文件请放在: $persist_dir\\WWW 目录中",
         "扩展请放在: $persist_dir\\Extensions 目录中",
         "首次运行可能需要管理员权限",
