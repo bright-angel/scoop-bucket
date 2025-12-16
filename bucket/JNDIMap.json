@@ -1,0 +1,23 @@
+{
+    "version": "0.0.4",
+    "description": "A powerful JNDI injection exploitation framework that supports RMI, LDAP and LDAPS protocols, including various bypass methods for high-version JDK restrictions",
+    "homepage": "https://github.com/X1r0z/JNDIMap",
+    "license": "MIT License",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/X1r0z/JNDIMap/releases/download/v$version/JNDIMap-$version.jar#/JNDIMap.jar"
+    },
+    "suggest": {
+        "JRE": [
+            "sec/oraclejre8"
+        ]
+    },
+    "url": "https://github.com/X1r0z/JNDIMap/releases/download/v0.0.4/JNDIMap-0.0.4.jar#/JNDIMap.jar",
+    "pre_install": [
+        "Set-Content \"$dir\\JNDIMap.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"JNDIMap.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "JNDIMap.bat"
+}
