@@ -16,7 +16,7 @@
     "pre_install": [
         "Set-Content \"$dir\\JNDIMap.bat\" '@pushd %~dp0",
         "@call oraclejre8",
-        "@start javaw.exe -jar \"JNDIMap.jar\" %*",
+        "@cmd /c java.exe -jar \"JNDIMap.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "JNDIMap.bat"
