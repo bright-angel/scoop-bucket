@@ -4,7 +4,7 @@
     "homepage": "https://github.com/vam876/FastWLAT",
     "license": "UNKNOWN",
     "url": "https://github.com/vam876/FastWLAT/releases/download/v1.1.0/FastWLAT-1.1.0-portable.exe#/FastWLAT.exe",
-    "hash": "",
+    "hash": "b14b789c979566268a71215f598b46dac03011cc510e760784dee3d715bf467a",
     "bin": "FastWLAT.exe",
     "shortcuts":[
         [
