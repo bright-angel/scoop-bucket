@@ -1,15 +1,13 @@
 {
-    "version": "2.13.1",
+    "version": "2.13.2",
     "description": "Java 8+ Jar & Android APK逆向工程套件（反编译器，编辑器，调试器等）",
     "homepage": "https://github.com/Konloch/bytecode-viewer",
     "license": "UNKNOWN",
     "suggest": {
-        "JRE": [
-            "sec/oraclejre8"
-        ]
+        "JRE": "sec/oraclejre8"
     },
-    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v2.13.1/Bytecode-Viewer-2.13.1.jar#/Bytecode-Viewer.jar",
-    "hash": "f71c457c369e34a9724985ff3b393ccfafeabc3155b87daa1bdbc42635b7fe79",
+    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v2.13.2/Bytecode-Viewer-2.13.2.jar#/Bytecode-Viewer.jar",
+    "hash": "5d50f7da9a6a3d481cb1baaa391fcc9cc862ad47f1013ca415a73a0cae11ca84",
     "pre_install": [
         "Set-Content \"$dir\\Bytecode-Viewer.bat\" '@pushd %~dp0",
         "@call oraclejre8",
