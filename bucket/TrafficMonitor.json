@@ -1,0 +1,41 @@
+{
+    "version": "1.85.1",
+    "description": "Windows平台的网速监控悬浮窗软件，支持显示网速、CPU/内存利用率、温度监控、任务栏嵌入等功能",
+    "homepage": "https://github.com/zhongyang219/TrafficMonitor",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/blob/master/LICENSE"
+    },
+    "url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.85.1/TrafficMonitor_V1.85.1_x64.zip",
+    "extract_dir": "TrafficMonitor",
+    "architecture": {
+        "64bit": {
+            "bin": "TrafficMonitor.exe",
+            "shortcuts": [
+                [
+                    "TrafficMonitor.exe",
+                    "TrafficMonitor (网速监控)",
+                    "",
+                    "TrafficMonitor.exe"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "if (-not (Test-Path \"$dir\\TrafficMonitor.exe\")) {",
+        "    Write-Error \"核心程序文件 TrafficMonitor.exe 缺失，请检查下载包完整性！\"",
+        "    exit 1",
+        "}"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V$version/TrafficMonitor_V$version_x64.zip",
+        "extract_dir": "TrafficMonitor"
+    },
+    "notes": [
+        "1. 若启动提示缺少 MSVC*.dll，请安装 Visual C++ 运行库：",
+        "   https://docs.microsoft.com/zh-CN/cpp/windows/latest-supported-vc-redist?view=msvc-170",
+        "2. 右键悬浮窗可开启任务栏显示、调整监控项等设置",
+        "3. 如需无温度监控版本，请手动下载 Lite 版替换程序文件"
+    ]
+}
