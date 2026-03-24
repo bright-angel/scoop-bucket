@@ -1,0 +1,29 @@
+{
+    "version": "3.0.9",
+    "description": "基于Xia Sql二次开发的高度自定义化SQL注入检测插件，专为安全研究人员和渗透测试工程师打造",
+    "homepage": "https://github.com/darkfiv/DouSql",
+    "license": "Apache-2.0",
+    "url": "https://github.com/darkfiv/DouSql/releases/download/V3.0.9/DouSql-3.0.9.jar",
+    "hash": "30a78eb1c2dcc9dec971d575370f111bad867e45c82cef8dcbd4d23d7becd218",
+    "notes": [
+        "BurpSuite插件",
+        "标签: SQL注入检测, 安全测试, 渗透测试",
+        "支持多种SQL注入检测方式：报错注入、时间盲注、布尔盲注",
+        "内置7个payload组，包含Mysql、Mssql、Oracle等数据库支持",
+        "支持中文/英文双语言界面，可根据系统语言自动选择",
+        "提供参数过滤系统、响应过滤系统等高级配置选项",
+        "自动检测并修复中文参数编码问题，支持UTF-8、GBK等多种编码格式",
+        "使用方法：在Burp Suite的Extensions中加载jar文件即可使用"
+    ],
+    "checkver": {
+        "url": "https://github.com/darkfiv/DouSql/releases",
+        "regex": "V([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/darkfiv/DouSql/releases/download/V$version/DouSql-$version.jar",
+        "hash": {
+            "url": "https://github.com/darkfiv/DouSql/releases/tag/V$version",
+            "regex": "sha256:([a-f0-9]+)"
+        }
+    }
+}
