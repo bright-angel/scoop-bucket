@@ -1,36 +1,33 @@
 {
-    "version": "4.7.0",
-    "description": "shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题",
-    "notes": [
-        "漏洞检测利用",
-        "Apache Shiro"
-    ],
+    "version": "5.0.0-r4",
+    "description": "Shiro反序列化漏洞综合利用工具，支持回显执行命令、注入内存马等功能",
     "homepage": "https://github.com/SummerSec/ShiroAttack2",
-    "license": "UNKNOWN",
+    "license": "unknown",
+    "url": "https://github.com/SummerSec/ShiroAttack2/releases/download/v5.0.0-r4/shiro_attack-5.0.0-zulu-8-jfx-bundle.zip",
+    "hash": "sha256:666dfba2d0b4b3eea1333be53bba5c698048fe36300c1237dae576b85dab6bc5",
     "suggest": {
-        "JRE": [
-            "sec/oraclejre8"
-        ]
+        "java": "sec/oraclejdk8"
     },
-    "url": "https://github.com/SummerSec/ShiroAttack2/releases/download/4.7.0/shiro_attack-4.7.0-SNAPSHOT-all.zip",
-    "hash":"6f00ea54d8c7f387810361abc42bdf8c9f0fcd1cb02ec8f0e873efb585178058",
-
     "pre_install": [
-        "Get-ChildItem \"$dir\" 'shiro_attack-*-SNAPSHOT-all.jar' | Select-Object -First 1 | Rename-Item -NewName 'shiro_attack.jar'",
-        "Set-Content \"$dir\\shiro_attack.bat\" '@pushd %~dp0",
-        "@call oraclejre8",
-        "@start javaw.exe -jar \"shiro_attack.jar\" %*",
-        "@popd' -Encoding Ascii"
+        "Get-ChildItem \"$dir\" 'shiro_attack-*-jfx.jar' | Select-Object -First 1 | Rename-Item -NewName 'shiro_attack.jar'",
+        "Set-Content \"$dir\\shiro_attack.bat\" '@pushd %~dp0', '@call oraclejdk8', '@start javaw.exe -jar \"shiro_attack.jar\" %*', '@popd' -Encoding Ascii"
     ],
     "bin": "shiro_attack.bat",
     "shortcuts": [
         [
             "shiro_attack.bat",
-            "shiro_attack"
+            "ShiroAttack2"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/SummerSec/ShiroAttack2/releases/download/$version/shiro_attack-$version-SNAPSHOT-all.zip"
-    }
+        "url": "https://github.com/SummerSec/ShiroAttack2/releases/download/v$version/shiro_attack-5.0.0-zulu-8-jfx-bundle.zip"
+    },
+    "notes": [
+        "【工具类型】: 安全测试",
+        "【主要功能】: Shiro反序列化漏洞综合利用，支持回显执行命令、注入内存马",
+        "【适用场景】: 安全自查、漏洞检测",
+        "【技术特点】: 基于Java 8开发，支持多版本CommonsBeanutils gadget",
+        "【注意事项】: 仅用于安全自查检测，请勿用于非法用途"
+    ]
 }
