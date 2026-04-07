@@ -1,5 +1,5 @@
 {
-    "version": "2026-02-17T18.32.16",
+    "version": "2026-04-07T10.28.49",
     "description": "PyInstaller Extractor 是一个 Python 脚本，用于提取 PyInstaller 生成的可执行文件的内容",
     "homepage": "https://github.com/pyinstxtractor/pyinstxtractor-ng",
     "license": "unknown",
@@ -7,7 +7,7 @@
         "python": "miniconda3"
     },
     "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/archive/refs/heads/master.zip",
-    "hash": "aa88a544480cff37a52b77e1d709ddd2a50982f58b6ff5163818d5abab29a455",
+    "hash": "c23083a074e594fce4a37d928cbcfd7b22012055749f4b17158b0c0aefd5808b",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor-ng.bat\" '@pushd %~dp0",
         "@call activate python3env",
