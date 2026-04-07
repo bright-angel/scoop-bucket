@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "947edcbe9fef1332e7d3f66232d6e5bb67bae3d1",
     "description": "TProxer是一个Burp Suite扩展，用于自动化寻找基于路径的反向代理SSRF漏洞",
     "notes": [
