@@ -1,10 +1,10 @@
 {
-    "version": "2.0.0",
-    "description": "  开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速 .",
+    "version": "2.0.0.3",
+    "description": "开发者边车，GitHub加速工具，解决GitHub访问困难、克隆慢等问题",
     "homepage": "https://github.com/docmirror/dev-sidecar",
     "license": "MIT",
-    "url": "https://github.com/docmirror/dev-sidecar/releases/download/v2.0.0/DevSidecar-2.0.0-windows-x64.exe#/dl.7z",
-    "hash": "",
+    "url": "https://github.com/docmirror/dev-sidecar/releases/download/release-2.0.0.3/DevSidecar-2.0.0.3-windows-x86_64.exe#/dl.7z",
+    "hash": "sha256:9024EF9998DF0A05E1E0377C7DA42C45BDF558B72E51CF2B7505A1AA124D3554",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
@@ -18,9 +18,17 @@
     "checkver": {
         "url": "https://api.github.com/repos/docmirror/dev-sidecar/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "v([\\d\\.A-Za-z-]+)"
+        "regex": "release-([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version-windows-x64.exe#/dl.7z"
-    }
+        "url": "https://github.com/docmirror/dev-sidecar/releases/download/release-$version/DevSidecar-$version-windows-x86_64.exe#/dl.7z"
+    },
+    "notes": [
+        "【工具类型】: 网络加速工具",
+        "【主要功能】: GitHub访问加速，Git克隆加速，Release下载加速",
+        "【适用场景】: 开发者日常使用GitHub时遇到的访问困难问题",
+        "【技术特点】: 基于本地代理实现，支持Windows平台",
+        "【注意事项】: 首次运行可能需要配置系统代理"
+    ]
 }
+

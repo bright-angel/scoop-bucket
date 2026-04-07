@@ -1,27 +1,30 @@
 {
-    "version": "latest",
-    "description": "Android 备份提取器",
+    "version": "2025-10-27T06.16.34",
+    "description": "用于提取和重新打包 Android 备份文件的工具",
     "homepage": "https://github.com/nelenkov/android-backup-extractor",
-    "license": "UNKNOWN",
+    "license": "Apache-2.0",
+    "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-540a57d.jar#/abe.jar",
+    "hash": "sha256:ed10092ce649f3f4d737b6e84b4c35b78affc07bbf470377fcde871a64cc7e13",
     "suggest": {
-        "JRE": [
-            "sec/oraclejre8"
-        ]
+        "java": "sec/oraclejdk17"
     },
-    "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-62310d4.jar#/abe.jar",
-    "hash": "",
     "pre_install": [
-        "Set-Content \"$dir\\abe.bat\" '@pushd %~dp0",
-        "@call oraclejre8",
-        "@cmd /c  java.exe -jar \"abe.jar\" %*",
-        "@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\abe.bat\" '@pushd %~dp0', '@call oraclejdk17', '@start cmd /c java.exe -jar \"abe.jar\" %*', '@popd' -Encoding Ascii"
     ],
     "bin": "abe.bat",
     "checkver": {
-        "url": "https://api.github.com/repos/nelenkov/android-backup-extractor/releases/latest",
-        "regex": "download/(?<tag>[\\w.]+)/abe-(?<commit>\\w+).jar"
+        "url": "https://api.github.com/repos/nelenkov/android-backup-extractor/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
     },
     "autoupdate": {
-        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/$matchTag/abe-$matchCommit.jar#/abe.jar"
-    }
+        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-*.jar#/abe.jar"
+    },
+    "notes": [
+        "【工具类型】: 开发辅助",
+        "【主要功能】: 提取和重新打包 Android 备份文件",
+        "【适用场景】: Android 设备备份管理",
+        "【技术特点】: 基于 Java 11 开发，跨平台",
+        "【注意事项】: 处理加密备份需要 JCE 无限制强度策略文件"
+    ]
 }
