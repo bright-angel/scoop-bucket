@@ -7,7 +7,7 @@
         "url": "https://github.com/openwall/john/blob/bleeding-jumbo/doc/LICENSE"
     },
     "url": "https://www.openwall.com/john/k/john-1.9.0-jumbo-1-win64.7z",
-    "hash": "5042e16ecdb1f4d6552f942478f4c34feab179cb5bb2231a0fffee0ad63cbf61",
+    "hash": "ce05a898b72bb30c3c4f703e3ffcf25966c1b1801eb7e095030b44092ef92eaf",
     "extract_dir": "john-1.9.0-jumbo-1-win64",
     "bin": [
         "run\\bitlocker2john.exe",
