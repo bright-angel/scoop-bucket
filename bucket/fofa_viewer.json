@@ -4,13 +4,13 @@
     "homepage": "https://github.com/wgpsec/fofa_viewer",
     "license": "MIT",
     "suggest": {
-        "JRE": "sec/oraclejre8"
+        "java": "sec/oraclejdk8"
     },
     "url": "https://github.com/wgpsec/fofa_viewer/releases/download/1.1.16/FofaViewer_1.1.16_JDK8.zip",
-    "hash": "7de2c83f34ce7936ada2ca66e5187158a7a68cb2c420039c8814c16b83f47677",
+    "hash": "63b2cba3c0cd2d7e309d9a91146aa684c3400070389bb791a8404eac82382a17",
     "pre_install": [
         "Set-Content \"$dir\\fofa_viewer.bat\" '@pushd %~dp0",
-        "@call oraclejre8",
+        "@call oraclejdk8",
         "@start javaw.exe -jar \"fofaviewer.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
@@ -28,5 +28,12 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version_JDK8.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 安全测试",
+        "【主要功能】: FoFa客户端数据查看工具，支持多标签查询、导出Excel",
+        "【适用场景】: 网络安全资产探测与分析",
+        "【技术特点】: 基于JavaFX开发，跨平台图形界面",
+        "【注意事项】: 需要Java 8环境支持"
+    ]
 }

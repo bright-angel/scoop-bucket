@@ -1,16 +1,17 @@
 {
-    "version": "2025.11.15",
-    "description": "Cross platform community web fingerprint identification tool",
-    "homepage": "https://0x727.github.io/ObserverWard/",
+    "version": "2026.4.8",
+    "description": "跨平台社区 Web 指纹识别工具",
+    "homepage": "https://github.com/emo-crab/observer_ward",
     "license": "MIT",
-    "notes": "config location: C:\\Users\\<your username>\\AppData\\Roaming\\observer_ward",
-    "url": "https://github.com/0x727/ObserverWard/releases/download/v2025.11.15/observer_ward_v2025.11.15_i686-pc-windows-msvc.zip",
-    "hash": "a40a7a0c120356ff6b439daf8669b4a528a20a6a811d5347ae364322b3b12c7c",
+    "notes": "配置文件位置: C:\\Users\\<your username>\\AppData\\Roaming\\observer_ward",
+    "url": "https://github.com/emo-crab/observer_ward/releases/download/v2026.4.8/observer_ward_v2026.4.8_x86_64-pc-windows-gnu.zip",
+    "hash": "492134297b6fae87154dbc147ca5fc7219c1577454d9d8d73b5f00be0097e905",
     "bin": "observer_ward.exe",
     "checkver": {
-        "github": "https://github.com/0x727/ObserverWard"
+        "github": "https://github.com/emo-crab/observer_ward"
     },
     "autoupdate": {
-        "url": "https://github.com/0x727/ObserverWard/releases/download/v$version/observer_ward_v$version_i686-pc-windows-msvc.zip"
+        "url": "https://github.com/emo-crab/observer_ward/releases/download/v$version/observer_ward_v$version_x86_64-pc-windows-gnu.zip"
     }
 }
+
