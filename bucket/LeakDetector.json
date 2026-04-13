@@ -1,16 +1,19 @@
 {
-    "version": "1.1.0",
+    "version": ".1.1.0",
     "description": "LeakDetector - 自动化信息泄露侦察工具，基于 Bing Dork 与 Playwright 浏览器自动化技术",
     "homepage": "https://github.com/cbbzx12/LeakDetector",
     "license": "MIT",
     "url": "https://github.com/cbbzx12/LeakDetector/releases/download/v.1.1.0/LeakDetector.exe#/LeakDetector.exe",
-    "hash": "sha256:a805c3f62678223461610a4f478ad152c2eea748ceb3725548e32f4b000b184d",
+    "hash": "a805c3f62678223461610a4f478ad152c2eea748ceb3725548e32f4b000b184d",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/cbbzx12/LeakDetector/releases/download/v.1.1.0/LeakDetector.exe#/LeakDetector.exe"
     },
     "shortcuts": [
-        ["LeakDetector.exe", "LeakDetector"]
+        [
+            "LeakDetector.exe",
+            "LeakDetector"
+        ]
     ],
     "notes": [
         "【工具类型】: 安全测试",
