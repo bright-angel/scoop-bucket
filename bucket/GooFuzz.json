@@ -4,7 +4,8 @@
     "homepage": "https://github.com/m3n0sd0n4ld/GooFuzz",
     "license": "GPL-3.0",
     "suggest": {
-        "git": "git"
+        "git": "git",
+        "jq": "main/jq"
     },
     "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/2.0/GooFuzz.v.2.0.zip",
     "hash": "19662e12f17487e0fbf7521a787f64093f608d43aa27332051517df0c3d49216",
