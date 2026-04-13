@@ -1,8 +1,8 @@
 {
     "version": "2.0",
-    "description": "GooFuzz 是一种使用 OSINT 方法执行模糊测试的工具，可以枚举目录、文件、子域或参数，而无需在目标服务器上留下证据，并通过高级 Google 搜索 （Google Dorking）。",
+    "description": "GooFuzz是使用OSINT方法执行模糊测试的工具，通过Google Dorking枚举目录、文件、子域或参数",
     "homepage": "https://github.com/m3n0sd0n4ld/GooFuzz",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "suggest": {
         "git": "git",
         "jq": "main/jq"
@@ -24,5 +24,13 @@
     "autoupdate": {
         "version": "$match",
         "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$match/GooFuzz.v.$match.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 安全测试",
+        "【主要功能】: 使用Google Dorking技术枚举目标信息，无服务器痕迹",
+        "【适用场景】: Web应用安全测试、OSINT信息收集",
+        "【技术特点】: 基于Bash脚本，依赖git和jq",
+        "【注意事项】: 需要bash环境支持，Windows下依赖WSL或Git Bash"
+    ]
 }
+
