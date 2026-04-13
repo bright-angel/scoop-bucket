@@ -1,16 +1,14 @@
 {
-    "version": "2025-10-27T06.16.34",
+    "version": "2025-10-27T06.15.45",
     "description": "用于提取和重新打包 Android 备份文件的工具",
     "homepage": "https://github.com/nelenkov/android-backup-extractor",
     "license": "Apache-2.0",
     "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-540a57d.jar#/abe.jar",
-    "hash": "sha256:ed10092ce649f3f4d737b6e84b4c35b78affc07bbf470377fcde871a64cc7e13",
+    "hash": "ed10092ce649f3f4d737b6e84b4c35b78affc07bbf470377fcde871a64cc7e13",
     "suggest": {
         "java": "sec/oraclejdk17"
     },
-    "pre_install": [
-        "Set-Content \"$dir\\abe.bat\" '@pushd %~dp0', '@call oraclejdk17', '@start cmd /c java.exe -jar \"abe.jar\" %*', '@popd' -Encoding Ascii"
-    ],
+    "pre_install": "Set-Content \"$dir\\abe.bat\" '@pushd %~dp0', '@call oraclejdk17', '@start cmd /c java.exe -jar \"abe.jar\" %*', '@popd' -Encoding Ascii",
     "bin": "abe.bat",
     "checkver": {
         "url": "https://api.github.com/repos/nelenkov/android-backup-extractor/commits",
@@ -28,4 +26,3 @@
         "【注意事项】: 处理加密备份需要 JCE 无限制强度策略文件"
     ]
 }
-
