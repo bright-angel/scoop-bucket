@@ -22,8 +22,7 @@
         "regex": "GooFuzz v\\.(\\d+\\.\\d+)"
     },
     "autoupdate": {
-        "version": "$match",
-        "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$match/GooFuzz.v.$match.zip"
+        "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$version/GooFuzz.v.$version.zip"
     },
     "notes": [
         "【工具类型】: 安全测试",
