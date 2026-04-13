@@ -15,11 +15,7 @@
             "Dev Sidecar"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/docmirror/dev-sidecar/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "release-([\\d\\.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/docmirror/dev-sidecar/releases/download/release-$version/DevSidecar-$version-windows-x86_64.exe#/dl.7z"
     },

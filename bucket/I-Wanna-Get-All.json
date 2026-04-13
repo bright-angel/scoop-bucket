@@ -18,7 +18,7 @@
   "checkver": {
     "url": "https://api.github.com/repos/R4gd0ll/I-Wanna-Get-All/releases/latest",
     "jsonpath": "$.tag_name",
-    "regex": "I-Wanna-Get-All-v([\\d.]+)"
+    "regex": "v?([\\d.]+)"
   },
   "autoupdate": {
     "url": "https://github.com/R4gd0ll/I-Wanna-Get-All/releases/download/I-Wanna-Get-All-v$version/IWannaGetAll-v$version.0.jar#/IWannaGetAll.jar"

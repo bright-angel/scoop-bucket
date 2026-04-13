@@ -18,7 +18,7 @@
         "replace": "$1$2.$3.$4"
     },
     "autoupdate": {
-        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-*.jar#/abe.jar"
+        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-540a57d.jar#/abe.jar"
     },
     "notes": [
         "【工具类型】: 开发辅助",
@@ -28,3 +28,4 @@
         "【注意事项】: 处理加密备份需要 JCE 无限制强度策略文件"
     ]
 }
+
