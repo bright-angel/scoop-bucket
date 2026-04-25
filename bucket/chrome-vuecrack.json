@@ -1,19 +1,26 @@
 {
-    "version": "1.3",
+    "version": "2025-09-09T17.19.12",
     "description": "VueCrack 是一款专为红队人员开发的浏览器插件，用于分析Vue框架网站的路由结构，并绕过路由守卫，从而发现站点的隐藏资产与未授权访问漏洞。",
+    "notes": [
+        "Chrome 插件",
+        "Vue 框架安全测试",
+        "路由守卫绕过",
+        "未授权访问检测"
+    ],
     "homepage": "https://github.com/Ad1euDa1e/VueCrack",
     "license": "unknown",
-    "url": "https://github.com/Ad1euDa1e/VueCrack/releases/download/V1.3/VueCrack.V.1.3.zip#/vuecrack.zip",
-    "hash": "sha256:188937ad95b038c68fe3e2b6f601c9bbb3be7e2c90af34088bdaffd2e67ae862",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/Ad1euDa1e/VueCrack/releases/download/V$version/VueCrack.V.$version.zip#/vuecrack.zip"
+    "url": "https://github.com/Ad1euDa1e/VueCrack/archive/refs/heads/main.zip#/dl.zip1",
+    "hash": "sha256:50a044c0000f3af2a5a0e25d737de5fedc4d1adec175927968faffea4a4de7f7",
+    "pre_install": [
+        "7z x \"$dir\\dl.zip1\" -o\"$dir\" -y",
+        "Remove-Item \"$dir\\dl.zip1\" -Force"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Ad1euDa1e/VueCrack/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
     },
-    "notes": [
-        "【工具类型】: 安全测试",
-        "【主要功能】: 分析Vue框架网站的路由结构，绕过路由守卫，发现隐藏资产与未授权访问漏洞",
-        "【适用场景】: 红队行动、SRC挖掘、安全测试",
-        "【技术特点】: 自动检测Vue框架，绕过路由守卫，修改鉴权字段，提取路由结构",
-        "【注意事项】: 仅用于安全测试、漏洞验证和教育目的，未经授权使用是违法的"
-    ]
+    "autoupdate": {
+        "url": "https://github.com/Ad1euDa1e/VueCrack/archive/refs/heads/main.zip#/dl.zip1"
+    }
 }
