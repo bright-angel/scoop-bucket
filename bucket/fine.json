@@ -1,10 +1,10 @@
 {
-    "version": "2.7.0",
+    "version": "2.7.1",
     "description": "网络空间资产测绘、ICP备案、天眼查股权结构图、IP138域名解析与IP反查、外部HTTP调用与小程序反编译。",
     "homepage": "https://github.com/fasnow/fine",
     "license": "unknown",
-    "url": "https://github.com/fasnow/fine/releases/download/2.7.0/Fine_2.7.0_windows_x64.zip#/Fine.zip",
-    "hash": "sha256:7c7c3f801c2885a0a69637a959105ce5cf9918128e50398e02f01c02da3ffc12",
+    "url": "https://github.com/fasnow/fine/releases/download/2.7.1/Fine_2.7.1_windows_x64.zip#/Fine.zip",
+    "hash": "c4f0661418cd71e5ed5e421239f46c264d69f90bbe96039522e285b8ffb45c1c",
     "bin": "Fine.exe",
     "persist": "data",
     "shortcuts": [
@@ -29,4 +29,3 @@
         "【注意事项】: 部分功能可能需要网络连接和相关API密钥"
     ]
 }
-
