@@ -1,16 +1,19 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "新一代节点化 CTF 工具箱，基于 Rust & Tauri 开发，提供可视化节点工作流",
     "homepage": "https://github.com/0Chencc/CTFCrackTools",
     "license": "unknown",
-    "url": "https://github.com/0Chencc/CTFCrackTools/releases/download/v0.1.1/ctfcracktools-x-0.1.1-windows-x64.exe#/ctfcracktools.exe",
-    "hash": "sha256:055e44a713cb3ba2c3945159201a74234325ebcb51b89749137e3eda96fd3cb7",
+    "url": "https://github.com/0Chencc/CTFCrackTools/releases/download/v0.1.2/ctfcracktools-x-0.1.2-windows-x64.exe#/ctfcracktools.exe",
+    "hash": "7e5014d65b9a428c7e0f03cdb8fd9ef01ee07bab9cc831158f22323e14cf90a3",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/0Chencc/CTFCrackTools/releases/download/v$version/ctfcracktools-x-$version-windows-x64.exe#/ctfcracktools.exe"
     },
     "shortcuts": [
-        ["ctfcracktools.exe", "CTFCrackTools X"]
+        [
+            "ctfcracktools.exe",
+            "CTFCrackTools X"
+        ]
     ],
     "notes": [
         "【工具类型】: 安全测试",
