@@ -9,7 +9,7 @@
         "nodejs": "main/nodejs"
     },
     "installer": {
-        "script": "& 7z x \"$dir\\antsword.archive\" -o\"$dir\" -aoa -y -snl -bd 2>&1 | Out-Null; Move-Item -Path \"$dir\\antSword-$version\\*\" -Destination \"$dir\" -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$dir\\antSword-$version\" -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$dir\\antsword.archive\" -Force -ErrorAction SilentlyContinue; if (-not (Test-Path \"$persist_dir\\antData\")) { New-Item -ItemType Directory -Path \"$persist_dir\\antData\" -Force | Out-Null }; if (Test-Path \"$dir\\antData\") { Move-Item -Path \"$dir\\antData\\*\" -Destination \"$persist_dir\\antData\" -Force -ErrorAction SilentlyContinue }; Remove-Item -Path \"$dir\\antData\" -Recurse -Force -ErrorAction SilentlyContinue; New-Item -ItemType Junction -Path \"$dir\\antData\" -Target \"$persist_dir\\antData\" -Force | Out-Null"
+        "script": "& 7z x \"$dir\\antsword.archive\" -o\"$dir\" -aoa -y -snl -bd 2>&1 | Out-Null; Move-Item -Path \"$dir\\antSword-$version\\*\" -Destination \"$dir\" -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$dir\\antSword-$version\" -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$dir\\antsword.archive\" -Force -ErrorAction SilentlyContinue"
     },
     "persist": [
         "antData"
