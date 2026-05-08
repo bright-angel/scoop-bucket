@@ -11,7 +11,6 @@
     "installer": {
         "script": "& 7z x \"$dir\\antsword.archive\" -o\"$dir\" -aoa -y -snl -bd 2>&1 | Out-Null; Move-Item -Path \"$dir\\antSword-$version\\*\" -Destination \"$dir\" -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$dir\\antSword-$version\" -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$dir\\antsword.archive\" -Force -ErrorAction SilentlyContinue;"
     },
-    "bin": "antsword.bat",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/AntSwordProject/antSword/archive/refs/tags/$version.zip#/antsword.archive"
