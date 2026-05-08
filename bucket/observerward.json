@@ -6,7 +6,7 @@
     "notes": "配置文件位置: C:\\Users\\<your username>\\AppData\\Roaming\\observer_ward",
     "url": "https://github.com/emo-crab/observer_ward/releases/download/v2026.4.8/observer_ward_v2026.4.8_x86_64-pc-windows-gnu.zip",
     "hash": "492134297b6fae87154dbc147ca5fc7219c1577454d9d8d73b5f00be0097e905",
-    "bin": "observer_ward.exe",
+    "bin": "observer_ward",
     "checkver": {
         "github": "https://github.com/emo-crab/observer_ward"
     },

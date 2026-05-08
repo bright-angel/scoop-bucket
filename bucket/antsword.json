@@ -1,55 +1,21 @@
 {
-    "version": "4.0.3",
-    "description": "中国蚁剑是一款跨平台的开源网站管理工具.(Scoop bucket by arch3rpro)",
-    "homepage": "https://github.com/AntSwordProject/AntSword-Loader",
+    "version": "2.1.16",
+    "description": "AntSword - 蚁剑，一款开源的跨平台WebShell管理工具",
+    "homepage": "https://github.com/AntSwordProject/antSword",
     "license": "MIT",
-    "notes": [
-        "webshell管理"
-    ],
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/AntSwordProject/AntSword-Loader/releases/download/4.0.3/AntSword-Loader-v4.0.3-win32-x64.zip",
-            "hash": "md5:85b80052224061e42f685021f28d1975",
-            "extract_dir": "AntSword-Loader-v4.0.3-win32-x64"
-        },
-        "32bit": {
-            "url": "https://github.com/AntSwordProject/AntSword-Loader/releases/download/4.0.3/AntSword-Loader-v4.0.3-win32-ia32.zip",
-            "hash": "md5:3e4bff86c5724f77852611c3435aa80b",
-            "extract_dir": "AntSword-Loader-v4.0.3-win32-ia32"
-        }
-    },
-    "bin": "AntSword.exe",
-    "post_install": [
-        "curl.exe -o \"$dir\\antSword.zip\" -L \"https://github.com/AntSwordProject/antSword/archive/refs/heads/master.zip\"",
-        "Expand-7zipArchive \"$dir\\antSword.zip\" \"$dir\"",
-        "Remove-Item \"$dir\\antSword.zip\" -Force -Recurse",
-        "Move-Item \"$dir\\antSword-master\" \"$dir\\antSword\""
-    ],
-    "shortcuts": [
-        [
-            "AntSword.exe",
-            "AntSword"
-        ]
-    ],
+    "url": "https://github.com/AntSwordProject/antSword/archive/refs/tags/2.1.16.zip#/antsword.zip",
+    "hash": "sha256:414B6B71EAC3ED22BC5139FA41E46BCC0BD9067420206EFB4B51DB04CFDE2A6C",
+    "extract_dir": "antSword-2.1.16",
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/AntSwordProject/AntSword-Loader/releases/download/$version/AntSword-Loader-v$version-win32-x64.zip",
-                "hash": {
-                    "url": "https://github.com/AntSwordProject/AntSword-Loader",
-                    "regex": "Windows 64位</td>[\\s\\S]*?$md5"
-                },
-                "extract_dir": "AntSword-Loader-v$version-win32-x64"
-            },
-            "32bit": {
-                "url": "https://github.com/AntSwordProject/AntSword-Loader/releases/download/$version/AntSword-Loader-v$version-win32-ia32.zip",
-                "hash": {
-                    "url": "https://github.com/AntSwordProject/AntSword-Loader",
-                    "regex": "Windows 32位</td>[\\s\\S]*?$md5"
-                },
-                "extract_dir": "AntSword-Loader-v$version-win32-ia32"
-            }
-        }
-    }
+        "url": "https://github.com/AntSwordProject/antSword/archive/refs/tags/$version.zip#/antsword.zip",
+        "extract_dir": "antSword-$version"
+    },
+    "notes": [
+        "【工具类型】: 安全测试",
+        "【主要功能】: WebShell 管理工具，支持多种脚本语言",
+        "【适用场景】: 渗透测试、安全审计、网站管理",
+        "【技术特点】: 基于 Node.js 开发，跨平台支持",
+        "【注意事项】: 需要安装 Node.js 环境"
+    ]
 }
