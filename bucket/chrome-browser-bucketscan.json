@@ -21,6 +21,6 @@
         "regex": "\"tag_name\": \"([^\"]+)\""
     },
     "autoupdate": {
-        "url": "https://github.com/moyan222/Browser-BucketScan/releases/download/$version/Browser-BucketScan.zip#/dl.zip"
+        "url": "https://github.com/moyan222/Browser-BucketScan/releases/download/$version/Browser-BucketScan.zip#/dl.zip1"
     }
 }
