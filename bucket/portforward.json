@@ -38,9 +38,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: The port forwarding tool developed by Golang solves the problem that the internal and external networks cannot communicate in certain scenarios.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 网络工具",
+        "【主要功能】: Go语言开发的端口转发工具，解决内外网无法通信的问题",
+        "【适用场景】: 端口转发、内网穿透、渗透测试",
+        "【技术特点】: Go语言开发，命令行工具，支持32位和64位，跨平台"
     ]
 }

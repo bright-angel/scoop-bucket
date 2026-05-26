@@ -4,10 +4,10 @@
     "homepage": "https://github.com/utkusen/reqstress",
     "license": "MIT",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: a benchmarking&stressing tool that can send raw HTTP requests",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 性能测试工具",
+        "【主要功能】: HTTP基准测试和压力测试工具，支持发送原始HTTP请求",
+        "【适用场景】: 性能测试、压力测试、API测试",
+        "【技术特点】: Go语言开发，命令行工具，支持32位和64位"
     ],
     "architecture": {
         "32bit": {

@@ -33,9 +33,9 @@
         ]
     ],
     "notes": [
-        "【工具类型】: 网络工具",
-        "【主要功能】: Redirect any Windows/MacOS TCP and UDP traffic to HTTP/Socks5 proxy",
-        "【适用场景】: HTTP协议分析、代理调试",
-        "【技术特点】: 未知"
+        "【工具类型】: 代理工具",
+        "【主要功能】: 将Windows/MacOS的TCP和UDP流量重定向到HTTP/Socks5代理",
+        "【适用场景】: 网络代理、流量转发、开发调试",
+        "【技术特点】: Windows可执行文件，支持图形界面和命令行两种模式"
     ]
 }

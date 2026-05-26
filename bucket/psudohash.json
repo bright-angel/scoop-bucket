@@ -17,8 +17,8 @@
     "bin": "psudohash.bat",
     "notes": [
         "【工具类型】: 密码破解工具",
-        "【主要功能】: Generates millions of keyword-based password mutations in seconds.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 密码破解、哈希破解",
-        "【技术特点】: 未知"
+        "【主要功能】: 基于关键词的密码变异生成工具，每秒生成数百万个密码变体",
+        "【适用场景】: 密码破解、字典生成、渗透测试",
+        "【技术特点】: Python开发，需要miniconda3环境，命令行工具"
     ]
 }

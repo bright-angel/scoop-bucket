@@ -4,10 +4,10 @@
     "homepage": "https://github.com/quasar/Quasar",
     "license": "MIT",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Remote Administration Tool for Windows.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 远程管理工具",
+        "【主要功能】: Windows远程管理工具，支持远程控制和管理功能",
+        "【适用场景】: 远程管理、系统维护、技术支持",
+        "【技术特点】: Windows可执行文件，图形化界面，支持持久化配置"
     ],
     "url": "https://github.com/quasar/Quasar/releases/download/v1.4.1/Quasar.v1.4.1.zip",
     "hash": "4cdeb2eae1cec1ab07077142313c524e9cf360cdec63497538c4405c2d8ded62",
