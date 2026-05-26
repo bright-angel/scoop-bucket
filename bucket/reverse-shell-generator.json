@@ -13,5 +13,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/0dayCTF/reverse-shell-generator/archive/refs/heads/master.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

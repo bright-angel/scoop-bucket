@@ -1,9 +1,11 @@
 {
     "version": "1.1.0",
-    "description": "一键自动转发WSL2端口到windows本地网络.(Scoop bucket by arch3rpro)",
+    "description": "一键自动转发WSL2端】到windows本地网络.(Scoop bucket by arch3rpro)",
     "notes": [
-        "系统工具,代理转发",
-        "转发WSL2端口到windows本地网络"
+        "【工具类型】: 其他工具",
+        "【主要功能】: 一键自动转发WSL2端】到windows本地网络.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/HobaiRiku/wsl2-auto-portproxy",
     "license": "MIT",

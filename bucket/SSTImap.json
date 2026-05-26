@@ -2,8 +2,10 @@
     "version": "1.3",
     "description": "具有交互式界面的自动 SSTI 检测工具",
     "notes": [
-        "漏洞检测利用",
-        "SSTI,模板注入"
+        "【工具类型】: Python工具",
+        "【主要功能】: 具有交互式界面的自动 SSTI 检测工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/vladko312/SSTImap",
     "license": "GPL-3.0",

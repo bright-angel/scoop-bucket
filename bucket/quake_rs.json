@@ -19,5 +19,11 @@
                 "url": "https://github.com/360quake/quake_rs/releases/download/v$version/quake-x86_64-pc-windows-msvc.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Quake Command-Line Application.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

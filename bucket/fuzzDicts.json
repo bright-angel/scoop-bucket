@@ -14,5 +14,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/TheKingOfDuck/fuzzDicts/archive/refs/heads/master.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Web Pentesting Fuzz 字典,一个就够了.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 漏洞扫描、安全评估、渗透测试",
+        "【技术特点】: 未知"
+    ]
 }

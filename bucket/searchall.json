@@ -1,6 +1,6 @@
 {
     "version": "3.5.11",
-    "description": "搜索服务器中的有关username，passsword,账号，口令的敏感信息还有浏览器的账户密码。",
+    "description": "搜索服务器中的有关username，passsword,账号，】令的敏感信息还有浏览器的账户密码。",
     "homepage": "https://github.com/Naturehi666/searchall",
     "license": "unknown",
     "url": "https://github.com/Naturehi666/searchall/releases/download/search3.5.11/searchall64.exe#/searchall.exe",
@@ -13,5 +13,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/Naturehi666/searchall/releases/download/search$version/searchall64.exe#/searchall.exe"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 搜索服务器中的有关username，passsword,账号，】令的敏感信息还有浏览器的账户密码。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

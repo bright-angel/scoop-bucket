@@ -2,8 +2,10 @@
     "version": "2024-12-01T15.25.27",
     "description": "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.(Scoop bucket by arch3rpro)",
     "notes": [
-        "漏洞检测利用",
-        "XXE"
+        "【工具类型】: 其他工具",
+        "【主要功能】: Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/enjoiz/XXEinjector",
     "license": "Unkown",

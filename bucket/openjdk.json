@@ -32,5 +32,11 @@
             "url": "$url.sha256"
         },
         "extract_dir": "jdk-$matchVersion"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Official General-Availability Release of OpenJDK",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

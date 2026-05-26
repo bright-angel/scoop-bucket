@@ -9,7 +9,7 @@
         ]
     },
     "url": "https://github.com/jdr2021/OSSFileBrowse/releases/download/v1.1/OSSFileBrowse-1.1.zip",
-    "hash":"f8bccc9947449f650cb8a93780fa94ccd659f0fcfc4113ca07132bcf46dbdf45",
+    "hash": "f8bccc9947449f650cb8a93780fa94ccd659f0fcfc4113ca07132bcf46dbdf45",
     "pre_install": [
         "Get-ChildItem \"$dir\" 'OSSFileBrowse*.jar' | Select-Object -First 1 | Rename-Item -NewName 'OSSFileBrowse.jar'",
         "Set-Content \"$dir\\OSSFileBrowse.bat\" '@pushd %~dp0",
@@ -27,5 +27,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jdr2021/OSSFileBrowse/releases/download/v$version/OSSFileBrowse-$version.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 存储桶遍历漏洞利用工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

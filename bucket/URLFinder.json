@@ -9,5 +9,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/pingc0y/URLFinder/releases/download/$version/URLFinder_Windows_x86_64.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: URLFinder是一款快速、全面、易用的页面信息提取工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

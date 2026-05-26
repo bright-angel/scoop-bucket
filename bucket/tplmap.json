@@ -2,13 +2,15 @@
     "version": "0.5",
     "description": "SSTI服务器端模板注入和代码注入检测和利用工具",
     "notes": [
-        "漏洞检测利用",
-        "SSTI,服务器端模板注入"
+        "【工具类型】: Python工具",
+        "【主要功能】: SSTI服务器端模板注入和代码注入检测和利用工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/epinna/tplmap",
     "license": "Unkown",
     "suggest": {
-        "python":[
+        "python": [
             "miniconda3"
         ]
     },

@@ -32,10 +32,9 @@
         "extract_dir": "john-$version-win64"
     },
     "notes": [
-        "【工具类型】: 密码破解工具",
-        "【主要功能】: 高级离线密码破解器，支持多种哈希和密码类型",
-        "【适用场景】: 安全测试、密码恢复、渗透测试",
-        "【技术特点】: 支持CPU/GPU加速，跨平台",
-        "【注意事项】: 仅提供Windows AMD64版本，32位版本已移除"
+        "【工具类型】: 其他工具",
+        "【主要功能】: John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ]
 }

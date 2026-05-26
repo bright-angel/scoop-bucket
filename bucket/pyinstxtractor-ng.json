@@ -27,5 +27,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/archive/refs/heads/master.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: Python工具",
+        "【主要功能】: PyInstaller Extractor 是一个 Python 脚本，用于提取 PyInstaller 生成的可执行文件的内容",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
+    ]
 }

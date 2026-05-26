@@ -2,7 +2,10 @@
     "version": "1.1",
     "description": "Windows平台的shellcode免杀加载器。",
     "notes": [
-        "后门,免杀"
+        "【工具类型】: 其他工具",
+        "【主要功能】: Windows平台的shellcode免杀加载器。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/knownsec/shellcodeloader",
     "license": "UNKNOWN",

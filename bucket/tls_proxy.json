@@ -2,7 +2,10 @@
     "version": "1.0",
     "description": "A lightweight reverse proxy server that converts TLS traffic to TCP, allowing secure communication between clients and upstream servers",
     "notes": [
-        "代理转发"
+        "【工具类型】: 网络工具",
+        "【主要功能】: A lightweight reverse proxy server that converts TLS traffic to TCP, allowing secure communication between clients and upstream servers",
+        "【适用场景】: HTTP协议分析、代理调试",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/phith0n/tls_proxy",
     "license": "MIT",

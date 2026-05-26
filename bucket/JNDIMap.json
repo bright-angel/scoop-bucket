@@ -17,5 +17,11 @@
         "@cmd /c java.exe -jar \"JNDIMap.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "JNDIMap.bat"
+    "bin": "JNDIMap.bat",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: A powerful JNDI injection exploitation framework that supports RMI, LDAP and LDAPS protocols, including various bypass methods for high-version JDK restrictions",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

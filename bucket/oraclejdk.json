@@ -32,5 +32,11 @@
             "url": "$url.sha256"
         },
         "extract_dir": "jdk-$version"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Oracle Java Platform, Standard Edition Development Kit (JDK)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

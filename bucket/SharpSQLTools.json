@@ -9,5 +9,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/uknowsec/SharpSQLTools/releases/download/$version/SharpSQLTools.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 数据库工具",
+        "【主要功能】: SharpSQLTools 和@RcoIl一起写的小工具，可上传下载文件，xp_cmdshell与sp_oacreate执行命令回显和clr加载程序集执行相应操作。",
+        "【适用场景】: SQL注入测试、数据库审计",
+        "【技术特点】: 未知"
+    ]
 }

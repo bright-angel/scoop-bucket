@@ -19,10 +19,9 @@
         "url": "https://github.com/AntSwordProject/antSword/archive/refs/tags/$version.zip#/antsword.archive"
     },
     "notes": [
-        "【工具类型】: 安全测试",
-        "【主要功能】: WebShell 管理工具，支持多种脚本语言",
-        "【适用场景】: 渗透测试、安全审计、网站管理",
-        "【技术特点】: 基于 Node.js 开发，跨平台支持",
-        "【注意事项】: 需要安装 Node.js 环境"
+        "【工具类型】: 其他工具",
+        "【主要功能】: AntSword - 蚁剑，一款开源的跨平台WebShell管理工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ]
 }

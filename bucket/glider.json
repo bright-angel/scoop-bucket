@@ -3,7 +3,12 @@
     "description": "glider is a forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features(like dnsmasq)",
     "homepage": "https://github.com/nadoo/glider",
     "license": "GPL-3.0-or-later",
-    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/glider.json",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: glider is a forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features(like dnsmasq)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "architecture": {
         "32bit": {
             "url": "https://github.com/nadoo/glider/releases/download/v0.16.4/glider_0.16.4_windows_386.zip",

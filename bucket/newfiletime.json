@@ -17,5 +17,11 @@
     },
     "autoupdate": {
         "url": "http://www.softwareok.com/Download/NewFileTime_Unicode.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: NewFileTime is a Windows tool that provides you easy access to correct or manipulate any of the timestamps for any file and folder on Windows!",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

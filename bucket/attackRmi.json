@@ -26,5 +26,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/A-D-Team/attackRmi/releases/download/v$version/attackRmi.jar"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 利用lookup registry触发的反序列，比起bind能多打一些版本，无需出网无需落地文件。 目前只支持了CommonsCollections、CommonsBeanutils、Jdk7u21利用链，后续再更新利用链和看看是否要支持绕JEP290的那些方法。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

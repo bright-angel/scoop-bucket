@@ -12,5 +12,11 @@
     },
     "autoupdate": {
         "url": "https://download.sysinternals.com/files/AdExplorer.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Active Directory 资源管理器（AD 资源管理器）是高级 Active Directory (AD) 查看器和编辑器。 可以使用 AD 资源管理器轻松导航 AD 数据库、定义收藏夹位置、查看对象属性和属性，而无需打开对话框、编辑权限、查看对象的架构，并执行可以保存和重新执行的复杂搜索。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

@@ -5,5 +5,11 @@
     "license": "unknown",
     "url": "https://github.com/uknowsec/SharpDecryptPwd/raw/refs/heads/master/SharpDecryptPwd.exe",
     "hash": "1f385acf11f8ea6673d7295be6492ea9913b525da25dcc037ea49ef4f86a9d58",
-    "bin": "SharpDecryptPwd.exe"
+    "bin": "SharpDecryptPwd.exe",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 对密码已保存在 Windwos 系统上的部分程序进行解析,包括：Navicat,TeamViewer,FileZilla,WinSCP,Xmangager系列产品（Xshell,Xftp)。源码：https://github.com/RowTeam/SharpDecryptPwd",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

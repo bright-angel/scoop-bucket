@@ -2,7 +2,10 @@
     "version": "1.0",
     "description": "基于冰蝎加密流量进行WebShell通信管理客户端(Scoop bucket by arch3rpro)",
     "notes": [
-        "webshell管理"
+        "【工具类型】: 其他工具",
+        "【主要功能】: 基于冰蝎加密流量进行WebShell通信管理客户端(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/shack2/skyscorpion",
     "license": "UNKNOWN",

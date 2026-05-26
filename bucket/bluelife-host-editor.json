@@ -2,8 +2,10 @@
     "version": "1.6",
     "description": "Bluelife hosts editör is a Portable UNKNOWN hosts file editor which allows users to easily add/delete ,Block , Update domain names",
     "notes": [
-        "系统工具",
-        "hosts编辑"
+        "【工具类型】: 其他工具",
+        "【主要功能】: Bluelife hosts editör is a Portable UNKNOWN hosts file editor which allows users to easily add/delete ,Block , Update domain names",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://www.sordum.org/8266/bluelifehosts-editor-v1-5/",
     "license": {

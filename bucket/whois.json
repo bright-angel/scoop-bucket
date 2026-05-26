@@ -2,8 +2,10 @@
     "version": "1.21",
     "description": "Whois 执行你指定的域名或 IP 地址的注册记录。",
     "notes": [
-        "信息收集",
-        "域名信息查询"
+        "【工具类型】: 其他工具",
+        "【主要功能】: Whois 执行你指定的域名或 IP 地址的注册记录。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/whois",
     "license": {

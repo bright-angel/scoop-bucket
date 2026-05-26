@@ -16,5 +16,11 @@
     "autoupdate": {
         "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/$version/jar-analyzer-$version-windows-full.zip",
         "extract_dir": "jar-analyzer-$version-windows-full"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】:  Jar Analyzer - 一个JAR包分析工具，SCA漏洞分析，批量分析JAR包，方法调用关系搜索，字符串搜索，Spring组件分析，CFG程序分析，JVM栈帧分析，进阶表达式搜索，字节码指令级的动态调试分析，反编译JAR包一键导出，一键提取序列化数据恶意代码，一键分析BCEL字节码 ",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

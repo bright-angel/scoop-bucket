@@ -37,5 +37,11 @@
                 ]
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Postman中文版, Complete API development environment.",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

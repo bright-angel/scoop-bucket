@@ -31,5 +31,11 @@
                 "url": "https://github.com/jeessy2/ddns-go/releases/download/v$version/ddns-go_$version_windows_arm64.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云、百度云、porkbun)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

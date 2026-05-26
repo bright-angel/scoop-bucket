@@ -9,5 +9,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/0x727/SqlKnife_0x727/releases/download/$version/SqlKnifeV$version.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 数据库工具",
+        "【主要功能】: (Scoop bucket by arch3rpro) SqlKnife - 适合在命令行中使用的轻巧的SQL Server数据库安全检测工具",
+        "【适用场景】: SQL注入测试、数据库审计",
+        "【技术特点】: 未知"
+    ]
 }

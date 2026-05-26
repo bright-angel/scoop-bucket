@@ -15,5 +15,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xzajyjs/ThunderSearch/releases/download/v$version/ThunderSearch_win.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: macOS上的小而美【Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化(Mac/Windows)渗透测试信息搜集工具；资产搜集引擎；hw红队工具hvv",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

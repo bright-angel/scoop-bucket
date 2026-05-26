@@ -4,8 +4,10 @@
     "homepage": "https://github.com/IgorMundstein/WinMemoryCleaner",
     "license": "GPL-3.0-or-later",
     "notes": [
-        "系统工具",
-        "内存清理"
+        "【工具类型】: 内存分析工具",
+        "【主要功能】: This free RAM cleaner uses native Windows features to optimize memory areas. It's a compact, portable, and smart application",
+        "【适用场景】: 内存取证、恶意软件分析",
+        "【技术特点】: 未知"
     ],
     "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.8/WinMemoryCleaner.exe",
     "hash": "8b68d56c6ee28740f76513f21b21f5a1018f0ef291467b3f3d39d43daf0c0f2f",

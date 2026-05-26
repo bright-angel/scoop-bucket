@@ -1,7 +1,12 @@
 {
     "version": "1.7.1",
     "description": " 更快、更好、更稳定的Redis桌面(GUI)管理客户端，兼容Windows、Mac、Linux，性能出众，轻松加载海量键值.",
-    "notes": "远程连接,客户端,redis",
+    "notes": [
+        "【工具类型】: Redis工具",
+        "【主要功能】:  更快、更好、更稳定的Redis桌面(GUI)管理客户端，兼容Windows、Mac、Linux，性能出众，轻松加载海量键值.",
+        "【适用场景】: Redis数据库管理与测试",
+        "【技术特点】: 未知"
+    ],
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
     "license": "MIT",
     "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-win-1.7.1-x64.exe#/dl.7z",

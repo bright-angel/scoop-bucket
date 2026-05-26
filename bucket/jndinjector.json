@@ -3,7 +3,12 @@
     "description": "一个高度可定制化的JNDI和Java反序列化利用工具(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/rebeyond/JNDInjector",
     "license": "UNKNOWN",
-    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/jndinjector.json",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 一个高度可定制化的JNDI和Java反序列化利用工具(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "suggest": {
         "JRE": [
             "sec/oraclejre8"

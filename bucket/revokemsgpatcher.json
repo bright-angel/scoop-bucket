@@ -20,5 +20,11 @@
     "autoupdate": {
         "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/$version/RevokeMsgPatcher.v$version.zip",
         "extract_dir": "RevokeMsgPatcher.v$version"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

@@ -3,7 +3,12 @@
     "description": "跨平台社区 Web 指纹识别工具",
     "homepage": "https://github.com/emo-crab/observer_ward",
     "license": "MIT",
-    "notes": "配置文件位置: C:\\Users\\<your username>\\AppData\\Roaming\\observer_ward",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 跨平台社区 Web 指纹识别工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "url": "https://github.com/emo-crab/observer_ward/releases/download/v2026.4.8/observer_ward_v2026.4.8_x86_64-pc-windows-gnu.zip",
     "hash": "492134297b6fae87154dbc147ca5fc7219c1577454d9d8d73b5f00be0097e905",
     "bin": "observer_ward",
@@ -14,4 +19,3 @@
         "url": "https://github.com/emo-crab/observer_ward/releases/download/v$version/observer_ward_v$version_x86_64-pc-windows-gnu.zip"
     }
 }
-

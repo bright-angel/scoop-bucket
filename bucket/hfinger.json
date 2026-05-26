@@ -14,5 +14,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/HackAllSec/hfinger/releases/download/v$version/hfinger-windows-amd64.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 一个用于web框架、CDN和CMS指纹识别的高性能命令行工具。A high-performance command-line tool for web framework, CDN and CMS fingerprinting.",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

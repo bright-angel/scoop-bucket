@@ -27,5 +27,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/jorhelp/Ingram/archive/refs/heads/master.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: Python工具",
+        "【主要功能】: 网络摄像头漏洞扫描工具 | Webcam vulnerability scanning tool",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
+    ]
 }

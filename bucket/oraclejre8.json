@@ -12,5 +12,11 @@
         "@set path=%JAVA_HOME%\\bin;%path%;",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "oraclejre8.bat"
+    "bin": "oraclejre8.bat",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Oracle Java Platform, Standard Edition Runtime Environment (JRE)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

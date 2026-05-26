@@ -92,5 +92,11 @@
             "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_mac",
             "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_mac_arm64"
         ]
-    }
+    },
+    "notes": [
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
+        "【适用场景】: 漏洞扫描、安全评估、渗透测试",
+        "【技术特点】: 未知"
+    ]
 }

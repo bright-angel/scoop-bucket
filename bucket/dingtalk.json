@@ -6,7 +6,12 @@
         "identifier": "EULA",
         "url": "https://tms.dingtalk.com/markets/dingtalk/service-terms-zh"
     },
-    "notes": "We don't persist your DingTalk data, they are still storaged in '%APPDATA%\\DingTalk'.",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: An all-in-one free communication and collaboration platform",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.101210804.exe#/dl.7z",
     "hash": "md5:263e0654b18aed58b5be4f4d705c4f8b",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",

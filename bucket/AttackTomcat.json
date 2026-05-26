@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "description": "Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tomcat-pass-getshell 弱认证部署war包、弱口令爆破、CVE-2020-1938 Tomcat AJP文件读取/包含",
+    "description": "Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tomcat-pass-getshell 弱认证部署war包、弱】令爆破、CVE-2020-1938 Tomcat AJP文件读取/包含",
     "homepage": "https://github.com/tpt11fb/AttackTomcat",
     "license": "UNKNOWN",
     "suggest": {
@@ -26,5 +26,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/tpt11fb/AttackTomcat/releases/download/V$version/TomcatPass.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Tomcat常见漏洞GUI利用工具。CVE-2017-12615 PUT文件上传漏洞、tomcat-pass-getshell 弱认证部署war包、弱】令爆破、CVE-2020-1938 Tomcat AJP文件读取/包含",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

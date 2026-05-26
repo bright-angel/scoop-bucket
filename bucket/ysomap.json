@@ -2,8 +2,10 @@
     "version": "0.1.5",
     "description": "A helpful Java Deserialization exploit framework.(Scoop bucket by arch3rpro)",
     "notes": [
-        "漏洞检测利用辅助",
-        "生成利用不安全的 Java 对象反序列化的有效负载"
+        "【工具类型】: 其他工具",
+        "【主要功能】: A helpful Java Deserialization exploit framework.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/wh1t3p1g/ysomap",
     "license": "Apache-2.0",

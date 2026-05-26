@@ -3,7 +3,12 @@
     "description": "Remote Administration Tool for Windows.(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/quasar/Quasar",
     "license": "MIT",
-    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/quasar.json",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Remote Administration Tool for Windows.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "url": "https://github.com/quasar/Quasar/releases/download/v1.4.1/Quasar.v1.4.1.zip",
     "hash": "4cdeb2eae1cec1ab07077142313c524e9cf360cdec63497538c4405c2d8ded62",
     "extract_dir": "Quasar v1.4.1",

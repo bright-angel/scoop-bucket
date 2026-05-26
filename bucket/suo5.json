@@ -1,7 +1,12 @@
 {
     "version": "2.1.0",
     "description": "一款高性能 HTTP 代理隧道工具 ， A high-performance http proxy tunneling tool(Scoop bucket by arch3rpro)",
-    "notes": "代理转发",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 一款高性能 HTTP 代理隧道工具 ， A high-performance http proxy tunneling tool(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "homepage": "https://github.com/zema1/suo5",
     "license": "MIT",
     "architecture": {

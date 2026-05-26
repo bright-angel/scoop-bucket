@@ -25,5 +25,11 @@
                 "extract_dir": "Redis-$version-Windows-x64-msys2"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: Redis工具",
+        "【主要功能】: In-memory data structure store, used as a database, cache and message broker",
+        "【适用场景】: Redis数据库管理与测试",
+        "【技术特点】: 未知"
+    ]
 }

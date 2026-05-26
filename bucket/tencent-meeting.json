@@ -28,5 +28,10 @@
     "autoupdate": {
         "url": "https://updatecdn.meeting.qq.com/cos/$matchHash/TencentMeeting_0300000000_$version_x86_64.publish.officialwebsite.exe#/dl.7z"
     },
-    "notes": "We don't persist your Tencent Meeting data, they are still storaged in \"$env:APPDATA\\Tencent\\WeMeet\"."
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 一站式音视频会议解决方案",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

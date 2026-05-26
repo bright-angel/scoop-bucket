@@ -5,8 +5,8 @@
     "license": "unknown",
     "url": "https://github.com/MKID1412/MoonLight/releases/download/v1.0/MoonLight.zip",
     "hash": "",
-    "extract_dir":"github.MoonLight",
-    "bin":"MoonLight.exe",
+    "extract_dir": "github.MoonLight",
+    "bin": "MoonLight.exe",
     "shortcuts": [
         [
             "MoonLight.exe",
@@ -16,5 +16,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MKID1412/MoonLight/releases/download/v$version/MoonLight.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 备案查询、空间测绘、漏洞测试、编码及加解密....",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

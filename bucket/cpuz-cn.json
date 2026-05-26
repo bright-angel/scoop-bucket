@@ -39,5 +39,11 @@
     "checkver": "Version ([\\d.]+) for windows",
     "autoupdate": {
         "url": "https://download.cpuid.com/cpu-z/cpu-z_$version-cn.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: System information software",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

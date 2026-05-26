@@ -1,7 +1,12 @@
 {
     "version": "3.3.0",
     "description": "Web vulnerability scanner written in Python3.(Scoop bucket by arch3rpro)",
-    "notes": "web漏洞扫描",
+    "notes": [
+        "【工具类型】: Python工具",
+        "【主要功能】: Web vulnerability scanner written in Python3.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
+    ],
     "homepage": "https://github.com/wapiti-scanner/wapiti",
     "license": "GPL-2.0",
     "suggest": {

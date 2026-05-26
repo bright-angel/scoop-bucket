@@ -2,13 +2,15 @@
     "version": "master",
     "description": "XSS'OR - Hack with JavaScript.(Scoop bucket by arch3rpro)",
     "notes": [
-        "漏洞检测利用,漏洞扫描",
-        "XSS"
+        "【工具类型】: Python工具",
+        "【主要功能】: XSS'OR - Hack with JavaScript.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/evilcos/xssor2",
     "license": "BSD-2-Clause",
     "suggest": {
-        "python":[
+        "python": [
             "miniconda3"
         ]
     },

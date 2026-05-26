@@ -3,7 +3,10 @@
     "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
     "homepage": "https://apifox.com",
     "notes": [
-        "API测试"
+        "【工具类型】: 其他工具",
+        "【主要功能】: Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "license": "UNKNOWN",
     "url": "https://cdn.apifox.cn/download/2.5.19/Apifox-2.5.19.exe#/dl.7z",

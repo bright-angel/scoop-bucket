@@ -20,7 +20,12 @@
         "    }",
         "}"
     ],
-    "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH ; 添加右键菜单: 打开顶部菜单的工具 > 自定义，选择“快捷方式”这个Tab，点“更多快捷方式...”按钮 ",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "bin": "EmEditor.exe",
     "shortcuts": [
         [

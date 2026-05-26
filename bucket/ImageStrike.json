@@ -15,5 +15,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zR00t1/ImageStrike/releases/download/V$version/V$version.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: ImageStrike是一款用于CTF中图片隐写的综合利用工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

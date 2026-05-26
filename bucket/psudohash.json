@@ -4,7 +4,7 @@
     "homepage": "https://github.com/t3l3machus/psudohash",
     "license": "MIT",
     "suggest": {
-        "python":[
+        "python": [
             "miniconda3"
         ]
     },
@@ -14,5 +14,11 @@
         "Move-Item -Path \"$dir\\psudohash-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\psudohash-main\" -Force -Recurse"
     ],
-    "bin": "psudohash.bat"
+    "bin": "psudohash.bat",
+    "notes": [
+        "【工具类型】: 密码破解工具",
+        "【主要功能】: Generates millions of keyword-based password mutations in seconds.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 密码破解、哈希破解",
+        "【技术特点】: 未知"
+    ]
 }

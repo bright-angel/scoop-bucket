@@ -9,5 +9,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/hahwul/jwt-hack/releases/download/v$version/jwt-hack_$version_windows_amd64.tar.gz"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: 🔩 jwt-hack 是对 JWT 进行黑客攻击/安全测试的工具。支持对 JWT 进行编码/解码，为 JWT 攻击生成有效载荷，并且非常快速破解（dict/brutefoce）",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

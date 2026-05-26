@@ -32,5 +32,11 @@
             "yak.exe",
             "yak"
         ]
+    ],
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: A programming language exclusively designed for cybersecurity",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ]
 }

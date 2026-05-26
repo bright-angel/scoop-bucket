@@ -1,7 +1,12 @@
 {
     "version": "2.14.0",
     "description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.(Scoop bucket by arch3rpro)",
-    "notes": "子域名采集",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "homepage": "https://projectdiscovery.io",
     "license": "MIT",
     "architecture": {

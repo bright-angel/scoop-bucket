@@ -28,5 +28,11 @@
                 "url": "https://github.com/M4DM0e/DirDar/releases/download/v$version.0/DirDarV$version-win64.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: DirDar 是一个搜索 （403-Forbidden） 目录以破解它并获取其目录列表的工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

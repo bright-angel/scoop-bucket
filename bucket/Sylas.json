@@ -2,8 +2,10 @@
     "version": "beta",
     "description": "(Scoop bucket by arch3rpro) Sylas-数据库综合利用工具",
     "notes": [
-        "漏洞检测利用",
-        "数据库,Oracle,MSSQL,MYSQL,PGSQL"
+        "【工具类型】: 其他工具",
+        "【主要功能】: (Scoop bucket by arch3rpro) Sylas-数据库综合利用工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/Ryze-T/Sylas",
     "license": "UNKNOWN",

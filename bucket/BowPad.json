@@ -29,5 +29,11 @@
                 "url": "https://github.com/stefankueng/BowPad/releases/download/$version/BowPad64-$version-portable.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: A simple and fast text editor with a ribbon UI",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

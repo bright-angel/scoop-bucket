@@ -26,11 +26,9 @@
         "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG-gui-$version.jar#/jMG-gui.jar"
     },
     "notes": [
-        "【工具类型】: 安全测试",
-        "【主要功能】: Java内存马生成工具，支持多种中间件和框架",
-        "【适用场景】: Web安全测试、漏洞验证",
-        "【技术特点】: 基于Java开发，提供GUI图形界面",
-        "【注意事项】: 需要Java运行环境支持"
+        "【工具类型】: Java工具",
+        "【主要功能】: 一款支持高度自定义的 Java 内存马生成工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Java开发，需Java运行环境"
     ]
 }
-

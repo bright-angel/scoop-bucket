@@ -2,7 +2,12 @@
     "version": "1.3.1",
     "description": "An OOB interaction gathering server and client library(Scoop bucket by arch3rpro)",
     "homepage": "https://app.interactsh.com",
-    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/interactsh.json",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: An OOB interaction gathering server and client library(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ],
     "license": "MIT",
     "architecture": {
         "32bit": {

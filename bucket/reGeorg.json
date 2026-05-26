@@ -4,7 +4,7 @@
     "homepage": "https://github.com/sensepost/reGeorg",
     "license": " Unkonwn",
     "suggest": {
-        "python":[
+        "python": [
             "miniconda3"
         ]
     },
@@ -15,5 +15,11 @@
         "Remove-Item \"$dir\\reGeorg-master\" -Force -Recurse",
         "& cmd /c \"call activate python2env && pip install urllib3\""
     ],
-    "bin": "reGeorg.bat"
+    "bin": "reGeorg.bat",
+    "notes": [
+        "【工具类型】: Python工具",
+        "【主要功能】: The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
+    ]
 }

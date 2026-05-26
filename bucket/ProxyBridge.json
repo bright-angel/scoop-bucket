@@ -17,10 +17,25 @@
     },
     "bin": [
         "ProxyBridge.exe",
-        ["ProxyBridge_CLI.exe", "proxybridge-cli"]
+        [
+            "ProxyBridge_CLI.exe",
+            "proxybridge-cli"
+        ]
     ],
     "shortcuts": [
-        ["ProxyBridge.exe", "ProxyBridge"],
-        ["ProxyBridge_CLI.exe", "ProxyBridge CLI"]
+        [
+            "ProxyBridge.exe",
+            "ProxyBridge"
+        ],
+        [
+            "ProxyBridge_CLI.exe",
+            "ProxyBridge CLI"
+        ]
+    ],
+    "notes": [
+        "【工具类型】: 网络工具",
+        "【主要功能】: Redirect any Windows/MacOS TCP and UDP traffic to HTTP/Socks5 proxy",
+        "【适用场景】: HTTP协议分析、代理调试",
+        "【技术特点】: 未知"
     ]
 }

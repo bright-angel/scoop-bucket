@@ -2,8 +2,10 @@
     "version": "0.1.2",
     "description": "(Scoop bucket by arch3rpro) Redis 漏洞利用工具。",
     "notes": [
-        "漏洞检测利用",
-        "redis 未授权"
+        "【工具类型】: Redis工具",
+        "【主要功能】: (Scoop bucket by arch3rpro) Redis 漏洞利用工具。",
+        "【适用场景】: Redis数据库管理与测试",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/yuyan-sec/RedisEXP",
     "license": "unknown",

@@ -15,5 +15,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/EdgeSecurityTeam/EHole/releases/download/v$version/EHole_windows_amd64.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: EHole(棱洞)3.1 重构版-红队重点攻击系统指纹探测工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

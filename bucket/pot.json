@@ -4,9 +4,10 @@
     "homepage": "https://pot-app.com",
     "license": "GPL-3.0-or-later",
     "notes": [
-        "config location: C:\\Users\\<your username>\\AppData\\Local\\com.pot-app.desktop",
-        "config location: C:\\Users\\<your username>\\AppData\\Roaming\\com.pot-app.desktop",
-        "- https://github.com/ViCrack/scoop-bucket/blob/master/bucket/pot.json"
+        "【工具类型】: 其他工具",
+        "【主要功能】: 一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognize",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "architecture": {
         "64bit": {

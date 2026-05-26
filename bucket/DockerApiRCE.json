@@ -2,8 +2,10 @@
     "version": "0.4",
     "description": "DockerApiRCE",
     "notes": [
-        "漏洞检测利用",
-        "docker,api未授权访问"
+        "【工具类型】: 其他工具",
+        "【主要功能】: DockerApiRCE",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/0xchang/DockerApiRCE",
     "license": "UNKNOWN",

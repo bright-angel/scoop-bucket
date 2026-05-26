@@ -3,8 +3,10 @@
     "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. ",
     "homepage": "https://github.com/kingToolbox/WindTerm",
     "notes": [
-        "远程连接",
-        "SSH/Sftp/Shell/Telnet/Serial terminal"
+        "【工具类型】: 其他工具",
+        "【主要功能】: A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. ",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "license": "Apache-2.0",
     "suggest": {

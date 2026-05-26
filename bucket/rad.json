@@ -29,5 +29,11 @@
                 "url": "https://github.com/chaitin/rad/releases/download/$version/rad_windows_amd64.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】:  一款专为安全扫描而生的浏览器爬虫 ",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

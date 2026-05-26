@@ -4,7 +4,7 @@
     "homepage": "https://github.com/codingo/NoSQLMap",
     "license": " GPL-3.0",
     "suggest": {
-        "python":[
+        "python": [
             "miniconda3"
         ]
     },
@@ -15,5 +15,11 @@
         "Remove-Item \"$dir\\nosqlmap-master\" -Force -Recurse",
         "& cmd /c \"call activate python2env && pip install couchdb pbkdf2 pymongo ipcalc\""
     ],
-    "bin": "nosqlmap.bat"
+    "bin": "nosqlmap.bat",
+    "notes": [
+        "【工具类型】: 数据库工具",
+        "【主要功能】: Automated NoSQL database enumeration and web application exploitation tool.(Scoop bucket by arch3rpro)",
+        "【适用场景】: SQL注入测试、数据库审计",
+        "【技术特点】: 未知"
+    ]
 }

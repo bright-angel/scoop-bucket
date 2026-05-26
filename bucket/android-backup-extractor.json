@@ -19,10 +19,9 @@
         "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-540a57d.jar#/abe.jar"
     },
     "notes": [
-        "【工具类型】: 开发辅助",
-        "【主要功能】: 提取和重新打包 Android 备份文件",
-        "【适用场景】: Android 设备备份管理",
-        "【技术特点】: 基于 Java 11 开发，跨平台",
-        "【注意事项】: 处理加密备份需要 JCE 无限制强度策略文件"
+        "【工具类型】: Java工具",
+        "【主要功能】: 用于提取和重新打包 Android 备份文件的工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Java开发，需Java运行环境"
     ]
 }

@@ -14,5 +14,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v$version/DudeSuite.v$version.win-x64.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Dude Suite Web 渗透测试工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

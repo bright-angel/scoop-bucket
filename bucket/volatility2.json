@@ -2,12 +2,15 @@
     "version": "2.6.1",
     "description": "An advanced memory forensics framework(高级内存取证框架)",
     "notes": [
-        "内存取证分析"
+        "【工具类型】: Python工具",
+        "【主要功能】: An advanced memory forensics framework(高级内存取证框架)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/volatilityfoundation/volatility",
     "license": "GPL-2.0-only",
     "suggest": {
-        "python":[
+        "python": [
             "miniconda3"
         ]
     },

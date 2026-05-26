@@ -12,5 +12,11 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-64bit.zip"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: (Scoop bucket by arch3rpro).Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

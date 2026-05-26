@@ -11,5 +11,11 @@
     "autoupdate": {
         "url": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/releases/download/v$version/COMPILED.zip",
         "extract_dir": "AsyncRAT"
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Open-Source Remote Administration Tool For Windows C# (RAT)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

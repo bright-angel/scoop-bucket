@@ -20,7 +20,10 @@
     "homepage": "https://github.com/rootkiter/Termite",
     "license": "UNKNOWN",
     "notes": [
-        "代理转发"
+        "【工具类型】: 其他工具",
+        "【主要功能】: Tool for tunnel (Version 2).(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "description": "Tool for tunnel (Version 2).(Scoop bucket by arch3rpro)"
 }

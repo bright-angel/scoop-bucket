@@ -1,8 +1,11 @@
 {
     "version": "1.4",
     "description": "WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。",
-    "notes":[
-        "WEB信息收集"
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/ScriptKid-Beta/WebBatchRequest",
     "license": "UNKNOWN",

@@ -16,5 +16,11 @@
         "@set path=%JAVA_HOME%\\bin;%path%;",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "openjdk21.bat"
+    "bin": "openjdk21.bat",
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Official production-ready open-source builds of OpenJDK 21",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

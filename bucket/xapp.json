@@ -2,7 +2,10 @@
     "version": "0.0.2",
     "description": "专注于web指纹识别的工具",
     "notes": [
-        "web指纹识别"
+        "【工具类型】: 其他工具",
+        "【主要功能】: 专注于web指纹识别的工具",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ],
     "homepage": "https://github.com/chaitin/xapp",
     "license": "Unkown",

@@ -26,5 +26,11 @@
                 "url": "https://github.com/igdmapps/igdm/releases/download/v$version/IGdm.$version.exe#/dl.7z"
             }
         }
-    }
+    },
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: Desktop application for Instagram DMs",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
+    ]
 }

@@ -25,5 +25,11 @@
         "$oldPath = Join-Path $dir 'DirBuster-1.0-RC1.bat'",
         "$newPath = Join-Path $dir 'DirBuster.bat'",
         "Rename-Item -Path $oldPath -NewName $newPath"
+    ],
+    "notes": [
+        "【工具类型】: 其他工具",
+        "【主要功能】: DirBuster是一个多线程的基于Java的应用程序设计用于暴力破解Web 应用服务器上的目录名和文件名的工具(Scoop bucket by arch3rpro)",
+        "【适用场景】: 根据描述推断的适用场景",
+        "【技术特点】: 未知"
     ]
 }
