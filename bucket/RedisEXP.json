@@ -2,10 +2,10 @@
     "version": "0.1.2",
     "description": "(Scoop bucket by arch3rpro) Redis 漏洞利用工具。",
     "notes": [
-        "【工具类型】: Redis工具",
-        "【主要功能】: (Scoop bucket by arch3rpro) Redis 漏洞利用工具。",
-        "【适用场景】: Redis数据库管理与测试",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Redis漏洞利用工具，支持多种Redis漏洞检测和利用",
+        "【适用场景】: 漏洞验证、渗透测试、安全评估",
+        "【技术特点】: Windows可执行文件，命令行工具，支持64位"
     ],
     "homepage": "https://github.com/yuyan-sec/RedisEXP",
     "license": "unknown",

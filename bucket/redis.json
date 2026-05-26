@@ -27,9 +27,9 @@
         }
     },
     "notes": [
-        "【工具类型】: Redis工具",
-        "【主要功能】: In-memory data structure store, used as a database, cache and message broker",
-        "【适用场景】: Redis数据库管理与测试",
-        "【技术特点】: 未知"
+        "【工具类型】: 数据库工具",
+        "【主要功能】: 内存数据结构存储，用作数据库、缓存和消息代理",
+        "【适用场景】: Redis数据库管理、缓存服务、消息队列",
+        "【技术特点】: Windows可执行文件，包含redis-server、redis-cli、redis-benchmark"
     ]
 }

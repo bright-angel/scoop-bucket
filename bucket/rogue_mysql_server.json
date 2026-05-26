@@ -7,7 +7,7 @@
         "【工具类型】: 数据库工具",
         "【主要功能】: A rouge mysql server supports reading files from most mysql libraries of multiple programming languages",
         "【适用场景】: SQL注入测试、数据库审计",
-        "【技术特点】: 未知"
+        "【技术特点】: Go语言开发，模拟MySQL协议实现"
     ],
     "architecture": {
         "32bit": {

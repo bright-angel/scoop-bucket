@@ -35,6 +35,6 @@
         "【工具类型】: 其他工具",
         "【主要功能】: Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware.(Scoop bucket by arch3rpro)",
         "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【技术特点】: PowerShell实现，支持HTTP/S协议和AMSI绕过"
     ]
 }
