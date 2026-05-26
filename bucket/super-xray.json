@@ -2,10 +2,10 @@
     "version": "1.7",
     "description": "XRAY GUI Starter (Web Vulnerability Scanner)(Scoop bucket by arch3rpro)",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: XRAY GUI Starter (Web Vulnerability Scanner)(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: XRAY漏洞扫描器图形化启动器，提供Web漏洞扫描功能",
+        "【适用场景】: Web安全测试、漏洞扫描、渗透测试",
+        "【技术特点】: Windows可执行文件，内置JRE，图形化界面"
     ],
     "homepage": "https://github.com/4ra1n/super-xray",
     "license": "UNKNOWN",

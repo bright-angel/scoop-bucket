@@ -3,9 +3,9 @@
     "description": "超级弱】令检查工具是一款Windows平台的弱】令审计工具",
     "notes": [
         "【工具类型】: 密码破解工具",
-        "【主要功能】: 超级弱】令检查工具是一款Windows平台的弱】令审计工具",
-        "【适用场景】: 密码破解、哈希破解",
-        "【技术特点】: 未知"
+        "【主要功能】: 超级弱密码检查工具，Windows平台弱口令审计",
+        "【适用场景】: 密码审计、安全评估、渗透测试",
+        "【技术特点】: Windows可执行文件，图形化界面"
     ],
     "homepage": "https://github.com/shack2/SNETCracker",
     "license": "unkown",

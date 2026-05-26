@@ -11,9 +11,9 @@
         "url": "https://github.com/0x727/SqlKnife_0x727/releases/download/$version/SqlKnifeV$version.zip"
     },
     "notes": [
-        "【工具类型】: 数据库工具",
-        "【主要功能】: (Scoop bucket by arch3rpro) SqlKnife - 适合在命令行中使用的轻巧的SQL Server数据库安全检测工具",
-        "【适用场景】: SQL注入测试、数据库审计",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: SQL Server数据库安全检测工具，轻巧适合命令行使用",
+        "【适用场景】: SQL Server安全测试、数据库审计、渗透测试",
+        "【技术特点】: Windows可执行文件，命令行工具，轻量级"
     ]
 }

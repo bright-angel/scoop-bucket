@@ -3,9 +3,9 @@
     "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
     "notes": [
         "【工具类型】: 安全测试工具",
-        "【主要功能】: 针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
+        "【主要功能】: SpringBoot开源渗透框架，支持Spring相关高危漏洞利用",
         "【适用场景】: 漏洞扫描、安全评估、渗透测试",
-        "【技术特点】: 未知"
+        "【技术特点】: Python开发，命令行工具，需要Python环境"
     ],
     "homepage": "https://github.com/AabyssZG/SpringBoot-Scan",
     "license": "unknown",
