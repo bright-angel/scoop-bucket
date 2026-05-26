@@ -37,9 +37,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Screen, webcam and sketchboard recorder with an integrated editor.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 截图工具",
+        "【主要功能】: 屏幕、摄像头和画板录制工具，集成编辑器",
+        "【适用场景】: 截图记录、教程制作、GIF录制",
+        "【技术特点】: Windows可执行文件，图形化界面，支持FFmpeg"
     ]
 }
