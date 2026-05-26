@@ -26,9 +26,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: projectdiscovery/naabu: A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 信息收集工具",
+        "【主要功能】: 快速端口扫描器，专注于可靠性和简单性，用于攻击面发现",
+        "【适用场景】: 端口扫描、资产发现、渗透测试",
+        "【技术特点】: Go语言开发，命令行工具，支持32位和64位"
     ]
 }

@@ -34,9 +34,9 @@
         "extract_dir": "jdk-$matchVersion"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Official General-Availability Release of OpenJDK",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 开发工具",
+        "【主要功能】: OpenJDK官方正式版本，Java开发环境",
+        "【适用场景】: Java开发、运行Java程序、开发调试",
+        "【技术特点】: 开源免费，支持64位，自动配置JAVA_HOME"
     ]
 }

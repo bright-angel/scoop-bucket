@@ -4,10 +4,10 @@
     "homepage": "https://ollama.com/",
     "license": "MIT",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Get up and running with large language models locally.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: AI工具",
+        "【主要功能】: 本地运行大型语言模型的工具，支持多种开源模型",
+        "【适用场景】: AI开发、本地推理、模型测试",
+        "【技术特点】: Windows可执行文件，命令行工具，支持64位和ARM64"
     ],
     "suggest": {
         "Ollama Full": "extras/ollama-full"

@@ -24,9 +24,9 @@
         "url": "https://github.com/ambionics/phpggc/archive/refs/heads/master.zip"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: PHPGGC 是一个 PHP unserialize（） 有效负载库，以及一个从命令行或以编程方式生成它们的工具。",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: PHP反序列化payload生成工具，支持多种POP链",
+        "【适用场景】: PHP漏洞测试、反序列化漏洞利用、渗透测试",
+        "【技术特点】: PHP开发，需要WSL环境，命令行工具"
     ]
 }

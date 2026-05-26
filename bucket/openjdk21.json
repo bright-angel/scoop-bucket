@@ -18,9 +18,9 @@
     ],
     "bin": "openjdk21.bat",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Official production-ready open-source builds of OpenJDK 21",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 开发工具",
+        "【主要功能】: OpenJDK 21官方生产就绪版本，Java开发环境",
+        "【适用场景】: Java开发、运行Java程序、开发调试",
+        "【技术特点】: 开源免费，支持64位，LTS版本"
     ]
 }
