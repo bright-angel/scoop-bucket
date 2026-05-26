@@ -17,9 +17,9 @@
     ],
     "bin": "nosqlmap.bat",
     "notes": [
-        "【工具类型】: 数据库工具",
-        "【主要功能】: Automated NoSQL database enumeration and web application exploitation tool.(Scoop bucket by arch3rpro)",
-        "【适用场景】: SQL注入测试、数据库审计",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: NoSQL数据库自动枚举和Web应用漏洞利用工具",
+        "【适用场景】: NoSQL注入测试、数据库审计、渗透测试",
+        "【技术特点】: Python开发，命令行工具，需要Python2环境"
     ]
 }
