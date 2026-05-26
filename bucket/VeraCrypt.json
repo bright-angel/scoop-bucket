@@ -2,10 +2,10 @@
     "version": "1.26.15",
     "description": "基于 TrueCrypt 的具有强大安全性的磁盘加密",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: 基于 TrueCrypt 的具有强大安全性的磁盘加密",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 加密工具",
+        "【主要功能】: 基于TrueCrypt的磁盘加密工具，提供强大的数据安全保护",
+        "【适用场景】: 数据加密、隐私保护、安全存储",
+        "【技术特点】: Windows可执行文件，开源免费，支持多种加密算法"
     ],
     "homepage": "https://github.com/veracrypt/VeraCrypt",
     "license": "UNKNOWN",

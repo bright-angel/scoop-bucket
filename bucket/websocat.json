@@ -2,10 +2,10 @@
     "version": "1.14.1",
     "description": "A command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions.(Scoop bucket by arch3rpro)",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 网络工具",
+        "【主要功能】: WebSocket命令行客户端，类似netcat支持ws://协议",
+        "【适用场景】: WebSocket测试、网络调试、协议分析",
+        "【技术特点】: Rust开发，命令行工具，支持多种连接模式"
     ],
     "homepage": "https://github.com/vi/websocat",
     "license": "MIT",

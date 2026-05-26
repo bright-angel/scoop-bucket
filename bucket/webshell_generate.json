@@ -2,10 +2,10 @@
     "version": "1.2.6",
     "description": "(Scoop bucket by arch3rpro)-用于生成各类免杀webshell",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: (Scoop bucket by arch3rpro)-用于生成各类免杀webshell",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: WebShell生成工具，支持多种免杀WebShell生成",
+        "【适用场景】: 渗透测试、权限维持、安全研究",
+        "【技术特点】: Java开发，图形化界面，支持多种编码方式"
     ],
     "homepage": "https://github.com/cseroad/Webshell_Generate",
     "license": "UNKNOWN",

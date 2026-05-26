@@ -2,10 +2,10 @@
     "version": "kali-master",
     "description": "wordlists packaging for Kali Linux.(Scoop bucket by arch3rpro)",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: wordlists packaging for Kali Linux.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 字典工具",
+        "【主要功能】: Kali Linux密码字典集合，包含rockyou等常用字典",
+        "【适用场景】: 密码破解、暴力破解、安全测试",
+        "【技术特点】: 压缩格式存储，包含大量常用密码"
     ],
     "homepage": "https://gitlab.com/kalilinux/packages/wordlists",
     "license": "UNKNOWN",

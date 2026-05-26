@@ -2,10 +2,10 @@
     "version": "1.1.0",
     "description": "Venom - A Multi-hop Proxy for Penetration Testers.(Scoop bucket by arch3rpro)",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Venom - A Multi-hop Proxy for Penetration Testers.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 多层代理工具，为渗透测试者提供多跳代理能力",
+        "【适用场景】: 内网渗透、代理穿透、网络侦察",
+        "【技术特点】: Go语言开发，命令行工具，支持多层代理"
     ],
     "homepage": "https://github.com/Dliv3/Venom",
     "license": " MIT",

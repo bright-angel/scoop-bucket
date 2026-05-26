@@ -40,9 +40,9 @@
         "url": "https://dl.todesk.com/irrigation/ToDesk_$version.exe#/dl.7z"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A unlimited speed multifunctional remote control software",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 远程控制工具",
+        "【主要功能】: 不限速多功能远程控制软件，支持远程桌面连接",
+        "【适用场景】: 远程办公、技术支持、团队协作",
+        "【技术特点】: Windows可执行文件，图形化界面，支持文件传输"
     ]
 }

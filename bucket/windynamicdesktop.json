@@ -2,10 +2,10 @@
     "version": "5.6.1",
     "description": "Port of macOS Mojave Dynamic Desktop feature to Windows 10",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Port of macOS Mojave Dynamic Desktop feature to Windows 10",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 系统工具",
+        "【主要功能】: 动态桌面壁纸工具，模拟macOS Mojave动态桌面效果",
+        "【适用场景】: 桌面美化、动态壁纸、个性化设置",
+        "【技术特点】: Windows原生程序，便携版，支持主题切换"
     ],
     "homepage": "https://github.com/t1m0thyj/WinDynamicDesktop",
     "license": "MPL-2.0",

@@ -2,10 +2,10 @@
     "version": "1.6.2",
     "description": "7kbscan-WebPathBrute Web路径暴力探测工具(Scoop bucket by arch3rpro)",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: 7kbscan-WebPathBrute Web路径暴力探测工具(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Web路径暴力探测工具，快速扫描目标网站的隐藏路径",
+        "【适用场景】: 目录发现、渗透测试、安全评估",
+        "【技术特点】: Windows可执行文件，图形化界面，支持字典扫描"
     ],
     "homepage": "https://github.com/7kbstorm/7kbscan-WebPathBrute",
     "license": "MIT",

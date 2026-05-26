@@ -3,9 +3,9 @@
     "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
     "notes": [
         "【工具类型】: 安全测试工具",
-        "【主要功能】: 一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
-        "【适用场景】: 漏洞扫描、安全评估、渗透测试",
-        "【技术特点】: 未知"
+        "【主要功能】: 信息收集工具，支持子域名枚举、端口扫描、目录爆破等",
+        "【适用场景】: 渗透测试前期侦察、资产发现、安全评估",
+        "【技术特点】: Go语言开发，命令行工具，多线程扫描"
     ],
     "homepage": "https://github.com/niudaii/zpscan",
     "license": "unknow",

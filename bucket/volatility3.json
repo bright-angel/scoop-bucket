@@ -2,10 +2,10 @@
     "version": "2.28.0",
     "description": "The volatile memory extraction framework(高级内存取证框架)",
     "notes": [
-        "【工具类型】: Python工具",
-        "【主要功能】: The volatile memory extraction framework(高级内存取证框架)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 基于Python开发，需Python环境"
+        "【工具类型】: 安全取证工具",
+        "【主要功能】: 高级内存取证框架，支持从内存镜像中提取数字证据",
+        "【适用场景】: 数字取证、恶意软件分析、内存分析",
+        "【技术特点】: Python开发，命令行工具，支持多种内存格式"
     ],
     "homepage": "https://github.com/volatilityfoundation/volatility3",
     "license": "https://github.com/volatilityfoundation/volatility3/blob/develop/LICENSE.txt",

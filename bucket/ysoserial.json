@@ -2,10 +2,10 @@
     "version": "0.0.6",
     "description": "(Scoop bucket by arch3rpro) ysoserial - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: (Scoop bucket by arch3rpro) ysoserial - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Java反序列化漏洞payload生成工具，支持多种Gadget链",
+        "【适用场景】: 漏洞验证、渗透测试、安全研究",
+        "【技术特点】: Java开发，命令行工具，支持多种payload生成"
     ],
     "homepage": "https://github.com/frohoff/ysoserial",
     "license": "UNKNOWN",
