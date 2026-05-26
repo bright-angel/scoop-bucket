@@ -5,6 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/horsicq/DIE-engine/releases/download/3.21/die_win64_portable_3.21_x64.zip",
     "hash": "078f2934f267392247f9c7b759a1c2457a48bc2000b25b80c2f129955ee4a3b9",
+    "extract_dir": "die",
     "bin": "die.exe",
     "shortcuts": [
         [
