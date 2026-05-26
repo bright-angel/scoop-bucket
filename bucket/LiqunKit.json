@@ -3,10 +3,10 @@
     "description": "综合漏洞利用工具.(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/Liqunkit/LiqunKit_",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: 综合漏洞利用工具.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 综合漏洞利用工具，集成多种漏洞检测和利用功能",
+        "【适用场景】: 渗透测试、漏洞检测、安全评估",
+        "【技术特点】: 基于Java开发，提供图形化界面，支持插件扩展"
     ],
     "license": "UNKNOWN",
     "suggest": {

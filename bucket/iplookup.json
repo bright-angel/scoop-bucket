@@ -11,9 +11,9 @@
         "url": "https://github.com/Lengso/iplookup/releases/download/v$version/ipgo_win_amd64.exe#/iplookup.exe"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: IP反查域名",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 网络工具",
+        "【主要功能】: IP反查域名工具，根据IP地址查找关联域名",
+        "【适用场景】: 信息收集、渗透测试前期侦察、安全分析",
+        "【技术特点】: 基于Go语言开发，支持批量查询，查询速度快"
     ]
 }

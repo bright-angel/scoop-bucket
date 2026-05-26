@@ -32,9 +32,9 @@
         "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jmg-all-$version.jar#/jmg-all.jar"
     },
     "notes": [
-        "【工具类型】: 内存分析工具",
-        "【主要功能】: 一款支持高度自定义的 Java 内存马生成工具",
-        "【适用场景】: 内存取证、恶意软件分析",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 支持高度自定义的Java内存马生成工具",
+        "【适用场景】: 渗透测试、WebShell生成、安全评估",
+        "【技术特点】: Java开发，图形化界面，需要JRE环境"
     ]
 }

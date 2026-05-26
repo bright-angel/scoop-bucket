@@ -24,9 +24,9 @@
         "url": "https://github.com/gentilkiwi/mimikatz/releases/download/$version/mimikatz_trunk.7z"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A little tool to play with Windows security.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Windows安全测试工具，可获取系统凭据、票据等敏感信息",
+        "【适用场景】: 渗透测试、安全评估、凭据提取",
+        "【技术特点】: 基于C++开发，直接访问Windows系统API，支持多种凭据提取技术"
     ]
 }

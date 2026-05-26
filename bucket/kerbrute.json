@@ -11,9 +11,9 @@
         "url": "https://github.com/ropnop/kerbrute/releases/download/v$version/kerbrute_windows_amd64.exe#/kerbrute.exe"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A tool to perform Kerberos pre-auth bruteforcing.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Kerberos预认证暴力破解工具，用于测试AD账户安全性",
+        "【适用场景】: 域渗透测试、Kerberos安全评估、账户枚举",
+        "【技术特点】: 基于Go语言开发，支持Kerberos协议，无需域管理员权限"
     ]
 }

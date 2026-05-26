@@ -28,9 +28,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A packet capture (and sending) library for Microsoft Windows.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 网络工具",
+        "【主要功能】: Windows平台的数据包捕获和发送库，支持WinPcap兼容API",
+        "【适用场景】: 网络分析、数据包捕获、网络调试",
+        "【技术特点】: Windows内核级网络驱动，支持混杂模式，兼容WinPcap"
     ]
 }

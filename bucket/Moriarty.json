@@ -2,10 +2,10 @@
     "version": "1.2",
     "description": "Moriarty 旨在列举缺失的 KB，检测各种漏洞，并建议 Windows 环境中权限提升的潜在漏洞。",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Moriarty 旨在列举缺失的 KB，检测各种漏洞，并建议 Windows 环境中权限提升的潜在漏洞。",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Windows漏洞检测工具，列举缺失KB，检测权限提升漏洞",
+        "【适用场景】: 渗透测试、安全评估、漏洞检测",
+        "【技术特点】: 基于Go语言开发，快速扫描系统漏洞，提供提权建议"
     ],
     "homepage": "https://github.com/BC-SECURITY/Moriarty",
     "license": "unknown",

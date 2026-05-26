@@ -21,9 +21,9 @@
         "url": "https://github.com/jaquadro/NBTExplorer/releases/download/v$version-win/NBTExplorer-$version.zip"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: NBTExplorer 是一个开源的 NBT 编辑器，适用于所有常见的 NBT 数据源。它主要用于编辑 Minecraft 游戏数据。",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 开发工具",
+        "【主要功能】: NBT编辑器，用于编辑Minecraft游戏数据和NBT格式文件",
+        "【适用场景】: Minecraft模组开发、游戏存档编辑、NBT文件处理",
+        "【技术特点】: 提供图形化界面，支持多种NBT数据源"
     ]
 }

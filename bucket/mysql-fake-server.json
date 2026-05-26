@@ -4,10 +4,10 @@
     "homepage": "https://github.com/4ra1n/mysql-fake-server",
     "license": "UNKNOWN",
     "notes": [
-        "【工具类型】: 数据库工具",
-        "【主要功能】: MySQL Fake Server (纯Java实现，支持GUI版和命令行版，提供Dockerfile，支持多种常见JDBC利用)",
-        "【适用场景】: SQL注入测试、数据库审计",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: MySQL假服务器，纯Java实现，支持GUI和命令行，支持多种JDBC利用",
+        "【适用场景】: SQL注入测试、JDBC漏洞利用、渗透测试",
+        "【技术特点】: 基于Java开发，提供Docker支持，支持多种JDBC利用方式"
     ],
     "suggest": {
         "JRE": [

@@ -20,9 +20,9 @@
         "url": "https://github.com/qi4L/JYso/releases/download/v$version/JYso-$version.jar#/JYso.jar"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: It can be either a JNDIExploit or a ysoserial",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 集成JNDIExploit和ysoserial功能的Java安全测试工具",
+        "【适用场景】: Java安全漏洞测试、渗透测试、反序列化漏洞利用",
+        "【技术特点】: 基于Java开发，整合多种反序列化Gadget，支持JNDI注入"
     ]
 }

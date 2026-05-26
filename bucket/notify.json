@@ -28,9 +28,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 通知工具",
+        "【主要功能】: 多平台通知工具，支持将工具输出推送到多种通知平台",
+        "【适用场景】: 安全扫描通知、自动化任务提醒、监控告警",
+        "【技术特点】: 基于Go语言开发，支持多种通知平台，可管道接收输入"
     ]
 }

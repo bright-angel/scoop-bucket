@@ -22,9 +22,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: (Scoop bucket by arch3rpro) - A next-generation crawling and spidering framework",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 新一代Web爬虫和蜘蛛框架，用于发现网站路径和端点",
+        "【适用场景】: 网站侦察、渗透测试、安全评估",
+        "【技术特点】: 基于Go语言开发，支持JavaScript渲染，高性能并发爬取"
     ]
 }
