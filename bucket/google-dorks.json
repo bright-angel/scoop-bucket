@@ -15,9 +15,9 @@
         "url": "https://github.com/Proviesec/google-dorks/archive/refs/heads/main.zip"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Useful Google Dorks for WebSecurity and Bug Bounty.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全资料",
+        "【主要功能】: Web安全和Bug Bounty常用Google Dorks集合",
+        "【适用场景】: 信息收集、漏洞发现、安全研究",
+        "【技术特点】: 收集整理大量Google搜索技巧，用于安全测试"
     ]
 }

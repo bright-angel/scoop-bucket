@@ -4,10 +4,10 @@
     "homepage": "https://github.com/nadoo/glider",
     "license": "GPL-3.0-or-later",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: glider is a forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features(like dnsmasq)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 网络工具",
+        "【主要功能】: 支持多种协议的正向代理，同时具备DNS/DHCP服务器和ipset管理功能",
+        "【适用场景】: 网络代理、DNS管理、网络配置",
+        "【技术特点】: 基于Go语言开发，支持多协议代理，类似dnsmasq的网络管理功能"
     ],
     "architecture": {
         "32bit": {

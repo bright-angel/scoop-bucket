@@ -11,9 +11,9 @@
         "url": "https://github.com/maaaaz/thc-hydra-windows/releases/download/v$version/thc-hydra-windows-v$version.zip"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: The great THC-HYDRA tool compiled for Windows",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 密码工具",
+        "【主要功能】: THC-HYDRA密码暴力破解工具，支持多种协议",
+        "【适用场景】: 密码破解、安全评估、渗透测试",
+        "【技术特点】: 支持多种协议暴力破解，高性能，Windows编译版本"
     ]
 }

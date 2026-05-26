@@ -4,10 +4,10 @@
     "homepage": "https://github.com/vicanso/cyberapi",
     "license": "Apache-2.0",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: API tool based on tauri, it is smaller and faster",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 开发工具",
+        "【主要功能】: 基于Tauri的API工具，小巧快速",
+        "【适用场景】: API测试、接口调试、开发调试",
+        "【技术特点】: 基于Tauri框架，轻量级，性能优秀"
     ],
     "architecture": {
         "64bit": {

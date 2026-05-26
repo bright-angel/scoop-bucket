@@ -16,9 +16,9 @@
         "url": "https://github.com/mhtsec/Docker-Registry-exp/releases/download/1.0.0/docker-registry-explorer-windows-x64.exe#/docker-registry-explorer.exe"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: 一款功能强大的Docker Registry 5000端】未授权浏览、下载和安全测试工具，集成了镜像管理、认证爆破、敏感信息搜索等多项实用功能。",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Docker Registry未授权访问利用工具，支持镜像浏览、下载、认证爆破、敏感信息搜索",
+        "【适用场景】: Docker安全测试、镜像管理、渗透测试",
+        "【技术特点】: 提供图形化界面，支持5000端口利用，集成多项功能"
     ]
 }

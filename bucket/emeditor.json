@@ -21,10 +21,10 @@
         "}"
     ],
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 开发工具",
+        "【主要功能】: 快速轻量级文本编辑器，支持打开超大文件",
+        "【适用场景】: 文本编辑、代码编写、大文件处理",
+        "【技术特点】: 高性能设计，支持插件扩展，可处理GB级文件"
     ],
     "bin": "EmEditor.exe",
     "shortcuts": [

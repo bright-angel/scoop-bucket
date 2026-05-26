@@ -11,9 +11,9 @@
         "url": "https://github.com/Marven11/EtherGhost/releases/download/v$version/ether_ghost_v$version.exe#/ether_ghost.exe"
     },
     "notes": [
-        "【工具类型】: 其他工具",
+        "【工具类型】: 安全测试工具",
         "【主要功能】: 新一代Webshell管理器，兼容蚁剑与冰蝎的PHP webshell",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【适用场景】: WebShell管理、渗透测试、后渗透操作",
+        "【技术特点】: 支持多种WebShell类型，提供图形化界面，功能强大"
     ]
 }

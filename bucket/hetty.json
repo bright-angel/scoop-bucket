@@ -13,9 +13,9 @@
     "license": "MIT",
     "description": "(Scoop bucket by arch3rpro)-An HTTP toolkit for security research.",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: (Scoop bucket by arch3rpro)-An HTTP toolkit for security research.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: HTTP安全研究工具包，用于HTTP协议分析和安全测试",
+        "【适用场景】: HTTP协议分析、安全研究、渗透测试",
+        "【技术特点】: 基于Go语言开发，提供命令行界面，支持多种HTTP操作"
     ]
 }

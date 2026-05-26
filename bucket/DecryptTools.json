@@ -32,9 +32,9 @@
         "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV$version/DecryptTools.jar#/DecryptTools.jar"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: DecryptTools-综合解密",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 密码工具",
+        "【主要功能】: 综合解密工具，支持多种加密算法解密",
+        "【适用场景】: 密码破解、数据解密、安全研究",
+        "【技术特点】: 基于Java开发，图形化界面，支持多种解密算法"
     ]
 }

@@ -28,9 +28,9 @@
         }
     },
     "notes": [
-        "【工具类型】: 网络工具",
-        "【主要功能】: httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. It is designed to maintain result reliability with an increased number of threads",
-        "【适用场景】: HTTP协议分析、代理调试",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 快速多功能HTTP工具包，支持多线程探针，使用retryablehttp库",
+        "【适用场景】: HTTP探测、服务发现、安全测试",
+        "【技术特点】: 基于Go语言开发，高性能多线程，支持多种HTTP探测功能"
     ]
 }

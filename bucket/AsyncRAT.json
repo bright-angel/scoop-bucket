@@ -13,9 +13,9 @@
         "extract_dir": "AsyncRAT"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Open-Source Remote Administration Tool For Windows C# (RAT)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: AsyncRAT远程管理工具，用于远程控制Windows系统",
+        "【适用场景】: 远程管理、安全测试、渗透测试",
+        "【技术特点】: 基于C#开发，支持异步通信"
     ]
 }

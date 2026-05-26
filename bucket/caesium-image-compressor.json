@@ -21,9 +21,9 @@
         "extract_dir": "caesium-image-compressor-$version-win"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 文件工具",
+        "【主要功能】: Caesium图像压缩软件，支持JPG、PNG和WebP格式压缩",
+        "【适用场景】: 图片压缩、文件大小优化、图片分享",
+        "【技术特点】: 提供图形化界面，支持多种图片格式"
     ]
 }

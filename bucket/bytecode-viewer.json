@@ -26,9 +26,9 @@
         "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v$version/Bytecode-Viewer-$version.jar#/Bytecode-Viewer.jar"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Java 8+ Jar & Android APK逆向工程套件（反编译器，编辑器，调试器等）",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全工具",
+        "【主要功能】: Java和Android APK逆向工程套件，包含反编译器、编辑器、调试器",
+        "【适用场景】: 逆向工程、代码分析、安全研究",
+        "【技术特点】: 基于Java开发，图形化界面，支持多种格式"
     ]
 }

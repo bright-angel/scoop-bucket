@@ -34,9 +34,9 @@
         "extract_dir": "EcMenu_v$version"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Easy Context Menu (ECM) lets you add a variety of useful commands and tweaks to the Desktop, My Computer, Drives, File and Folder right-click context menus. This enables you to access the most used Windows components quickly and easily. Simply check the box next to the items you wish to add. Once added, just right click and the select the component shortcut to launch it. Easy Context Menu is both portable and UNKNOWN.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 系统工具",
+        "【主要功能】: 右键菜单增强工具，可添加多种实用命令和调整项到右键菜单",
+        "【适用场景】: 系统管理、快速操作、效率提升",
+        "【技术特点】: 便携版，支持32/64位系统，提供图形化配置界面"
     ]
 }

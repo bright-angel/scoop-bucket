@@ -16,9 +16,9 @@
         "url": "https://github.com/hrpzcf/HashCalculator/releases/download/$version/HashCalculator-$version.zip"
     },
     "notes": [
-        "【工具类型】: 密码破解工具",
-        "【主要功能】: 文件哈希值批量计算器.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 密码破解、哈希破解",
-        "【技术特点】: 未知"
+        "【工具类型】: 文件工具",
+        "【主要功能】: 文件哈希值批量计算器，支持多种哈希算法",
+        "【适用场景】: 文件校验、数据完整性验证、安全审计",
+        "【技术特点】: 支持批量计算，支持多种哈希算法"
     ]
 }

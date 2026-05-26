@@ -4,10 +4,10 @@
     "homepage": "https://github.com/sensepost/gowitness",
     "license": "GPL-3.0-or-later",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: gowitness - a golang, web screenshot utility using Chrome Headless",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: Web截图工具，使用Chrome Headless进行网页截图",
+        "【适用场景】: 资产侦察、网站截图、安全评估",
+        "【技术特点】: 基于Go语言开发，使用Chrome Headless，支持批量截图"
     ],
     "architecture": {
         "64bit": {

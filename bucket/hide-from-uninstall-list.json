@@ -7,10 +7,10 @@
         "url": "https://www.sordum.org/eula/"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Hide From Uninstall List is a Portable UNKNOWN Application to remove an item from the Programs And features list without uninstalling it",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 系统工具",
+        "【主要功能】: 从程序和功能列表中隐藏项目而不卸载它",
+        "【适用场景】: 系统管理、软件管理、隐私保护",
+        "【技术特点】: 便携版工具，无需安装，操作简单"
     ],
     "architecture": {
         "32bit": {

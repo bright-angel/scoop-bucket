@@ -26,9 +26,9 @@
         "url": "https://download.chatboxai.app/releases/Chatbox-$version-Setup.exe"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: User-friendly Desktop Client App for AI Models/LLMs",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 开发工具",
+        "【主要功能】: AI模型/LLM的桌面客户端应用",
+        "【适用场景】: AI对话、代码辅助、文档生成",
+        "【技术特点】: 提供图形化界面，支持多种AI模型"
     ]
 }

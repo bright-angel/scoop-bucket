@@ -11,9 +11,9 @@
         "url": "https://github.com/tomnomnom/anew/releases/download/v$version/anew-windows-amd64-$version.zip"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A tool for adding new lines to files, skipping duplicates",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 文件工具",
+        "【主要功能】: anew文件处理工具，向文件添加新行并跳过重复项",
+        "【适用场景】: 文件处理、数据去重、批量操作",
+        "【技术特点】: 命令行工具，基于Go开发"
     ]
 }

@@ -16,9 +16,9 @@
         "url": "https://github.com/TheKingOfDuck/fuzzDicts/archive/refs/heads/master.zip"
     },
     "notes": [
-        "【工具类型】: 安全测试工具",
-        "【主要功能】: Web Pentesting Fuzz 字典,一个就够了.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 漏洞扫描、安全评估、渗透测试",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全资料",
+        "【主要功能】: Web渗透测试Fuzz字典集合，包含大量测试用字典",
+        "【适用场景】: Web渗透测试、目录爆破、参数模糊测试",
+        "【技术特点】: 收集整理大量字典文件，覆盖多种测试场景"
     ]
 }

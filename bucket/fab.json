@@ -33,9 +33,9 @@
         "url": "https://www.sordum.org/files/download/firewall-app-blocker/fab.zip"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: Firewall App Blocker (Fab) 易于使用的Windows防火墙工具 ",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 系统工具",
+        "【主要功能】: Windows防火墙应用程序阻止工具",
+        "【适用场景】: 网络安全、应用程序访问控制、系统防护",
+        "【技术特点】: 轻量级设计，图形化界面，操作简单便捷"
     ]
 }

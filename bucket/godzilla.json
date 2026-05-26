@@ -34,9 +34,9 @@
         "url": "https://github.com/BeichenDream/Godzilla/releases/download/v$version-godzilla/godzilla.jar"
     },
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: 哥斯拉(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: 哥斯拉WebShell管理工具，支持多种WebShell管理",
+        "【适用场景】: WebShell管理、渗透测试、后渗透操作",
+        "【技术特点】: 基于Java开发，提供图形化界面，支持多种WebShell类型"
     ]
 }

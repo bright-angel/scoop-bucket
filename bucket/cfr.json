@@ -2,10 +2,10 @@
     "homepage": "https://github.com/leibnitz27/cfr",
     "description": "A java decompiler",
     "notes": [
-        "【工具类型】: 其他工具",
-        "【主要功能】: A java decompiler",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 未知"
+        "【工具类型】: 安全工具",
+        "【主要功能】: Java反编译器，将Java字节码还原为源代码",
+        "【适用场景】: 逆向工程、代码分析、安全研究",
+        "【技术特点】: 基于Java开发，命令行工具，支持Java字节码反编译"
     ],
     "version": "0.152",
     "license": "MIT",
