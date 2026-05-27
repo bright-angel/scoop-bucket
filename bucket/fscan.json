@@ -5,7 +5,8 @@
     "homepage": "https://github.com/shadow1ng/fscan",
     "checkver": {
         "url": "https://api.github.com/repos/shadow1ng/fscan/releases/latest",
-        "jsonpath": "$.tag_name"
+        "jsonpath": "$.tag_name",
+        "regex": "v?([\\d.]+)"
     },
     "architecture": {
         "64bit": {

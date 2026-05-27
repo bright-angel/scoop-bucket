@@ -15,9 +15,12 @@
             "Dev Sidecar"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/docmirror/dev-sidecar/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
     "autoupdate": {
-        "url": "https://github.com/docmirror/dev-sidecar/releases/download/release-$version/DevSidecar-$version-windows-x86_64.exe#/dl.7z"
+        "url": "https://github.com/docmirror/dev-sidecar/releases/download/$matchTag/DevSidecar-$matchTag-windows-x86_64.exe#/dl.7z"
     },
     "notes": [
         "【工具类型】: 开发工具",

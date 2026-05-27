@@ -13,13 +13,12 @@
             "Fine"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/fasnow/fine/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
     "autoupdate": {
-        "url": "https://github.com/fasnow/fine/releases/download/$version/Fine_$version_windows_x64.zip#/Fine.zip",
-        "hash": {
-            "url": "https://api.github.com/repos/fasnow/fine/releases/tags/$version",
-            "jsonpath": "$.assets[?(@.name == 'Fine_$version_windows_x64.zip')].digest"
-        }
+        "url": "https://github.com/fasnow/fine/releases/download/$matchTag/Fine_$matchTag_windows_x64.zip#/Fine.zip"
     },
     "notes": [
         "【工具类型】: 安全测试工具",

@@ -20,11 +20,10 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/R4gd0ll/I-Wanna-Get-All/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "v?([\\d.]+)"
+        "jsonpath": "$.tag_name"
     },
     "autoupdate": {
-        "url": "https://github.com/R4gd0ll/I-Wanna-Get-All/releases/download/I-Wanna-Get-All-v$version/IWannaGetAll-v$version.0.jar#/IWannaGetAll.jar"
+        "url": "https://github.com/R4gd0ll/I-Wanna-Get-All/releases/download/$matchTag/IWannaGetAll-$matchTag.jar#/IWannaGetAll.jar"
     },
     "notes": [
         "【工具类型】: Java工具",

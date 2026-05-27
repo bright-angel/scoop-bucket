@@ -21,9 +21,12 @@
             "jMG-gui"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/pen4uin/java-memshell-generator/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
     "autoupdate": {
-        "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG-gui-$version.jar#/jMG-gui.jar"
+        "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/$matchTag/jMG-gui-$matchTag.jar#/jMG-gui.jar"
     },
     "notes": [
         "【工具类型】: Java工具",

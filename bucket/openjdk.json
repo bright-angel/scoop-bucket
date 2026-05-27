@@ -18,20 +18,19 @@
     ],
     "bin": "openjdk.bat",
     "checkver": {
-        "url": "https://jdk.java.net/24",
-        "re": "/(?<type>early_access|GA)/(?<path>jdk(?<major>[\\d.]+)(?:.*)?/(?<build>[\\d]+)(?:/GPL|/binaries)?)/(?<file>openjdk-(?<version>[\\d.]+)(?<ea>-ea)?(?:\\+[\\d]+)?_windows-x64_bin.(zip|tar.gz))",
-        "replace": "${version}-${build}${ea}"
+        "url": "https://jdk.java.net/",
+        "regex": "jdk-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.java.net/java/$matchType/$matchPath/$matchFile"
+                "url": "https://download.java.net/java/GA/jdk$version/fdc5d0102fe0414db21410ad5834341f/12/GPL/openjdk-$version_windows-x64_bin.zip"
             }
         },
         "hash": {
             "url": "$url.sha256"
         },
-        "extract_dir": "jdk-$matchVersion"
+        "extract_dir": "jdk-$version"
     },
     "notes": [
         "【工具类型】: 开发工具",

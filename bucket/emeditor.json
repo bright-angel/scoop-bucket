@@ -41,8 +41,8 @@
         "AppData"
     ],
     "checkver": {
-        "url": "https://zh-cn.emeditor.com/emeditor-core/",
-        "regex": "v([\\d.]+) "
+        "url": "https://www.emeditor.com/release-history/",
+        "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

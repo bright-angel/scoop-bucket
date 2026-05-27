@@ -10,10 +10,10 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/InterceptSuite/ProxyBridge/releases/latest",
-        "regex": "download/(?<tag>v[\\d\\.]+)/ProxyBridge-Setup-([\\d.]+)\\.exe"
+        "jsonpath": "$.tag_name"
     },
     "autoupdate": {
-        "url": "https://github.com/InterceptSuite/ProxyBridge/releases/download/v$matchTag/ProxyBridge-Setup-$version.exe#/dl.7z"
+        "url": "https://github.com/InterceptSuite/ProxyBridge/releases/download/$matchTag/ProxyBridge-Setup-$matchTag.exe#/dl.7z"
     },
     "bin": [
         "ProxyBridge.exe",

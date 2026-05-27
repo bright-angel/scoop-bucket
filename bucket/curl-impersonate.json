@@ -45,15 +45,11 @@
         "curl_tor145.bat"
     ],
     "checkver": {
-        "url": "https://github.com/lexiforest/curl-impersonate/releases",
-        "regex": "v([\\d.]+)"
+        "url": "https://api.github.com/repos/lexiforest/curl-impersonate/releases/latest",
+        "jsonpath": "$.tag_name"
     },
     "autoupdate": {
-        "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v$version/curl-impersonate-v$version.x86_64-win32.zip#/curl-impersonate.zip",
-        "hash": {
-            "url": "https://github.com/lexiforest/curl-impersonate/releases/tag/v$version",
-            "regex": "curl-impersonate-v$version.x86_64-win32\\.zip[\\s\\S]*?sha256:([a-fA-F0-9]{64})"
-        }
+        "url": "https://github.com/lexiforest/curl-impersonate/releases/download/$matchTag/curl-impersonate-$matchTag.x86_64-win32.zip#/curl-impersonate.zip"
     },
     "notes": [
         "【工具类型】: 网络工具",
