@@ -8,8 +8,8 @@
             "miniconda3"
         ]
     },
-    "url": "https://github.com/iamunixtz/ParamWizard/archive/refs/heads/master.zip",
-    "hash": "003abe062e2dc77c479884921695d642d7a6345e698832cbd7a0f6f682a850cd",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FParamWizard-main.zip&dl=1",
+    "hash": "adcd4753a86e5e75c6c913660a8a9a8c2928e9a14b485cb0530e84706f0dbf60",
     "pre_install": [
         "Set-Content \"$dir\\ParamWizard.bat\" '@pushd %~dp0",
         "@call activate python3env",
@@ -22,14 +22,6 @@
         "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
     ],
     "bin": "ParamWizard.bat",
-    "checkver": {
-        "url": "https://api.github.com/repos/iamunixtz/ParamWizard/commits",
-        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
-        "replace": "$1$2.$3.$4"
-    },
-    "autoupdate": {
-        "url": "https://github.com/iamunixtz/ParamWizard/archive/refs/heads/master.zip"
-    },
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: ParamWizard 是一个功能强大的基于 Python 的工具，旨在从指定网站中提取和识别带有参数的 URL。它提供了一种全面的方法，通过爬取和分析域的 URL 来发现 Web 应用程序中的隐藏参数。",
