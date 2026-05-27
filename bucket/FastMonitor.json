@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/vam876/FastMonitor/releases",
-        "regex": "v([\d.]+)"
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/vam876/FastMonitor/releases/download/v$version/FastMonitor.exe#/FastMonitor.exe"
