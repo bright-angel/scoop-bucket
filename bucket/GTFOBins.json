@@ -1,10 +1,10 @@
 {
-    "version": "2026-05-15T10.20.41",
+    "version": "2026-05-27T12.01.45",
     "description": "linux命令提权辅助|go awayBins 是一个精选的 Unix 二进制文件列表，可用于绕过配置错误的系统中的本地安全限制",
     "homepage": "https://github.com/GTFOBins/GTFOBins.github.io",
     "license": "unknown",
     "url": "https://github.com/GTFOBins/GTFOBins.github.io/archive/refs/heads/master.zip",
-    "hash": "9ccf28b6037d2b1c19c4c50488cf3def2e30c8b5a70d3ed3a1831209f493491d",
+    "hash": "372b6bbb067db0639e483da82502b1f14fd0aad2c01daeb812f7af22e6e6f758",
     "extract_dir": "GTFOBins.github.io-master",
     "checkver": {
         "url": "https://api.github.com/repos/GTFOBins/GTFOBins.github.io/commits",
