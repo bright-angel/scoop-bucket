@@ -3,34 +3,29 @@
     "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL(Scoop bucket by arch3rpro)",
     "homepage": "https://nuclei.projectdiscovery.io",
     "license": "MIT",
-    "architecture": {
-        "32bit": {
-            "url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.8.0/nuclei_3.8.0_windows_386.zip",
-            "hash": "d0473ecb0dc8e2dad54138eb0dce1c3d8064ba14f75660c4703b74a1e8119576"
-        },
-        "64bit": {
-            "url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.8.0/nuclei_3.8.0_windows_amd64.zip",
-            "hash": "5378cee06b67f6aa78d4e34ed717c18f6d1d8d8d44a089b46d91afcc76f8ec1d"
-        }
-    },
+    "url": [
+        "https://github.com/projectdiscovery/nuclei/releases/download/v3.8.0/nuclei_3.8.0_windows_amd64.zip",
+        "https://github.com/projectdiscovery/nuclei/releases/download/v3.8.0/nuclei_3.8.0_linux_amd64.zip"
+    ],
+    "hash": [
+        "sha256:5378cee06b67f6aa78d4e34ed717c18f6d1d8d8d44a089b46d91afcc76f8ec1d",
+        "sha256:cd4ea43c88b50af8ab96eb6ad3fb4debd8e9d51efaff4d4c2d99106041578943"
+    ],
     "bin": "nuclei.exe",
     "checkver": {
         "github": "https://github.com/projectdiscovery/nuclei"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://github.com/projectdiscovery/nuclei/releases/download/v$version/nuclei_$version_windows_386.zip"
-            },
-            "64bit": {
-                "url": "https://github.com/projectdiscovery/nuclei/releases/download/v$version/nuclei_$version_windows_amd64.zip"
-            }
-        }
+        "url": [
+            "https://github.com/projectdiscovery/nuclei/releases/download/v$version/nuclei_$version_windows_amd64.zip",
+            "https://github.com/projectdiscovery/nuclei/releases/download/v$version/nuclei_$version_linux_amd64.zip"
+        ]
     },
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 快速可定制的漏洞扫描器，基于YAML DSL语法，支持丰富的漏洞模板",
         "【适用场景】: 漏洞扫描、安全评估、渗透测试",
-        "【技术特点】: Go语言开发，命令行工具，支持32位和64位"
+        "【技术特点】: Go语言开发，命令行工具，支持Windows和Linux AMD64",
+        "【注意事项】: 包含Windows和Linux两个版本，默认使用Windows版本"
     ]
 }
