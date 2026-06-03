@@ -10,7 +10,7 @@
         "nodejs": "main/nodejs"
     },
     "pre_install": [
-        "npm.cmd install",
+        "Push-Location \"$dir\"; npm.cmd install; Pop-Location",
         "Set-Content \"$dir\\cyberchef-server.bat\" '@pushd %~dp0', '@call node index.mjs', '@popd' -Encoding Ascii"
     ],
     "bin": "cyberchef-server.bat",
