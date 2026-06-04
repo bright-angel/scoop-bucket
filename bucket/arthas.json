@@ -1,13 +1,13 @@
 {
-    "version": "4.2.1",
+    "version": "4.2.2",
     "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
     "homepage": "https://github.com/alibaba/arthas",
     "license": "unknown",
     "suggest": {
         "JRE": "sec/oraclejre8"
     },
-    "url": "https://github.com/alibaba/arthas/releases/download/arthas-all-4.2.1/arthas-bin.zip",
-    "hash": "d25a5c2abd03ca7fcb1bb718783b28f267a5acd94f1747799b23d9995bcaf31f",
+    "url": "https://github.com/alibaba/arthas/releases/download/arthas-all-4.2.2/arthas-bin.zip",
+    "hash": "055f4efcb1548fc810c50057ed3ddc621b9d0a195baa3b191536fb0753c7283d",
     "pre_install": [
         "Set-Content \"$dir\\arthas-boot.bat\" '@pushd %~dp0",
         "@call oraclejre8",
