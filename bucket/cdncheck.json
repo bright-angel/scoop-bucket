@@ -1,5 +1,5 @@
 {
-    "version": "1.2.39",
+    "version": "1.2.40",
     "description": "A utility to detect various technology for a given IP address.",
     "notes": [
         "【工具类型】: 安全测试工具",
@@ -9,8 +9,8 @@
     ],
     "homepage": "https://github.com/projectdiscovery/cdncheck",
     "license": "MIT",
-    "url": "https://github.com/projectdiscovery/cdncheck/releases/download/v1.2.39/cdncheck_1.2.39_windows_amd64.zip",
-    "hash": "887aec5cffd7a297f2da66d3682479fbcc653ee222d8217598bf7d795c90f631",
+    "url": "https://github.com/projectdiscovery/cdncheck/releases/download/v1.2.40/cdncheck_1.2.40_windows_amd64.zip",
+    "hash": "7a8eebb52456cab8a9c3213be901dbecd17e68de727c32a0a8f5bc8f3ed70ab1",
     "bin": "cdncheck.exe",
     "checkver": "github",
     "autoupdate": {
