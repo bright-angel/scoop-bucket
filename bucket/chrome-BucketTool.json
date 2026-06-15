@@ -1,10 +1,10 @@
 {
-    "version": "2025-11-27T12.00.00",
+    "version": "2025-11-27T03.11.07",
     "description": "BucketTool - 云存储桶安全漏洞检测浏览器扩展",
     "homepage": "https://github.com/libaibaia/BucketTool",
     "license": "unknown",
     "url": "https://github.com/libaibaia/BucketTool/archive/refs/heads/main.zip#/dl.zip1",
-    "hash": "sha256:809cc58231e9e8c4ea8398976fe12b74411576f448b0dd4d8106b9641c049f43",
+    "hash": "809cc58231e9e8c4ea8398976fe12b74411576f448b0dd4d8106b9641c049f43",
     "pre_install": [
         "7z x \"$dir\\dl.zip1\" -o\"$dir\" -y",
         "Remove-Item \"$dir\\dl.zip1\" -Force"
