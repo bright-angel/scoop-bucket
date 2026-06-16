@@ -1,10 +1,10 @@
 {
-    "version": "2023.9.9",
+    "version": "2026.6.16",
     "description": "URLFinder是一款快速、全面、易用的页面信息提取工具",
     "homepage": "https://github.com/pingc0y/URLFinder",
     "license": "",
-    "url": "https://github.com/pingc0y/URLFinder/releases/download/2023.9.9/URLFinder_Windows_x86_64.zip",
-    "hash": "e75688e8c590bf379cc0955ffe8d903362f3f0b4923a2b8c6bf7f7cdfa40463f",
+    "url": "https://github.com/pingc0y/URLFinder/releases/download/2026.6.16/URLFinder_Windows_x86_64.zip",
+    "hash": "cf796ca0164b2495ba4198211767cf077a4a0f1b0dda76b96ec8f3b4ba1421e4",
     "bin": "URLFinder.exe",
     "checkver": "github",
     "autoupdate": {
