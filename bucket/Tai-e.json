@@ -1,5 +1,5 @@
 {
-    "version": "0.5.2",
+    "version": "0.5.4",
     "description": "An easy-to-learn/use static analysis framework for Java",
     "notes": [
         "【工具类型】: 开发工具",
@@ -12,7 +12,7 @@
     "suggest": {
         "JRE": "sec/oraclejre8"
     },
-    "url": "https://github.com/pascal-lab/Tai-e/releases/download/v0.5.2/tai-e-all-0.5.2.jar#/tai-e.jar",
+    "url": "https://github.com/pascal-lab/Tai-e/releases/download/v0.5.4/tai-e-all-0.5.4.jar#/tai-e.jar",
     "pre_install": [
         "Set-Content \"$dir\\tai-e.bat\" '@pushd %~dp0",
         "@call oraclejre8",
