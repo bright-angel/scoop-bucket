@@ -1,10 +1,10 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "MiMo-Code - 基于大语言模型的代码分析工具",
     "homepage": "https://github.com/XiaomiMiMo/MiMo-Code",
     "license": "unknown",
-    "url": "https://github.com/XiaomiMiMo/MiMo-Code/releases/download/v0.1.1/mimocode-windows-x64.zip#/mimocode.zip",
-    "hash": "4ec1ab7f5fbd4ccaf401c524c8786312a5166f1481af82629e00c80d04c0054b",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code/releases/download/v0.1.2/mimocode-windows-x64.zip#/mimocode.zip",
+    "hash": "2dd8b691d3494bd76ddb757b9b2ebbf558398aa21f2696a903867e3337e8d3de",
     "bin": "mimo.exe",
     "checkver": "github",
     "autoupdate": {
