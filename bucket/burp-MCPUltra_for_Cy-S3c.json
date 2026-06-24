@@ -1,10 +1,10 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "Burp Suite Pro最强MCP服务器(Cy-S3c原版) - 137个工具、实时仪表盘、自定义扫描检查、内联模糊测试、竞态条件测试",
     "homepage": "https://github.com/Cy-S3c/BurpMCP-Ultra",
     "license": "unknown",
-    "url": "https://github.com/Cy-S3c/BurpMCP-Ultra/releases/download/v2.0.1/burpmcp-ultra-2.0.1.jar#/burpmcp-ultra.jar",
-    "hash": "sha256:4e12a97bfce0cf18b2ab6575f832eb3493b7d3e5970e7e97a5a9149341af5a89",
+    "url": "https://github.com/Cy-S3c/BurpMCP-Ultra/releases/download/v2.1.0/burpmcp-ultra-2.1.0.jar#/burpmcp-ultra.jar",
+    "hash": "bfb37a9df6a134f10ed029fa26b257967fbea4d434f7c7ddf58445d158a57891",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Cy-S3c/BurpMCP-Ultra/releases/download/v$version/burpmcp-ultra-$version.jar#/burpmcp-ultra.jar"
