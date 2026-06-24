@@ -1,5 +1,5 @@
 {
-    "version": "2.2.8",
+    "version": "2.2.9",
     "description": "EasyTools 一个简单方便使用的渗透测试工具箱",
     "notes": [
         "【工具类型】: 安全测试工具",
@@ -9,8 +9,8 @@
     ],
     "homepage": "https://github.com/doki-byte/EasyTools",
     "license": "UNKNOWN",
-    "url": "https://github.com/doki-byte/EasyTools/releases/download/v2.2.8/EasyTools-windows-amd64.zip",
-    "hash": "4940bd6a430419bf910fd1e9c7bff43d7eb931a17edc9d3e678ea98f0747ef82",
+    "url": "https://github.com/doki-byte/EasyTools/releases/download/v2.2.9/EasyTools-windows-amd64.zip",
+    "hash": "20852ccf45c16e012deb0d13c44d54f6807f04bec5e9886b63d1c742b4b52ce6",
     "bin": "EasyTools.exe",
     "shortcuts": [
         [
