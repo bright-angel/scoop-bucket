@@ -7,15 +7,14 @@
         "python": "uv"
     },
     "url": "https://github.com/H4ckForJob/dirmap/archive/refs/heads/master.zip",
+    "extract_dir": "dirmap-master",
     "pre_install": [
         "Set-Content \"$dir\\dirmap.bat\" '@pushd %~dp0",
         "@uv run python \"dirmap.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\dirmap-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\dirmap-master\" -Force -Recurse",
-        "uv venv \"$dir\\.venv\"",
+        "uv venv \"$dir\\.venv\" --python 3.8",
         "uv pip install -r $dir\\requirement.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "dirmap.bat",
