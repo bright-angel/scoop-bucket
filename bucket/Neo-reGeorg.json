@@ -8,7 +8,7 @@
     },
     "url": "https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v5.3.0.zip",
     "hash": "4cbc41e08bfd0d1cf4eee79606bd941bf2e33b08132a5e6092f7bbe19bbc244f",
-    "extract_dir": "Neo-reGeorg-$version",
+    "extract_dir": "Neo-reGeorg-5.3.0",
     "pre_install": [
         "Set-Content \"$dir\\neoreg.bat\" '@pushd %~dp0",
         "@uv run python \"neoreg.py\" %*",
@@ -17,7 +17,8 @@
     "bin": "neoreg.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v$version.zip",
+        "extract_dir": "Neo-reGeorg-$version"
     },
     "notes": [
         "【工具类型】: Python工具",

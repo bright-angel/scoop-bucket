@@ -14,7 +14,7 @@
     },
     "url": "https://github.com/AabyssZG/SpringBoot-Scan/archive/refs/tags/2.7.2.zip",
     "hash": "41d0693241eb681b36e51b05eb208c14e6840523e749a37a483c6dae4a9003e5",
-    "extract_dir": "SpringBoot-Scan-$version",
+    "extract_dir": "SpringBoot-Scan-2.7.2",
     "pre_install": [
         "Set-Content \"$dir\\SpringBoot-Scan.bat\" '@pushd %~dp0",
         "@uv run python \"SpringBoot-Scan.py\" %*",
@@ -27,6 +27,7 @@
     "bin": "SpringBoot-Scan.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AabyssZG/SpringBoot-Scan/archive/refs/tags/$version.zip"
+        "url": "https://github.com/AabyssZG/SpringBoot-Scan/archive/refs/tags/$version.zip",
+        "extract_dir": "SpringBoot-Scan-$version"
     }
 }

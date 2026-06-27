@@ -10,7 +10,7 @@
     },
     "url": "https://github.com/D35m0nd142/LFISuite/archive/refs/tags/v1.13.zip",
     "hash": "b912de5bcb32b78951a4a752aabfd7f169e31a5fcaadd41a355bb9119e24be37",
-    "extract_dir": "LFISuite-$version",
+    "extract_dir": "LFISuite-1.13",
     "pre_install": [
         "Set-Content \"$dir\\lfisuite.bat\" '@pushd %~dp0",
         "@call activate python2env",
@@ -23,7 +23,8 @@
     "bin": "lfisuite.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/D35m0nd142/LFISuite/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/D35m0nd142/LFISuite/archive/refs/tags/v$version.zip",
+        "extract_dir": "LFISuite-$version"
     },
     "notes": [
         "【工具类型】: Python工具",

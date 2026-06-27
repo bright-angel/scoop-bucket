@@ -10,7 +10,7 @@
     },
     "url": "https://github.com/sullo/nikto/archive/refs/heads/nikto-2.5.0.zip",
     "hash": "",
-    "extract_dir": "nikto-nikto-$version",
+    "extract_dir": "nikto-nikto-2.5.0",
     "pre_install": [
         "Set-Content \"$dir\\nikto.bat\" '@echo off",
         "@pushd %~dp0",

@@ -14,13 +14,14 @@
     },
     "url": "https://github.com/unix-ninja/shellfire/archive/refs/tags/v0.14.zip",
     "hash": "7abcb99477fd86c218e5ae97b80d81acb5d0ae29cb1a264142a6387935d353a6",
-    "extract_dir": "shellfire-$version",
+    "extract_dir": "shellfire-0.14",
     "pre_install": [
         "uv venv \"$dir\\.venv\"",
         "uv pip install pyreadline3 shellfire --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/unix-ninja/shellfire/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/unix-ninja/shellfire/archive/refs/tags/v$version.zip",
+        "extract_dir": "shellfire-$version"
     }
 }

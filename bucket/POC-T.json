@@ -10,7 +10,7 @@
     },
     "url": "https://github.com/Xyntax/POC-T/archive/refs/tags/2.0.5.zip",
     "hash": "c1a10f5296c17bdec4f43b8374b405e1473586fe7de8f032823e214f1cbc5f28",
-    "extract_dir": "POC-T-$version",
+    "extract_dir": "POC-T-2.0.5",
     "pre_install": [
         "Set-Content \"$dir\\POC-T.bat\" '@pushd %~dp0",
         "@call activate python2env",
@@ -23,7 +23,8 @@
     "bin": "POC-T.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Xyntax/POC-T/archive/refs/tags/$version.zip"
+        "url": "https://github.com/Xyntax/POC-T/archive/refs/tags/$version.zip",
+        "extract_dir": "POC-T-$version"
     },
     "notes": [
         "【工具类型】: Python工具",

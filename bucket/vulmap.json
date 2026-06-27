@@ -14,7 +14,7 @@
     },
     "url": "https://github.com/zhzyker/vulmap/archive/refs/tags/v0.9.zip",
     "hash": "0d88f770e1e39cdcf26635ee3f3f00a352c667c8aadc678ff7070bb19f313c7c",
-    "extract_dir": "vulmap-$version",
+    "extract_dir": "vulmap-0.9",
     "pre_install": [
         "Set-Content \"$dir\\vulmap.bat\" '@pushd %~dp0",
         "@uv run python \"vulmap.py\" %*",
@@ -27,6 +27,7 @@
     "bin": "vulmap.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/zhzyker/vulmap/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/zhzyker/vulmap/archive/refs/tags/v$version.zip",
+        "extract_dir": "vulmap-$version"
     }
 }
