@@ -17,7 +17,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: Burp Injector - 专注于 URL 路径与 XFF 头部 SQL 注入检测的 Burp Suite 插件",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: SQL注入检测、Web安全测试、渗透测试",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ]
 }

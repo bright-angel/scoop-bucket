@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 针对Linux终端 bashshell 的无字母命令执行的骚操作",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: Linux无字母命令执行绕过、CTF竞赛、沙箱逃逸",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/ProbiusOfficial/bashFuck",

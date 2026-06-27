@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: NTLMRawUnhide.py 是一个 Python3 脚本，旨在解析网络数据包捕获文件并以可破解格式提取 NTLMv2 哈希值。支持以下二进制网络数据包捕获格式： *.pcap *.pcapng *.cap *.etl",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 网络数据包分析、NTLM哈希提取、密码破解",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/mlgualtieri/NTLMRawUnHide",

@@ -31,7 +31,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 网络摄像头漏洞扫描工具 | Webcam vulnerability scanning tool",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 网络摄像头漏洞扫描、IoT设备安全检测",
         "【技术特点】: 基于Python开发，需Python环境"
     ]
 }

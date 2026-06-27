@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 盲水印 by python",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 盲水印嵌入提取、图片版权保护、隐写分析",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/chishaxie/BlindWaterMark",

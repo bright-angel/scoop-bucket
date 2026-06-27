@@ -15,7 +15,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: Burp Extractor - 从HTTP响应中提取数据并在HTTP请求中重用的BurpSuite插件",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: HTTP数据提取重用、CSRF/Token自动化处理",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ]
 }

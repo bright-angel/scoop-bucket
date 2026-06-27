@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 爬网站JS文件，自动fuzz api接】，指定api接】（针对前后端分离项目，可指定后端接】地址），回显api响应",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: Web API枚举、前后端分离渗透测试、信息收集",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/ttstormxx/jjjjjjjjjjjjjs",

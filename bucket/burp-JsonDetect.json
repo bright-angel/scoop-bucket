@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: 一个用于检测 json 的 burp 扩展器，包括 fastjson、jackson、gson",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: JSON库漏洞检测、Fastjson/Jackson利用、渗透测试",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ],
     "homepage": "https://github.com/a1phaboy/JsonDetect",

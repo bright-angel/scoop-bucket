@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 具有交互式界面的自动 SSTI 检测工具",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: SSTI漏洞检测与利用、Web渗透测试、CTF竞赛",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/vladko312/SSTImap",

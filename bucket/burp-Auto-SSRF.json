@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: 基于 BurpSuite 新版 MontoyaAPI 的 SSRF 漏洞自动探测插件",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: SSRF漏洞检测、Web安全测试、漏洞扫描",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ],
     "homepage": "https://github.com/banchengkemeng/Auto-SSRF",

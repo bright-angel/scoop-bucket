@@ -12,7 +12,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: CaA - Collector and Analyzer，用于分析和剖析HTTP协议包的BurpSuite插件",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: HTTP协议包分析、信息收集、渗透测试辅助",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ]
 }

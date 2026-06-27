@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 一个专注于利用命令注入漏洞的漏洞利用 shell，例如 LFI、RFI、SSTI 等。",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 命令注入漏洞利用、Web渗透测试、后渗透",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/unix-ninja/shellfire",

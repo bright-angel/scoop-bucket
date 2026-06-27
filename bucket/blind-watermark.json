@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 通过傅里叶变换添加到频域的水印",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 数字水印嵌入提取、图片隐写分析、版权保护",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/linyacool/blind-watermark",

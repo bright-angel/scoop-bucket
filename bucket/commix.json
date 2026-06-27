@@ -23,7 +23,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: Automated All-in-One OS Command Injection Exploitation Tool.",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 命令注入漏洞检测、Web安全测试、渗透测试",
         "【技术特点】: 基于Python开发，需Python环境"
     ]
 }

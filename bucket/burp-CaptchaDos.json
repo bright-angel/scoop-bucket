@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: 一款基于BurpSuite的验证码DOS攻击插件",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 验证码DoS攻击测试、资源耗尽安全检测",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ],
     "homepage": "https://github.com/ther0ok1eboy/CaptchaDos",

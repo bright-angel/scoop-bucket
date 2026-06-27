@@ -30,7 +30,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: PyInstaller Extractor 是一个 Python 脚本，用于提取 PyInstaller 生成的可执行文件的内容",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: Python逆向分析、PyInstaller内容提取、恶意软件分析",
         "【技术特点】: 基于Python开发，需Python环境"
     ]
 }

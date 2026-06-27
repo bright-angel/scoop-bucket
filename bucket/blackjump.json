@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: JumpServer 堡垒机未授权综合漏洞利用, Exploit for CVE-2023-42442 / CVE-2023-42820 / RCE 2021",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: JumpServer漏洞利用、堡垒机安全测试、RCE验证",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/tarihub/blackjump",

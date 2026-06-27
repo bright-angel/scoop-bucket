@@ -12,7 +12,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: gatherBurp is a powerful BurpSuite security testing extension with multiple vulnerability detection features.",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 漏洞检测、安全审计、Burp Suite安全测试",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ]
 }

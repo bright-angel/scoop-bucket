@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 简单替换密码求解器。",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 替换密码破译、CTF竞赛、密码学学习",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/alexbers/substitution_cipher_solver",

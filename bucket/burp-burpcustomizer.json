@@ -12,7 +12,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: Burp Suite 主题自定义插件，支持使用 IntelliJ 平台的第三方主题",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: Burp Suite界面美化、IDE主题适配",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ]
 }

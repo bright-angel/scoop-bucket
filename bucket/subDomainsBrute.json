@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 适用于渗透测试人员的快速子域暴力工具",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 子域名枚举、信息收集、渗透测试",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/lijiejie/subDomainsBrute",

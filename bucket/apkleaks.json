@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Android工具",
         "【主要功能】: Scanning APK file for URIs, endpoints & secrets.",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: APK安全扫描、敏感信息泄露检测、漏洞发现",
         "【技术特点】: Android平台相关工具"
     ],
     "homepage": "https://github.com/dwisiswant0/apkleaks",

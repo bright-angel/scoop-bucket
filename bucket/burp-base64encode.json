@@ -12,7 +12,7 @@
     "notes": [
         "【工具类型】: Burp Suite扩展",
         "【主要功能】: BurpSuite POST数据包base64编码插件",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 数据传输编码处理、Burp Suite测试辅助",
         "【技术特点】: 基于Java开发，需配合Burp Suite使用"
     ]
 }

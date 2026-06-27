@@ -25,7 +25,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: Neo-reGeorg is a project that seeks to aggressively refactor reGeorg.(Scoop bucket by arch3rpro)",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: 内网穿透、代理转发、WebShell隧道连接",
         "【技术特点】: 基于Python开发，需Python环境"
     ]
 }

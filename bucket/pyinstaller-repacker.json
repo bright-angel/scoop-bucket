@@ -30,7 +30,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 提取和重新打包 pyinstaller 生成的 Windows 可执行文件的工具。支持最新版本的 pyinstaller。仅限 Python 3。不支持加密的 PYZ 存档。",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: Python逆向分析、PyInstaller打包修改、安全审计",
         "【技术特点】: 基于Python开发，需Python环境"
     ]
 }

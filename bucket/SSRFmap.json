@@ -4,7 +4,7 @@
     "notes": [
         "【工具类型】: Python工具",
         "【主要功能】: 自动 SSRF 模糊测试和利用工具",
-        "【适用场景】: 根据描述推断的适用场景",
+        "【适用场景】: SSRF漏洞模糊测试与利用、内网探测",
         "【技术特点】: 基于Python开发，需Python环境"
     ],
     "homepage": "https://github.com/swisskyrepo/SSRFmap",
