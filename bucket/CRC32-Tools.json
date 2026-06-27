@@ -8,19 +8,17 @@
     },
     "url": "https://github.com/AabyssZG/CRC32-Tools/archive/refs/tags/2.3.zip",
     "hash": "708a1c01c56fa0b9057adb86e947504d7a71402abbb0f8d91ee6b9222f71d4a3",
+    "extract_dir": "CRC32-Tools-2.3",
     "pre_install": [
         "Set-Content \"$dir\\CRC32-Tools.bat\" '@pushd %~dp0",
         "@uv run python \"CRC32-Tools.py\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\CRC32-Tools-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\CRC32-Tools-$version\" -Force -Recurse"
-    ],
     "bin": "CRC32-Tools.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AabyssZG/CRC32-Tools/archive/refs/tags/$version.zip"
+        "url": "https://github.com/AabyssZG/CRC32-Tools/archive/refs/tags/$version.zip",
+        "extract_dir": "CRC32-Tools-$version"
     },
     "notes": [
         "【工具类型】: Python工具",

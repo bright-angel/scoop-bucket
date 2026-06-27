@@ -8,14 +8,11 @@
     },
     "url": "https://github.com/shellfeel/hash-ext-attack/archive/refs/heads/master.zip",
     "hash": "bd7eded08ed3203ce0431bb6f9fdc51b10efee96a6a9e468e9bedf1d6b8de548",
+    "extract_dir": "hash-ext-attack-master",
     "pre_install": [
         "Set-Content \"$dir\\hash-ext-attack.bat\" '@pushd %~dp0",
         "@uv run python hash_ext_attack.py  %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\hash-ext-attack-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\hash-ext-attack-master\" -Force -Recurse"
     ],
     "bin": "hash-ext-attack.bat",
     "checkver": {
