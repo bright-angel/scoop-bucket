@@ -10,20 +10,18 @@
     "homepage": "https://github.com/EASY233/Finger",
     "license": "UNKNOWN",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/EASY233/Finger/archive/refs/heads/main.zip",
     "hash": "6361ba96db6c7d32a69a34eb2723c98ea9b425a3daef64e160ae7e9b70b67648",
     "pre_install": [
         "Set-Content \"$dir\\Finger.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"Finger.py\" %*",
+        "@uv run python \"Finger.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "extract_dir": "Finger-main",
     "bin": "Finger.bat",

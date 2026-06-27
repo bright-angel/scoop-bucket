@@ -4,16 +4,13 @@
     "homepage": "https://github.com/Cliffordwr/cloacked-pixel-python3",
     "license": "unknow",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/Cliffordwr/cloacked-pixel-python3/archive/refs/heads/master.zip",
     "hash": "0d2162a930ffc843a86b5fbebb775432ae86f29f5d623fc031f3638159097fad",
     "pre_install": [
         "Set-Content \"$dir\\cloacked-pixel-py3.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"lsb.py\" %*",
+        "@uv run python \"lsb.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

@@ -4,22 +4,20 @@
     "homepage": "https://github.com/Tokeii0/LoveLy-QRCode-Scanner",
     "license": "unknown",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/Tokeii0/LoveLy-QRCode-Scanner/archive/refs/heads/master.zip",
     "hash": "2b40a35813d043b4a98c8387cb0fc19503c53c04cb65f2cd1f03248a896126d8",
     "pre_install": [
         "Set-Content \"$dir\\LoveLy-QRCode-Scanner.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"Gui_AutoVer.py\" %*",
+        "@uv run python \"Gui_AutoVer.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
         "Move-Item -Path \"$dir\\LoveLy-QRCode-Scanner-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\LoveLy-QRCode-Scanner-main\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 pyside6 numpy\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 pyside6 numpy --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "LoveLy-QRCode-Scanner.bat",
     "shortcuts": [

@@ -4,16 +4,13 @@
     "homepage": "https://github.com/G-Security-Team/JS-Forward",
     "license": "UNKNOWN",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/G-Security-Team/JS-Forward/archive/refs/heads/main.zip",
     "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\JS-Forward.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"Js-forward.py\" %*",
+        "@uv run python \"Js-forward.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "extract_dir": "JS-Forward-main",

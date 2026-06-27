@@ -6,11 +6,11 @@
     "url": "https://github.com/Wh0am123/MCP-Kali-Server/archive/refs/heads/main.zip#/mcp-kali-server.zip",
     "hash": "sha256:6D663351D4146E00A1E01B4E87A8AC9D574B0EA866DBFDDD921F34B7B4E67A55",
     "suggest": {
-        "python": "sec/miniconda3"
+        "python": "uv"
     },
     "pre_install": [
-        "Set-Content \"$dir\\MCP-Kali-client.bat\" '@pushd %~dp0', '@call conda activate python3env', '@python \"client.py\" %*', '@popd' -Encoding Ascii",
-        "Set-Content \"$dir\\MCP-Kali-server.bat\" '@pushd %~dp0', '@call conda activate python3env', '@python \"server.py\" %*', '@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\MCP-Kali-client.bat\" '@pushd %~dp0', '@uv run python \"client.py\" %*', '@popd' -Encoding Ascii",
+        "Set-Content \"$dir\\MCP-Kali-server.bat\" '@pushd %~dp0', '@uv run python \"server.py\" %*', '@popd' -Encoding Ascii"
     ],
     "bin": [
         "MCP-Kali-client.bat",

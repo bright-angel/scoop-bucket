@@ -4,22 +4,20 @@
     "homepage": "https://github.com/pyinstxtractor/pyinstaller-repacker",
     "license": "unknown",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/pyinstxtractor/pyinstaller-repacker/archive/refs/heads/master.zip",
     "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\pyinstaller-repacker.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"pyinst-repacker.py\" %*",
+        "@uv run python \"pyinst-repacker.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
         "Move-Item -Path \"$dir\\pyinstaller-repacker-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\pyinstaller-repacker-main\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install lief lxml\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install lief lxml --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "pyinstaller-repacker.bat",
     "checkver": {

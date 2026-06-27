@@ -4,16 +4,15 @@
     "homepage": "https://github.com/H4ckForJob/dirmap",
     "license": "GPL-3.0",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/H4ckForJob/dirmap/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\dirmap.bat\" '@pushd %~dp0\n@call activate python3env\n@python \"dirmap.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\dirmap.bat\" '@pushd %~dp0\n@uv run python \"dirmap.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\dirmap-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\dirmap-master\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install -r $dir\\requirement.txt\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -r $dir\\requirement.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "dirmap.bat",
     "notes": [

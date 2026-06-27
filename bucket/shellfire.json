@@ -10,14 +10,15 @@
     "homepage": "https://github.com/unix-ninja/shellfire",
     "license": "BSD-2-Clause",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/unix-ninja/shellfire/archive/refs/tags/v0.14.zip",
     "hash": "7abcb99477fd86c218e5ae97b80d81acb5d0ae29cb1a264142a6387935d353a6",
     "post_install": [
         "Move-Item -Path \"$dir\\shellfire-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\shellfire-$version\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install pyreadline3 shellfire \""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install pyreadline3 shellfire --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "checkver": "github",
     "autoupdate": {

@@ -7,11 +7,9 @@
     "hash": "sha256:38c3929fdfa8fc859a9170a86acae13ebcac9f8ae2a93428fcb262c95e0d3eda",
     "extract_dir": "Sqlmap-FluX-main",
     "suggest": {
-        "python": "sec/miniconda3"
+        "python": "uv"
     },
-    "pre_install": [
-        "Set-Content \"$dir\\sqlmap-flux.bat\" '@pushd %~dp0', '@call conda activate python3env', '@python \"sqlmap.py\" %*', '@popd' -Encoding Ascii"
-    ],
+    "pre_install": "Set-Content \"$dir\\sqlmap-flux.bat\" '@pushd %~dp0', '@uv run python \"sqlmap.py\" %*', '@popd' -Encoding Ascii",
     "bin": "sqlmap-flux.bat",
     "checkver": {
         "url": "https://api.github.com/repos/FX42S/Sqlmap-FluX/commits",

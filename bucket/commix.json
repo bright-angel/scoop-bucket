@@ -4,15 +4,14 @@
     "homepage": "https://github.com/commixproject/commix",
     "license": "GNU",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/commixproject/commix/archive/refs/tags/v4.1.zip",
     "hash": "4b8cc36bf1d773378ebd1c1d1294e13056071c1007764398868c6af4061e3f7f",
     "extract_dir": "commix-4.1",
     "pre_install": [
         "Set-Content \"$dir\\commix.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"commix.py\" %*",
+        "@uv run python \"commix.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "commix.bat",

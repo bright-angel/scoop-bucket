@@ -10,12 +10,15 @@
     "homepage": "https://github.com/wapiti-scanner/wapiti",
     "license": "GPL-2.0",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/wapiti-scanner/wapiti/releases/download/3.3.0/wapiti3-3.3.0.tar.gz",
     "hash": "437a78c0711b8bff5cdc91d66dde2d4f689d001aa8b0b9182abb953a87bd9717",
     "extract_dir": "wapiti3-3.3.0",
-    "post_install": "& cmd /c \"call activate python3env && pip install Wapiti3\"",
+    "post_install": [
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install Wapiti3 --python \"$dir\\.venv\\Scripts\\python.exe\""
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wapiti-scanner/wapiti/releases/download/$version/wapiti3-$version.tar.gz",

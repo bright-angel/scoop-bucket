@@ -4,14 +4,15 @@
     "homepage": "https://github.com/outlaws-bai/GalaxyHttpHooker",
     "license": "unknown",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/outlaws-bai/GalaxyHttpHooker/archive/refs/heads/master.zip",
     "hash": "",
     "post_install": [
         "Move-Item -Path \"$dir\\GalaxyHttpHooker-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\GalaxyHttpHooker-main\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install -r $dir\\requirements.txt\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "checkver": {
         "url": "https://api.github.com/repos/outlaws-bai/GalaxyHttpHooker/commits",

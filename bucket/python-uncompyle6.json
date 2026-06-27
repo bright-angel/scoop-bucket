@@ -4,7 +4,7 @@
     "homepage": "https://github.com/rocky/python-uncompyle6",
     "license": "unknown",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip",
     "hash": "3d509208561357afafd708f03cb2b7ba9faaf1e70b3ab8445dca8a80c99fb43e",
@@ -16,7 +16,8 @@
     "post_install": [
         "Move-Item -Path \"$dir\\python-uncompyle6-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\python-uncompyle6-master\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install uncompyle6 -U\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install uncompyle6 -U --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "uncompyle.bat",
     "checkver": {

@@ -4,20 +4,20 @@
     "homepage": "https://github.com/f0ng/captcha-killer-modified",
     "license": "unknown",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/f0ng/captcha-killer-modified/archive/refs/heads/master.zip",
     "hash": "ea9c0f8f8f69424f18605228e40ab464e2a8a6ab940b172308d04a7905ddf9d6",
     "pre_install": [
         "Set-Content \"$dir\\codereg.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"codereg.py\" %*",
+        "@uv run python \"codereg.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
         "Move-Item -Path \"$dir\\captcha-killer-modified-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\captcha-killer-modified-main\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install -r $dir\\requirement.txt\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -r $dir\\requirement.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "codereg.bat",
     "checkver": {

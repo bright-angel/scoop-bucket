@@ -4,19 +4,15 @@
     "homepage": "https://github.com/WangYihang/GitHacker",
     "license": "LGPL-3.0-only",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v1.1.10.zip",
     "hash": "2d9e07d2bb647a12f4b480b238e394c68935c76b600fa1e97af79866aa985634",
     "post_install": [
         "Move-Item -Path \"$dir\\GitHacker-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\GitHacker-$version\" -Force -Recurse",
-        "if (Get-Command conda -ErrorAction SilentlyContinue) {",
-        "    conda activate python3env",
-        "    pip install -e \"$dir\"",
-        "} else {",
-        "    pip install -e \"$dir\"",
-        "}"
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -e \"$dir\" --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "githacker",
     "checkver": {

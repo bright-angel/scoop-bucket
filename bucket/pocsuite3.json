@@ -4,16 +4,15 @@
     "homepage": "https://github.com/knownsec/pocsuite3",
     "license": "GNU",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/knownsec/pocsuite3/archive/refs/tags/v2.1.0.zip",
     "hash": "d0943e3d29a2a7ca5d16c75d7bf7bfec018e46a5257bcb8ac6e267079b89ae99",
     "post_install": [
         "Move-Item -Path \"$dir\\pocsuite3-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\pocsuite3-$version\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install pocsuite3\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install pocsuite3 --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "checkver": "github",
     "autoupdate": {

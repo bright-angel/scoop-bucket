@@ -10,7 +10,7 @@
     "homepage": "https://github.com/Marven11/Fenjing",
     "license": "unknown",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/Marven11/Fenjing/archive/refs/tags/v0.9.1.zip",
     "hash": "f84ec8b148bb122a1fc741a9e8def5fda5a73013aded7a5332f672ef996f396c",
@@ -22,7 +22,8 @@
     "post_install": [
         "Move-Item -Path \"$dir\\Fenjing-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\Fenjing-$version\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install fenjing -U\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install fenjing -U --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "ssti_Fenjing.bat",
     "checkver": "github",

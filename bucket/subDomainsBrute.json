@@ -10,22 +10,20 @@
     "homepage": "https://github.com/lijiejie/subDomainsBrute",
     "license": "unknown",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/lijiejie/subDomainsBrute/archive/refs/heads/master.zip",
     "hash": "c6b005e9383698307b1dc64f1f95b070e081bbd64bb7da563aa1665ab867e7c7",
     "pre_install": [
         "Set-Content \"$dir\\subDomainsBrute.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"subDomainsBrute.py\" %*",
+        "@uv run python \"subDomainsBrute.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
         "Move-Item -Path \"$dir\\subDomainsBrute-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\subDomainsBrute-master\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install dnspython==2.2.1 async_timeout\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install dnspython==2.2.1 async_timeout --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "subDomainsBrute.bat",
     "checkver": {

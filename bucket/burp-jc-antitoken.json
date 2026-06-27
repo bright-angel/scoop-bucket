@@ -6,11 +6,9 @@
     "url": "https://github.com/chroblert/JC-AntiToken/archive/refs/heads/master.zip",
     "hash": "sha256:06F8A2621E1C885889F110D687DF60EEF6B7A30F9A9D9DB4D99486999290923E",
     "suggest": {
-        "python": "sec/miniconda3"
+        "python": "uv"
     },
-    "pre_install": [
-        "Set-Content \"$dir\\jc-antitoken.bat\" '@pushd %~dp0', '@call conda activate python3env', '@python \"JC-AntiToken-master\\JC-AntiToken.py\" %*', '@popd' -Encoding Ascii"
-    ],
+    "pre_install": "Set-Content \"$dir\\jc-antitoken.bat\" '@pushd %~dp0', '@uv run python \"JC-AntiToken-master\\JC-AntiToken.py\" %*', '@popd' -Encoding Ascii",
     "bin": "jc-antitoken.bat",
     "checkver": {
         "url": "https://api.github.com/repos/chroblert/JC-AntiToken/commits?per_page=1",

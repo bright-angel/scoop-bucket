@@ -10,14 +10,13 @@
     "homepage": "https://sqlmap.org/",
     "license": "GNU",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/sqlmapproject/sqlmap/archive/refs/tags/1.10.zip",
     "hash": "97b8fe8e06ed8b6c75c234f111393bae79e2c3d3283c086351354716277dfff1",
     "pre_install": [
         "Set-Content \"$dir\\sqlmap.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"sqlmap.py\" %*",
+        "@uv run python \"sqlmap.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

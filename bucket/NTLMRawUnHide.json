@@ -10,17 +10,14 @@
     "homepage": "https://github.com/mlgualtieri/NTLMRawUnHide",
     "license": "UNKNOWN",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/mlgualtieri/NTLMRawUnHide/archive/refs/heads/master.zip",
     "hash": "",
     "extract_dir": "NTLMRawUnHide-master",
     "pre_install": [
         "Set-Content \"$dir\\NTLMRawUnHide.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"NTLMRawUnHide.py\" %*",
+        "@uv run python \"NTLMRawUnHide.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "NTLMRawUnHide.bat",

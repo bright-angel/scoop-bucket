@@ -4,16 +4,13 @@
     "homepage": "https://github.com/steveopen1/ruoyi_vulnscan",
     "license": "UNKNOWN",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/steveopen1/ruoyi_vulnscan/archive/refs/heads/master.zip",
     "hash": "a8e4f02f4394dfe6bb027567573f285951eddfc7242640791e5fb2e2eaac5064",
     "pre_install": [
         "Set-Content \"$dir\\ruoyi_vulnscan.bat\" '@pushd %~dp0",
-        "@call activate python3env",
-        "@python \"ruoyi_scan-gui.py\" %*",
+        "@uv run python \"ruoyi_scan-gui.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "ruoyi_vulnscan.bat",

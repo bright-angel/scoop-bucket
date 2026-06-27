@@ -4,19 +4,17 @@
     "homepage": "https://github.com/sml2h3/ddddocr-fastapi",
     "license": "UNKNOWN",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/sml2h3/ddddocr-fastapi/archive/refs/heads/main.zip",
     "pre_install": [
         "Set-Content \"$dir\\ddddocr-fastapi.bat\" '@pushd %~dp0",
-        "@call activate python3env",
         "@uvicorn app.main:app",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "& cmd /c \"call activate python3env && pip install python-multipart ddddocr fastapi uvicorn\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install python-multipart ddddocr fastapi uvicorn --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "extract_dir": "ddddocr-fastapi-main",
     "bin": "ddddocr-fastapi.bat",

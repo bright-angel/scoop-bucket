@@ -10,14 +10,13 @@
     "homepage": "https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot",
     "license": "GPL-3.0-only",
     "suggest": {
-        "python": "miniconda3"
+        "python": "uv"
     },
     "url": "https://github.com/Lil-House/Pyarmor-Static-Unpack-1shot/releases/download/v0.4.0/pyarmor-1shot-v0.4.0-windows-x86_64.zip",
     "hash": "a45e7e51cea0ded3158ca287b4f00c154b125039479b908aa2ba02d27b4a5205",
     "pre_install": [
         "Set-Content \"$dir\\pyarmor-1shot.bat\" '@pushd %~dp0",
-        "@call conda activate python3env",
-        "@python \"helpers\\shot.py\" %*",
+        "@uv run python \"helpers\\shot.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "pyarmor-1shot.bat",

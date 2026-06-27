@@ -4,17 +4,16 @@
     "homepage": "https://github.com/smallfox233/JsonExp",
     "license": "UNKNOWN",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "uv"
     },
     "url": "https://github.com/smallfox233/JsonExp/archive/refs/heads/master.zip",
     "hash": "cc8fabcd562e986decb3b452ee57e0a4af23c9d4cc176b3d69ed93ca9b78abf2",
-    "pre_install": "Set-Content \"$dir\\JsonExp.bat\" '@pushd %~dp0\n@call activate python3env\n@python JsonExp.py %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\JsonExp.bat\" '@pushd %~dp0\n@uv run python JsonExp.py %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\JsonExp-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\JsonExp-main\" -Force -Recurse",
-        "& cmd /c \"call activate python3env && pip install -r $dir\\requirement.txt\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install -r $dir\\requirement.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "JsonExp.bat",
     "checkver": {
