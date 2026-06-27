@@ -1,9 +1,10 @@
 {
-    "version": "2",
+    "version": "1.1.0",
     "description": "基于golang开发的网络流量监控与威胁检测工具，集成数据包分析、进程关联、会话流统计等功能。",
     "homepage": "https://github.com/vam876/FastMonitor",
     "license": "UNKNOWN",
-    "url": "https://github.com/vam876/FastMonitor/releases/download/v2/FastMonitor.exe#/FastMonitor.exe",
+    "url": "https://github.com/vam876/FastMonitor/releases/download/v1.1.0/FastMonitor_v1.1.0_Windows.zip#/FastMonitor.zip",
+    "hash": "sha256:b959242d4f6ae6a9b73606588051fd3ebab1d4b2d6da35d1126dff8eea1dccca",
     "bin": "FastMonitor.exe",
     "shortcuts": [
         [
@@ -11,12 +12,9 @@
             "FastMonitor"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/vam876/FastMonitor/releases",
-        "regex": "v([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vam876/FastMonitor/releases/download/v$version/FastMonitor.exe#/FastMonitor.exe"
+        "url": "https://github.com/vam876/FastMonitor/releases/download/v$version/FastMonitor_v$version_Windows.zip#/FastMonitor.zip"
     },
     "notes": [
         "【工具类型】: 网络安全",
@@ -26,3 +24,4 @@
         "【注意事项】: 可能需要管理员权限运行以捕获网络流量"
     ]
 }
+
