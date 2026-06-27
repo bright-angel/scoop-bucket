@@ -15,7 +15,7 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "uv venv \"$dir\\.venv\"",
+        "uv venv \"$dir\\.venv\" --python 3.10",
         "uv pip install opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 pyside6 numpy --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "LoveLy-QRCode-Scanner.bat",
