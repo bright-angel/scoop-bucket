@@ -8,7 +8,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/ruoyiVuln/ruoyiVuln.zip",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FruoyiVuln.zip&dl=1",
     "hash": "950AB9EAD6744FCB3EC86284DC9C429A7BB7469DC853321B0D1ACB09CDD9143B",
     "pre_install": [
         "Set-Content \"$dir\\ruoyiVuln.bat\" '@pushd %~dp0",

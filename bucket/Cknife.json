@@ -14,7 +14,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/Cknife/Cknife-1.0.zip",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FCknife-1.0.zip&dl=1",
     "hash": "256C28723B8AA5AD88A773FF164B0691210EAECD0697DD96C9B00C3AD73A3324",
     "pre_install": [
         "Set-Content \"$dir\\Cknife.bat\" '@pushd %~dp0",

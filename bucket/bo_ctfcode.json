@@ -9,7 +9,7 @@
     ],
     "homepage": "http://www.1o1o.xyz/bo_ctfcode.html",
     "license": "UNKNOWN",
-    "url": "https://github.com/bright-angel/file/releases/download/bo_ctfcode/CTF.V7.0.20250924.rar",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FCTF.V7.0.20250924.rar&dl=1",
     "hash": "fe68d4aebf63eba8753e6871cdb9ad108ece85b43298e2153c88bdb676f1a332",
     "pre_install": "Get-ChildItem \"$dir\" '[随波逐流]CTF编码工具*.exe' | Select-Object -First 1 | Rename-Item -NewName 'CTF编码工具.exe'",
     "bin": "CTF编码工具.exe",
@@ -18,12 +18,5 @@
             "CTF编码工具.exe",
             "[随波逐流]CTF编码工具"
         ]
-    ],
-    "checkver": {
-        "url": "https://github.com/bright-angel/file/releases/expanded_assets/bo_ctfcode",
-        "regex": "download/bo_ctfcode/CTF\\.V([\\d\\.]+)\\.(?<commit>\\d{8})\\.rar"
-    },
-    "autoupdate": {
-        "url": "https://github.com/bright-angel/file/releases/download/bo_ctfcode/CTF.V$version.$matchCommit.rar"
-    }
+    ]
 }

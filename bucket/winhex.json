@@ -3,7 +3,7 @@
     "description": " 计算机取证、数据恢复、IT 安全工具，含十六进制编辑器、磁盘编辑器和RAM 编辑器",
     "homepage": "https://www.x-ways.net/winhex/index-m.html",
     "license": "UNKNOWN",
-    "url": "https://github.com/bright-angel/file/releases/download/winhex/WinHex.exe",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FWinHex.exe&dl=1",
     "hash": "",
     "bin": "WinHex.exe",
     "shortcuts": [

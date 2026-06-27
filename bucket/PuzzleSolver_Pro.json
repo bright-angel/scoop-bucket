@@ -3,7 +3,7 @@
     "description": "一款针对CTF竞赛MISC的工具~",
     "homepage": "https://github.com/Byxs20/PuzzleSolver",
     "license": "UNKNOWN",
-    "url": "https://github.com/bright-angel/file/releases/download/PuzzleSolver_Pro/PuzzleSolver_Pro_v2.1.8.zip",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FPuzzleSolver_Pro_v2.1.8.zip&dl=1",
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",
         "Copy-Item \"$persist_dir\\Byxs20-Data\\license.txt\" \"$dir\\Byxs20-Data\\license.txt\" -ErrorAction 'SilentlyContinue'"
@@ -16,13 +16,6 @@
         ]
     ],
     "pre_uninstall": "Copy-Item \"$dir\\license\" \"$persist_dir\\license\" -ErrorAction 'SilentlyContinue'",
-    "checkver": {
-        "url": "https://github.com/bright-angel/file/releases/expanded_assets/PuzzleSolver_Pro",
-        "regex": "download/PuzzleSolver_Pro/PuzzleSolver_Pro_v([\\d.]+).zip"
-    },
-    "autoupdate": {
-        "url": "https://github.com/bright-angel/file/releases/download/PuzzleSolver_Pro/PuzzleSolver_Pro_v$version.zip"
-    },
     "notes": [
         "【工具类型】: CTF工具",
         "【主要功能】: 针对CTF竞赛MISC方向的综合工具，支持多种杂项题目解题",

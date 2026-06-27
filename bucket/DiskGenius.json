@@ -3,7 +3,7 @@
     "description": "数据恢复 / 分区管理 / 备份还原工具，支持多种文件系统和磁盘类型",
     "homepage": "https://www.diskgenius.cn/",
     "license": "UNKNOWN",
-    "url": "https://github.com/bright-angel/file/releases/download/DiskGenius/DiskGenius.7z",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FDiskGenius.7z&dl=1",
     "hash": "",
     "bin": "DiskGenius.exe",
     "shortcuts": [

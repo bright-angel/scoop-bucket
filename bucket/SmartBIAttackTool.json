@@ -14,7 +14,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/SmartBIAttackTool/SmartBIAttackTool-1.0.jar#/SmartBIAttackTool.jar",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FSmartBIAttackTool-1.0.jar&dl=1#/SmartBIAttackTool.jar",
     "hash": "072a1320eae0298f06a5fa08f4cc1c9c39cc1ed0e596f3046f55e8ce3a885802",
     "pre_install": [
         "Set-Content \"$dir\\SmartBIAttackTool.bat\" '@pushd %~dp0",

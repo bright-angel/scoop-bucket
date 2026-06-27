@@ -14,7 +14,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/ExpDemo-JavaFX/SJ-1.9.jar#/SJ.jar",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FSJ-1.9.jar&dl=1#/SJ.jar",
     "hash": "e59b7a999c3caab2379ea365eb3430468199b5b5ec1638fe41de88efc3fe997b",
     "pre_install": [
         "Set-Content \"$dir\\SJ.bat\" '@pushd %~dp0",

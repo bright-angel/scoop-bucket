@@ -14,7 +14,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/shiro_tool/shiro_tool.jar",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2Fshiro_tool%20.jar&dl=1#/shiro_tool.jar",
     "hash": "accdc2d43b453ed55d958ab94eb06fdb551172d6530f5bd1f2819efd6e69f634",
     "pre_install": [
         "Set-Content \"$dir\\shiro_tool.bat\" '@pushd %~dp0",

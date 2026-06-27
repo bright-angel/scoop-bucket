@@ -3,7 +3,7 @@
     "description": "FiletypeID是一款免费的文件类型查看工具，可以根据二进制签名辨别无扩展名文件是什么类型，采用百分比的形式显示",
     "homepage": "https://code.google.com/archive/p/filetype-identifier/",
     "license": "UNKNOWN",
-    "url": "https://github.com/bright-angel/file/releases/download/FiletypeID/FiletypeID.zip",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FFiletypeID.zip&dl=1",
     "hash": "BC7A41F6DF0A7AA0448726B4A63F02625508AC54370EE42BC937AE71379018D4",
     "bin": "FiletypeID.exe",
     "shortcuts": [

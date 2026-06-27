@@ -14,7 +14,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/aksk_tool/aksk_tool.jar",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2Faksk_tool.jar&dl=1",
     "hash": "1b49379e1b138ed6433bfc7010b05b2ca4efcd837b39bc085e7f9f9b652df3c7",
     "pre_install": [
         "Set-Content \"$dir\\aksk_tool.bat\" '@pushd %~dp0",

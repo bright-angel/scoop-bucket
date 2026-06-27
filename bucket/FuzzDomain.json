@@ -8,7 +8,7 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/bright-angel/file/releases/download/FuzzDomain/FuzzDomain-1.0-beta.zip",
+    "url": "http://10.126.126.1/d/256785c9a2504fad850a/files/?p=%2FFuzzDomain-1.0-beta.zip&dl=1",
     "hash": "FF1ED4E883CEA1CDC3AC974D8502E8100CBF8B15FE81F2BB1E0969E97A36AF5C",
     "pre_install": [
         "Set-Content \"$dir\\FuzzDomain.bat\" '@pushd %~dp0",
