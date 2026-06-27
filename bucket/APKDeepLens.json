@@ -13,7 +13,7 @@
         "python": "uv"
     },
     "url": "https://github.com/d78ui98/APKDeepLens/archive/refs/heads/master.zip",
-    "hash": "",
+    "hash": "914fd7f8d92cae47cfa7193027c3ff4ed14d7d991baa81314cfa895bc0a95d01",
     "pre_install": [
         "Set-Content \"$dir\\APKDeepLens.bat\" '@pushd %~dp0",
         "@uv run python \"APKDeepLens.py\" %*",

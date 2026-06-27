@@ -7,6 +7,7 @@
         "python": "uv"
     },
     "url": "https://github.com/yinsel/BurpGuard/archive/refs/heads/main.zip",
+    "hash": "6ee7f055aeb4b317b8ee39a45d896a6a4fac947394198c6c850ca8bd4e81e619",
     "pre_install": [
         "Set-Content \"$dir\\BurpGuard.bat\" '@pushd %~dp0",
         "@uv run python \"BurpGuard.py\" %*",
