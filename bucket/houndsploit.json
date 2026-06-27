@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "master",
-    "description": "An advanced graphical search engine for Exploit-DB.(Scoop bucket by arch3rpro)",
+    "description": "An advanced graphical search engine for Exploit-DB.",
     "homepage": "https://github.com/nicolas-carolo/houndsploit",
     "license": "BSD-3-Clause",
     "suggest": {
@@ -17,7 +17,7 @@
     ],
     "notes": [
         "【工具类型】: Python工具",
-        "【主要功能】: An advanced graphical search engine for Exploit-DB.(Scoop bucket by arch3rpro)",
+        "【主要功能】: An advanced graphical search engine for Exploit-DB.",
         "【适用场景】: Exploit-DB图形化搜索、漏洞利用查找",
         "【技术特点】: 基于Python开发，需Python环境"
     ]

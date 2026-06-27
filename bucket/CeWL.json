@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "6.2.1",
-    "description": "CeWL is a Custom Word List Generator.(Scoop bucket by arch3rpro)",
+    "description": "CeWL is a Custom Word List Generator.",
     "homepage": "https://github.com/digininja/CeWL",
     "notes": [
         "【工具类型】: 安全测试工具",

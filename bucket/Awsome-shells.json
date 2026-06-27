@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "2020-10-31T07.59.51",
-    "description": "Collection of reverse shells.(Scoop bucket by arch3rpro)",
+    "description": "Collection of reverse shells.",
     "notes": [
         "【工具类型】: 安全资料",
         "【主要功能】: 反向Shell集合，包含多种平台的反向Shell代码",

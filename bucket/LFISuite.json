@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.13",
-    "description": "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.(Scoop bucket by arch3rpro)",
+    "description": "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.",
     "homepage": "https://github.com/D35m0nd142/LFISuite",
     "license": "GPL-3.0",
     "suggest": {
@@ -28,7 +28,7 @@
     },
     "notes": [
         "【工具类型】: Python工具",
-        "【主要功能】: Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.(Scoop bucket by arch3rpro)",
+        "【主要功能】: Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.",
         "【适用场景】: LFI漏洞利用、Web渗透测试、反弹Shell",
         "【技术特点】: 基于Python开发，需Python环境"
     ]

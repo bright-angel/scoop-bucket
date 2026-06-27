@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "3.5.3",
-    "description": "【Bucket Made by arch3rpro】- afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities.",
+    "description": "afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 高性能漏洞扫描工具，支持自定义PoC编写，快速检测Web应用漏洞",

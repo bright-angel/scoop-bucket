@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "master",
-    "description": "PwnXSS: Vulnerability (XSS) scanner exploit.(Scoop bucket by arch3rpro)",
+    "description": "PwnXSS: Vulnerability (XSS) scanner exploit.",
     "homepage": "https://github.com/pwn0sec/PwnXSS",
     "license": "MIT",
     "suggest": {
@@ -20,7 +20,7 @@
     "bin": "pwnxss.bat",
     "notes": [
         "【工具类型】: Python工具",
-        "【主要功能】: PwnXSS: Vulnerability (XSS) scanner exploit.(Scoop bucket by arch3rpro)",
+        "【主要功能】: PwnXSS: Vulnerability (XSS) scanner exploit.",
         "【适用场景】: 根据描述推断的适用场景",
         "【技术特点】: 基于Python开发，需Python环境"
     ]

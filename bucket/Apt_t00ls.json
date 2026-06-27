@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "0.7",
-    "description": "(Scoop bucket by arch3rpro) Apt_t00ls - 高危漏洞利用工具",
+    "description": "Apt_t00ls - 高危漏洞利用工具",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: Apt_t00ls高危漏洞利用工具集",

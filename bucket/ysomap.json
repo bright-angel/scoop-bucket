@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "0.1.5",
-    "description": "A helpful Java Deserialization exploit framework.(Scoop bucket by arch3rpro)",
+    "description": "A helpful Java Deserialization exploit framework.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: Java反序列化漏洞利用框架，支持多种payload生成",

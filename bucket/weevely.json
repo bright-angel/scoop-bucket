@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "4.0.1",
-    "description": "Weaponized web shell.(Scoop bucket by arch3rpro)",
+    "description": "Weaponized web shell.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 多功能WebShell工具，支持生成和管理WebShell",

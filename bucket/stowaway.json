@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "2.2",
-    "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters.(Scoop bucket by arch3rpro)",
+    "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters.",
     "notes": [
         "【工具类型】: 网络工具",
         "【主要功能】: 多层代理工具，支持内网穿透和多跳代理",

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.6.2",
-    "description": "综合漏洞利用工具.(Scoop bucket by arch3rpro)",
+    "description": "综合漏洞利用工具.",
     "homepage": "https://github.com/Liqunkit/LiqunKit_",
     "notes": [
         "【工具类型】: 安全测试工具",

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.0.2",
-    "description": "ServerScan一款使用Golang开发的高并发网络扫描、服务探测工具。(Scoop bucket by arch3rpro)",
+    "description": "ServerScan一款使用Golang开发的高并发网络扫描、服务探测工具。",
     "homepage": "https://github.com/Adminisme/ServerScan",
     "license": "GPL-3.0",
     "architecture": {

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.14.1",
-    "description": "A command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions.(Scoop bucket by arch3rpro)",
+    "description": "A command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions.",
     "notes": [
         "【工具类型】: 网络工具",
         "【主要功能】: WebSocket命令行客户端，类似netcat支持ws://协议",

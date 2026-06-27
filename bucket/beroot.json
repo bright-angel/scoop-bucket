@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.0.1",
-    "description": "Privilege Escalation Project - Windows / Linux / Mac.(Scoop bucket by arch3rpro)",
+    "description": "Privilege Escalation Project - Windows / Linux / Mac.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: BeRoot提权检测工具，支持Windows/Linux/Mac多平台",

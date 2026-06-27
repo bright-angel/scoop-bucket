@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "0.7.0",
     "architecture": {
         "64bit": {
@@ -11,7 +11,7 @@
     },
     "homepage": "https://hetty.xyz",
     "license": "MIT",
-    "description": "(Scoop bucket by arch3rpro)-An HTTP toolkit for security research.",
+    "description": "-An HTTP toolkit for security research.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: HTTP安全研究工具包，用于HTTP协议分析和安全测试",

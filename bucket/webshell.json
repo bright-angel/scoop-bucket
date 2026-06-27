@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "2024-12-24T15.37.05",
-    "description": "This is a webshell open source project.(Scoop bucket by arch3rpro)",
+    "description": "This is a webshell open source project.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: WebShell样本收集项目，包含多种类型的WebShell样本",

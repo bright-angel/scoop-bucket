@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "master",
-    "description": "The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.(Scoop bucket by arch3rpro)",
+    "description": "The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.",
     "homepage": "https://github.com/sensepost/reGeorg",
     "license": " Unkonwn",
     "suggest": {
@@ -22,7 +22,7 @@
     "bin": "reGeorg.bat",
     "notes": [
         "【工具类型】: Python工具",
-        "【主要功能】: The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.(Scoop bucket by arch3rpro)",
+        "【主要功能】: The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.",
         "【适用场景】: 内网穿透、SOCKS代理转发、DMZ绕过后渗透",
         "【技术特点】: 基于Python开发，需Python环境"
     ]

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "2.1.0",
-    "description": "一款高性能 HTTP 代理隧道工具 ， A high-performance http proxy tunneling tool(Scoop bucket by arch3rpro)",
+    "description": "一款高性能 HTTP 代理隧道工具 ， A high-performance http proxy tunneling tool",
     "notes": [
         "【工具类型】: 网络工具",
         "【主要功能】: 高性能HTTP代理隧道工具，支持网络流量转发",

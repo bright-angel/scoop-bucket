@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.5.44",
-    "description": "Adversary Emulation Framework(Scoop bucket by arch3rpro)",
+    "description": "Adversary Emulation Framework",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 对手模拟框架，提供客户端和服务端组件进行红队操作",

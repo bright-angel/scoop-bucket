@@ -1,7 +1,7 @@
-{
+﻿{
     "version": "3.2.6",
     "homepage": "https://github.com/go-gost/gost",
-    "description": "GO Simple Tunnel - a simple tunnel written in golang.(Scoop bucket by arch3rpro)",
+    "description": "GO Simple Tunnel - a simple tunnel written in golang.",
     "license": "MIT",
     "architecture": {
         "64bit": {

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "2.43.1",
-    "description": "Screen, webcam and sketchboard recorder with an integrated editor.(Scoop bucket by arch3rpro)",
+    "description": "Screen, webcam and sketchboard recorder with an integrated editor.",
     "homepage": "https://www.screentogif.com/",
     "license": "MS-PL",
     "suggest": {

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.0.2020.12.14",
-    "description": "超级SQL注入工具（SSQLInjection）是一款基于HTTP协议自组包的SQL注入工具.(Scoop bucket by arch3rpro)",
+    "description": "超级SQL注入工具（SSQLInjection）是一款基于HTTP协议自组包的SQL注入工具.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 超级SQL注入工具，基于HTTP协议自组包进行SQL注入测试",

@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.7.2.1",
-    "description": "Socat 是Linux 下的一个多功能的网络工具(Scoop bucket by arch3rpro)",
+    "description": "Socat 是Linux 下的一个多功能的网络工具",
     "notes": [
         "【工具类型】: 网络工具",
         "【主要功能】: 多功能网络工具，支持端口转发、代理、数据重定向",

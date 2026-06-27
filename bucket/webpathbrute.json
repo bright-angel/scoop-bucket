@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.6.2",
-    "description": "7kbscan-WebPathBrute Web路径暴力探测工具(Scoop bucket by arch3rpro)",
+    "description": "7kbscan-WebPathBrute Web路径暴力探测工具",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: Web路径暴力探测工具，快速扫描目标网站的隐藏路径",

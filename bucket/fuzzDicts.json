@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "2023-11-13T03.48.29",
-    "description": "Web Pentesting Fuzz 字典,一个就够了.(Scoop bucket by arch3rpro)",
+    "description": "Web Pentesting Fuzz 字典,一个就够了.",
     "homepage": "https://github.com/TheKingOfDuck/fuzzDicts",
     "license": "Unkown",
     "url": "https://github.com/TheKingOfDuck/fuzzDicts/archive/refs/heads/master.zip",

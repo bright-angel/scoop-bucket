@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.7",
-    "description": "XRAY GUI Starter (Web Vulnerability Scanner)(Scoop bucket by arch3rpro)",
+    "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: XRAY漏洞扫描器图形化启动器，提供Web漏洞扫描功能",

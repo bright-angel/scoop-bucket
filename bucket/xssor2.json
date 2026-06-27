@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "master",
-    "description": "XSS'OR - Hack with JavaScript.(Scoop bucket by arch3rpro)",
+    "description": "XSS'OR - Hack with JavaScript.",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: XSS漏洞测试工具，支持JavaScript payload生成和测试",

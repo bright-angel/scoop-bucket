@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "20260624-872a1386",
-    "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors).(Scoop bucket by arch3rpro)",
+    "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors).",
     "homepage": "https://github.com/peass-ng/PEASS-ng",
     "license": "GNU GENERAL PUBLIC LICENSE",
     "url": [

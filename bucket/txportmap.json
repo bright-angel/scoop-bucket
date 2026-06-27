@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.1.2",
-    "description": "Port Scanner & Banner Identify From TianXiang(Scoop bucket by arch3rpro)",
+    "description": "Port Scanner & Banner Identify From TianXiang",
     "notes": [
         "【工具类型】: 信息收集工具",
         "【主要功能】: 端口扫描与Banner识别工具，快速探测目标开放端口",

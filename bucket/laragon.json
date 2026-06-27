@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "8.6.1",
-    "description": "Laragon 是一个可移植、隔离、快速且强大的通用开发环境，本仓库新增各种环境变量并在安装时进行初始化.(Scoop bucket by arch3rpro)",
+    "description": "Laragon 是一个可移植、隔离、快速且强大的通用开发环境，本仓库新增各种环境变量并在安装时进行初始化.",
     "homepage": "https://laragon.org/",
     "license": "MIT",
     "url": "https://github.com/leokhoa/laragon/archive/refs/tags/8.6.1.zip",

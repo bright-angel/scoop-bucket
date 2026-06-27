@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2",
     "architecture": {
         "64bit": {
@@ -25,5 +25,5 @@
         "【适用场景】: 内网穿透、反向代理、渗透测试",
         "【技术特点】: Windows可执行文件，命令行工具，支持64位"
     ],
-    "description": "Tool for tunnel (Version 2).(Scoop bucket by arch3rpro)"
+    "description": "Tool for tunnel (Version 2)."
 }

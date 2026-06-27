@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "beta",
-    "description": "(Scoop bucket by arch3rpro) Sylas-数据库综合利用工具",
+    "description": "Sylas-数据库综合利用工具",
     "notes": [
         "【工具类型】: 数据库工具",
         "【主要功能】: Sylas数据库综合利用工具，支持多种数据库操作",

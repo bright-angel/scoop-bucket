@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "1.1",
-    "description": "Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware.(Scoop bucket by arch3rpro)",
+    "description": "Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware.",
     "homepage": "https://github.com/3v4Si0N/HTTP-revshell",
     "license": "GPL-3.0",
     "architecture": {

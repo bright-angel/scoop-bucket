@@ -1,6 +1,6 @@
-{
+﻿{
     "version": "0.9.14",
-    "description": "Manage remote systems with ease.(Scoop bucket by arch3rpro)",
+    "description": "Manage remote systems with ease.",
     "homepage": "https://github.com/openrport/openrport",
     "license": "MIT",
     "url": [
@@ -26,7 +26,7 @@
     },
     "notes": [
         "【工具类型】: 其他工具",
-        "【主要功能】: Manage remote systems with ease.(Scoop bucket by arch3rpro)",
+        "【主要功能】: Manage remote systems with ease.",
         "【适用场景】: 远程系统管理、服务器运维、批量设备管理",
         "【技术特点】: Go语言开发，跨平台支持(Windows/Linux/macOS)"
     ]
