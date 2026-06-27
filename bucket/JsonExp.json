@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/smallfox233/JsonExp/archive/refs/heads/master.zip",
     "hash": "cc8fabcd562e986decb3b452ee57e0a4af23c9d4cc176b3d69ed93ca9b78abf2",
+    "extract_dir": "JsonExp-main",
     "pre_install": [
         "Set-Content \"$dir\\JsonExp.bat\" '@pushd %~dp0",
         "@uv run python JsonExp.py %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\JsonExp-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\JsonExp-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirement.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

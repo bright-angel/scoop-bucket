@@ -14,14 +14,13 @@
     },
     "url": "https://github.com/y1shiny1shin/USBFlow_Soer/archive/refs/heads/master.zip",
     "hash": "c3cbbbb09dd285a11b113532843ddb87250e6e3550ba08fcaf4ff3808b2d2cf9",
+    "extract_dir": "USBFlow_Soer-main",
     "pre_install": [
         "Set-Content \"$dir\\USBFlow_Soer.bat\" '@pushd %~dp0",
         "@uv run python \"USBFlow_Soer.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\USBFlow_Soer-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\USBFlow_Soer-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install matplotlib pyyaml --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

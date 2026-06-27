@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/b0bac/GetMail/archive/refs/heads/master.zip",
     "hash": "f013211b2ea6ac66530754ebedfd6cce04e73d69178a9b4d896546f2d450a47e",
+    "extract_dir": "GetMail-main",
     "pre_install": [
         "Set-Content \"$dir\\GetMail.bat\" '@pushd %~dp0",
         "@uv run python \"GetMailGUI.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\GetMail-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\GetMail-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirments.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

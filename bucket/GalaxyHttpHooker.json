@@ -8,12 +8,7 @@
     },
     "url": "https://github.com/outlaws-bai/GalaxyHttpHooker/archive/refs/heads/master.zip",
     "hash": "",
-    "post_install": [
-        "Move-Item -Path \"$dir\\GalaxyHttpHooker-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\GalaxyHttpHooker-main\" -Force -Recurse",
-        "uv venv \"$dir\\.venv\"",
-        "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
-    ],
+    "extract_dir": "GalaxyHttpHooker-main",
     "checkver": {
         "url": "https://api.github.com/repos/outlaws-bai/GalaxyHttpHooker/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

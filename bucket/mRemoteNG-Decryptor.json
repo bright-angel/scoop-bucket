@@ -8,14 +8,11 @@
     },
     "url": "https://github.com/ybdt/mRemoteNG-Decryptor/archive/refs/heads/master.zip",
     "hash": "f68f1eb79c38bcd1c57473e6b094c4217942a8aeafbb8d0476c762f1a15a485e",
+    "extract_dir": "mRemoteNG-Decryptor-main",
     "pre_install": [
         "Set-Content \"$dir\\mRemoteNG-Decryptor.bat\" '@pushd %~dp0",
         "@uv run python \"mRemoteNG-Decrypt.py\" %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\mRemoteNG-Decryptor-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\mRemoteNG-Decryptor-main\" -Force -Recurse"
     ],
     "bin": "mRemoteNG-Decryptor.bat",
     "checkver": {

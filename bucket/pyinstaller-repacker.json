@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/pyinstxtractor/pyinstaller-repacker/archive/refs/heads/master.zip",
     "hash": "",
+    "extract_dir": "pyinstaller-repacker-main",
     "pre_install": [
         "Set-Content \"$dir\\pyinstaller-repacker.bat\" '@pushd %~dp0",
         "@uv run python \"pyinst-repacker.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\pyinstaller-repacker-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\pyinstaller-repacker-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install lief lxml --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

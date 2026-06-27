@@ -14,14 +14,13 @@
     },
     "url": "https://github.com/W01fh4cker/VcenterKit/archive/refs/heads/master.zip",
     "hash": "d959da117698570f3cc630be91311a0cffc1844ff9f6fb32205650f488fbac47",
+    "extract_dir": "VcenterKit-main",
     "pre_install": [
         "Set-Content \"$dir\\VcenterKit.bat\" '@pushd %~dp0",
         "@uv run python VcenterKit.py %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\VcenterKit-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\VcenterKit-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

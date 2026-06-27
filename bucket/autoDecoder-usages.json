@@ -5,10 +5,7 @@
     "license": "unknown",
     "url": "https://github.com/f0ng/autoDecoder-usages/archive/refs/heads/master.zip",
     "hash": "b26167d5d9da10ab51e431a51a35def95b07d12b5db865719af8553ebfb039bc",
-    "post_install": [
-        "Move-Item -Path \"$dir\\autoDecoder-usages-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\autoDecoder-usages-main\" -Force -Recurse"
-    ],
+    "extract_dir": "autoDecoder-usages-main",
     "checkver": {
         "url": "https://api.github.com/repos/f0ng/autoDecoder-usages/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",

@@ -14,14 +14,11 @@
     },
     "url": "https://github.com/asaotomo/ZipCracker/archive/refs/heads/master.zip",
     "hash": "93d3f815346c8acd51353c4505d9cf9850973bb152ed271eaf812b020d76d1d3",
+    "extract_dir": "ZipCracker-main",
     "pre_install": [
         "Set-Content \"$dir\\ZipCracker.bat\" '@pushd %~dp0",
         "@uv run python ZipCracker.py %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\ZipCracker-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\ZipCracker-main\" -Force -Recurse"
     ],
     "bin": "ZipCracker.bat",
     "checkver": {

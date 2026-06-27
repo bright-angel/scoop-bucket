@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/f0ng/captcha-killer-modified/archive/refs/heads/master.zip",
     "hash": "ea9c0f8f8f69424f18605228e40ab464e2a8a6ab940b172308d04a7905ddf9d6",
+    "extract_dir": "captcha-killer-modified-main",
     "pre_install": [
         "Set-Content \"$dir\\codereg.bat\" '@pushd %~dp0",
         "@uv run python \"codereg.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\captcha-killer-modified-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\captcha-killer-modified-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirement.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

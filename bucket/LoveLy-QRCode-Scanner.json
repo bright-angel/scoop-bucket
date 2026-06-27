@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/Tokeii0/LoveLy-QRCode-Scanner/archive/refs/heads/master.zip",
     "hash": "2b40a35813d043b4a98c8387cb0fc19503c53c04cb65f2cd1f03248a896126d8",
+    "extract_dir": "LoveLy-QRCode-Scanner-main",
     "pre_install": [
         "Set-Content \"$dir\\LoveLy-QRCode-Scanner.bat\" '@pushd %~dp0",
         "@uv run python \"Gui_AutoVer.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\LoveLy-QRCode-Scanner-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\LoveLy-QRCode-Scanner-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install opencv-contrib-python==4.7.0.72 opencv-python==4.7.0.72 pyside6 numpy --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

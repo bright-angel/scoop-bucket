@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/AabyssZG/Raster-Terminator/archive/refs/heads/master.zip",
     "hash": "b7daaf0075bacfcbd5471ff8e2c152e9679551a34cf39f7864bd5864ddaff19b",
+    "extract_dir": "Raster-Terminator-main",
     "pre_install": [
         "Set-Content \"$dir\\Raster-Terminator.bat\" '@pushd %~dp0",
         "@uv run python \"Raster-Terminator.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\Raster-Terminator-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\Raster-Terminator-main\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install pillow numpy --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
