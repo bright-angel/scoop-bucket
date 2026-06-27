@@ -10,15 +10,12 @@
     },
     "url": "https://github.com/sullo/nikto/archive/refs/heads/nikto-2.5.0.zip",
     "hash": "",
+    "extract_dir": "nikto-nikto-$version",
     "pre_install": [
         "Set-Content \"$dir\\nikto.bat\" '@echo off",
         "@pushd %~dp0",
-        "D:\\Base\\apps\\git\\current\\usr\\bin\\perl.exe \"nikto.pl\" %* <nul",
+        "D:\\Tools\\apps\\git\\current\\usr\\bin\\perl.exe \"nikto.pl\" %* <nul",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\nikto-nikto-$version\\program\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\nikto-nikto-$version\" -Force -Recurse"
     ],
     "bin": "nikto.bat",
     "notes": [

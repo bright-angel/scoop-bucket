@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/opsdisk/pagodo/archive/refs/tags/v2.7.0.zip",
     "hash": "a014a87dff472852f22092d48d0858dac58220da7cdff298d3f37964938f65eb",
+    "extract_dir": "pagodo-$version",
     "pre_install": [
         "Set-Content \"$dir\\pagodo.bat\" '@pushd %~dp0",
         "@uv run python \"pagodo.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\pagodo-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\pagodo-$version\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

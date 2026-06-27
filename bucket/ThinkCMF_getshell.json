@@ -16,15 +16,12 @@
     },
     "url": "https://github.com/jas502n/ThinkCMF_getshell/archive/refs/heads/master.zip",
     "hash": "e9b06d5b168dd51d78c0ee708296bdb40b2a57bfeac9840d67f77366f8885947",
+    "extract_dir": "ThinkCMF_getshell-master",
     "pre_install": [
         "Set-Content \"$dir\\ThinkCMF_getshell.bat\" '@pushd %~dp0",
         "@call activate python2env",
         "@python \"ThinkCMF_getshell.py\" %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\ThinkCMF_getshell-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\ThinkCMF_getshell-master\" -Force -Recurse"
     ],
     "bin": "ThinkCMF_getshell.bat",
     "checkver": {

@@ -14,9 +14,8 @@
     },
     "url": "https://github.com/unix-ninja/shellfire/archive/refs/tags/v0.14.zip",
     "hash": "7abcb99477fd86c218e5ae97b80d81acb5d0ae29cb1a264142a6387935d353a6",
-    "post_install": [
-        "Move-Item -Path \"$dir\\shellfire-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\shellfire-$version\" -Force -Recurse",
+    "extract_dir": "shellfire-$version",
+    "pre_install": [
         "uv venv \"$dir\\.venv\"",
         "uv pip install pyreadline3 shellfire --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

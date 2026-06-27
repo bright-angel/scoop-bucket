@@ -8,9 +8,8 @@
     },
     "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v1.1.10.zip",
     "hash": "2d9e07d2bb647a12f4b480b238e394c68935c76b600fa1e97af79866aa985634",
+    "extract_dir": "GitHacker-v1.1.10",
     "post_install": [
-        "Move-Item -Path \"$dir\\GitHacker-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\GitHacker-$version\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -e \"$dir\" --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
@@ -20,7 +19,8 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v$version.zip",
+        "extract_dir": "GitHacker-v$version"
     },
     "notes": [
         "【工具类型】: Python工具",

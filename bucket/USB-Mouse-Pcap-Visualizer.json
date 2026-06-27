@@ -14,14 +14,13 @@
     },
     "url": "https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer/archive/refs/heads/master.zip",
     "hash": "94963d0b1b91d4ea076498d10fedf26273a8ab2b906414111e0cdc828c4202d2",
+    "extract_dir": "USB-Mouse-Pcap-Visualizer-master",
     "pre_install": [
         "Set-Content \"$dir\\USB-Mouse-Pcap-Visualizer.bat\" '@pushd %~dp0",
         "@uv run python \"usb-mouse-pcap-visualizer.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\USB-Mouse-Pcap-Visualizer-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\USB-Mouse-Pcap-Visualizer-master\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install matplotlib pyyaml --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

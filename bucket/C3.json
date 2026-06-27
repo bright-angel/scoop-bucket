@@ -5,10 +5,7 @@
     "license": "BSD 3-Clause",
     "url": "https://github.com/WithSecureLabs/C3/releases/download/v1.4.0/C3-1.4.0.zip",
     "hash": "",
-    "pre_install": [
-        "Move-Item -Path \"$dir\\C3-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\C3-$version\" -Force -Recurse"
-    ],
+    "extract_dir": "C3-1.4.0",
     "bin": "StartWebController.cmd",
     "checkver": "github",
     "autoupdate": {

@@ -5,10 +5,7 @@
     "license": "unkown",
     "url": "https://github.com/r00t-3xp10it/meterpeter/archive/refs/tags/v2.10.14.zip",
     "hash": "",
-    "pre_install": [
-        "Move-Item -Path \"$dir\\meterpeter-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\meterpeter-$version\" -Force -Recurse"
-    ],
+    "extract_dir": "meterpeter-$version",
     "bin": "meterpeter.ps1",
     "checkver": "github",
     "autoupdate": {

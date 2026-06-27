@@ -7,14 +7,12 @@
         "python": "uv"
     },
     "url": "https://github.com/sameera-madushan/Print-My-Shell/archive/refs/heads/master.zip",
+    "hash": "",
+    "extract_dir": "Print-My-Shell-master",
     "pre_install": [
         "Set-Content \"$dir\\PrintMyShell.bat\" '@pushd %~dp0",
         "@uv run python \"shell.py\" %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\Print-My-Shell-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\Print-My-Shell-master\" -Force -Recurse"
     ],
     "bin": "PrintMyShell.bat",
     "notes": [

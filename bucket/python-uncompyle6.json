@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip",
     "hash": "3d509208561357afafd708f03cb2b7ba9faaf1e70b3ab8445dca8a80c99fb43e",
+    "extract_dir": "python-uncompyle6-master",
     "pre_install": [
         "Set-Content \"$dir\\uncompyle.bat\" '@pushd %~dp0",
         "@cmd /c uncompyle6 %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\python-uncompyle6-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\python-uncompyle6-master\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install uncompyle6 -U --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

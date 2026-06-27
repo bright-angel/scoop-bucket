@@ -16,15 +16,12 @@
     },
     "url": "https://github.com/Tas9er/YApiRCE/archive/refs/heads/master.zip",
     "hash": "",
+    "extract_dir": "YApiRCE-master",
     "pre_install": [
         "Set-Content \"$dir\\YApiRCE.bat\" '@pushd %~dp0",
         "@call oraclejre8",
         "@cmd /c java.exe -jar \"YApiRCE.jar\" %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\YApiRCE-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\YApiRCE-master\" -Force -Recurse"
     ],
     "bin": "YApiRCE.bat",
     "checkver": {

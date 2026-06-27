@@ -10,6 +10,7 @@
     },
     "url": "https://github.com/Xyntax/POC-T/archive/refs/tags/2.0.5.zip",
     "hash": "c1a10f5296c17bdec4f43b8374b405e1473586fe7de8f032823e214f1cbc5f28",
+    "extract_dir": "POC-T-$version",
     "pre_install": [
         "Set-Content \"$dir\\POC-T.bat\" '@pushd %~dp0",
         "@call activate python2env",
@@ -17,8 +18,6 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\POC-T-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\POC-T-$version\" -Force -Recurse",
         "& cmd /c \"call activate python2env && pip install -r $dir\\requirement.txt\""
     ],
     "bin": "POC-T.bat",

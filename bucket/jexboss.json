@@ -10,6 +10,7 @@
     },
     "url": "https://github.com/joaomatosf/jexboss/archive/refs/heads/master.zip",
     "hash": "ee73acc169abbd1788b29439962e1a737bca202baa5f3ff2f0c32170a63077ba",
+    "extract_dir": "jexboss-master",
     "pre_install": [
         "Set-Content \"$dir\\jexboss.bat\" '@pushd %~dp0",
         "@call activate python2env",
@@ -17,8 +18,6 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\jexboss-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\jexboss-master\" -Force -Recurse",
         "& cmd /c \"call activate python2env && pip install -r $dir\\requires.txt\""
     ],
     "bin": "jexboss.bat",

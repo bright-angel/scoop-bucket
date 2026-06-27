@@ -14,14 +14,13 @@
     },
     "url": "https://github.com/vladko312/SSTImap/archive/refs/tags/v1.3.zip",
     "hash": "1cc1f1d19068bc8f76c9a31b56584f185054dd133f6fa3e1c1206521f6b8414d",
+    "extract_dir": "SSTImap-$version",
     "pre_install": [
         "Set-Content \"$dir\\sstimap.bat\" '@pushd %~dp0",
         "@uv run python \"sstimap.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\SSTImap-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\SSTImap-$version\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

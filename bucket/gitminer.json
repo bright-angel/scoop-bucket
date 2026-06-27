@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/UnkL4b/GitMiner/releases/download/2.0/gitminer_V2.0.tar",
     "hash": "f0595921c5d50a3b599f72e04f5248890b377d90620b0856367265a5a2440ff8",
+    "extract_dir": "GitMiner-2.0",
     "pre_install": [
         "Set-Content \"$dir\\gitminer.bat\" '@pushd %~dp0",
         "@uv run python \"gitminer-v2.0.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\Gitminer\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\Gitminer\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

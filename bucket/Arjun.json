@@ -8,10 +8,9 @@
     },
     "url": "https://github.com/s0md3v/Arjun/archive/refs/tags/2.2.7.zip",
     "hash": "",
+    "extract_dir": "Arjun-2.2.7",
     "post_install": [
-        "Move-Item -Path \"$dir\\Arjun-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\Arjun-$version\" -Force -Recurse",
-        "uv venv \"$dir\\.venv\"",
+        "uv venv \"$dir\\.venv\" --python 3.8",
         "uv pip install Arjun -U --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "checkver": "github",

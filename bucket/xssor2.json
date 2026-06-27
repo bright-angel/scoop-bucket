@@ -15,6 +15,8 @@
         ]
     },
     "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip",
+    "hash": "",
+    "extract_dir": "xssor2-master",
     "pre_install": [
         "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0",
         "@call activate python2env",
@@ -22,8 +24,6 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\xssor2-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\xssor2-master\" -Force -Recurse",
         "& cmd /c \"call activate python2env && pip install -r $dir\\requirement.txt\""
     ],
     "bin": "xssor2.bat"

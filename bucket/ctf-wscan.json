@@ -8,14 +8,13 @@
     },
     "url": "https://github.com/OrangeWatermelon/ctf-wscan/archive/refs/heads/master.zip",
     "hash": "ea36e45b403d18d8b491277e355fd2812fb249c4383c48c87fe859675f48aa75",
+    "extract_dir": "ctf-wscan-master",
     "pre_install": [
         "Set-Content \"$dir\\ctf-wscan.bat\" '@pushd %~dp0",
         "@uv run python \"scan.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\ctf-wscan-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\ctf-wscan-master\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install requests --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],

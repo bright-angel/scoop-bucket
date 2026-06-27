@@ -10,14 +10,11 @@
     },
     "url": "https://github.com/OWASP/joomscan/archive/refs/tags/0.0.7.zip",
     "hash": "9bcb62feb170a8f29ea5e4a00df97b18e94ca455b49149a09461589e43b91c2f",
+    "extract_dir": "joomscan-$version",
     "pre_install": [
         "Set-Content \"$dir\\joomscan.bat\" '@pushd %~dp0",
         "@perl \"joomscan.pl\" %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\joomscan-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\joomscan-$version\" -Force -Recurse"
     ],
     "bin": "joomscan.bat",
     "checkver": "github",

@@ -14,14 +14,13 @@
     },
     "url": "https://github.com/13exp/SpringBoot-Scan-GUI/archive/refs/tags/v1.2.4.zip",
     "hash": "65f7026aea3fc2a8a45d4311469818d6f9eaf66f640229c244f5f31785da2a2f",
+    "extract_dir": "SpringBoot-Scan-GUI-$version",
     "pre_install": [
         "Set-Content \"$dir\\SpringBoot-Scan-GUI.bat\" '@pushd %~dp0",
         "@uv run python \"main.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\SpringBoot-Scan-GUI-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\SpringBoot-Scan-GUI-$version\" -Force -Recurse",
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
