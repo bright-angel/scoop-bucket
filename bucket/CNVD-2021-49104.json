@@ -8,7 +8,11 @@
     },
     "url": "https://github.com/bigsizeme/CNVD-2021-49104/archive/refs/heads/master.zip",
     "hash": "e27b2249a79f6398750465bbc66e8799b59150ed0f03517551969b5590253551",
-    "pre_install": "Set-Content \"$dir\\CNVD-2021-49104.bat\" '@pushd %~dp0\n@uv run python e-oeffice.py %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\CNVD-2021-49104.bat\" '@pushd %~dp0",
+        "@uv run python e-oeffice.py %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\CNVD-2021-49104-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\CNVD-2021-49104-main\" -Force -Recurse",

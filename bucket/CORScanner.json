@@ -8,7 +8,11 @@
     },
     "url": "https://github.com/chenjj/CORScanner/archive/refs/tags/1.0.1.zip",
     "hash": "af1727f1651d2590b6674ab2c90eecfbf72f8473972d853e9877c0928cb07aef",
-    "pre_install": "Set-Content \"$dir\\cors_scan.bat\" '@pushd %~dp0\n@uv run python \"cors_scan.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\cors_scan.bat\" '@pushd %~dp0",
+        "@uv run python \"cors_scan.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\CORScanner-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\CORScanner-$version\" -Force -Recurse",

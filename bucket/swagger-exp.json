@@ -15,7 +15,11 @@
     "url": "https://github.com/lijiejie/swagger-exp/archive/refs/heads/master.zip",
     "hash": "979c8694bbea9edbff552ea1917422d200099b5875d322ea9f6cacee11d6b5ae",
     "extract_dir": "swagger-exp-master",
-    "pre_install": "Set-Content \"$dir\\swagger-exp.bat\" '@pushd %~dp0\n@uv run python swagger-exp.py %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\swagger-exp.bat\" '@pushd %~dp0",
+        "@uv run python swagger-exp.py %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "uv venv \"$dir\\.venv\"",
         "uv pip install requests --python \"$dir\\.venv\\Scripts\\python.exe\""

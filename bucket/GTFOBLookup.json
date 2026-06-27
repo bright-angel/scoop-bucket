@@ -8,7 +8,11 @@
     },
     "url": "https://github.com/nccgroup/GTFOBLookup/archive/refs/tags/v3.zip",
     "hash": "e5846b55c11d3e5e54dd7015c8f0f420a01fb1a248d93c732c046a36dedc0a48",
-    "pre_install": "Set-Content \"$dir\\GTFOBLookup.bat\" '@pushd %~dp0\n@uv run python \"gtfoblookup.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\GTFOBLookup.bat\" '@pushd %~dp0",
+        "@uv run python \"gtfoblookup.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\GTFOBLookup-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\GTFOBLookup-$version\" -Force -Recurse",

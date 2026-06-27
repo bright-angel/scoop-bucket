@@ -7,7 +7,11 @@
         "python": "uv"
     },
     "url": "https://github.com/hisxo/gitGraber/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\gitGraber.bat\" '@pushd %~dp0\n@uv run python \"gitGraber.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\gitGraber.bat\" '@pushd %~dp0",
+        "@uv run python \"gitGraber.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\gitGraber-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\gitGraber-master\" -Force -Recurse",

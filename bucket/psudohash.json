@@ -7,7 +7,11 @@
         "python": "uv"
     },
     "url": "https://github.com/t3l3machus/psudohash/archive/refs/heads/main.zip",
-    "pre_install": "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0\n@uv run python \"psudohash.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0",
+        "@uv run python \"psudohash.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\psudohash-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\psudohash-main\" -Force -Recurse"

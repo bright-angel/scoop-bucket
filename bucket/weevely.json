@@ -13,7 +13,11 @@
         "python": "uv"
     },
     "url": "https://github.com/epinna/weevely3/archive/refs/heads/master.zip",
-    "pre_install": "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0\n@uv run python \"weevely.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0",
+        "@uv run python \"weevely.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\weevely3-master\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\weevely3-master\" -Force -Recurse",

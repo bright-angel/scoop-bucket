@@ -7,7 +7,11 @@
         "python": "uv"
     },
     "url": "https://github.com/JoelGMSec/PyShell/archive/refs/heads/main.zip",
-    "pre_install": "Set-Content \"$dir\\pyshell.bat\" '@pushd %~dp0\n@uv run python \"pyshell.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\pyshell.bat\" '@pushd %~dp0",
+        "@uv run python \"pyshell.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "post_install": [
         "Move-Item -Path \"$dir\\pyshell-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\pyshell-main\" -Force -Recurse",
