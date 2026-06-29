@@ -1,6 +1,6 @@
 {
-    "version": "4.0.1",
-    "description": "Weaponized web shell.",
+    "version": "2026-06-29T00.00.00",
+    "description": "Weevely - 多功能WebShell管理工具",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 多功能WebShell工具，支持生成和管理WebShell",
@@ -8,23 +8,28 @@
         "【技术特点】: Python开发，命令行工具，支持多种功能模块"
     ],
     "homepage": "https://github.com/epinna/weevely3",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "suggest": {
         "python": "uv"
     },
-    "url": "https://github.com/epinna/weevely3/archive/refs/heads/master.zip",
-    "hash": "",
+    "url": "https://github.com/epinna/weevely3/archive/refs/heads/master.zip#/weevely3.zip",
+    "hash": "sha256:FBACBBBEE4A061FFCAC36BA62B2B2CB08B8468F3C5D30B6C20270FD8A2467D20",
     "extract_dir": "weevely3-master",
     "pre_install": [
-        "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0",
-        "@uv run python \"weevely.py\" %*",
-        "@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0', '@uv run python \"weevely.py\" %*', '@popd' -Encoding Ascii"
     ],
     "post_install": [
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\"",
-        "uv venv \"$dir\\.venv\"",
         "uv pip install pyreadline3 --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
-    "bin": "weevely.bat"
+    "bin": "weevely.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/epinna/weevely3/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/epinna/weevely3/archive/refs/heads/master.zip#/weevely3.zip"
+    }
 }

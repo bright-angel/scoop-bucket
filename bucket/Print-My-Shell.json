@@ -1,24 +1,31 @@
 {
-    "version": "master",
-    "description": "Python script wrote to automate the process of generating various reverse shells.",
-    "homepage": "https://github.com/sameera-madushan/Print-My-Shell",
+    "version": "2025-10-06T08.53.01",
+    "description": "Print-My-Shell - 反向Shell生成工具",
+    "homepage": "https://github.com/Ships2024/Print-My-Shell",
     "license": "MIT",
     "suggest": {
         "python": "uv"
     },
-    "url": "https://github.com/sameera-madushan/Print-My-Shell/archive/refs/heads/master.zip",
-    "hash": "",
+    "url": "https://github.com/Ships2024/Print-My-Shell/archive/refs/heads/master.zip#/Print-My-Shell.zip",
+    "hash": "sha256:5A14BD7A25584A12D07B0D8FE16312164B4FFE772104C613F9A0297A1E1B15F7",
     "extract_dir": "Print-My-Shell-master",
     "pre_install": [
-        "Set-Content \"$dir\\PrintMyShell.bat\" '@pushd %~dp0",
-        "@uv run python \"shell.py\" %*",
-        "@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\PrintMyShell.bat\" '@pushd %~dp0', '@uv run python \"shell.py\" %*', '@popd' -Encoding Ascii"
     ],
     "bin": "PrintMyShell.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/Ships2024/Print-My-Shell/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Ships2024/Print-My-Shell/archive/refs/heads/master.zip#/Print-My-Shell.zip"
+    },
     "notes": [
         "【工具类型】: Python工具",
-        "【主要功能】: Python script wrote to automate the process of generating various reverse shells.",
-        "【适用场景】: 根据描述推断的适用场景",
-        "【技术特点】: 基于Python开发，需Python环境"
+        "【主要功能】: 自动化生成各种反向Shell的Python脚本",
+        "【适用场景】: CTF挑战、渗透测试、反向Shell生成",
+        "【技术特点】: 基于Python开发，支持多种语言的反向Shell生成",
+        "【注意事项】: 原仓库sameera-madushan/Print-My-Shell已404，使用Ships2024的fork替代"
     ]
 }

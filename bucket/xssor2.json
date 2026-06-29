@@ -1,6 +1,6 @@
 {
-    "version": "master",
-    "description": "XSS'OR - Hack with JavaScript.",
+    "version": "2026-06-29T00.00.00",
+    "description": "XSS'OR - 基于JavaScript的XSS测试工具",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: XSS漏洞测试工具，支持JavaScript payload生成和测试",
@@ -10,21 +10,24 @@
     "homepage": "https://github.com/evilcos/xssor2",
     "license": "BSD-2-Clause",
     "suggest": {
-        "python": [
-            "miniconda3"
-        ]
+        "python": "miniconda3"
     },
-    "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip",
-    "hash": "",
+    "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip#/xssor2.zip",
+    "hash": "sha256:7668AAEFC64B925380EBBF67B0B42076955EFB301318DAD3543EE4A294941918",
     "extract_dir": "xssor2-master",
     "pre_install": [
-        "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0",
-        "@call activate python2env",
-        "@python manage.py runserver 0.0.0.0:8000 %*",
-        "@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0', '@call activate python2env', '@python manage.py runserver 0.0.0.0:8000 %*', '@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "& cmd /c \"call activate python2env && pip install -r $dir\\requirement.txt\""
+        "cmd /c \"call activate python2env && pip install -r $dir\\requirement.txt\""
     ],
-    "bin": "xssor2.bat"
+    "bin": "xssor2.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/evilcos/xssor2/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip#/xssor2.zip"
+    }
 }
