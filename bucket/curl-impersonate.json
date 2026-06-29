@@ -1,10 +1,10 @@
 {
-    "version": "1.5.2",
+    "version": "2.0.0a5",
     "description": "特殊构建的curl，能够模拟Chrome、Edge、Safari和Firefox浏览器的TLS指纹",
     "homepage": "https://github.com/lexiforest/curl-impersonate",
     "license": "MIT",
-    "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.5.2/curl-impersonate-v1.5.2.x86_64-win32.tar.gz",
-    "hash": "sha256:695b772cec0aec35efa443bb2da265b84bba23fd139b3fc6fd25c2a514e0fd77",
+    "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v2.0.0a5/curl-impersonate-v2.0.0a5.x86_64-win32.tar.gz",
+    "hash": "sha256:2e3554ce41978d50e5e642db39fb78681a6e6f1028d99849dda9e24d9a44f63c",
     "bin": [
         "bin/curl-impersonate.exe",
         "bin/curl_chrome99.bat",
@@ -46,10 +46,10 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/lexiforest/curl-impersonate/releases",
-        "regex": "v([\\d.]+)",
+        "regex": "v([\\d.]+a?\\d*)",
         "filter": {
             "assets": {
-                "name": "curl-impersonate-v*.x86_64-win32.tar.gz"
+                "name": "curl-impersonate-v*_x86_64-win32.tar.gz"
             }
         }
     },
@@ -61,6 +61,6 @@
         "【主要功能】: 特殊构建的curl，能够模拟Chrome、Edge、Safari和Firefox浏览器的TLS指纹",
         "【适用场景】: HTTP请求、浏览器指纹模拟、安全测试",
         "【技术特点】: 支持多种浏览器TLS指纹模拟，命令行工具",
-        "【注意事项】: 最新版本(v1.5.6+)已移除Windows支持，仅保留最后一个支持Windows的版本"
+        "【注意事项】: 使用lexiforest分支，支持Windows平台"
     ]
 }
