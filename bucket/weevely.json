@@ -1,5 +1,5 @@
 {
-    "version": "2026-06-29T00.00.00",
+    "version": "2025-10-01T11.55.36",
     "description": "Weevely - 多功能WebShell管理工具",
     "notes": [
         "【工具类型】: 安全测试工具",
@@ -13,11 +13,9 @@
         "python": "uv"
     },
     "url": "https://github.com/epinna/weevely3/archive/refs/heads/master.zip#/weevely3.zip",
-    "hash": "sha256:FBACBBBEE4A061FFCAC36BA62B2B2CB08B8468F3C5D30B6C20270FD8A2467D20",
+    "hash": "fbacbbbee4a061ffcac36ba62b2b2cb08b8468f3c5d30b6c20270fd8a2467d20",
     "extract_dir": "weevely3-master",
-    "pre_install": [
-        "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0', '@uv run python \"weevely.py\" %*', '@popd' -Encoding Ascii"
-    ],
+    "pre_install": "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0', '@uv run python \"weevely.py\" %*', '@popd' -Encoding Ascii",
     "post_install": [
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r $dir\\requirements.txt --python \"$dir\\.venv\\Scripts\\python.exe\"",
