@@ -1,5 +1,5 @@
 {
-    "version": "2026-06-29T00.00.00",
+    "version": "2025-06-08T11.46.36",
     "description": "psudohash - 基于关键词的密码变异生成工具",
     "homepage": "https://github.com/t3l3machus/psudohash",
     "license": "MIT",
@@ -7,11 +7,9 @@
         "python": "uv"
     },
     "url": "https://github.com/t3l3machus/psudohash/archive/refs/heads/main.zip#/psudohash.zip",
-    "hash": "sha256:106AD64A717DFEC9F214BF1308334FAF4A454663464D65792F6803F4A0CA2DDE",
+    "hash": "106ad64a717dfec9f214bf1308334faf4a454663464d65792f6803f4a0ca2dde",
     "extract_dir": "psudohash-main",
-    "pre_install": [
-        "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0', '@uv run python \"psudohash.py\" %*', '@popd' -Encoding Ascii"
-    ],
+    "pre_install": "Set-Content \"$dir\\psudohash.bat\" '@pushd %~dp0', '@uv run python \"psudohash.py\" %*', '@popd' -Encoding Ascii",
     "bin": "psudohash.bat",
     "checkver": {
         "url": "https://api.github.com/repos/t3l3machus/psudohash/commits",
