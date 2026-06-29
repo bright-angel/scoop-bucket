@@ -44,15 +44,7 @@
         "bin/curl_firefox147.bat",
         "bin/curl_tor145.bat"
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/lexiforest/curl-impersonate/releases",
-        "regex": "v([\\d.]+a?\\d*)",
-        "filter": {
-            "assets": {
-                "name": "curl-impersonate-v*_x86_64-win32.tar.gz"
-            }
-        }
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v$version/curl-impersonate-v$version.x86_64-win32.tar.gz"
     },

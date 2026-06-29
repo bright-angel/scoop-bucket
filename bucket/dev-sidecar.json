@@ -15,15 +15,7 @@
             "Dev Sidecar"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/docmirror/dev-sidecar/releases",
-        "regex": "v([\\d.]+)",
-        "filter": {
-            "assets": {
-                "name": "DevSidecar-*-windows-x86_64.exe"
-            }
-        }
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version-windows-x86_64.exe"
     },
