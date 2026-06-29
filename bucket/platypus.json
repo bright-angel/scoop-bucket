@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.5.0",
     "description": "🔨 A modern multiple reverse shell sessions manager written in go",
     "homepage": "https://github.com/WangYihang/Platypus",

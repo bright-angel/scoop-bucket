@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.7.0",
     "description": "SSH based reverse shell",
     "homepage": "https://github.com/NHAS/reverse_ssh",

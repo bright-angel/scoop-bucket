@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.0",
     "description": "The port forwarding tool developed by Golang solves the problem that the internal and external networks cannot communicate in certain scenarios.",
     "homepage": "https://github.com/knownsec/PortForward",

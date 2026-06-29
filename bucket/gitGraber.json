@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "master",
     "description": "gitGraber: monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe...",
     "homepage": "https://github.com/hisxo/gitGraber",

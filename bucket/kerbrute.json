@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.3",
     "description": "A tool to perform Kerberos pre-auth bruteforcing.",
     "homepage": "https://github.com/ropnop/kerbrute",

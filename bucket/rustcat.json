@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.0",
     "description": "Rustcat(rcat) - The modern Port listener and Reverse shell.",
     "homepage": "https://github.com/robiot/rustcat",

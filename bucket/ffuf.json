@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.1.0",
     "description": "Fast web fuzzer written in Go",
     "homepage": "https://github.com/ffuf/ffuf",

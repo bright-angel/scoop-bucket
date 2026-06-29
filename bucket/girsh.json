@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.41",
     "description": "Automatically spawn a reverse shell fully interactive for Linux or Windows victim",
     "homepage": "https://github.com/nodauf/Girsh",

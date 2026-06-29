@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.9.0",
     "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL",
     "homepage": "https://nuclei.projectdiscovery.io",

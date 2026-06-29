@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.3",
     "description": "基于go编写的跨平台、稳定、隐秘的多级代理内网穿透工具",
     "homepage": "https://github.com/Mob2003/rakshasa",

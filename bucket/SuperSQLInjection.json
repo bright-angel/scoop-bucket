@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.2020.12.14",
     "description": "超级SQL注入工具（SSQLInjection）是一款基于HTTP协议自组包的SQL注入工具.",
     "notes": [

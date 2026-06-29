@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.0.6",
     "description": "ysoserial - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.",
     "notes": [
