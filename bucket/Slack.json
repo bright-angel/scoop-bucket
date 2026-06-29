@@ -8,8 +8,8 @@
         "【技术特点】: Windows可执行文件，图形化界面，集成化工具平台"
     ],
     "homepage": "https://github.com/qiwentaidi/Slack",
-    "license": "unknow",
-    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack2.2.6/Slack-windows-amd64.exe#/Slack.exe",
+    "license": "unknown",
+    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack2.2.6/Slack-windows-amd64.exe",
     "hash": "a2c5054b8af51c626da7031bb345f704cca90835ca22157556ec8d15271bcad2",
     "bin": "Slack.exe",
     "shortcuts": [
@@ -18,12 +18,8 @@
             "Slack"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/qiwentaidi/Slack/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "Slack([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack$version/Slack-windows-amd64.exe#/Slack.exe"
+        "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack$version/Slack-windows-amd64.exe"
     }
 }

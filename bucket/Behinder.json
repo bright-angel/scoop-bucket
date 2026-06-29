@@ -1,6 +1,6 @@
 {
-    "version": "4.0.7",
-    "description": "“冰蝎”动态二进制加密网站管理客户端",
+    "version": "4.1",
+    "description": ""冰蝎"动态二进制加密网站管理客户端",
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: 动态二进制加密WebShell管理工具，支持多种脚本语言",
@@ -14,8 +14,8 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.0.7/Behinder_v4.07.zip",
-    "hash": "d17c676a9525e99917a694024212bfddeb038d278f9017a0aef43fbdd142070b",
+    "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.1%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91/Behinder_v4.1.t00ls.zip",
+    "hash": "sha256:b5c2a5e1f5a1e9e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1",
     "pre_install": [
         "Set-Content \"$dir\\Behinder.bat\" '@pushd %~dp0",
         "@call oraclejre8",
@@ -36,6 +36,6 @@
         "regex": "Behinder_v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v$version/Behinder_v$version.zip"
+        "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v$version%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91/Behinder_v$version.t00ls.zip"
     }
 }

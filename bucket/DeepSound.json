@@ -1,11 +1,10 @@
 {
-    "version": "2.2.2404.04",
+    "version": "2.3.2606.28",
     "description": "从 jpinsoft.net 迁移的官方 DeepSound 存储库。DeepSound 是一个免费的隐写工具和音频转换器，可将秘密数据隐藏到音频文件中。该应用程序还使您能够直接从音频文件或音频 CD 轨道中提取秘密文件。",
     "homepage": "https://github.com/Jpinsoft/DeepSound",
-    "license": "unkown",
-    "url": "https://github.com/Jpinsoft/DeepSound/releases/download/v2.2.2404.04/DeepSound_2_2_2404_14_Setup.msi",
-    "hash": "8961b10b2e5dd27351e32c20b1473fee2edf32b03d34a268b30518ef8cb8ae10",
-    "extract_dir": "DeepSound",
+    "license": "unknown",
+    "url": "https://github.com/Jpinsoft/DeepSound/releases/download/v2.3.2606.28/DeepSoundBinary_2_3.zip",
+    "hash": "sha256:ac75cd2f7ae4443fe466494ba0a6c8abc4b2bc051826f22009f5dd58171ec4e3",
     "bin": "DeepSound.exe",
     "shortcuts": [
         [
@@ -15,7 +14,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Jpinsoft/DeepSound/releases/download/v$version/DeepSound_2_2_2404_14_Setup.msi"
+        "url": "https://github.com/Jpinsoft/DeepSound/releases/download/v$version/DeepSoundBinary_2_3.zip"
     },
     "notes": [
         "【工具类型】: 隐写工具",

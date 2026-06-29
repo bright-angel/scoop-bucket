@@ -1,5 +1,5 @@
 {
-    "version": "2025-08-30T17.02.14",
+    "version": "2026-04-07T05.58.13",
     "description": "Decompyle++: C++ based Python bytecode disassembler and decompiler",
     "notes": [
         "【工具类型】: 逆向工具",
@@ -25,60 +25,30 @@
         ]
     },
     "url": "https://github.com/zrax/pycdc/archive/refs/heads/master.zip",
+    "hash": "sha256:fede7674cd7d6aa990b3917a6a134169f69ed76b8d9db366edc0b3d7951ed6f2",
     "extract_dir": "pycdc-master",
-    "architecture": {
-        "64bit": {
-            "installer": {
-                "script": [
-                    "# 创建编译目录",
-                    "New-Item -ItemType Directory -Path \"$dir\\build\" -Force | Out-Null",
-                    "Set-Location \"$dir\\build\"",
-                    "",
-                    "# 优先使用MSVC编译（VS2022），若需VS2019则替换为 \"Visual Studio 16 2019\"",
-                    "try {",
-                    "    cmake -G \"Visual Studio 17 2022\" -A x64 ..",
-                    "    cmake --build . --config Release --parallel",
-                    "} catch {",
-                    "    Write-Host \"MSVC编译失败，尝试使用Clang+MinGW编译...\" -ForegroundColor Yellow",
-                    "    cmake -G \"MinGW Makefiles\" -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_BUILD_TYPE=Release ..",
-                    "    mingw32-make -j $env:NUMBER_OF_PROCESSORS",
-                    "}",
-                    "",
-                    "# 验证编译产物",
-                    "if (-not (Test-Path \"$dir\\build\\Release\\pycdc.exe\") -and -not (Test-Path \"$dir\\build\\Release\\pycdas.exe\")) {",
-                    "    Write-Error \"编译失败：未找到pycdc.exe/pycdas.exe\"",
-                    "        exit 1",
-                    " } else {",
-                    "    Write-Host \"✅ 可执行文件存在\"",
-                    "}"
-                ]
-            }
-        },
-        "32bit": {
-            "installer": {
-                "script": [
-                    "New-Item -ItemType Directory -Path \"$dir\\build\" -Force | Out-Null",
-                    "Set-Location \"$dir\\build\"",
-                    "try {",
-                    "    cmake -G \"Visual Studio 17 2022\" -A Win32 ..",
-                    "    cmake --build . --config Release --parallel",
-                    "} catch {",
-                    "    Write-Host \"MSVC编译失败，尝试使用Clang+MinGW编译...\" -ForegroundColor Yellow",
-                    "    cmake -G \"MinGW Makefiles\" -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=\"-m32\" ..",
-                    "    mingw32-make -j $env:NUMBER_OF_PROCESSORS",
-                    "}",
-                    "if (-not (Test-Path \"$dir\\build\\Release\\pycdc.exe\")) {",
-                    "    if (Test-Path \"$dir\\build\\pycdc.exe\") {",
-                    "        New-Item -ItemType Directory -Path \"$dir\\build\\Release\" -Force | Out-Null",
-                    "        Move-Item -Path \"$dir\\build\\*.exe\" -Destination \"$dir\\build\\Release\" -Force",
-                    "    } else {",
-                    "        Write-Error \"编译失败：未找到pycdc.exe\"",
-                    "        exit 1",
-                    "    }",
-                    "}"
-                ]
-            }
-        }
+    "installer": {
+        "script": [
+            "New-Item -ItemType Directory -Path \"$dir\\build\" -Force | Out-Null",
+            "Set-Location \"$dir\\build\"",
+            "try {",
+            "    cmake -G \"Visual Studio 17 2022\" -A x64 ..",
+            "    cmake --build . --config Release --parallel",
+            "} catch {",
+            "    Write-Host \"MSVC编译失败，尝试使用Clang+MinGW编译...\" -ForegroundColor Yellow",
+            "    cmake -G \"MinGW Makefiles\" -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_BUILD_TYPE=Release ..",
+            "    mingw32-make -j $env:NUMBER_OF_PROCESSORS",
+            "}",
+            "if (-not (Test-Path \"$dir\\build\\Release\\pycdc.exe\")) {",
+            "    if (Test-Path \"$dir\\build\\pycdc.exe\") {",
+            "        New-Item -ItemType Directory -Path \"$dir\\build\\Release\" -Force | Out-Null",
+            "        Move-Item -Path \"$dir\\build\\*.exe\" -Destination \"$dir\\build\\Release\" -Force",
+            "    } else {",
+            "        Write-Error \"编译失败：未找到pycdc.exe\"",
+            "        exit 1",
+            "    }",
+            "}"
+        ]
     },
     "bin": [
         "build\\Release\\pycdc.exe",

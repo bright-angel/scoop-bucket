@@ -7,16 +7,22 @@
     "hash": "194c9716e209b1a771f699ed1854d60b4540afb4fb410b41f8f77407351719f1",
     "bin": "dalfox.exe",
     "checkver": {
-        "url": "https://api.github.com/repos/hahwul/dalfox/releases/latest",
-        "jsonpath": "$.tag_name"
+        "url": "https://api.github.com/repos/hahwul/dalfox/releases",
+        "regex": "v([\\d.]+)",
+        "filter": {
+            "assets": {
+                "name": "dalfox-windows-amd64.zip"
+            }
+        }
     },
     "autoupdate": {
-        "url": "https://github.com/hahwul/dalfox/releases/download/$matchTag/dalfox-windows-amd64.zip"
+        "url": "https://github.com/hahwul/dalfox/releases/download/v$version/dalfox-windows-amd64.zip"
     },
     "notes": [
         "【工具类型】: 安全测试工具",
         "【主要功能】: XSS漏洞扫描工具，专注于自动化扫描XSS缺陷和分析参数",
         "【适用场景】: Web安全测试、XSS漏洞检测、渗透测试",
-        "【技术特点】: 基于Go语言开发，命令行工具，支持多种XSS检测技术"
+        "【技术特点】: 基于Go语言开发，命令行工具，支持多种XSS检测技术",
+        "【注意事项】: 最新版本(v3+)已移除Windows支持，仅保留最后一个支持Windows的版本"
     ]
 }

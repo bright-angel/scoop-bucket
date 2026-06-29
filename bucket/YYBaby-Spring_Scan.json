@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "一款针对Spring框架的漏洞扫描及漏洞利用图形化工具",
     "notes": [
         "【工具类型】: 安全测试工具",
@@ -14,13 +14,12 @@
             "sec/oraclejre8"
         ]
     },
-    "url": "https://github.com/CllmsyK/YYBaby-Spring_Scan/releases/download/YYBaby_v1.0/YYBaby_v1.0_Spring_Scan.rar",
-    "hash": "071978c3417c670797c0d67bab00e4f3c101059f0351611265c8692e143fcac4",
+    "url": "https://github.com/CllmsyK/YYBaby-Spring_Scan/releases/download/YYBaby_v1.1/YYBaby_v1.1_Spring_Scan.jar",
+    "hash": "sha256:2016d036d59d160d8b6acdbe69987e9c50635ea09de7311816ea5a157c76479c",
     "pre_install": [
-        "Get-ChildItem \"$dir\" 'YYBaby_*_Spring_Scan.jar' | Select-Object -First 1 | Rename-Item -NewName 'YYBaby-Spring_Scan.jar'",
         "Set-Content \"$dir\\YYBaby-Spring_Scan.bat\" '@pushd %~dp0",
         "@call oraclejre8",
-        "@start javaw.exe -jar \"YYBaby-Spring_Scan.jar\" %*",
+        "@start javaw.exe -jar \"YYBaby_v1.1_Spring_Scan.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "YYBaby-Spring_Scan.bat",
@@ -36,6 +35,6 @@
         "regex": "YYBaby_v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/CllmsyK/YYBaby-Spring_Scan/releases/download/YYBaby_v$version/YYBaby_v$version_Spring_Scan.rar"
+        "url": "https://github.com/CllmsyK/YYBaby-Spring_Scan/releases/download/YYBaby_v$version/YYBaby_v$version_Spring_Scan.jar"
     }
 }

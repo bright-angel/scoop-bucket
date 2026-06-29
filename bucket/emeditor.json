@@ -3,16 +3,8 @@
     "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
     "homepage": "https://www.emeditor.com/",
     "license": "Shareware",
-    "architecture": {
-        "64bit": {
-            "url": "https://download.emeditor.info/emed64_25.1.3_portable.zip",
-            "hash": "29d98b0ee077cfd7bea9942d286894bd26c5139fdb598bf7ddcfe4583849f3cf"
-        },
-        "32bit": {
-            "url": "https://download.emeditor.info/emed32_25.1.3_portable.zip",
-            "hash": "b42eaaeab637d759e95d59e70058af3dc7f8676cedc8af19a47ea3024ecebb43"
-        }
-    },
+    "url": "https://download.emeditor.info/emed64_25.1.3_portable.zip",
+    "hash": "29d98b0ee077cfd7bea9942d286894bd26c5139fdb598bf7ddcfe4583849f3cf",
     "pre_install": [
         "$manifest.persist | ForEach-Object {",
         "    if ([io.path]::GetExtension($_)) {",
@@ -41,17 +33,10 @@
         "AppData"
     ],
     "checkver": {
-        "url": "https://www.emeditor.com/release-history/",
+        "url": "https://www.emeditor.com/",
         "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://download.emeditor.info/emed64_$version_portable.zip"
-            },
-            "32bit": {
-                "url": "https://download.emeditor.info/emed32_$version_portable.zip"
-            }
-        }
+        "url": "https://download.emeditor.info/emed64_$version_portable.zip"
     }
 }

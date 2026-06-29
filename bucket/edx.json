@@ -1,16 +1,10 @@
 {
-    "version": "0.4.15.2710",
+    "version": "0.4.18.3036",
     "description": "一款高性能的可扩展编辑器",
     "homepage": "https://www.ed-x.cc/index.html",
     "license": "UNKNOWN",
-    "architecture": {
-        "32bit": {
-            "url": "https://www.ed-x.cc/versions/edx-x86.zip"
-        },
-        "64bit": {
-            "url": "https://www.ed-x.cc/versions/edx.zip"
-        }
-    },
+    "url": "https://www.ed-x.cc/versions/edx.zip",
+    "hash": "01834a6b8672c7a35632c2a1b1ef3c9f1c95cfd182f3e9fbef731783bd5fd588",
     "shortcuts": [
         [
             "edx.exe",
@@ -22,14 +16,7 @@
         "regex": ":\"([\\d.]+)\""
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://www.ed-x.cc/versions/edx-x86.zip"
-            },
-            "64bit": {
-                "url": "https://www.ed-x.cc/versions/edx.zip"
-            }
-        }
+        "url": "https://www.ed-x.cc/versions/edx.zip"
     },
     "notes": [
         "【工具类型】: 开发工具",
