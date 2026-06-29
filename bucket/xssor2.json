@@ -1,5 +1,5 @@
 {
-    "version": "2026-06-29T00.00.00",
+    "version": "2020-08-19T02.27.51",
     "description": "XSS'OR - 基于JavaScript的XSS测试工具",
     "notes": [
         "【工具类型】: 安全测试工具",
@@ -13,14 +13,10 @@
         "python": "miniconda3"
     },
     "url": "https://github.com/evilcos/xssor2/archive/refs/heads/master.zip#/xssor2.zip",
-    "hash": "sha256:7668AAEFC64B925380EBBF67B0B42076955EFB301318DAD3543EE4A294941918",
+    "hash": "7668aaefc64b925380ebbf67b0b42076955efb301318dad3543ee4a294941918",
     "extract_dir": "xssor2-master",
-    "pre_install": [
-        "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0', '@call activate python2env', '@python manage.py runserver 0.0.0.0:8000 %*', '@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "cmd /c \"call activate python2env && pip install -r $dir\\requirement.txt\""
-    ],
+    "pre_install": "Set-Content \"$dir\\xssor2.bat\" '@pushd %~dp0', '@call activate python2env', '@python manage.py runserver 0.0.0.0:8000 %*', '@popd' -Encoding Ascii",
+    "post_install": "cmd /c \"call activate python2env && pip install -r $dir\\requirement.txt\"",
     "bin": "xssor2.bat",
     "checkver": {
         "url": "https://api.github.com/repos/evilcos/xssor2/commits",
