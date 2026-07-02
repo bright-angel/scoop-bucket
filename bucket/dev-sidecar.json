@@ -1,10 +1,10 @@
 {
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "开发者边车，GitHub加速工具，解决GitHub访问困难、克隆慢等问题",
     "homepage": "https://github.com/docmirror/dev-sidecar",
     "license": "MIT",
-    "url": "https://github.com/docmirror/dev-sidecar/releases/download/v2.1.1/DevSidecar-2.1.1-windows-x86_64.exe",
-    "hash": "c78cd9aeb71ead4bbb643d68e303c11f024f7f70ab51f98cfe484fa02d8e76c7",
+    "url": "https://github.com/docmirror/dev-sidecar/releases/download/v2.2.0/DevSidecar-2.2.0-windows-x86_64.exe",
+    "hash": "7cc103306019d2684a9e07c9609ad6e0dccfcf75d953d7a69a8ec95c26669e03",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
