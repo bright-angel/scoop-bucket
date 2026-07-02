@@ -5,6 +5,7 @@
     "license": "unknown",
     "url": "https://github.com/bright-angel/scoop-searchx/archive/refs/tags/v1.0.0.zip#/scoop-searchx.zip",
     "hash": "sha256:3CC591CA57A083C601B24806C086FFFA1180955F8B9A1FF33735BD985F712056",
+    "extract_dir": "scoop-searchx-1.0.0",
     "suggest": {
         "uv": "uv"
     },
@@ -23,7 +24,8 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/bright-angel/scoop-searchx/archive/refs/tags/v$version.zip#/scoop-searchx.zip"
+        "url": "https://github.com/bright-angel/scoop-searchx/archive/refs/tags/v$version.zip#/scoop-searchx.zip",
+        "extract_dir": "scoop-searchx-$version"
     },
     "notes": [
         "【工具类型】: Scoop 辅助工具",
