@@ -4,7 +4,7 @@
     "homepage": "https://github.com/m-sec-org/d-eyes",
     "license": "unknown",
     "url": "https://github.com/m-sec-org/d-eyes/releases/download/v2.0.0/d-eyes-agent_windows_amd64.exe#/d-eyes.exe",
-    "hash": "sha256:a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+    "hash": "be48b6772d3d4c3a56bddf75e708a9e07589b411a030c5a1b53f06ccf9aa26bf",
     "bin": "d-eyes.exe",
     "checkver": {
         "url": "https://api.github.com/repos/m-sec-org/d-eyes/releases/latest",
