@@ -1,5 +1,5 @@
 {
-    "version": "2026-04-07T10.55.40",
+    "version": "2026-07-03T09.00.10",
     "description": "PyInstaller Extractor 是一个 Python 脚本，用于提取 PyInstaller 生成的可执行文件的内容",
     "homepage": "https://github.com/extremecoders-re/pyinstxtractor",
     "license": "unknown",
@@ -7,7 +7,7 @@
         "python": "uv"
     },
     "url": "https://github.com/extremecoders-re/pyinstxtractor/archive/refs/heads/master.zip",
-    "hash": "da5cbc2b7c8097f3855c3bf05efde25c7ef26d5f8441929c5111b7b01a21bab5",
+    "hash": "8d37f5e54009a98fca2c8e3b997e9f32e4f2579f10bbabc460776be8f4b81472",
     "extract_dir": "pyinstxtractor-master",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor.bat\" '@pushd %~dp0",
