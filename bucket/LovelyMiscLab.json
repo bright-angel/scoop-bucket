@@ -1,10 +1,10 @@
 {
-    "version": "0.2.5",
+    "version": "0.2.6",
     "description": "面向取证的节点式可视化工作台，专为编码解密、隐写取证、图像分析、密码学而生",
     "homepage": "https://github.com/Tokeii0/LovelyMiscLab",
     "license": "GPL-3.0",
-    "url": "https://github.com/Tokeii0/LovelyMiscLab/releases/download/v0.2.5/LovelyMiscLab-0.2.5-windows-x64.exe#/LovelyMiscLab.exe",
-    "hash": "2b3bdefce35a35c72179f34ad127abec4dcc0f9950faf689a9016b562b88541e",
+    "url": "https://github.com/Tokeii0/LovelyMiscLab/releases/download/v0.2.6/LovelyMiscLab-0.2.6-windows-x64.exe#/LovelyMiscLab.exe",
+    "hash": "27c727dcb4ce921339c7974353744352cc9b00b2a4d6d624465ba53f351971e3",
     "bin": "LovelyMiscLab.exe",
     "shortcuts": [
         [
