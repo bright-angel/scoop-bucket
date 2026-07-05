@@ -13,7 +13,7 @@
         "Set-Content \"$dir\\BurpGuard.bat\" '@pushd %~dp0', '@uv run python \"BurpGuard.py\" %*', '@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "uv sync --directory \"$dir\""
+        "$env:PYTHONUTF8=1; uv sync --directory \"$dir\""
     ],
     "bin": "BurpGuard.bat",
     "checkver": {
