@@ -13,7 +13,8 @@
         "Set-Content \"$dir\\BurpGuard.bat\" '@pushd %~dp0', '@uv run python \"BurpGuard.py\" %*', '@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "$env:PYTHONUTF8=1; uv sync --directory \"$dir\""
+        "uv venv \"$dir\\.venv\"",
+        "uv pip install mitmproxy>=12.0.0 --python \"$dir\\.venv\\Scripts\\python.exe\""
     ],
     "bin": "BurpGuard.bat",
     "checkver": {
@@ -28,7 +29,7 @@
         "【工具类型】: 安全测试",
         "【主要功能】: 在Burp两端部署基于mitmproxy的上下游代理，处理HTTP请求加密传输",
         "【适用场景】: Burp Suite流量解密、HTTP加密传输分析、渗透测试辅助",
-        "【技术特点】: 基于Python开发，依赖mitmproxy、chepy、httpx、pycryptodome",
-        "【注意事项】: 使用前需安装mitmproxy证书至系统；需具备一定Python基础"
+        "【技术特点】: 基于Python开发，核心依赖mitmproxy",
+        "【注意事项】: 使用前需安装mitmproxy证书至系统；需具备一定Python基础；需在config目录下创建ClientProxyHandler.py和BurpProxyHandler.py配置文件"
     ]
 }
