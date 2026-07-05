@@ -1,42 +1,49 @@
-# Scoop Bucket Template
+### SCOOP介绍
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+Scoop**是一款适用于Windows平台的命令行软件（包）管理工具**。 简单来说，就是可以通过命令行工具（PowerShell、CMD等）实现软件（包）的安装管理等需求，通过简单的一行代码实现软件的下载、安装、卸载、更新等操作。
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-## How do I use this template?
+### scoop基础使用
 
-1. Generate your own copy of this repository with the "Use this template"
-   button.
-2. Allow all GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Actions permissions`.
-   - Select `Allow all actions and reusable workflows`.
-   - Then `Save`.
-3. Allow writing to the repository from within GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Workflow permissions`.
-   - Select `Read and write permissions`.
-   - Then `Save`.
-4. Document the bucket in `README.md`.
-5. Replace the placeholder repository string in `bin/auto-pr.ps1`.
-6. Create new manifests by copying `bucket/app-name.json.template` to
-   `bucket/<app-name>.json`.
-7. Commit and push changes.
-8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
-   topic `scoop-bucket` to your repository.
+官网安装说明书： [ScoopInstaller](https://github.com/ScoopInstaller)
 
-## How do I install these manifests?
+1. 先决条件
 
-After manifests have been committed and pushed, run the following:
+   - [PowerShell](https://aka.ms/powershell)最新版本或[Windows PowerShell 5.1](https://aka.ms/wmf5download)
 
-```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
-```
+2. PowerShell执行策略：
 
-## How do I contribute new manifests?
+   ```
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
 
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
+3. 下载安装脚本,在Powershell中执行以下命令
+
+   ```
+   irm get.scoop.sh -outfile 'install.ps1'
+   # 国内
+   iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1  -outfile 'install.ps1'
+
+   ```
+
+4. 管理员执行安装脚本
+
+   ```
+   .\install.ps1 -RunAsAdmin -ScoopDir 'D:\Tools'
+   ```
+
+   其中`-RunAsAdmin`是使用管理员角色执行脚本，`-ScoopDir`指定scoop安装目录，软件默认安装在此。
+
+5. 安装该软件仓库中的软件
+
+   确保你已经有 Scoop 环境后，执行以下命令订阅本软件仓库：
+
+   ```powershell
+   scoop bucket add sec https://github.com/bright-angel/scoop-bucket
+   ```
+
+   执行以下命令安装本仓库中的软件：
+
+   ```powershell
+   scoop install sec/<软件名> 
+   ```
