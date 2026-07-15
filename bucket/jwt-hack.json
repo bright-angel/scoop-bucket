@@ -5,6 +5,7 @@
     "license": "unknown",
     "url": "https://github.com/hahwul/jwt-hack/releases/download/v2.6.0/jwt-hack-v2.6.0-windows-x86_64.zip",
     "hash": "sha256:8782a15db7131ba0a5e621981ecaf67c7189300c5b2ea98f1c55bb85a76cb610",
+    "extract_dir": "jwt-hack-v2.6.0-windows-x86_64",
     "bin": "jwt-hack.exe",
     "checkver": {
         "url": "https://api.github.com/repos/hahwul/jwt-hack/releases/latest",
@@ -12,7 +13,8 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/hahwul/jwt-hack/releases/download/v$version/jwt-hack-v$version-windows-x86_64.zip"
+        "url": "https://github.com/hahwul/jwt-hack/releases/download/v$version/jwt-hack-v$version-windows-x86_64.zip",
+        "extract_dir": "jwt-hack-v$version-windows-x86_64"
     },
     "notes": [
         "【工具类型】: 安全测试工具",
