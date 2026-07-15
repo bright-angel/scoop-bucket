@@ -17,11 +17,5 @@
             "WechatBakTool.exe",
             "WechatBakTool"
         ]
-    ],
-    "checkver": {
-        "enabled": false
-    },
-    "autoupdate": {
-        "enabled": false
-    }
+    ]
 }

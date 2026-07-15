@@ -12,12 +12,6 @@
             "RuoYiScan"
         ]
     ],
-    "checkver": {
-        "enabled": false
-    },
-    "autoupdate": {
-        "enabled": false
-    },
     "notes": [
         "【工具类型】: 其他工具",
         "【主要功能】: 若依Vue漏洞检测工具",

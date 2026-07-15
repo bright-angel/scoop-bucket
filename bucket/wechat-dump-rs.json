@@ -12,11 +12,5 @@
     "license": "unknown",
     "url": "https://github.com/0xlane/wechat-dump-rs/releases/download/v1.0.31/wechat-dump-rs-x86_64-pc-windows-msvc.zip",
     "hash": "7e2e1aa6bf1519919544b3df7230dbb51d4380f2ec68e67046417b4248bbde43",
-    "bin": "wechat-dump-rs.exe",
-    "checkver": {
-        "enabled": false
-    },
-    "autoupdate": {
-        "enabled": false
-    }
+    "bin": "wechat-dump-rs.exe"
 }

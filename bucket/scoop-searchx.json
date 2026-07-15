@@ -22,12 +22,6 @@
         "scoop-searchx.bat",
         "ss.bat"
     ],
-    "checkver": {
-        "enabled": false
-    },
-    "autoupdate": {
-        "enabled": false
-    },
     "notes": [
         "【工具类型】: Scoop 辅助工具",
         "【主要功能】: 从 Scoop 桶中快速检索应用程序，格式化表格展示搜索结果",
