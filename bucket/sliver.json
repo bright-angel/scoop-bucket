@@ -1,5 +1,5 @@
 {
-    "version": "1.5.44",
+    "version": "1.7.3",
     "description": "Adversary Emulation Framework",
     "notes": [
         "【工具类型】: 安全测试工具",
@@ -9,37 +9,29 @@
     ],
     "homepage": "https://github.com/BishopFox/sliver",
     "license": "GPL-3.0-or-later",
-    "architecture": {
-        "64bit": {
-            "url": [
-                "https://github.com/BishopFox/sliver/releases/download/v1.5.44/sliver-client_windows.exe",
-                "https://github.com/BishopFox/sliver/releases/download/v1.5.44/sliver-server_windows.exe"
-            ],
-            "hash": [
-                "c7c7b4ac3bbcb763b7d9c5a0db6e3e4158b690c136df4832cd836809220312a6",
-                "bc65a42e0fa731c4fde266df4fff2576a7f689dd0446849b3d461a5e59616f4e"
-            ]
-        }
-    },
+    "url": [
+        "https://github.com/BishopFox/sliver/releases/download/v1.7.3/sliver-client_windows-amd64.exe",
+        "https://github.com/BishopFox/sliver/releases/download/v1.7.3/sliver-server_windows-amd64.exe"
+    ],
+    "hash": [
+        "sha256:c7c7b4ac3bbcb763b7d9c5a0db6e3e4158b690c136df4832cd836809220312a6",
+        "sha256:bc65a42e0fa731c4fde266df4fff2576a7f689dd0446849b3d461a5e59616f4e"
+    ],
     "bin": [
         [
-            "sliver-client_windows.exe",
+            "sliver-client_windows-amd64.exe",
             "sliver-client"
         ],
         [
-            "sliver-server_windows.exe",
+            "sliver-server_windows-amd64.exe",
             "sliver-server"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": [
-                    "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows.exe",
-                    "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows.exe"
-                ]
-            }
-        }
+        "url": [
+            "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows-amd64.exe",
+            "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows-amd64.exe"
+        ]
     }
 }

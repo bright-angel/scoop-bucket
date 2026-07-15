@@ -1,11 +1,11 @@
 {
     "description": "Official General-Availability Release of OpenJDK",
     "homepage": "https://jdk.java.net/",
-    "version": "24.0.2-12",
+    "version": "26.0.1",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
-    "url": "https://download.java.net/java/GA/jdk24.0.2/fdc5d0102fe0414db21410ad5834341f/12/GPL/openjdk-24.0.2_windows-x64_bin.zip",
-    "hash": "683aad49e0a146c725d922efeaffe877deb108e58ee270ac5529467cf9bdd7ec",
-    "extract_dir": "jdk-24.0.2",
+    "url": "https://download.java.net/java/GA/jdk26.0.1/458fda22e4c54d5ba572ab8d2b22eb83/8/GPL/openjdk-26.0.1_windows-x64_bin.zip",
+    "hash": "sha256:b381d30647aed9ff440abed5ab61af01d8578c290cd407c57e064ebc4b0151be",
+    "extract_dir": "jdk-26.0.1",
     "pre_install": [
         "Set-Content \"$dir\\openjdk.bat\" '@pushd %~dp0",
         "@set JAVA_HOME=%~dp0",
@@ -15,10 +15,10 @@
     "bin": "openjdk.bat",
     "checkver": {
         "url": "https://jdk.java.net/",
-        "regex": "jdk([\\d.]+)"
+        "regex": "JDK ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.java.net/java/GA/jdk$version/fdc5d0102fe0414db21410ad5834341f/12/GPL/openjdk-$version_windows-x64_bin.zip",
+        "url": "https://download.java.net/java/GA/jdk$version/458fda22e4c54d5ba572ab8d2b22eb83/8/GPL/openjdk-$version_windows-x64_bin.zip",
         "hash": {
             "url": "$url.sha256"
         },
