@@ -9,17 +9,9 @@
     "suggest": {
         "python": "uv"
     },
-    "pre_install": [
-        "Set-Content \"$dir\\MCP-Kali-client.bat\" '@pushd %~dp0', '@uv run python \"client.py\" %*', '@popd' -Encoding Ascii",
-        "Set-Content \"$dir\\MCP-Kali-server.bat\" '@pushd %~dp0', '@uv run python \"server.py\" %*', '@popd' -Encoding Ascii"
-    ],
     "post_install": [
         "uv venv \"$dir\\.venv\"",
         "uv pip install -r \"$dir\\requirements.txt\" --python \"$dir\\.venv\\Scripts\\python.exe\""
-    ],
-    "bin": [
-        "MCP-Kali-client.bat",
-        "MCP-Kali-server.bat"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/Wh0am123/MCP-Kali-Server/commits",
