@@ -1,11 +1,11 @@
 {
-    "version": "1.5.0",
+    "version": "1.4.0",
     "description": "IDA Pro MCP - AI 辅助逆向工程的 MCP 桥接工具",
     "homepage": "https://github.com/mrexodia/ida-pro-mcp",
     "license": "MIT",
-    "url": "https://github.com/mrexodia/ida-pro-mcp/archive/refs/tags/1.5.0.zip#/ida-pro-mcp.zip",
-    "hash": "sha256:F1CB507DBB4066BBFC2ADC376D53EC365533E5764E1A42BFD0A41351E461A727",
-    "extract_dir": "ida-pro-mcp-1.5.0",
+    "url": "https://github.com/mrexodia/ida-pro-mcp/archive/refs/tags/1.4.0.zip#/ida-pro-mcp.zip",
+    "hash": "0116464e4083f8920a0eda39b42c5dc42b71381661cab70247b13fb3b0fa81aa",
+    "extract_dir": "ida-pro-mcp-1.4.0",
     "suggest": {
         "python": "uv",
         "ida-pro": "ida-pro"
@@ -39,4 +39,3 @@
         "【注意事项】: 需安装 IDA Pro 并通过 idapyswitch 配置 Python 环境；IDA Free 版本不受支持；首次使用请执行 ida-pro-mcp --install 将插件部署至 IDA 插件目录；需通过 py-activate-idalib.py 激活 idalib"
     ]
 }
-
