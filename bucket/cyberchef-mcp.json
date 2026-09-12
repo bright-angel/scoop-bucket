@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0",
+    "version": "4.1.0",
     "description": "CyberChef-MCP - 为 AI 助手提供 CyberChef 数据处理能力的 MCP 服务器",
     "homepage": "https://github.com/doublegate/CyberChef-MCP",
     "license": "Apache-2.0",
-    "url": "https://github.com/doublegate/CyberChef-MCP/archive/refs/tags/v4.0.0.zip#/cyberchef-mcp.archive",
-    "hash": "0aba5176692bc7280803f3164e6858269376656bc7185d94d84d6a3bbefb5bb5",
+    "url": "https://github.com/doublegate/CyberChef-MCP/archive/refs/tags/v4.1.0.zip#/cyberchef-mcp.archive",
+    "hash": "7382c26aea9022645a002d36c89afbc22c62211fabd8454888249eed94f60429",
     "suggest": {
         "nodejs": "main/nodejs"
     },
