@@ -45,5 +45,5 @@ Scoop**是一款适用于Windows平台的命令行软件（包）管理工具**�
    执行以下命令安装本仓库中的软件：
 
    ```powershell
-   scoop install sec/<软件名> 
+   scoop install sec/<软件名>
    ```
