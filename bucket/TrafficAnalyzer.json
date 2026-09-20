@@ -5,14 +5,12 @@
     "license": "unknown",
     "url": "https://github.com/RynezzZ/TrafficAnalyzer/releases/download/1.1.6/TrafficAnalyzer1.1.6.zip#/TrafficAnalyzer.zip",
     "hash": "e443f138b11031dd221b554b66ef94a2d48da327381d9bdd74d80c8f721f175e",
-    "extract_dir": "TrafficAnalyzer1.1.6",
     "shortcuts": [
         ["TrafficAnalyzer.exe", "TrafficAnalyzer"]
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/RynezzZ/TrafficAnalyzer/releases/download/$version/TrafficAnalyzer$version.zip#/TrafficAnalyzer.zip",
-        "extract_dir": "TrafficAnalyzer$version"
+        "url": "https://github.com/RynezzZ/TrafficAnalyzer/releases/download/$version/TrafficAnalyzer$version.zip#/TrafficAnalyzer.zip"
     },
     "notes": [
         "【工具类型】: 安全测试/流量分析",
