@@ -1,10 +1,10 @@
 {
-    "version": "26.2.0",
+    "version": "26.3.0",
     "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
     "homepage": "https://www.emeditor.com/",
     "license": "Shareware",
-    "url": "https://download.emeditor.com/emed64_26.2.0_portable.zip",
-    "hash": "af09405f296b8f2b773d299f6ec7b857afb4bacef517e8c34e9a05bdfc86716d",
+    "url": "https://download.emeditor.com/emed64_26.3.0_portable.zip",
+    "hash": "34186036d4e8c6acb0c735b8947540389213192431189bab22b25eccc373fc9a",
     "pre_install": [
         "$manifest.persist | ForEach-Object {",
         "    if ([io.path]::GetExtension($_)) {",
