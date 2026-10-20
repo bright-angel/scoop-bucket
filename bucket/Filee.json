@@ -12,8 +12,10 @@
         "sha256:5af50962c1c1f93ae9e46802914417156d429b349f231fccb16e12ee1e9ae32d"
     ],
     "bin": [
-        "filee-cli.exe",
-        "filee"
+        [
+            "filee-cli.exe",
+            "filee"
+        ]
     ],
     "shortcuts": [
         [
